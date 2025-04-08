@@ -55,29 +55,77 @@ html = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rep Cinema Calendar</title>
   <style>
-    body { font-family: sans-serif; padding: 2rem; background: #f9f9f9; color: #333; }
-    h1 { font-size: 2rem; margin-bottom: 1rem; }
-    h2 { font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; border-bottom: 1px solid #ccc; padding-bottom: 0.3rem; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; }
-    .day-box {
+    body {
+      font-family: system-ui, sans-serif;
+      padding: 1rem;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+
+    .controls {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+      align-items: center;
+    }
+
+    .controls select,
+    .controls button {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      width: 100%;
+      max-width: 300px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .day-box, .list-day {
       background: white;
       border: 1px solid #ddd;
       border-radius: 0.5rem;
       padding: 1rem;
       box-shadow: 0 1px 4px rgba(0,0,0,0.05);
     }
-    .day-box h3 {
+
+    .day-box h3, .list-day h2 {
       margin-top: 0;
       font-size: 1rem;
       color: #555;
     }
+
     .film {
       margin: 0.5rem 0;
       line-height: 1.4;
     }
-    .time { font-weight: bold; margin-right: 0.5rem; }
+
+    .time {
+      font-weight: bold;
+      margin-right: 0.5rem;
+    }
+
     .label {
       display: inline-block;
       padding: 0.2rem 0.5rem;
@@ -85,20 +133,33 @@ html = """<!DOCTYPE html>
       font-size: 0.8rem;
       font-weight: bold;
       color: white;
+      margin-top: 0.2rem;
     }
+
     .revue { background-color: #3b82f6; }
     .paradise { background-color: #10b981; }
     .tiff { background-color: #ef4444; }
-    a { color: #333; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    select, .toggle-btns button {
-      padding: 0.4rem 0.6rem;
-      margin-bottom: 1rem;
-      font-size: 1rem;
-      margin-right: 0.5rem;
+
+    a {
+      color: #333;
+      text-decoration: none;
     }
-    .hidden { display: none; }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    @media (max-width: 600px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
+
   <script>
     function filterTheater(theater) {
       document.querySelectorAll('.film').forEach(film => {
@@ -185,7 +246,7 @@ html += "</div>\n"
 # === Close and save ===
 html += "</body></html>"
 
-with open("calendar_grid.html", "w", encoding="utf-8") as f:
+with open("index.html", "w", encoding="utf-8") as f:
     f.write(html)
 
 print("✅ Created calendar_grid.html with grid + list toggle and filter — open it in your browser!")
