@@ -1,0 +1,409 @@
+(( $, Pikaday, moment ) => {
+	'use strict';
+
+	/**
+	 * DOM elements.
+	 *
+	 * @type {{mainNav: HTMLElement, mainNavToggle: HTMLElement}}
+	 */
+	const els = {
+		mainNavToggle: document.getElementById( 'main-nav-toggle' ),
+		mainNav: document.getElementById( 'main-nav' )
+	};
+
+	/**
+	 * Inits toggle and related ARIA attr toggling for main nav/mobile nav.
+	 */
+	function initMobileNav() {
+		els.mainNavToggle.addEventListener( 'click', () => {
+
+			const toggle = 'false' === els.mainNavToggle.getAttribute( 'aria-expanded' ) ? 'true' : 'false';
+
+
+			document.body.dataset.mobileMenuOpen = toggle;
+			els.mainNavToggle.setAttribute( 'aria-expanded', toggle );
+
+			// Just in case.
+			document.body.classList.remove( 'filmbot--fixed-nav' );
+
+			// Without this, if you scroll to the bottom of the page and then open the menu, the menu is *also* scrolled to the bottom.
+			if ( 'true' === toggle ) {
+				window.scrollTo( 0, 0 );
+			}
+		} );
+
+		// Ensures that if mobile nav is open as viewport expands beyond "mobile" dimensions, close it.
+		window.addEventListener( 'resize', () => {
+			if ( window.innerWidth >= 768 ) {
+				els.mainNavToggle.setAttribute( 'aria-expanded', 'false' );
+				document.body.dataset.mobileMenuOpen = 'false';
+			}
+		} );
+	}
+
+	/**
+	 * Handles adding/removing CSS classes to top nav to gracefully shorten/restore its height scroll/resize.
+	 */
+	function initShorterTopNav() {
+		let shortNavEnabled = false;
+
+		const toggleShortNav = () => {
+			if ( !shortNavEnabled && window.pageYOffset >= 120 ) {
+				document.body.classList.add( 'filmbot--shorter-nav' );
+				shortNavEnabled = true;
+				return;
+			}
+
+			if ( shortNavEnabled && window.pageYOffset <= 20 ) {
+				window.removeEventListener( 'scroll', toggleShortNav );
+				window.removeEventListener( 'resize', toggleShortNav );
+
+				window.scrollTo( { top: 0, behavior: 'smooth' } );
+
+				document.body.classList.remove( 'filmbot--shorter-nav' );
+				shortNavEnabled = false;
+
+				window.addEventListener( 'scroll', toggleShortNav );
+				window.addEventListener( 'resize', toggleShortNav );
+				return;
+			}
+		};
+
+		window.addEventListener( 'scroll', toggleShortNav );
+		window.addEventListener( 'resize', toggleShortNav );
+	}
+
+	/**
+	 * Watches dropdown menus to keep their content in bounds of the viewport at all times.
+	 */
+	function initSubMenuBoundaryFix() {
+		const parentMenus = els.mainNav.querySelectorAll( '.menu-item-has-children' );
+		let initialized   = false;
+
+		// We don't have to worry about overflowing off the left side of the screen for now, so just watch the right edge.
+		const maybeSetSubMenuBoundaries = () => {
+			if ( initialized ) {
+				return;
+			}
+
+			// Not using intersectionObserver, as there didn't seem a straightforward way to use with mouseenter context, which is what we care most about here.
+			parentMenus && parentMenus.forEach( parentMenu => {
+				parentMenu.addEventListener( 'mouseenter', ( event ) => {
+					let subMenu = event.target.querySelector( '.sub-menu' );
+
+					subMenu.classList.remove( 'filmbot--out-of-bounds' );
+
+					let pos = subMenu.getBoundingClientRect();
+
+					// Props to a GoMakeThings.com snippet for the most reliable comparison of values here.
+					if ( pos.right > (window.innerWidth || document.documentElement.clientWidth) ) {
+						subMenu.classList.add( 'filmbot--out-of-bounds' );
+					}
+				} );
+			} );
+
+			initialized = true;
+		};
+
+		const clearSubMenuBoundaries = () => {
+			parentMenus && parentMenus.forEach( parentMenu => {
+				parentMenu.querySelector( '.sub-menu' ).classList.remove( 'filmbot--out-of-bounds' );
+			} );
+		};
+
+		// Init boundary-setter by default.
+		maybeSetSubMenuBoundaries();
+
+		// Ensure any "out of bounds" classnames are removed when no longer needed.
+		window.addEventListener( 'resize', () => {
+			if ( window.innerWidth < 768 ) {
+				clearSubMenuBoundaries();
+			}
+		} );
+	}
+
+	/**
+	 * If there are video bg panels, init their background video players.
+	 */
+	function maybeInitVideoBg() {
+		if ( 'function' !== typeof window.VideoBackgrounds ) {
+			return;
+		}
+
+		const players = document.querySelectorAll( '[data-vbg]' );
+
+		if ( 0 === players.length ) {
+			return;
+		}
+
+		const videos = new window.VideoBackgrounds( '[data-vbg]' );
+
+		if ( 'object' !== typeof videos.index ) {
+			return;
+		}
+
+		Object.keys( videos.index ).forEach( video => {
+			// Ensures both wrapping div and actual iframe are tabindex=-1.
+			'object' === typeof videos.index[video].element && videos.index[video].element.setAttribute( 'tabindex', '-1' );
+			'object' === typeof videos.index[video].iframe && videos.index[video].iframe.setAttribute( 'tabindex', '-1' );
+
+			const block = videos.index[video].element.parentNode;
+			const play  = block.querySelector( '.block__video-play' );
+			const pause = block.querySelector( '.block__video-pause' );
+
+			play.addEventListener( 'click', e => {
+				e.preventDefault();
+				document.body.classList.remove( 'filmbot--videos-paused' );
+				videos.playVideos();
+			} );
+
+			pause.addEventListener( 'click', e => {
+				e.preventDefault();
+				document.body.classList.add( 'filmbot--videos-paused' );
+				videos.pauseVideos();
+			} );
+
+			videos.index[video].onVideoStateChange = ( event ) => {
+				if ( event.data === 1 ) {
+					block.dataset.filmbotVbgReady = 'true';
+				} else if ( event.data === 0 ) {
+					videos.index[video].seekTo( 0 );
+					videos.index[video].play();
+				}
+			};
+		} );
+	}
+
+	/**
+	 * Panel: "Now Playing"
+	 */
+	function nowPlayingPanel() {
+
+		var nowPlaying = {
+			picker: null,
+
+			selectedDate: {
+				label: '',
+				slug: ''
+			},
+
+			els: {},
+
+			init: function () {
+				this.els.panel   = document.querySelector( '.panel[data-type="now-playing"]' );
+				this.els.loader  = this.els.panel.querySelector( '.loading' );
+				this.els.dateNav = this.els.panel.querySelector( '.date-nav nav' );
+
+				this.initDatePicker();
+				this.handleDateNavClick();
+			},
+
+			update: function ( url, newDate ) {
+				var selectedDate = this.selectedDate;
+
+				this.els.loader.style.setProperty( '--grid-height', `${this.els.panel.offsetHeight}px` );
+				this.els.panel.dataset.loading = 'true';
+				this.els.panel.dataset.layout  = '';
+
+				$( document.getElementById( 'now-playing' ) ).empty().load(
+					`${url} #now-playing > *`,
+					function ( response, status, xhr ) {
+						document.querySelector( '.panel[data-type="now-playing"]' ).dataset.loading = 'false';
+						if ( status == 'error' ) {
+							return;
+						}
+
+						if ( window.history.replaceState ) {
+							window.history.replaceState( '', '', url );
+						}
+						this.setSelectedDate( newDate );
+
+						var nowPlaying = document.getElementById( 'now-playing' );
+						var shows      = nowPlaying.querySelectorAll( '.show' );
+						var numShows   = (shows && shows.length) || 0;
+
+						this.els.panel.dataset.numShows = numShows.toString();
+
+						this.els.panel.dataset.layerWidth = numShows > 10 || numShows === 4 || (numShows % 4) > 2 ? 'full' : 'small';
+
+						if ( numShows <= 1 ) {
+							var dateSpan = nowPlaying.querySelector( '.empty > * > span' );
+
+							this.els.panel.dataset.layout = 'single';
+
+							if ( dateSpan && selectedDate.label ) {
+								dateSpan.textContent = `on ${selectedDate.label}`;
+							}
+
+							return;
+						}
+
+						if ( numShows >= 3 && numShows % 2 !== 0 ) {
+							this.els.panel.dataset.layout = 'thirds';
+						}
+					}.bind( this )
+				);
+			},
+
+			handleDateNavClick: function () {
+				var panel    = this;
+				var navLinks = this.els.dateNav.querySelectorAll( 'a' );
+
+				navLinks.forEach( function ( dateNavItem ) {
+					dateNavItem.addEventListener( 'click', function ( e ) {
+						e.preventDefault();
+						panel.update( e.currentTarget.href, moment( e.currentTarget.dataset.date, 'YYYY-MM-DD' ) );
+					} );
+				} );
+			},
+
+			initDatePicker: function () {
+				var panel     = this;
+				var field     = document.getElementById( 'now-playing__datepicker' );
+				var modal     = document.querySelector( '.datepicker-modal' );
+				var container = document.getElementById( 'datepicker-modal-container' );
+
+				if ( !container || !field || typeof themeScheduledDates === 'undefined' || !modal ) {
+					return;
+				}
+
+				panel.picker = new Pikaday( {
+					field: field,
+					container: container,
+					numberOfMonths: 1,
+					minDate: new Date(),
+					maxDate: moment( window.themeScheduledDates[window.themeScheduledDates.length - 1] ).toDate(),
+
+					disableDayFn: function ( date ) {
+						return !window.themeBuyTickets.checkDayHasShowtimes( date );
+					},
+
+					onSelect: function () {
+						var selected              = this.getMoment();
+						var regExp                = /\d{4}-\d{2}-\d{2}$/;
+						var url;
+						var windowLocationNoSlash = window.location.href.endsWith( '/' ) ? window.location.href.slice( 0, -1 ) : window.location.href;
+						if ( regExp.test( windowLocationNoSlash ) ) {
+							url = windowLocationNoSlash.replace( regExp, `${selected.format( 'YYYY-MM-DD' )}` );
+						} else {
+							url = `${windowLocationNoSlash}/${selected.format( 'YYYY-MM-DD' )}`;
+						}
+						panel.update( url, selected );
+					},
+
+					onOpen: function () {
+						modal.classList.add( 'active' );
+						document.body.classList.add( 'modal-open' );
+					},
+
+					onClose: function () {
+						modal.classList.remove( 'active' );
+						document.body.classList.remove( 'modal-open' );
+
+						this.destroy();
+
+						panel.initDatePicker();
+					}
+				} );
+
+				// Overrides Marquee's closeDatepickerModal function for better compatibility with New Wave JS and markup.
+				window.themeBuyTickets.closeDatepickerModal = function () {
+					panel.picker.hide();
+					modal.classList.remove( 'active' );
+					document.body.classList.remove( 'modal-open' );
+				};
+			},
+
+			setSelectedDate: function ( date ) {
+				var labelFormat = 'dddd, MMM Do';
+				var slugFormat  = 'YYYY-MM-DD';
+				var dateLinks   = this.els.dateNav.querySelectorAll( 'a[data-date]' ); // Don't include the datepicker trigger link.
+				var updateNav   = true;
+
+				this.selectedDate = {
+					label: date.format( labelFormat ),
+					slug: date.format( slugFormat )
+				};
+
+				// If the selected date is represented in the date nav already, do not update the nav.
+				dateLinks.forEach( function ( dateNaveItem ) {
+					dateNaveItem.dataset.selected = 'false';
+
+					if ( this.selectedDate.slug === dateNaveItem.dataset.date ) {
+						dateNaveItem.dataset.selected = 'true';
+						updateNav                     = false;
+					}
+				}.bind( this ) );
+
+				if ( !updateNav ) {
+					return;
+				}
+
+				// Update the text and data attrs of the date nav, as the selected date is outside the three dates already displayed.
+				var newDates = [
+					this.selectedDate,
+					{
+						label: date.add( 1, 'day' ).format( labelFormat ),
+						slug: date.format( slugFormat )
+					},
+					{
+						label: date.add( 1, 'day' ).format( labelFormat ),
+						slug: date.format( slugFormat )
+					}
+				];
+
+				dateLinks.forEach( function ( dateNavItem, index ) {
+					dateNavItem.dataset.selected = 'false';
+
+					var baseUrl                   = themeSettings.pageUrl ? themeSettings.pageUrl : themeSettings.homeUrl;
+					dateLinks[index].textContent  = newDates[index].label;
+					dateLinks[index].dataset.date = newDates[index].slug;
+					dateLinks[index].href         = `${baseUrl}/${newDates[index].slug}`;
+				} );
+
+				dateLinks[0].dataset.selected = 'true';
+			}
+		};
+
+		nowPlaying.init();
+	}
+
+	function initTrailerModal() {
+
+		$( document ).on( 'click', '[data-show-trailer="true"]', function ( e ) {
+			e.preventDefault();
+
+			var $modal = $( '.trailer-modal' );
+
+			$modal.find( '.iframe-holder-inner' ).html( $( this ).data( 'trailer' ) );
+			$modal.addClass( 'active' );
+		} );
+
+		$( document ).on( 'click', '.trailer-modal .close-modal, .trailer-modal .modal-backdrop', function () {
+			var videoContent = $( '.modal.active .iframe-holder' ).html();
+			$( '.modal.active .iframe-holder' ).html( videoContent );
+			$( '.modal.active' ).removeClass( 'active' );
+		} );
+	}
+
+	function init() {
+		initShorterTopNav();
+		initMobileNav();
+		initSubMenuBoundaryFix();
+		initTrailerModal();
+
+		maybeInitVideoBg();
+
+		document.querySelector( '[data-type="now-playing"]' ) && nowPlayingPanel();
+	}
+
+	window.addEventListener( 'DOMContentLoaded', init );
+
+	window.addEventListener( 'pageshow', ( event ) => {
+		if ( event.persisted ) {
+			document.body.dataset.mobileMenuOpen = 'false';
+			els.mainNavToggle.setAttribute( 'aria-expanded', 'false' );
+		}
+	} );
+
+})( window.jQuery, window.Pikaday, window.moment );

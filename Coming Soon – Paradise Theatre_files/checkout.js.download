@@ -1,0 +1,2505 @@
+/* jshint camelcase: false */
+/* globals themeCheckout, STRIPE_PUBLIC_KEY, STRIPE_CONNECTED_ACCOUNT_ID, BOOKING_FEE, Sentry */
+'use strict';
+
+(function ( $ ) {
+	const filters = {};
+
+	$.addFilter = function ( name, callback ) {
+		filters[name] = callback;
+	};
+
+	$.applyFilter = function ( name, data ) {
+		if ( filters[name] ) {
+			return filters[name]( data );
+		} else {
+			return data;
+		}
+	};
+})( jQuery );
+
+(function ( $, Stripe ) {
+
+	window.themeCheckout = {
+		init: function () {
+			themeCheckout.initProps();
+			themeCheckout.attachEvents();
+		},
+		initProps: function () {
+			themeCheckout.$quantitySelect    = $( '.ticket-quantity select' );
+			themeCheckout.$checkout          = $( '#checkout' );
+			themeCheckout.$checkoutContainer = themeCheckout.$checkout.find( '.checkout-container' );
+			themeCheckout.$form              = $( '#payment-details' );
+			themeCheckout.order              = {
+				showtime: $( '#sid' ).val(),
+				tickets: {},
+				total: 0,
+				bookingFee: 0,
+				discount: 0,
+				donation: 0
+			};
+
+			// checkout form
+			themeCheckout.paymentMethod      = 'cc';
+			themeCheckout.$fields            = $( '.payment-address' ).find( 'input[type=text], input[type=email]' ).not( '#discount-code' );
+			themeCheckout.$ccFields          = $( '.payment-info' );
+			themeCheckout.$emailInput        = $( '#email' );
+			themeCheckout.$gcInput           = $( '#gc' );
+			themeCheckout.$gcCvvInput        = $( '#gc-cvv' );
+			themeCheckout.$terms             = $( '.terms' );
+			themeCheckout.$submitButton      = $( '#submit-purchase' );
+			themeCheckout.$submitError       = $( '.submit-error' );
+			themeCheckout.$orderConfirmation = $( '#order-confirmation' );
+			themeCheckout.$inactiveForm      = $( '.checkout-container' ).not( '.checkout-active' ).find( themeCheckout.$form );
+			themeCheckout.$donationAmount    = $( '.donation-form input' );
+			themeCheckout.$donateAmount      = $( '#donate-me' );
+			themeCheckout.$donationVariants  = $( '.donation-variant' );
+			themeCheckout.$customDonationAmt = $( '.custom-donation-amount' );
+
+			// Gift Cards.
+			themeCheckout.$giftCardWrap  = $( document.getElementById( 'gc-wrap' ) );
+			themeCheckout.$giftCard      = $( document.getElementById( 'gc' ) );
+			themeCheckout.$giftCardCvv   = $( document.getElementById( 'gc-cvv' ) );
+			themeCheckout.$giftCardApply = $( document.getElementById( 'apply-gc' ) );
+			themeCheckout.$giftCardError = $( document.getElementById( 'gc-error-message' ) );
+			themeCheckout.$giftCardTotal = $( '.gift-card' );
+			themeCheckout.$giftCardRow   = $( '.gift-card-row' );
+
+			// discount codes
+			themeCheckout.$discountCode        = $( '#discount-code' );
+			themeCheckout.$discountCodeApply   = $( '#apply-discount-code' );
+			themeCheckout.$discountCodeError   = $( '#discount-code-error-message' );
+			themeCheckout.$discountCodeSuccess = $( '#discount-code-success-message' );
+			themeCheckout.$discount            = $( '.discount' );
+
+			// memberships
+			themeCheckout.$membershipSignup   = $( '.membership-signup' );
+			themeCheckout.$membershipPlanSize = $( '#membership-plan-size-toggle [type="radio"]' );
+			themeCheckout.$membershipPlanId   = $( '#membership_plan_current_id' );
+			themeCheckout.$membershipsInfo    = $( '.membership_type_value' ).data( 'json' );
+			if ( themeUx.$body.is( '.membership-renew' ) ) {
+				themeCheckout.setMembershipRenewalDetails();
+			}
+
+			// ticket packs
+			themeCheckout.$ticketPackPurchase = $( '.ticket-pack-purchase' );
+			themeCheckout.$ticketPackValue    = $( '.ticket-pack-value' ).data( 'json' );
+
+			// dnd
+			themeCheckout.$dnd         = $( '#dnd' );
+			themeCheckout.$dndCheckbox = themeCheckout.$dnd.find( 'input[type=checkbox]' );
+			themeCheckout.$dndStep2    = $( '#dnd-step-2' );
+			themeCheckout.$phone       = $( '#phone' );
+			themeCheckout.$phone.prop( 'disabled', true );
+			themeCheckout.$tipOptions = $( '#tip-options' );
+			themeCheckout.$tipPercent = $( '#tip-percent' );
+
+			// reserved seating
+			themeCheckout.$overlayMessage     = $( '.overlay-message' );
+			themeCheckout.$reservedOrderId    = null;
+			themeCheckout.$seatsData          = {};
+			themeCheckout.$selectedSeats      = [];
+			themeCheckout.$reservedSeats      = [];
+			themeCheckout.$hall               = null;
+			themeCheckout.$inRequest          = false;
+			themeCheckout.$seatsModal         = $( '.seats-modal' );
+			themeCheckout.$checkoutSeatsModal = $( '.seats-modal-checkout' );
+			themeCheckout.$cancelSeatsModal   = $( '.seats-modal-cancel' );
+			themeCheckout.$openSeatsModal     = $( '.open-seats-modal' );
+			themeCheckout.$rsShowtimePicker   = $( '.rs-select-showtime-container' );
+			themeCheckout.$rsShowtimeSelect   = $( '.rs-select-showtime' );
+			themeCheckout.$rsSelectedShowtime = $( '.rs-selected-showtime' );
+			themeCheckout.seatPropertiesCache = {};
+			themeCheckout.refreshableProps();
+			themeCheckout.seatsADAList       = $( '#selector-seats' );
+			themeCheckout.$sidebar           = $( '#sidebar' );
+			themeCheckout.$siteHeader        = $( '#site-header, #mobile-nav' );
+			themeCheckout.$siteFooter        = $( '#footer-container, #footer-nav' );
+			themeCheckout.seatsADAListOption = $( '#selector-seats option' );
+			themeCheckout.ADAModeOn          = $( '.accessibility-mode-on' );
+			themeCheckout.ADAModeOff         = $( '.accessibility-mode-off' );
+			themeCheckout.$shortSeatsList    = [];
+
+			themeCheckout.ADAContainer       = $( '.ada-container' );
+			themeCheckout.ADAMode            = false;
+			themeCheckout.seatmapContainer   = $( '.hall-container' );
+			themeCheckout.lastValidSelection = null;
+			themeCheckout.selectedADASeat    = [];
+
+			// check if there are membership discount codes available
+			themeCheckout.$getCodeLookupNonce    = $( '#fb_membership_lookup_code_nonce' );
+			themeCheckout.$discountCodeRow       = $( '.discount-code-row' );
+			themeCheckout.$discountCodeField     = $( '#discount-code' );
+			themeCheckout.requestingDiscountCode = false;
+			themeCheckout.applyingDiscountCode   = false;
+			themeCheckout.appliedCodeForEmail    = '';
+
+			// themeCheckout.$inactiveForm = $( '.checkout-container' ).not( '.checkout-active' ).find( themeCheckout.$form );
+			themeCheckout.$isMobile = window.matchMedia( 'only screen and (max-width: 667px)' );
+			themeCheckout.$isTablet = window.matchMedia( 'only screen and (max-width: 1024px)' );
+
+			// prevent double submits
+			themeCheckout.checkoutSubmitted = false;
+
+			// Flag for whether Stripe Elements has been initialized.
+			themeCheckout.stripeElementsInit = false;
+
+			themeCheckout.currentDonationAmount        = 0;
+			themeCheckout.maxUnconfirmedDonationAmount = 50;
+		},
+		refreshableProps: function () {
+			themeCheckout.$seatTicketTypeSelect = $( '.seat-ticket-type .select-ticket-type' ).not( '.hidden' ).find( 'select' );
+		},
+		moneyFormat: function ( value ) {
+			var locale = window.themeSettings.locale ? window.themeSettings.locale : 'en-US';
+			locale     = locale.replace( '_', '-' );
+			return parseFloat( value ).toLocaleString( locale, { minimumFractionDigits: 2, maximumFractionDigits: 2 } );
+		},
+		setDonationAmount: function ( amount ) {
+			amount                              = parseFloat( amount );
+			themeCheckout.currentDonationAmount = amount;
+			var $donationRow                    = $( '.donate' );
+			var isDonationVisible               = $donationRow.is( ':visible' );
+
+			if ( (amount > 0 && !isDonationVisible) || (!amount && isDonationVisible) ) {
+				$donationRow.slideToggle( '200' );
+			}
+
+			$( '.donate-amount' ).text( themeCheckout.moneyFormat( amount ) );
+
+			if ( $( '.seat-ticket-type' ).length > 0 ) {
+				themeCheckout.updateQuantityBySeats();
+			} else {
+				themeCheckout.updateQuantity();
+			}
+
+			themeCheckout.maybeReapplyGiftCard();
+		},
+		getCurrentMembershipPlanId: function () {
+			var membershipPlanIdField = themeCheckout.$membershipPlanId;
+			return membershipPlanIdField.length ? themeCheckout.$membershipPlanId.val() : null;
+		},
+		getCurrentMembershipPlanInfo: function () {
+			if( ! themeCheckout.$membershipsInfo ) {
+				return {};
+			}
+			var currentPlanId = themeCheckout.getCurrentMembershipPlanId();
+			var membershipPlanInfo = themeCheckout.$membershipsInfo[ currentPlanId ];
+			return membershipPlanInfo ? membershipPlanInfo : {};
+		},
+		getCurrentMembershipPlanCosts: function () {
+			var membershipPlanInfo = themeCheckout.getCurrentMembershipPlanInfo();
+			return membershipPlanInfo['costs'] ? membershipPlanInfo['costs'] : {};
+		},
+		updateOrderMembershipSize: function ( planType ) {
+			var currentPlanInfo = themeCheckout.getCurrentMembershipPlanInfo();
+
+			themeCheckout.order.membership            = parseFloat( currentPlanInfo['costs'][planType] );
+			themeCheckout.order.membership_plan.id    = currentPlanInfo['id'];
+			themeCheckout.order.membership_plan.title = currentPlanInfo['title'];
+			themeCheckout.order.membership_plan.size  = planType;
+			themeCheckout.order.total                 = themeCheckout.order.membership;
+		},
+		attachEvents: function () {
+			// update page on select ticket quantity
+			themeCheckout.$quantitySelect.change( function () {
+				themeCheckout.toggleActiveCheckout();
+				themeCheckout.manageQtysAvailable();
+				themeCheckout.applyDiscountCode();
+			} );
+
+			// initialize hosted token form
+			if ( typeof STRIPE_PUBLIC_KEY !== 'undefined' && !!STRIPE_PUBLIC_KEY ) {
+				themeCheckout.initStripeElements();
+				themeCheckout.initStripeElementsChecks();
+			}
+
+			// validate checkout form on submit
+			themeCheckout.$form.submit( async function ( e ) {
+				themeCheckout.disableForm();
+				var isValidForm = await themeCheckout.validateForm( e );
+				if ( !isValidForm ) {
+					themeCheckout.enableForm( {} );
+				}
+			} );
+
+			// validate terms checkbox
+			if ( themeCheckout.$terms.length ) {
+				$( 'input[name=terms]' ).click( function () {
+					themeCheckout.validateTermsCheckbox();
+				} );
+			}
+
+			// validate gc number (not empty)
+			themeCheckout.$gcInput.blur( function () {
+				if ( themeCheckout.paymentMethod === 'gc' || themeCheckout.paymentMethod === 'gc_partial' ) {
+					themeCheckout.validateInputs( $( this ) );
+				}
+			} );
+
+			// validate gc cvv (not empty)
+			themeCheckout.$gcCvvInput.blur( function () {
+				if ( themeCheckout.paymentMethod === 'gc' || themeCheckout.paymentMethod === 'gc_partial' ) {
+					themeCheckout.validateInputs( $( this ) );
+				}
+			} );
+
+			// validate text fields (not empty)
+			themeCheckout.$fields.blur( function () {
+				themeCheckout.validateInputs( $( this ) );
+			} );
+
+			// validate email fields (valid email)
+			themeCheckout.$emailInput.blur( function () {
+				themeCheckout.checkEmailMaybeApplyMembershipCode();
+			} );
+
+			// show zero quantity selected error
+			themeCheckout.$inactiveForm.click( function () {
+				if ( !$( '.checkout-active' ).length ) {
+					$( '.ticket-quantity' ).addClass( 'no-quantity' );
+					themeCheckout.scrollUp();
+				}
+			} );
+
+			// validate donation amount
+			themeCheckout.$donationAmount.on( 'change', function () {
+				var $this             = $( this );
+				var rawDonationAmount = parseFloat( $this.val() );
+				var donationAmount    = rawDonationAmount.toFixed( 2 );
+
+				// Set the donation amount in the UI and on the themeCheckout.order object.
+				$this.val( donationAmount );
+				$( '.total_purchase_price' ).text( donationAmount );
+
+				themeCheckout.order.donation = donationAmount;
+
+				themeCheckout.maybeReapplyGiftCard();
+			} );
+
+			// include donation in checkout (checkbox)
+			themeCheckout.$donateAmount.on( 'click', function () {
+				var isChecked      = themeCheckout.$donateAmount.is( ':checked' );
+				var donationAmount = parseFloat( themeCheckout.$donateAmount.val() );
+				// If checkbox is checked, set the donation amount to the value of the donation input. Otherwise, set it to 0.
+				themeCheckout.setDonationAmount( isChecked ? donationAmount : 0 );
+			} );
+
+			// include donation in checkout (freeform)
+			themeCheckout.$donationVariants.on( 'click', function ( event ) {
+				var $this             = $( event.target );
+				var isAlreadySelected = $this.hasClass( 'selected' );
+				var isCustomVariant   = $this.hasClass( 'custom-donation-variant' );
+				var isTextInput       = $this.hasClass( 'custom-donation-amount' );
+				var donationAmount    = parseFloat( $this.data( 'donation-amount' ) );
+
+				// We can click on input and this can be counted as click on parent element, so we need to check if it's input
+				if ( isTextInput || isCustomVariant ) {
+					var $customVariantInput   = isTextInput ? $this : $this.find( '.custom-donation-amount' );
+					var $customVariantWrapper = isTextInput ? $this.parent() : $this;
+					// Set the donation amount to the value of the donation input.
+					donationAmount            = $customVariantInput.val() ? parseFloat( $customVariantInput.val() ) : 0;
+					themeCheckout.$donationVariants.removeClass( 'selected' );
+					// We don't need to remove class 'selected', as custom variant can be clicked many times to change amount
+					$customVariantWrapper.addClass( 'selected' );
+					themeCheckout.setDonationAmount( donationAmount );
+					$customVariantInput.focus();
+				} else {
+					themeCheckout.$donationVariants.removeClass( 'selected' );
+					// If standard variant is clicked, and it's already selected, we need to deselect it...
+					isAlreadySelected ? $this.removeClass( 'selected' ) : $this.addClass( 'selected' );
+					// ...and set the donation amount to 0 instead of the value of the donation variant.
+					themeCheckout.setDonationAmount( isAlreadySelected ? 0 : donationAmount );
+				}
+			} );
+
+			themeCheckout.$customDonationAmt.on( 'input', function () {
+				var donationAmount = themeCheckout.$customDonationAmt.val().replace( /[^0-9.]/g, '' );
+
+				// Allow clearing the field
+				if ( donationAmount === '' ) {
+					themeCheckout.$customDonationAmt.val( '' );
+					themeCheckout.setDonationAmount( 0 );
+					return;
+				}
+
+				// Check how many . are in the input. If last symbol is . but we already have one, remove all other dots
+				var dots = donationAmount.match( /\./g );
+				if ( dots && dots.length > 1 && donationAmount.charAt( donationAmount.length - 1 ) === '.' ) {
+					donationAmount = donationAmount.substring( 0, donationAmount.length - 1 );
+				}
+				// Disallow values less than 1
+				if ( donationAmount.charAt( 0 ) === '0' || parseFloat( donationAmount ) < 1 ) {
+					donationAmount = '1';
+				}
+				// if we have dot, cut 6 symbols instead of 5
+				donationAmount = (dots && dots.length > 0) ? donationAmount.substring( 0, 6 ) : donationAmount.substring( 0, 5 );
+				// if we have more than 2 symbols after dot, cut it to 2 symbols after dot
+				if ( dots && dots.length > 0 && donationAmount.indexOf( '.' ) !== -1 ) {
+					var parts = donationAmount.split( '.' );
+					if ( parts[1].length > 2 ) {
+						donationAmount = parts[0] + '.' + parts[1].substring( 0, 2 );
+					}
+				}
+				donationAmount = donationAmount && donationAmount !== '.' ? donationAmount : '1';
+				themeCheckout.$customDonationAmt.val( donationAmount );
+				themeCheckout.setDonationAmount( donationAmount );
+			} );
+
+			// update membership plan cost
+			themeCheckout.$membershipPlanSize.on( 'change', function () {
+				var $this    = $( this ),
+					planType = $this.val();
+
+				themeCheckout.updateOrderMembershipSize(planType);
+			} );
+
+			// Apply gift card.
+			themeCheckout.$giftCardApply.on( 'click', function ( event ) {
+				event.preventDefault();
+
+				themeCheckout.$giftCardError.html( '' ).css( 'visibility', 'hidden' );
+
+				if ( true === themeCheckout.$giftCard.prop( 'readonly' ) && 'REMOVE' === themeCheckout.$giftCardApply.html() ) {
+					themeCheckout.removeGiftCard();
+					return false;
+				}
+
+				themeCheckout.applyGiftCard();
+			} );
+
+			// apply discount code
+			themeCheckout.$discountCodeApply.on( 'click', function ( e ) {
+				e.preventDefault();
+				themeCheckout.startApplyingDiscountCode();
+			} );
+
+			// dnd
+			themeCheckout.$dndCheckbox.on( 'click', function ( e ) {
+				if ( $( this ).is( ':checked' ) ) {
+					themeCheckout.$dndStep2.show();
+					// order ahead / phone
+					// themeCheckout.$phone.prop( 'disabled', false );
+					// themeCheckout.$phone.on( 'blur', function () {
+					// 	themeCheckout.validatePhoneNumber( $( this ) );
+					// } );
+
+					// pre-set tip
+					themeCheckout.$tipPercent.prop( 'disabled', false );
+					themeCheckout.$tipPercent.on( 'blur', function () {
+						themeCheckout.validateTipPercent( $( this ) );
+					} );
+					themeCheckout.$fields = themeCheckout.$fields.add( themeCheckout.$tipPercent );
+					if ( themeCheckout.$tipPercent.val() === "" ) {
+						themeCheckout.$tipOptions.find( "li:nth-child(2) a" ).trigger( 'click' ).focus();
+					}
+				} else {
+					themeCheckout.$dndStep2.hide();
+
+					// order ahead / phone
+					// themeCheckout.$phone.prop( 'disabled', true );
+					// themeCheckout.$phone.off( 'blur' );
+					// themeCheckout.$phone.removeClass( 'error' );
+
+					// pre-set tip
+					themeCheckout.$tipPercent.prop( 'disabled', true );
+					themeCheckout.$tipPercent.off( 'blur' );
+					themeCheckout.$tipPercent.removeClass( 'error' );
+					themeCheckout.$fields = themeCheckout.$fields.not( themeCheckout.$tipPercent );
+				}
+			} );
+
+			$( '.dnd-explainer' ).on( 'click', function ( e ) {
+				e.preventDefault();
+				var $modal = $( '.dnd-explainer-modal' );
+				$modal.addClass( 'active' );
+			} );
+
+			$( '.dnd-explainer-modal .modal-backdrop, .dnd-explainer-modal .close-modal' ).on( 'click', function () {
+				$( '.modal.active' ).removeClass( 'active' );
+			} );
+
+			themeCheckout.$tipOptions.find( 'a' ).on( 'click', function ( e ) {
+				e.preventDefault();
+				var percent = $( this ).data( 'tip_percent' );
+				themeCheckout.$tipPercent.val( percent );
+			} );
+
+			// reserved seating
+
+			// fetch seats data from auditorium
+			if ( themeCheckout.order.showtime ) {
+				themeCheckout.getSeatsData();
+			}
+
+			// handle Checkout from Seats Modal
+			themeCheckout.$checkoutSeatsModal.click( function () {
+				themeCheckout.clearErrors();
+				themeCheckout.reserveSeats();
+			} );
+
+			// handle Cancel from Seats Modal
+			themeCheckout.$cancelSeatsModal.on( 'click', themeCheckout.hideSeatsModal );
+			themeCheckout.$openSeatsModal.on( 'click', themeCheckout.getSeatsData );
+
+			// handle Change seat ticket type
+			themeCheckout.$seatTicketTypeSelect.change( themeCheckout.changeReservedSeatTicketType );
+
+			// handle change showtimes
+			themeCheckout.$rsShowtimePicker.find( 'select' ).on( 'change', function () {
+				window.location = $( this ).val();
+			} );
+
+			// show ADA
+			themeCheckout.ADAModeOn.click( function () {
+				themeCheckout.ADAContainer.show();
+				themeCheckout.seatmapContainer.hide();
+				themeCheckout.ADAMode = true;
+				themeCheckout.ADAModeOn.hide();
+				themeCheckout.$siteHeader.hide();
+				themeCheckout.$siteFooter.css( 'display', 'none !important' );
+				$( 'button.seats-modal-checkout' ).hide();
+			} );
+
+			// hide ADA
+			themeCheckout.ADAModeOff.click( function () {
+				themeCheckout.ADAContainer.hide();
+				themeCheckout.seatmapContainer.show();
+				themeCheckout.ADAMode = false;
+				themeCheckout.seatsADAList.val( '' );
+				themeCheckout.$checkoutSeatsModal.text( 'Checkout' );
+				themeCheckout.ADAModeOn.show();
+				themeCheckout.$siteHeader.show();
+				themeCheckout.$siteFooter.css( 'display', 'flex' );
+				$( 'button.seats-modal-checkout' ).show();
+				themeCheckout.showSeatsModal();
+			} );
+
+			// handle choose seats from ADA selector
+			themeCheckout.seatsADAList.change( function () {
+				themeCheckout.selectedADASeat     = [];
+				themeCheckout.selectedADASeatName = [];
+				themeCheckout.confirmADA          = '';
+				var selectOptionQt                = 0;
+				if ( themeCheckout.seatsADAList.val() ) {
+					selectOptionQt = themeCheckout.seatsADAList.val().length;
+				}
+
+				if ( selectOptionQt > ticketLimitOnWebsite ) {
+					themeCheckout.seatsADAList.val( themeCheckout.lastValidSelection );
+					themeCheckout.$submitError.attr( {
+						role: 'alert',
+						tabindex: -1
+					} ).text( `You cannot select more than ${ticketLimitOnWebsite} seats.` );
+					themeCheckout.selectedADASeat = themeCheckout.lastValidSelection;
+				} else {
+					$.each( $( themeCheckout.seatsADAList ).find( ":selected" ), function () {
+						themeCheckout.selectedADASeat.push( $( this ).val() );
+						themeCheckout.selectedADASeatName.push( $( this ).data( 'name-seat' ) );
+						themeCheckout.$checkoutSeatsModal.text( "Reserve Seats:" + themeCheckout.selectedADASeatName );
+						themeCheckout.clearErrors();
+					} );
+					themeCheckout.lastValidSelection = $( this ).val();
+					themeCheckout.clearErrors();
+				}
+
+				if ( selectOptionQt > 0 ) {
+					$( 'button.seats-modal-checkout' ).show();
+				} else {
+					$( 'button.seats-modal-checkout' ).hide();
+					themeCheckout.$checkoutSeatsModal.text( 'Checkout' );
+				}
+			} );
+
+			// submit reserve seats if pressed enter key in seatslist
+			$( document ).keypress( function ( e ) {
+				if ( e.which === 13 && themeCheckout.seatsADAList.val() && themeCheckout.seatsADAList.is( ':focus' ) ) {
+					themeCheckout.$checkoutSeatsModal.click();
+				}
+			} );
+
+			// Some simple AJAX loading-state functionality to help prevent form submissions while things are still loading.
+			themeCheckout.$checkout.on( 'checkout-start-loading', function () {
+				themeCheckout.$checkout.addClass( 'checkout--is-loading' );
+			} );
+
+			themeCheckout.$checkout.on( 'checkout-stop-loading', function () {
+				themeCheckout.$checkout.removeClass( 'checkout--is-loading' );
+			} );
+
+			// Set correct value to showtimes select on page loaded from bfcache
+			window.addEventListener( 'pageshow', ( event ) => {
+				if ( event.persisted ) {
+					themeCheckout.recheckShowtimeSelect();
+				}
+			} );
+
+			// check if current select value correlates with the current location
+			themeCheckout.$rsShowtimeSelect.ready( function () {
+				themeCheckout.recheckShowtimeSelect();
+			} );
+
+			// show or hide seatmap depending on what page customer is on
+			window.addEventListener( 'popstate', function ( event ) {
+				const element   = themeCheckout.$openSeatsModal;
+				const isVisible = element.length && element.is( ':visible' );
+
+				// if `hasSelectedSeats` is set in state this only means that this page is pulled from bfcache after tickets were reserved
+				if ( event.state && event.state.hasSelectedSeats && themeCheckout.order.showtime ) {
+
+					$( 'html, body' ).css( { overflow: 'visible' } );
+
+					const $timeContainer = $( '.reservation-countdown' );
+					var hasExpiredTimer  = false;
+					$timeContainer.each( function () {
+						const isExpired = $( this ).html().indexOf( '00:00' ) !== -1 || $( this ).html().indexOf( '00:-' ) !== -1;
+						if ( isExpired ) {
+							hasExpiredTimer = true;
+						}
+					} );
+
+					const $ticketsTypeSelectors = $( '.seat-ticket-type .select-ticket-type' ).not( '.hidden' );
+
+					if ( isVisible || hasExpiredTimer ) {
+						if ( hasExpiredTimer ) {
+							themeCheckout.$selectedSeats   = [];
+							themeCheckout.$reservedOrderId = null;
+							themeCheckout.updateSeatsView( [] );
+							themeCheckout.changeTextCheckoutButton( themeCheckout.$selectedSeats );
+						}
+						themeCheckout.getSeatsData();
+					} else {
+						// Show checkout page without seats modal only if there are tickets with not outdated reservation
+						if ( $ticketsTypeSelectors.length ) {
+							themeCheckout.hideSeatsModal();
+						}
+					}
+
+					// if there are expired countdowns on pages pulled from bfcache, hide them
+					$timeContainer.each( function () {
+						if ( $( this ).html().indexOf( '00:00' ) !== -1 || $( this ).html().indexOf( '00:-' ) !== -1 ) {
+							$( this ).parent().hide();
+						}
+					} );
+
+
+				}
+			}, false );
+		},
+		clearErrors: function () {
+			themeCheckout.$submitError.attr( {
+				role: '',
+				tabindex: ''
+			} ).text( '' );
+		},
+		hideSeatsModal: function () {
+			themeCheckout.clearErrors();
+			themeCheckout.$checkout.show();
+			themeCheckout.$sidebar.attr( {
+				'aria-hidden': false,
+				'role': 'banner'
+			} ).show();
+			themeCheckout.$siteFooter.attr( {
+				'aria-hidden': false
+			} ).show();
+			themeCheckout.$siteHeader.attr( {
+				'aria-hidden': false,
+				'role': 'banner'
+			} );
+			themeCheckout.$seatsModal.hide();
+			$( "html, body" ).removeClass( 'lock-scroll' ).animate( { scrollTop: 0 }, "fast" );
+			$( '#primary-nav' ).attr( 'role', 'navigation' ).show();
+
+			$( 'body' ).trigger( 'filmbot-seats-modal-hide' );
+		},
+		showSeatsModal: function () {
+			themeCheckout.$overlayMessage.hide();
+			themeCheckout.$seatsModal.show();
+			themeCheckout.$checkout.hide();
+			themeCheckout.$sidebar.attr( {
+				'aria-hidden': true,
+				'role': ''
+			} );
+			themeCheckout.$siteFooter.attr( {
+				'aria-hidden': true,
+				'role': ''
+			} ).hide();
+			themeCheckout.$siteHeader.attr( {
+				'aria-hidden': true,
+				'role': ''
+			} );
+			// hide menu if not mobile and tablet
+			if ( !themeCheckout.$isTablet.matches ) {
+				themeCheckout.$sidebar.hide();
+				themeCheckout.$siteHeader.hide();
+			}
+			$( "html, body" ).addClass( 'lock-scroll' );
+			$( '#primary-nav' ).attr( 'role', '' ).hide();
+		},
+		seatClickHandler: function ( items ) {
+			themeCheckout.$selectedSeats = items;
+			themeCheckout.changeTextCheckoutButton( items );
+			if ( items.length === ticketLimitOnWebsite ) {
+				themeCheckout.$submitError.text( `You cannot select more than ${ticketLimitOnWebsite} seats.` );
+			} else {
+				themeCheckout.clearErrors();
+			}
+		},
+		initializeSeatsView: function ( seatsData ) {
+			themeCheckout.$seatsData = seatsData;
+
+			themeCheckout.showSeatsModal();
+
+			// destroy if to re-render
+			if ( themeCheckout.$hall ) {
+				themeCheckout.$hall.destroy();
+				$( '.hall-container' ).html( '<div class="hall-wrapper"><canvas id="hall"></canvas></div>' );
+			}
+
+			// initialize seats map component
+			if ( themeCheckout.$seatsData && !jQuery.isEmptyObject( themeCheckout.$seatsData ) ) {
+
+				// A hack to show reserved seats instead of selected ones
+				var selectedSeats   = themeCheckout.$reservedSeats.length ? themeCheckout.$reservedSeats : themeCheckout.$selectedSeats;
+				themeCheckout.$hall = new window.FilmbotHall( themeCheckout.$seatsData, selectedSeats, {
+					onSelect: themeCheckout.seatClickHandler,
+					onDeselect: themeCheckout.seatClickHandler,
+					selectionLimit: ticketLimitOnWebsite,
+					canvasWidth: 800,
+					canvasHeight: 300,
+					canvasBg: window.themeSettings.theme_mods.rs_seatmap_background_color,
+					stroke: window.themeSettings.theme_mods.rs_seat_color,
+					fill: window.themeSettings.theme_mods.rs_seat_color,
+					disabledColor: window.themeSettings.theme_mods.rs_seat_unavailable_color,
+					selector: 'hall'
+				}, themeCheckout.$reservedSeats );
+				themeCheckout.$hall.render();
+			}
+			themeCheckout.getShortSeatMapList();
+		},
+		initializeSeatsADAList: function ( seatsData ) {
+			themeCheckout.$seatsData = seatsData;
+
+			// render select form for ADA
+			$.each( seatsData.sections, function ( index, section ) {
+				var legendSeats = seatsData.legend;
+
+				function getTitleSeat( seat_type ) {
+					try {
+						return legendSeats.find( seatType => seatType.seat_type === seat_type ).title;
+					} catch ( error ) {
+						return 'Standard'; // default value
+					}
+				}
+
+				if ( section ) {
+					$.each( section.rows, function ( index, row ) {
+						if ( row ) {
+							$.each( row.seats, function ( index, seatsList ) {
+								if ( seatsList['seat_type'] !== 'no-seat' ) {
+									var availabilitySeat        = seatsList['data'] ? seatsList['data']['available'] : undefined;
+									var availabilityAttribute   = '';
+									var seatName                = seatsList['display_id'];
+									var seatType                = seatsList['seat_type'];
+									var seatTypeTitle           = getTitleSeat( seatType );
+									var seatExtra               = '';
+									var confirm_ada_description = '';
+									var seatAddress             = seatsList['seat_address'];
+									var seatNameAttribute       = `data-name-seat="${seatName}"`;
+
+									if ( 'undefined' === typeof availabilitySeat ) {
+										availabilitySeat = '';
+									} else {
+										availabilitySeat      = ' - Reserved';
+										availabilityAttribute = ' disabled="true" ';
+									}
+
+									if ( seatsList['confirm_message'] ) {
+										confirm_ada_description = `. ${seatsList['confirm_message']}`;
+									}
+
+									if ( seatsList['extra'] ) {
+										seatExtra += ` - ${seatsList['extra']}`;
+									}
+
+									var rowName       = row.display_id ? `Row ${row.display_id} ` : '';
+									var optionContent = `${rowName}Seat ${seatName}: ${seatTypeTitle}${seatExtra}${availabilitySeat}${confirm_ada_description}`;
+
+									themeCheckout.seatsADAList.append(
+										`<option role="option" ${seatNameAttribute} aria-label="${optionContent}" ${availabilityAttribute} value="${seatAddress}">${optionContent}</option>`
+									);
+								}
+							} );
+						}
+					} );
+				}
+			} );
+		},
+		timerInterval: false,
+		showReservationExpiredMessage: function () {
+			themeCheckout.$overlayMessage.empty().append( '<h3>Sorry!</h3>' );
+			themeCheckout.$overlayMessage.append( '<p>Your reservation for ' + $( '.showtime-date' ).text() + ' has expired.</p>' );
+			themeCheckout.$overlayMessage.show();
+			$( 'html, body' ).css( { overflow: 'hidden' } );
+			themeCheckout.hideSeatsModal();
+		},
+		checkIfTimerHasExpired: function () {
+			var countdownText = $( '.reservation-countdown' );
+
+			// Timer is not present on the page.
+			if ( !countdownText.length ) {
+				return false;
+			}
+
+			var countdownTime   = countdownText.text();
+			// Check if the countdown timer has expired (has negative time remaining).
+			var expirationRegex = /0-?\d+:0-\d+/g;
+			return expirationRegex.test( countdownTime );
+		},
+		showReservationExpiredMessageIfTImerHasExpired: function () {
+			// Check if the timer has expired and show the message if it has in case the user has not submitted the checkout.
+			if ( themeCheckout.$reservedOrderId && themeCheckout.checkIfTimerHasExpired() ) {
+				themeCheckout.showReservationExpiredMessage();
+				return true;
+			}
+			return false;
+		},
+		startTimer: function () {
+			var duration       = 60 * 5; // Hard-coded 5-minute timer.
+			var suffix         = ' minutes';
+			var displayWrapper = $( '.reservation-countdown-message' );
+			var display        = $( '.reservation-countdown' );
+			var start          = Date.now();
+			var diff;
+			var minutes;
+			var seconds;
+
+			displayWrapper.show();
+
+			function timer() {
+				// get the number of seconds that have elapsed since startTimer() was called
+				diff = duration - (((Date.now() - start) / 1000) | 0);
+
+				if ( diff <= 0 ) {
+					themeCheckout.stopTimer();
+
+					if ( !themeCheckout.checkoutSubmitted ) {
+						themeCheckout.showReservationExpiredMessage();
+					}
+				}
+
+				if ( diff < 60 ) {
+					suffix = ' seconds';
+				}
+
+				// does the same job as parseInt truncates the float
+				minutes = (diff / 60) | 0;
+				seconds = (diff % 60) | 0;
+
+				minutes = minutes < 10 ? '0' + minutes : minutes;
+				seconds = seconds < 10 ? '0' + seconds : seconds;
+
+				display.text( minutes + ':' + seconds + suffix );
+
+				$.each( displayWrapper, function ( i, el ) {
+					var $wrapper = $( el );
+					var $alert   = $wrapper.next( '.reservation-countdown-alert' );
+
+					if ( 'undefined' === typeof $alert ) {
+						return;
+					}
+
+					$alert.text( $wrapper.text() );
+				} );
+			}
+
+			// we don't want to wait a full second before the timer starts
+			timer();
+
+			themeCheckout.timerInterval = setInterval( timer, 1000 );
+		},
+		stopTimer: function () {
+			clearInterval( themeCheckout.timerInterval );
+		},
+		triggerSentryWithExtras: function ( message, extras ) {
+			// Log a Sentry error
+			if ( typeof Sentry !== 'undefined' ) {
+				Sentry.withScope( function ( scope ) {
+					scope.setLevel( 'error' );
+
+					if ( extras ) {
+						scope.setExtras( extras );
+					}
+					Sentry.captureMessage( message );
+				} );
+			}
+		},
+		getSeatsData: function () {
+			var data = {
+				action: 'filmbot_get_auditorium_seats',
+				_ajax_nonce: $( '#filmbot_checkout_nonce' ).val(),
+				showtime_id: themeCheckout.order.showtime
+			};
+
+			var seatMapsFetched = $.when( $.ajax(
+				{
+					url: window.ajaxurl || window.themeSettings.ajaxUrl,
+					method: 'POST',
+					timeout: 60000,
+					data: data,
+					success: function ( response ) {
+						if ( !!response.sections ) {
+							themeCheckout.initializeSeatsView( response );
+							themeCheckout.initializeSeatsADAList( response );
+							console.info( '[ Fetch seats success ] ', response );
+						}
+					},
+					error: function ( xhr, status, error ) {
+						themeCheckout.$submitError.attr( 'role', 'alert' ).text( 'An error occurred, please wait a few minutes and refresh the page.' ).focus();
+
+						console.error( xhr, status, error );
+
+						themeCheckout.triggerSentryWithExtras( '[ Fetch seats error ] ' + error, {
+							xhr: xhr,
+							status: status
+						} );
+					}
+				}
+			) );
+
+			seatMapsFetched.then( function () {
+				if (
+					'undefined' === typeof window.themeSettings.reservedSeating ||
+					'string' !== typeof window.themeSettings.reservedSeating.socialDistancing.infoMsg ) {
+					return;
+				}
+
+				// A flag for ensuring this info message only displays once, not on each seat map rendering.
+				if ( 'true' === window.themeSettings.reservedSeating.socialDistancing.infoMsgAccepted ) {
+					return;
+				}
+
+				window.Swal.fire(
+					{
+						text: window.themeSettings.reservedSeating.socialDistancing.infoMsg,
+						showCancelButton: false,
+						confirmButtonText: "Continue",
+						confirmButtonColor: ""
+					}
+				).then( ( result ) => {
+					// On "accepting" the info message (closing it), set this flag to prevent the message showing again.
+					window.themeSettings.reservedSeating.socialDistancing.infoMsgAccepted = 'true';
+				} );
+			} );
+		},
+		reserveSeats: function () {
+			if ( themeCheckout.$inRequest ) return;
+
+			if ( !themeCheckout.$selectedSeats.length && !themeCheckout.ADAMode ) {
+				themeCheckout.$submitError.attr( 'role', 'alert' ).text( ' Please select seats.' );
+				themeCheckout.getSeatsData();
+				return false;
+			}
+
+			var seats                  = [];
+			var containerSelectedSeats = themeCheckout.$selectedSeats;
+			if ( themeCheckout.ADAMode ) {
+				containerSelectedSeats = themeCheckout.selectedADASeat;
+				themeCheckout.ADAModeOff.hide();
+			}
+			themeCheckout.ADAModeOn.hide();
+			$.each( containerSelectedSeats, function ( index, seat ) {
+				seats.push( { "seat": seat } );
+			} );
+
+			themeCheckout.order.donation = themeCheckout.currentDonationAmount;
+
+			var data = {
+				action: 'filmbot_reserve_seats',
+				_ajax_nonce: $( '#filmbot_checkout_nonce' ).val(),
+				reservations: [
+					{
+						"showtime_id": themeCheckout.order.showtime,
+						"requested_tickets": seats
+					}
+				]
+			};
+
+			if ( themeCheckout.$reservedOrderId ) {
+				data['action']   = 'filmbot_change_reserved_seats';
+				data['order_id'] = themeCheckout.$reservedOrderId;
+			}
+
+			themeCheckout.$inRequest = true;
+			themeCheckout.$checkoutSeatsModal.attr( 'disabled', 'disabled' ).html( 'Reserving seats...' );
+
+			$.ajax( {
+				url: window.ajaxurl || window.themeSettings.ajaxUrl,
+				method: 'POST',
+				timeout: 60000,
+				data: data,
+				success: function ( response ) {
+					if ( response.success === false ) {
+						console.error( '[ Reserve seats error ]', response.data );
+						themeCheckout.$submitError.attr( {
+							role: 'alert',
+							tabindex: -1
+						} ).text( response.data[0] );
+						themeCheckout.getSeatsData();
+						themeCheckout.$checkout.show();
+						return false;
+					}
+
+					// Check if the timer has expired before proceeding and show an error message if it has.
+					if ( themeCheckout.showReservationExpiredMessageIfTImerHasExpired() ) {
+						return false;
+					}
+					if ( !themeCheckout.$reservedOrderId ) themeCheckout.startTimer();
+					themeCheckout.$reservedOrderId = response.order_id;
+
+					// hide showtime picker, just show showtime
+					themeCheckout.$rsShowtimePicker.hide();
+					themeCheckout.$rsSelectedShowtime.show();
+
+					if ( response.errors.length ) {
+						console.error( '[ Reserve seats error ]', response.errors );
+						themeCheckout.$submitError.attr( {
+							role: 'alert',
+							tabindex: -1
+						} ).text( response.errors[0] );
+						themeCheckout.getSeatsData();
+					} else {
+						console.info( '[ Reserve seats success ] ', response );
+
+						themeCheckout.updateSeatsView( response.reservations );
+
+						// show Cancel button for Change usage and hide modal
+						themeCheckout.$cancelSeatsModal.show();
+
+						// before hiding modal set it as separated entity in browser history
+						if ( containerSelectedSeats.length ) {
+							history.replaceState( {
+								hasSelectedSeats: true
+							}, null, window.location.href );
+							history.pushState( {
+								hasSelectedSeats: true
+							}, null, window.location.href );
+						}
+						themeCheckout.hideSeatsModal();
+					}
+				},
+				error: function ( xhr, status, error ) {
+					themeCheckout.getSeatsData();
+					themeCheckout.$submitError.attr( 'role', 'alert' ).text( 'There was an error reserving seats, please try again.' );
+
+					console.error( xhr, status, error );
+
+					themeCheckout.triggerSentryWithExtras( '[ Reserve seats error ] ' + error, {
+						xhr: xhr,
+						status: status
+					} );
+				},
+				complete: function () {
+					themeCheckout.$inRequest = false;
+					themeCheckout.$checkoutSeatsModal.attr( 'disabled', false );
+					themeCheckout.changeTextCheckoutButton( themeCheckout.$selectedSeats );
+				}
+			} );
+		},
+		changeReservedSeatTicketType: function ( e ) {
+			if ( themeCheckout.$inRequest ) return;
+
+			var selectedTicketType = $( e.target ).val(),
+				selectedSeat       = $( e.target ).data( 'seat' );
+
+			themeCheckout.order.donation = themeCheckout.currentDonationAmount;
+
+			var data = {
+				action: 'filmbot_change_reserved_seat_ticket_type',
+				_ajax_nonce: $( '#filmbot_checkout_nonce' ).val(),
+				order_id: themeCheckout.$reservedOrderId,
+				reservations: [
+					{
+						"showtime_id": themeCheckout.order.showtime,
+						"requested_tickets": [
+							{
+								"seat": selectedSeat,
+								"ticket_type": selectedTicketType
+							}
+						]
+					}
+				]
+			};
+
+			themeCheckout.$inRequest = true;
+			themeCheckout.disableForm( 'UPDATING TOTAL...' );
+
+			$.ajax( {
+				url: window.ajaxurl || window.themeSettings.ajaxUrl,
+				method: 'POST',
+				timeout: 60000,
+				data: data,
+				success: function ( response ) {
+					if ( response.success === false ) {
+						console.error( '[ Change ticket type error ]', response.data );
+						themeCheckout.$submitError.attr( {
+							role: 'alert',
+							tabindex: -1
+						} ).text( response.data[0] );
+						return false;
+					}
+
+					if ( response.errors.length ) {
+						console.error( '[ Change ticket type error ]', response.errors );
+						themeCheckout.$submitError.attr( {
+							role: 'alert',
+							tabindex: -1
+						} ).text( response.errors[0] );
+					} else {
+						themeCheckout.updateSeatsView( response.reservations );
+
+						console.info( '[ Change ticket type success ] ', response );
+					}
+					themeCheckout.applyDiscountCode();
+					themeCheckout.maybeReapplyGiftCard();
+				},
+				error: function ( xhr, status, error ) {
+					themeCheckout.$submitError.attr( 'role', 'alert' ).text( 'There was an error changing ticket type, please try again.' );
+
+					console.error( xhr, status, error );
+
+					themeCheckout.triggerSentryWithExtras( '[ Change ticket type error ] ' + error, {
+						xhr: xhr,
+						status: status
+					} );
+				},
+				complete: function () {
+					themeCheckout.$inRequest = false;
+					themeCheckout.enableForm( {} );
+				}
+			} );
+		},
+		clearSeatsView: function () {
+			themeCheckout.$seatTicketTypeSelect.off( 'change' );
+			$( '.seat-ticket-type .select-ticket-type' ).not( '.hidden' ).remove();
+		},
+		getSeatProperties: function ( seatAddress ) {
+			if ( jQuery.isEmptyObject( themeCheckout.seatPropertiesCache[seatAddress] ) ) {
+				var seatMapping    = seatAddress.split( "-" ),
+					sectionId      = parseInt( seatMapping[0], 10 ) - 1,
+					rowId          = parseInt( seatMapping[1], 10 ) - 1,
+					seatId         = parseInt( seatMapping[2], 10 ) - 1,
+					seat           = themeCheckout.$seatsData['sections'][sectionId]['rows'][rowId]['seats'][seatId],
+					seatProperties = {
+						seatDisplayId: seat.display_id,
+						seatAllowedTicketTypes: seat.data.allowed_ticket_types,
+						confirmMessage: seat.confirm_message || false
+					};
+
+				themeCheckout.seatPropertiesCache[seatAddress] = seatProperties;
+			}
+			return themeCheckout.seatPropertiesCache[seatAddress];
+		},
+		updateSeatsView: function ( reservations ) {
+			themeCheckout.clearSeatsView();
+			themeCheckout.$reservedSeats = [];
+
+			$.each( reservations, function ( index, data ) { // backend returns reservations within a single element array
+				$.each( data, function ( index, data ) {
+					// available properties: 'seat' (ex. "1-2-1"), 'ticket_type' (ex. "general-admission")
+
+					themeCheckout.$reservedSeats.push( data.seat );
+
+					// Find seat display ID.
+					var seatProperties = themeCheckout.getSeatProperties( data.seat );
+
+					var seatElement = $( '.seat-ticket-type .select-ticket-type.hidden' ).clone();
+					var seatSelect  = seatElement.find( '.select-container' ).find( 'select' );
+
+					$.each( seatSelect.find( 'option' ), function ( i, option ) {
+						if ( !(seatProperties.seatAllowedTicketTypes.indexOf( $( option ).data( 'ticket_type' ).ID ) > -1) ) {
+							$( option ).prop( 'disabled', true );
+						}
+					} );
+
+					seatSelect.val( data.ticket_type ).data( 'seat', data.seat );
+
+					if ( '_blocked' !== data.ticket_type ) {
+						seatElement.find( 'label' ).html( "Seat: <br />" + seatProperties.seatDisplayId );
+						seatElement.find( '.select-ticket-type-aria-description' ).attr( 'id', `select-ticket-type-desc-${seatProperties.seatDisplayId}` ).html( `Select ticket type for seat ${seatProperties.seatDisplayId}` );
+						seatElement.find( '.seat-ticket-type-select' ).attr( 'aria-describedby', `select-ticket-type-desc-${seatProperties.seatDisplayId}` );
+						seatElement.appendTo( '.seat-ticket-type' ).removeClass( 'hidden' );
+					}
+				} );
+			} );
+
+			// Refresh props and reattach select change handler
+			themeCheckout.refreshableProps();
+			themeCheckout.$seatTicketTypeSelect.change( themeCheckout.changeReservedSeatTicketType );
+
+			// Update checkout prices
+			themeCheckout.toggleActiveCheckoutBySeats();
+		},
+		attachFauxselect: function () {
+			// open the styled select dropdown
+			window.themeUx.$showList.on( 'click', function ( e ) {
+				window.themeUx.openDropdownList( e );
+			} );
+
+			// close the styled select dropdown
+			window.themeUx.$document.on( 'click', function ( e ) {
+				window.themeUx.closeDropdownList( e );
+			} );
+
+			// select an item in the styled select dropdown
+			window.themeUx.$list.find( 'li' ).click( function ( e ) {
+				if ( $( e.target ).hasClass( 'disabled' ) )
+					return;
+				window.themeUx.selectDropdownListQuantity( e );
+			} );
+
+			// update value of styled select dropdown on native dropdown change event
+			window.themeUx.$styledSelect.change( function ( e ) {
+				window.themeUx.updateDummySelect( e );
+			} );
+
+		},
+		toggleActiveCheckout: function () {
+
+			themeCheckout.$checkoutContainer.removeClass( 'checkout-active' );
+
+			$.each( themeCheckout.$quantitySelect, function ( i, qtySelect ) {
+				if ( parseInt( $( qtySelect ).val(), 10 ) > 0 ) {
+					themeCheckout.$checkoutContainer.addClass( 'checkout-active' );
+
+					themeCheckout.$discountCodeError.css( 'visibility', 'hidden' );
+					themeCheckout.$discountCodeError.parent().removeClass( 'large-error-message' );
+					if ( themeCheckout.$emailInput.val() ) {
+						themeCheckout.checkEmailMaybeApplyMembershipCode();
+					}
+				}
+			} );
+
+			themeCheckout.updateQuantity();
+		},
+		toggleActiveCheckoutBySeats: function () {
+
+			themeCheckout.$checkoutContainer.removeClass( 'checkout-active' );
+
+			if ( themeCheckout.$reservedOrderId ) {
+				themeCheckout.$checkoutContainer.addClass( 'checkout-active' );
+			}
+
+			themeCheckout.updateQuantityBySeats();
+		},
+		manageQtysAvailable: function () {
+
+			var $qtyAvailable = $( '#qty-available' )
+
+			// if we're not low on tickets, don't do anything
+			if ( !$qtyAvailable.length )
+				return;
+
+			var totalQty               = 0,
+				qtyRemaining,
+				qtyAvailable           = parseInt( $qtyAvailable.text(), 10 ),
+				$dummySelectContainers = $( '.ticket-quantity .dummy-select-container' );
+
+			$.each( themeCheckout.$quantitySelect, function ( i, qtySelect ) {
+				totalQty += parseInt( $( qtySelect ).val(), 10 )
+			} );
+
+			if ( totalQty > 0 ) {
+				$( '.ticket-quantity' ).removeClass( 'no-quantity' );
+			}
+
+			qtyRemaining = (qtyAvailable - totalQty);
+
+			// reset all ticket quantities to be enabled
+			themeCheckout.$quantitySelect.find( 'option' ).prop( 'disabled', false );
+			$dummySelectContainers.find( 'li' ).removeClass( 'disabled' );
+
+			// disable ticket quantities based on how many are left
+			$.each( themeCheckout.$quantitySelect, function ( i, qtySelect ) {
+				var $qtySelect               = $( qtySelect ),
+					selectedIndex            = $qtySelect.prop( 'selectedIndex' ),
+					$qtySelectDummyContainer = $qtySelect.closest( '.select-container' ).next( '.dummy-select-container' ),
+					$qtySelectDummy          = $qtySelectDummyContainer.find( '.selected-quantity' ),
+					maxSelectable            = qtyRemaining + selectedIndex;
+				$qtySelect.find( 'option:gt(' + (maxSelectable) + ')' ).prop( 'disabled', true );
+				$qtySelectDummyContainer.find( 'li:gt(' + (maxSelectable) + ')' ).addClass( 'disabled' );
+				$qtySelectDummy.html( selectedIndex );
+			} )
+		},
+		updateQuantity: function () {
+
+			var totalTickets = 0;
+			var bookingFee   = 0;
+			var totalPrice   = 0;
+
+			themeCheckout.order.tickets = {};
+
+			$.each( themeCheckout.$quantitySelect, function ( i, qtySelect ) {
+				var $qtySelect         = $( qtySelect );
+				var $qtySelectDummy    = $( qtySelect ).closest( '.select-container' ).next( '.dummy-select-container' ).find( '.selected-quantity' );
+				var ticketQty          = parseInt( $qtySelect.val(), 10 );
+				var ticketType         = $qtySelect.data( 'ticket_type' );
+				var $ticketInfo        = $( '.tickets_' + ticketType.name );
+				var ticketTypeSubtotal = ticketQty * ticketType.price;
+
+				//update styled dropdown
+				$qtySelectDummy.html( ticketQty );
+
+				totalTickets += ticketQty;
+				totalPrice += ticketTypeSubtotal;
+
+				if ( ticketType.price > 0 ) {
+					bookingFee += ticketQty * BOOKING_FEE;
+				}
+
+				themeCheckout.order.tickets[ticketType.name] = ticketQty;
+
+				$ticketInfo
+					.find( '.quantity' ).text( ticketQty ).end()
+					.find( '.subtotal' ).text( (ticketTypeSubtotal).toFixed( 2 ) );
+
+				if ( ticketQty > 0 ) {
+					$ticketInfo.addClass( 'active' );
+				} else {
+					$ticketInfo.removeClass( 'active' );
+				}
+			} );
+
+			totalPrice += bookingFee;
+
+			totalPrice += themeCheckout.currentDonationAmount;
+			themeCheckout.order.donation = themeCheckout.currentDonationAmount;
+
+			if ( themeCheckout.order.discount ) {
+				totalPrice -= themeCheckout.order.discount;
+			}
+
+			$( '.booking_fee_total' ).text( bookingFee.toFixed( 2 ) );
+
+			// Maybe subtract the amount the gift card can cover from the overall total.
+			if ( 'undefined' !== typeof themeCheckout.order.giftCardTotal ) {
+
+				// Before modifying totalPrice, check giftCardTotal against it; if it's > 0 at this point, it means a donation was added or a promo code removed since the gift card was applied. So we need to make sure payment method is gc_partial, not gc.
+				if (
+					0 !== themeCheckout.order.giftCardTotal &&
+					(totalPrice - themeCheckout.order.giftCardTotal) > 0
+				) {
+					themeCheckout.paymentMethod = 'gc_partial';
+				}
+
+				totalPrice -= themeCheckout.order.giftCardTotal;
+			}
+
+			// In some cases like adding/removing discount codes to an order that has some or all of its cost covered by a gift card, totalPrice can be a negative value here. This check ensures the actual total never goes below $0.
+			if ( totalPrice < 0 ) {
+				totalPrice = 0;
+			}
+
+			themeCheckout.order.total         = totalPrice;
+			themeCheckout.order.originalTotal = totalPrice; // themeCheckout.order.total can be modified by discount codes, gift cards, etc. This original_total value is only modified on ticket quantity changes, and is useful for resetting UI state as discount codes, gift cards, etc. are added and removed.
+			themeCheckout.order.bookingFee    = bookingFee;
+
+			$( '.total_purchase_price' ).text( themeCheckout.moneyFormat( totalPrice ) );
+
+			if ( themeCheckout.order.total === 0 && themeCheckout.orderHasTickets() ) {
+				themeCheckout.hideCreditCardFields();
+			} else {
+				themeCheckout.showCreditCardFields();
+			}
+
+			// Perform a similar paymentMethod check as above, where if a donation's been added or promo code removed since applying a gift card, we ensure the payment method is gc_partial, not gc.
+			if ( 'undefined' !== typeof themeCheckout.order.giftCardTotal ) {
+				if (
+					0 !== themeCheckout.order.giftCardTotal &&
+					(themeCheckout.order.total > themeCheckout.order.giftCardTotal)
+				) {
+					themeCheckout.paymentMethod = 'gc_partial';
+				}
+			}
+		},
+		updateQuantityBySeats: function () {
+			var totalTickets   = 0;
+			var ticketTypesQty = [];
+			var bookingFee     = 0;
+			var totalPrice     = 0;
+
+			themeCheckout.order.tickets = {};
+
+			$.each( themeCheckout.$seatTicketTypeSelect, function ( i, ticketTypeSelect ) {
+				var ticketType = $( 'option:selected', ticketTypeSelect ).data( 'ticket_type' );
+
+				ticketType['qty']               = ticketTypesQty[ticketType.name] ? ticketTypesQty[ticketType.name]['qty'] + 1 : 1;
+				ticketTypesQty[ticketType.name] = ticketType;
+			} );
+
+			$( '.tickets_quantity_subtotal' ).removeClass( 'active' );
+
+			for ( var key in ticketTypesQty ) {
+				if ( ticketTypesQty.hasOwnProperty( key ) ) {
+					var ticketType         = ticketTypesQty[key];
+					var $ticketInfo        = $( '.tickets_' + ticketType.name );
+					var ticketTypeSubtotal = ticketType.qty * ticketType.price;
+
+					totalTickets += ticketType.qty;
+					totalPrice += ticketTypeSubtotal;
+					if ( ticketType.price > 0 ) {
+						bookingFee += ticketType.qty * BOOKING_FEE;
+					}
+
+					themeCheckout.order.tickets[ticketType.name] = ticketType.qty;
+
+					$ticketInfo
+						.find( '.quantity' ).text( ticketType.qty ).end()
+						.find( '.subtotal' ).text( (ticketTypeSubtotal).toFixed( 2 ) );
+
+					if ( ticketType.qty > 0 ) {
+						$ticketInfo.addClass( 'active' );
+					}
+				}
+			}
+
+			totalPrice += bookingFee;
+
+			if ( 0 < totalPrice ) {
+				themeCheckout.showCreditCardFields();
+			} else {
+				themeCheckout.hideCreditCardFields();
+			}
+
+			totalPrice += themeCheckout.currentDonationAmount;
+			themeCheckout.order.donation = themeCheckout.currentDonationAmount;
+
+			if ( themeCheckout.currentDonationAmount ) {
+				// Helps *ensure* card fields are visible if e.g. have chosen a free ticket with no promo codes, but then checked the donation box.
+				themeCheckout.showCreditCardFields();
+			}
+
+			if ( themeCheckout.order.discount ) {
+				totalPrice -= themeCheckout.order.discount;
+			}
+
+			$( '.booking_fee_total' ).text( bookingFee.toFixed( 2 ) );
+
+			// Maybe subtract the amount the gift card can cover from the overall total.
+			if ( 'undefined' !== typeof themeCheckout.order.giftCardTotal ) {
+
+				// Before modifying totalPrice, check giftCardTotal against it; if it's > 0 at this point, it means a donation was added or a promo code removed since the gift card was applied. So we need to make sure payment method is gc_partial, not gc.
+				if (
+					0 !== themeCheckout.order.giftCardTotal &&
+					(totalPrice - themeCheckout.order.giftCardTotal) > 0
+				) {
+					themeCheckout.paymentMethod = 'gc_partial';
+				}
+
+				totalPrice -= themeCheckout.order.giftCardTotal;
+			}
+
+			themeCheckout.order.total         = totalPrice;
+			themeCheckout.order.originalTotal = totalPrice;
+			themeCheckout.order.bookingFee    = bookingFee;
+
+			$( '.total_purchase_price' ).text( themeCheckout.moneyFormat( totalPrice ) );
+		},
+		/**
+		 * Applies gift card to order total.
+		 *
+		 * @return {bool} False on error.
+		 */
+		applyGiftCard: function () {
+
+			if ( !(themeCheckout.orderHasTickets() || themeCheckout.orderHasPaidTickets()) || themeCheckout.order.total === 0 ) {
+				themeCheckout.removeGiftCard();
+				themeCheckout.$giftCardError.html( 'Gift Cards not valid for this order' ).css( 'visibility', 'visible' );
+				themeCheckout.$checkout.trigger( 'checkout-stop-loading' );
+				return;
+			}
+
+			if ( '' === themeCheckout.$giftCard.val() ) {
+				themeCheckout.removeGiftCard();
+				themeCheckout.$checkout.trigger( 'checkout-stop-loading' );
+				return;
+			}
+
+			themeCheckout.$checkout.trigger( 'checkout-start-loading' );
+
+			themeCheckout.$giftCardRow.addClass( 'gc-applying' );
+
+			themeCheckout.$giftCardApply.html( 'CHECKING...' );
+
+			var data = {
+				action: 'filmbot_apply_gift_card',
+				_ajax_nonce: $( document.getElementById( 'filmbot_checkout_nonce' ) ).val(),
+				pm: themeCheckout.paymentMethod,
+				order: $.extend( {}, themeCheckout.order, { email: themeCheckout.$emailInput.val() } ),
+				gcAccount: themeCheckout.$giftCard.val(),
+				gcCvv: themeCheckout.$giftCardCvv.val()
+			};
+
+			$.ajax( {
+				url: window.ajaxurl || window.themeSettings.ajaxUrl,
+				method: 'POST',
+				timeout: 60000,
+				data: data,
+				success: function ( response ) {
+					if ( response.success && response.balanceAmount > 0.00 ) {
+						themeCheckout.updateGiftCardAmounts( response.balanceAmount, response.differenceAmount );
+						themeCheckout.$giftCardApply.html( 'REMOVE' );
+						themeCheckout.$giftCard.prop( 'readonly', true );
+						themeCheckout.$giftCardWrap.addClass( 'gc-code-accepted' );
+					} else {
+						// some error...
+						var error = response.data || response.error || 'Unknown Error';
+
+						themeCheckout.$giftCardError.html( error ).css( 'visibility', 'visible' );
+						themeCheckout.makeGiftCardEditable();
+					}
+
+					themeCheckout.$checkout.trigger( 'checkout-stop-loading' );
+				},
+				error: function ( xhr, status, error ) {
+					// timeout or server error on our end...
+					themeCheckout.$giftCardError.html( 'An error occurred, please try again' ).css( 'visibility', 'visible' );
+					themeCheckout.makeGiftCardEditable();
+
+					themeCheckout.$checkout.trigger( 'checkout-stop-loading' );
+				}
+			} ).done( function () {
+				themeCheckout.$giftCardRow.removeClass( 'gc-applying' );
+				themeCheckout.$checkout.trigger( 'checkout-stop-loading' );
+			} );
+		},
+		/**
+		 * If a gift card's already entered, in some cases we need to remove then reapply that gift card's info so the order totals--especially the portion the gift card will cover--are correct.
+		 *
+		 * @returns {void}
+		 */
+		maybeReapplyGiftCard: function () {
+
+			if ( !themeCheckout.$giftCard.length ) {
+				return;
+			}
+			const giftCardAccount = themeCheckout.$giftCard.val();
+			const giftCardCvv     = themeCheckout.$giftCardCvv.val();
+
+			if ( 'undefined' === typeof giftCardAccount ) {
+				return;
+			}
+
+			if ( '' === giftCardAccount ) {
+				return;
+			}
+
+			if ( themeCheckout.$giftCardCvv.length ) {
+				if ( 'undefined' === typeof giftCardCvv ) {
+					return;
+				}
+
+				if ( '' === giftCardCvv ) {
+					return;
+				}
+			}
+
+			themeCheckout.$checkout.trigger( 'checkout-start-loading' );
+
+			themeCheckout.removeGiftCard();
+
+			// Restore the gift card's account and CVV values so we can reapply the gift card.
+			themeCheckout.$giftCard.val( giftCardAccount );
+			if ( themeCheckout.$giftCardCvv.length ) {
+				themeCheckout.$giftCardCvv.val( giftCardCvv );
+			}
+
+			themeCheckout.applyGiftCard();
+		},
+		/**
+		 * Preserves gift card field values, but makes them editable again; a useful state to return to after Gift Card ajax errors, for example.
+		 */
+		makeGiftCardEditable: function () {
+			themeCheckout.$giftCard.prop( 'readonly', false );
+			themeCheckout.$giftCardCvv.prop( 'readonly', false );
+			themeCheckout.$giftCardApply.html( 'APPLY' );
+			themeCheckout.$giftCardRow.removeClass( 'gc-applying' );
+			themeCheckout.$giftCardWrap.removeClass( 'gc-code-accepted' );
+		},
+		/**
+		 * Clears gift card fields.
+		 */
+		removeGiftCard: function () {
+			themeCheckout.$giftCard.prop( 'readonly', false ).val( '' );
+			themeCheckout.$giftCardCvv.prop( 'readonly', false ).val( '' );
+			themeCheckout.$giftCardApply.html( 'APPLY' );
+			themeCheckout.$giftCardWrap.removeClass( 'gc-code-accepted' );
+
+			themeCheckout.updateGiftCardAmounts( 0, themeCheckout.order.originalTotal );
+			themeCheckout.paymentMethod = 'cc';
+		},
+		/**
+		 * Updates checkout fields to incorporate gift card.
+		 *
+		 * @param {float} balanceAmount Gift card balance.
+		 * @param {float} differenceAmount Difference between the order total and gift card balance, 0 when gift card can cover whole order.
+		 */
+		updateGiftCardAmounts: function ( balanceAmount, differenceAmount ) {
+			balanceAmount    = parseFloat( balanceAmount, 10 );
+			differenceAmount = parseFloat( differenceAmount, 10 );
+
+			// The gift card can pay for the whole order.
+			if ( 0 === differenceAmount ) {
+				themeCheckout.order.giftCardTotal = themeCheckout.order.total;
+				themeCheckout.order.total         = 0;
+				themeCheckout.paymentMethod       = 'gc';
+
+				themeCheckout.$giftCardTotal.find( '.gift_card_amount' ).text( themeCheckout.order.giftCardTotal.toFixed( 2 ) );
+
+				$( '.total_purchase_price' ).text( themeCheckout.moneyFormat( themeCheckout.order.total ) );
+			} else {
+				themeCheckout.order.giftCardTotal = balanceAmount;
+				themeCheckout.order.total         = differenceAmount;
+				themeCheckout.paymentMethod       = 'gc_partial';
+
+				themeCheckout.$giftCardTotal.find( '.gift_card_amount' ).text( themeCheckout.order.giftCardTotal.toFixed( 2 ) );
+
+				$( '.total_purchase_price' ).text( themeCheckout.moneyFormat( themeCheckout.order.total ) );
+			}
+
+			if ( jQuery.isEmptyObject( themeCheckout.$seatsData ) ) {
+				themeCheckout.updateQuantity();
+			} else {
+				themeCheckout.updateQuantityBySeats();
+			}
+
+			if ( balanceAmount > 0 ) {
+				themeCheckout.$giftCardTotal.show();
+			} else {
+				themeCheckout.$giftCardTotal.hide();
+			}
+
+			if ( 0 === themeCheckout.order.total && themeCheckout.orderHasTickets() ) {
+				themeCheckout.hideCreditCardFields();
+			} else {
+				themeCheckout.showCreditCardFields();
+			}
+		},
+		applyDiscountCode: function ( params ) {
+			if ( !(themeCheckout.orderHasTickets() || themeCheckout.orderHasPaidTickets()) ) {
+				themeCheckout.removeDiscountCode();
+				themeCheckout.$discountCodeError.html( 'Discounts not valid for this order' ).css( 'visibility', 'visible' );
+				return false;
+			}
+
+			if ( themeCheckout.$discountCode.val() !== '' ) {
+
+				themeCheckout.applyingDiscountCode = true;
+
+				themeCheckout.$checkout.trigger( 'checkout-start-loading' );
+
+				themeCheckout.$discountCodeApply.html( 'CHECKING...' );
+
+				var data = {
+					action: 'filmbot_apply_discount_code',
+					_ajax_nonce: $( '#filmbot_checkout_nonce' ).val(),
+					pm: themeCheckout.paymentMethod,
+					address: {
+						first_name: $( '#first_name' ).val(),
+						last_name: $( '#last_name' ).val(),
+						billing_address: $( '#billing_address' ).val(),
+						country: $( '#country' ).val(),
+						postal_code: $( '#postal_code' ).val(),
+						dnd: themeCheckout.$dndCheckbox.is( ':checked' )
+					},
+					order: $.extend( {}, themeCheckout.order, { email: themeCheckout.$emailInput.val() } ),
+					discount_code: themeCheckout.$discountCode.val()
+				};
+
+				themeCheckout.$discountCodeError.html( '' ).css( 'visibility', 'hidden' );
+				themeCheckout.$discountCodeError.parent().removeClass( 'large-error-message' );
+
+				$.ajax( {
+					url: window.ajaxurl || window.themeSettings.ajaxUrl,
+					method: 'POST',
+					timeout: 60000,
+					data: data,
+					success: function ( response ) {
+						if ( response.success && response.discountAmount >= 0 ) {
+							themeCheckout.updateDiscounts( response.discountAmount );
+							themeCheckout.$discountCodeApply.html( 'REMOVE' );
+							themeCheckout.$discountCode.prop( 'readonly', true );
+							themeCheckout.maybeReapplyGiftCard();
+
+							if ( params && params.successMessage && themeCheckout.$discountCodeSuccess.length ) {
+								themeCheckout.$discountCodeSuccess.html( params.successMessage ).css( 'visibility', 'visible' );
+							}
+
+							themeCheckout.appliedCodeForEmail = themeCheckout.$emailInput.val();
+
+							window.themeUx.$document.trigger( 'filmbot-discount-code-applied', response );
+						} else {
+							// some error...
+							var error = !!response.error ? response.error.toString() : 'Unknown Error';
+							themeCheckout.$discountCodeError.html( error ).css( 'visibility', 'visible' );
+							if ( error.length > 65 ) {
+								themeCheckout.$discountCodeError.parent().addClass( 'large-error-message' );
+							}
+							themeCheckout.removeDiscountCode();
+
+							themeCheckout.triggerSentryWithExtras( '[ Checkout error ] ' + error, {
+								response: response,
+							} );
+						}
+
+						themeCheckout.$checkout.trigger( 'checkout-stop-loading' );
+					},
+					error: function ( xhr, status, error ) {
+						// timeout or server error on our end...
+						themeCheckout.$discountCodeError.html( 'An error occurred, please try again' ).css( 'visibility', 'visible' );
+						themeCheckout.removeDiscountCode();
+						themeCheckout.$checkout.trigger( 'checkout-stop-loading' );
+					},
+					complete: function () {
+						themeCheckout.applyingDiscountCode = false;
+					}
+				} );
+
+				return false;
+			}
+		},
+		removeDiscountCode: function () {
+			themeCheckout.$checkout.trigger( 'checkout-start-loading' );
+
+			themeCheckout.$discountCode.prop( 'readonly', false );
+			themeCheckout.$discountCode.val( '' );
+			themeCheckout.updateDiscounts( '0' );
+			themeCheckout.$discountCodeApply.html( 'APPLY' );
+
+			themeCheckout.$checkout.trigger( 'checkout-stop-loading' );
+
+			themeCheckout.appliedCodeForEmail = '';
+			themeCheckout.$discountCodeSuccess.css( 'visibility', 'hidden' );
+
+			window.themeUx.$document.trigger( 'filmbot-discount-code-removed' );
+
+			return false;
+		},
+		updateDiscounts: function ( discountAmount ) {
+
+			discountAmount               = parseFloat( discountAmount, 10 );
+			themeCheckout.order.discount = 0;
+
+			if ( jQuery.isEmptyObject( themeCheckout.$seatsData ) ) {
+				themeCheckout.updateQuantity();
+			} else {
+				themeCheckout.updateQuantityBySeats();
+			}
+
+			themeCheckout.order.total = themeCheckout.order.total - discountAmount;
+
+			if ( themeCheckout.order.total < 0 ) {
+				themeCheckout.order.total = 0;
+			}
+
+			themeCheckout.order.discount = discountAmount;
+
+			themeCheckout.$discount.find( '.discount_amount' ).text( discountAmount.toFixed( 2 ) );
+
+			$( '.total_purchase_price' ).text( themeCheckout.moneyFormat( themeCheckout.order.total ) );
+
+			if ( discountAmount > 0 ) {
+				themeCheckout.$discount.show();
+			} else {
+				themeCheckout.$discount.hide();
+			}
+
+			if ( themeCheckout.order.total === 0 && themeCheckout.orderHasTickets() ) {
+				themeCheckout.hideCreditCardFields();
+
+				// If a promo code has been entered that equals the cost of the order, remove the gift card and just use the 100% promo code.
+				if ( 'undefined' !== typeof themeCheckout.order.giftCardTotal ) {
+					if ( themeCheckout.order.discount >= (themeCheckout.order.originalTotal + themeCheckout.order.giftCardTotal) ) {
+						themeCheckout.removeGiftCard();
+						$( '.gift-card-row' ).slideUp();
+					}
+				} else {
+					// If a gift card hasn't been entered yet, still hide the gift card fields in the case of a 100% promo.
+					if ( themeCheckout.order.discount >= themeCheckout.order.originalTotal ) {
+						themeCheckout.removeGiftCard();
+						$( '.gift-card-row' ).slideUp();
+					}
+				}
+			} else {
+				themeCheckout.showCreditCardFields();
+				$( '.gift-card-row' ).slideDown();
+			}
+		},
+		showCreditCardFields: function () {
+			themeCheckout.$ccFields.slideDown();
+		},
+		hideCreditCardFields: function () {
+			themeCheckout.$ccFields.slideUp();
+		},
+		applyMembershipCosts: function () {
+			var currentPlanInfo = themeCheckout.getCurrentMembershipPlanInfo();
+			if ( ! currentPlanInfo['id'] ) {
+				return;
+			}
+			themeCheckout.order.membership      = currentPlanInfo['costs']['single'];
+			themeCheckout.order.membership_plan = {
+				'title': currentPlanInfo['title'],
+				'id': currentPlanInfo['id'],
+				'size': 'single'
+			};
+
+			themeCheckout.order.total = themeCheckout.order.membership;
+		},
+		setMembershipRenewalDetails: function () {
+			// Skip if the membership cost JSON isn't available (membership renewal is already paid).
+			var currentPlanInfo = themeCheckout.getCurrentMembershipPlanInfo();
+			if ( ! currentPlanInfo['id'] ) {
+				return;
+			}
+			// On the renewal page, planType is added to the membership cost JSON directly.
+			const planType = currentPlanInfo.planType;
+
+			const currentPlanCosts = themeCheckout.getCurrentMembershipPlanCosts();
+
+			themeCheckout.order.membership = parseFloat( currentPlanCosts[planType] );
+
+			themeCheckout.order.membership_renewal_id = document.getElementById( 'membership-renewal-id' ).value;
+
+			themeCheckout.order.membership_plan = {
+				'title': currentPlanInfo['title'],
+				'id': currentPlanInfo['id'],
+				'size': planType
+			};
+
+			themeCheckout.order.total = themeCheckout.order.membership;
+		},
+		applyTicketPackCosts: function () {
+			var ticketPackCost = themeCheckout.$ticketPackValue['cost'];
+
+			themeCheckout.order.ticket_pack = {
+				'title': themeCheckout.$ticketPackValue['offer'],
+				'id': themeCheckout.$ticketPackValue['id'],
+				'cost': ticketPackCost
+			};
+
+			themeCheckout.order.total = ticketPackCost;
+		},
+		validateInputs: function ( $item ) {
+			if ( $item.attr( 'type' ) == 'radio' ) {
+				let $items = $( '[name=' + $item.attr( 'name' ) + ']' )
+				$item.closest( '.radio-group' ).toggleClass( 'error', $items.filter( ':checked' ).length === 0 );
+				return;
+			}
+			var val = $item.val();
+
+			if ( $item.hasClass( 'required' ) ) {
+				$item.toggleClass( 'error', $.trim( val ) === '' || val === null );
+			}
+		},
+		validateTermsCheckbox: function () {
+			var checked = $( 'input[name=terms]' ).prop( 'checked' );
+			themeCheckout.$terms.toggleClass( 'error', checked !== true );
+		},
+		isValidEmailAddress: function ( emailAddress ) {
+			var pattern = new RegExp( /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/ );
+			return pattern.test( emailAddress );
+		},
+		checkEmailInput: function () {
+			var emailAddress = themeCheckout.$emailInput.val();
+			if ( !themeCheckout.isValidEmailAddress( emailAddress ) ) {
+				themeCheckout.$emailInput.addClass( 'error' );
+			} else {
+				themeCheckout.$emailInput.removeClass( 'error' );
+			}
+			return themeCheckout.$emailInput.hasClass( 'error' );
+		},
+		isValidPhoneNumber: function ( phoneNumber ) {
+			var pattern = /\d/g;
+			return phoneNumber.match( pattern ) !== null && phoneNumber.match( pattern ).length === 10;
+		},
+		validatePhoneNumber: function () {
+			if ( !themeCheckout.$dndCheckbox.is( ':checked' ) )
+				return;
+			var phoneNumber = themeCheckout.$phone.val();
+			if ( !themeCheckout.isValidPhoneNumber( phoneNumber ) ) {
+				themeCheckout.$phone.addClass( 'error' );
+			}
+		},
+		isValidPercent: function ( percent ) {
+			var pattern = /\d/g;
+			return percent.match( pattern ) !== null && percent.match( pattern ).length < 3;
+		},
+		validateTipPercent: function () {
+			if ( !themeCheckout.$dndCheckbox.is( ':checked' ) )
+				return;
+			var percent = themeCheckout.$tipPercent.val();
+			if ( !themeCheckout.isValidPercent( percent ) ) {
+				themeCheckout.$tipPercent.addClass( 'error' );
+				themeCheckout.$dndStep2.find( '.error-message' ).css( 'visibility', 'visible' );
+			} else {
+				themeCheckout.$tipPercent.removeClass( 'error' );
+				themeCheckout.$dndStep2.find( '.error-message' ).css( 'visibility', 'hidden' );
+			}
+		},
+		validateDonationAmount: async function ( tokenData ) {
+			return new Promise( function ( resolve, reject ) {
+				if ( themeCheckout.currentDonationAmount && themeCheckout.currentDonationAmount >= themeCheckout.maxUnconfirmedDonationAmount ) {
+					window.Swal.fire(
+						{
+							title: "Confirm donation amount",
+							text: "You've chosen to donate $" + themeCheckout.moneyFormat( themeCheckout.currentDonationAmount ) + ". Ok to continue?",
+							showCancelButton: true,
+							confirmButtonText: "Yes",
+							confirmButtonColor: "",
+							cancelButtonText: "No",
+							cancelButtonColor: "error"
+						}
+					).then( ( result ) => {
+						result.value ? resolve( true ) : resolve( false );
+					} );
+				} else {
+					resolve( true );
+				}
+			} );
+		},
+		validateForm: async function ( e ) {
+
+			e.preventDefault();
+
+			themeCheckout.$fields.each( function () {
+				themeCheckout.validateInputs( $( this ) );
+			} );
+
+			themeCheckout.checkEmailInput();
+
+			if ( themeCheckout.$terms.length ) {
+				themeCheckout.validateTermsCheckbox();
+			}
+
+			if ( $( '.error' ).length ) {
+				return false;
+			}
+
+			var isDonationValid = await themeCheckout.validateDonationAmount();
+			if ( !isDonationValid ) {
+				return false;
+			}
+
+			themeCheckout.$checkout.find( '*' ).filter( '.payment-input-container.active *' ).blur();
+			themeCheckout.$fields.blur();
+
+			// if it's a free or cash order, skip the token and submit the checkout
+			// if the payment method is gift card, we just submit
+			// credit cards are handled separately by the token callback
+			if ( (themeCheckout.order.total === 0 && themeCheckout.orderHasTickets()) || themeCheckout.paymentMethod === 'cash' ) {
+				themeCheckout.submitCheckout();
+			} else if ( themeCheckout.paymentMethod === 'gc' ) {
+				themeCheckout.submitCheckout();
+			} else if ( themeCheckout.paymentMethod === 'cc' || themeCheckout.paymentMethod === 'gc_partial' ) {
+				themeCheckout.requestToken();
+			}
+			return true;
+		},
+		disableForm: function ( buttonLabel ) {
+			// this completely disabled the form to prevent multiple submissions
+			themeCheckout.$checkoutContainer.addClass( 'processing-payment' );
+
+			themeCheckout.$submitButton.prop( 'disabled', true ).prop( 'value', !buttonLabel ? 'PLEASE WAIT...' : buttonLabel );
+
+			themeCheckout.$form.get( 0 ).onsubmit = function ( e ) {
+				e.preventDefault();
+				e.stopPropagation();
+				return false;
+			};
+
+			themeCheckout.$submitError.html( '' );
+		},
+		/**
+		 * Enables all checkout form inputs, possibly accompanied by an error message.
+		 *
+		 * @param {mixed} $message String (single message) or array/object of strings (multiple messages). Pass an empty object to bypass fallback value of "Unknown Error".
+		 */
+		enableForm: function ( message ) {
+
+			// this re-enables the form in the case of a card declined or other submission issue
+			themeCheckout.$checkoutContainer.removeClass( 'processing-payment' );
+
+			message = {
+				'Failed to create token': 'Please ensure your credit card number is entered correctly.'
+			}[message] || message || 'Unknown Error';
+
+			themeCheckout.$submitError.attr( 'role', 'alert' );
+
+			switch ( typeof message ) {
+				case 'object':
+					if ( message.length === 1 ) {
+						themeCheckout.$submitError.text( message[0] );
+						break;
+					}
+
+					var messages = `<ul>`;
+
+					$.each( message, function ( i, msg ) {
+						messages += `<li>${msg}</li>`;
+					} );
+
+					messages += `</ul>`;
+
+					themeCheckout.$submitError.html( messages );
+					break;
+				case 'string':
+				default:
+					themeCheckout.$submitError.text( message );
+					break;
+			}
+
+			themeCheckout.$form.get( 0 ).onsubmit = function ( e ) {};
+
+			var buttonText = window.themeUx.$body.hasClass( 'page-template-donate-template' ) ? 'DONATE' : 'PURCHASE';
+
+			themeCheckout.$submitButton.prop( 'disabled', false ).prop( 'value', buttonText );
+		},
+		initStripeElements: function () {
+
+			// Skip Stripe Elements initialization if there is no credit card fields.
+			if ( !$( '#stripe-card-number' ).length ) {
+				return;
+			}
+
+			var color            = window.themeSettings.theme_mods.cc_text_color || window.themeSettings.theme_mods.page_background_color || '#FFF';
+			var placeholderColor = window.themeSettings.theme_mods.cc_focused_labels || window.themeSettings.theme_mods.accent_color || '#FFF';
+			var errorColor       = window.themeSettings.theme_mods.error_color || 'red';
+
+			const options        = STRIPE_CONNECTED_ACCOUNT_ID ? { stripeAccount: STRIPE_CONNECTED_ACCOUNT_ID } : {};
+			themeCheckout.stripe = Stripe( STRIPE_PUBLIC_KEY, options );
+
+			themeCheckout.elements = themeCheckout.stripe.elements();
+
+			// Floating labels
+			var inputs = $( '#credit-card-inputs .input' ).get();
+
+			Array.prototype.forEach.call( inputs, function ( input ) {
+
+				input.addEventListener( 'focus', function () {
+					input.classList.add( 'focused' );
+				} );
+
+				input.addEventListener( 'blur', function () {
+					input.classList.remove( 'focused' );
+				} );
+
+				input.addEventListener( 'keyup', function () {
+					if ( input.value.length === 0 ) {
+						input.classList.add( 'empty' );
+					} else {
+						input.classList.remove( 'empty' );
+					}
+				} );
+			} );
+
+			var elementStyles = {
+				base: {
+					color: color, // valid values typed in
+					fontWeight: 500,
+					fontFamily: 'Verdana, Helvetica, Verdana, sans-serif',
+					fontSize: '16px',
+					fontSmoothing: 'antialiased',
+					'::placeholder': {
+						color: placeholderColor
+					},
+					':-webkit-autofill': {
+						color: placeholderColor
+					}
+				},
+				invalid: {
+					color: errorColor,
+					'::placeholder': {
+						color: placeholderColor
+					}
+				}
+			};
+
+			var elementClasses = {
+				focus: 'focused',
+				empty: 'empty',
+				invalid: 'invalid'
+			};
+
+			themeCheckout.cardNumber = themeCheckout.elements.create( 'cardNumber', {
+				style: elementStyles,
+				classes: elementClasses
+			} );
+
+			themeCheckout.cardNumber.mount( '#stripe-card-number' );
+
+			themeCheckout.cardNumber.on( 'ready', function () {
+				themeCheckout.stripeElementsInit = true;
+			} );
+
+			var cardExpiry = themeCheckout.elements.create( 'cardExpiry', {
+				style: elementStyles,
+				classes: elementClasses
+			} );
+
+			cardExpiry.mount( '#stripe-card-expiry' );
+
+			var cardCvc = themeCheckout.elements.create( 'cardCvc', {
+				style: elementStyles,
+				classes: elementClasses,
+				placeholder: '',
+			} );
+
+			cardCvc.mount( '#stripe-card-cvc' );
+		},
+		initStripeElementsChecks: function () {
+
+			$( document ).on( 'focus', '#stripe-card-number', function ( e ) {
+				if ( !themeCheckout.stripeElementsInit ) {
+					themeCheckout.triggerStripeElementsInitError();
+				}
+			} );
+
+			$( document ).on( 'click', 'label[for="stripe-card-number"]', function ( e ) {
+				if ( !themeCheckout.stripeElementsInit ) {
+					themeCheckout.triggerStripeElementsInitError();
+				}
+			} );
+		},
+		triggerStripeElementsInitError: function () {
+
+			// Log a Sentry error if Stripe Elements failed to init.
+			if ( 'undefined' !== typeof Sentry ) {
+
+				Sentry.withScope( function ( scope ) {
+					scope.setLevel( 'error' );
+					Sentry.captureMessage( '[ Checkout error ] Stripe Elements were not initialized' );
+				} );
+
+				// Console error if Sentry not configured.
+			} else {
+				console.error( '[ Checkout error ] Stripe Elements were not initialized' );
+			}
+		},
+		requestToken: function () {
+			if ( typeof STRIPE_PUBLIC_KEY !== 'undefined' && !!STRIPE_PUBLIC_KEY ) {
+				var additionalData = {
+					address_zip: $( '#postal_code' ).val()
+				};
+
+				themeCheckout.stripe.createToken( themeCheckout.cardNumber, additionalData ).then( function ( result ) {
+					if ( typeof result.error !== 'undefined' && result.error ) {
+						themeCheckout.enableForm( result.error.message );
+						window.themeUx.$document.trigger( 'checkout-error', { type: 'stripe-token', details: result.Error } );
+					} else if ( !themeCheckout.checkoutSubmitted ) {
+						themeCheckout.submitCheckout( result.token );
+					}
+				} );
+			}
+		},
+		submitCheckout: function ( tokenData ) {
+
+			// Do not submit checkout if the timer exists and has expired
+			// but the blocking message has not been shown by any reason.
+			if ( themeCheckout.showReservationExpiredMessageIfTImerHasExpired() ) {
+				return false;
+			}
+
+			themeCheckout.checkoutSubmitted = true;
+
+			var data = {
+				action: 'filmbot_checkout',
+				_ajax_nonce: $( '#filmbot_checkout_nonce' ).val(),
+				pm: themeCheckout.paymentMethod,
+				address: {
+					first_name: $( '#first_name' ).val(),
+					last_name: $( '#last_name' ).val(),
+					postal_code: $( '#postal_code' ).val()
+				},
+				order: $.extend( {}, themeCheckout.order, { email: themeCheckout.$emailInput.val() } ),
+				discount_code: themeCheckout.$discountCode.val()
+			};
+
+			$.each( ['mailing_address', 'mailing_address_2', 'mailing_city', 'mailing_state', 'mailing_country', 'mailing_postal_code'], function ( i, param ) {
+				var elem = $( '#' + param );
+				if ( elem.length && elem.val() ) {
+					data.address[param] = elem.val();
+				}
+			} );
+
+			if ( themeCheckout.$membershipSignup.length ) {
+				data = window.themeMembership.getMemberData( data );
+			}
+
+			if ( $( 'body' ).is( '.membership-renew' ) ) {
+				data             = window.themeMembership.getMemberData( data );
+				data             = window.themeMembershipUpdate.getData( data );
+				data.member_1.first_name = $( '#first_name' ).val();
+				data.member_1.last_name  = $( '#last_name' ).val();
+				data.member_1.email      = $( '#email' ).val();
+				data.action      = 'filmbot_checkout';
+				data._ajax_nonce = $( '#filmbot_checkout_nonce' ).val();
+
+			}
+
+			if ( themeCheckout.$seatsData && !jQuery.isEmptyObject( themeCheckout.$seatsData ) ) {
+				data['action']   = 'filmbot_finalize_reserved_seats';
+				data['order_id'] = themeCheckout.$reservedOrderId;
+			}
+
+			if ( themeCheckout.$donationAmount.length ) {
+				data.address.mailing_address     = $( '#mailing_address' ).val();
+				data.address.mailing_address_2   = $( '#mailing_address_2' ).val();
+				data.address.mailing_city        = $( '#mailing_city' ).val();
+				data.address.mailing_state       = $( '#mailing_state' ).val();
+				data.address.mailing_country     = $( '#mailing_country' ).val();
+				data.address.mailing_postal_code = $( '#mailing_postal_code' ).val();
+				data.order.total                 = data.order.total + data.order.donation;
+			}
+
+			if ( themeCheckout.$dndCheckbox.is( ':checked' ) ) {
+				data.dnd = {};
+				if ( themeCheckout.$tipPercent.val() !== '' ) {
+					data.dnd.tip_percent = themeCheckout.$tipPercent.val();
+				} else if ( themeCheckout.$phone.val() !== '' ) {
+					data.dnd.phone = themeCheckout.$phone.val();
+				}
+			}
+
+			if ( themeCheckout.paymentMethod === 'cc' ) {
+				data.tokenData = tokenData;
+			} else if ( themeCheckout.paymentMethod === 'gc' ) {
+				data.gcAccount = themeCheckout.$gcInput.val().replace( /\s/g, '' );
+				data.gcCvv     = themeCheckout.$gcCvvInput.val();
+			}
+
+			if ( themeCheckout.paymentMethod === 'gc_partial' ) {
+				data.tokenData = tokenData;
+				data.gcAccount = themeCheckout.$gcInput.val().replace( /\s/g, '' );
+				data.gcCvv     = themeCheckout.$gcCvvInput.val();
+			}
+
+			if ( $( '[name="h-captcha-response"]' ).length > 0 ) {
+				data.hCaptchaResponse = $( '[name="h-captcha-response"]' ).val();
+
+				$( document ).on( 'checkout-error', function ( event, obj ) {
+					hcaptcha.reset();
+				} );
+			}
+
+			if ( typeof $.applyFilter !== 'undefined' ) {
+				data = $.applyFilter( 'filmbot-modify-checkout-data', data );
+			}
+
+			$.ajax( {
+				url: window.ajaxurl || window.themeSettings.ajaxUrl,
+				method: 'POST',
+				timeout: 60000,
+				data: data,
+				success: function ( response ) {
+					if ( response.success && response.orderDetails ) {
+						const membership = response.orderDetails.membership;
+						if ( membership && membership.type === 'monthly' ) {
+							themeCheckout.monthlySubscriptionStartSuccess( response.orderDetails );
+						} else {
+							themeCheckout.checkoutSubmitted = false;
+							themeCheckout.orderSuccess( response.orderDetails );
+							$( document ).trigger( 'checkout-success', { type: 'success', details: response.orderDetails } );
+						}
+					} else {
+						// some error...
+						themeCheckout.checkoutSubmitted = false;
+						var error                       = response.data || 'Unknown Error';
+						themeCheckout.enableForm( error );
+						$( document ).trigger( 'checkout-error', { type: 'error', details: error } );
+						console.error( '[ Checkout error ] ' + error, response );
+
+						themeCheckout.triggerSentryWithExtras( '[ Checkout error ] ' + error, {
+							response: response,
+						} );
+					}
+				},
+				error: function ( xhr, status, error ) {
+					themeCheckout.orderError( xhr, status, error, data );
+				}
+			} );
+			return false;
+		},
+		orderError: function ( xhr, status, error, payload ) {
+			// timeout or server error on our end... don't re-enable the form, just message it
+			// as we can't actually say if the charge went through or not.
+			var errorButtonText  = 'CONNECTION ISSUE';
+			var errorMessageText = 'Your order may have been successful, please check your email for confirmation. If you don\'t see it within a few minutes, contact us.';
+			var sendPayload      = false;
+
+			// Check for specific errors
+			if ( xhr.responseJSON && xhr.responseJSON.data ) {
+				errorMessageText = '';
+				$.each( xhr.responseJSON.data, function ( i, err ) {
+					// If the error is a nonce error, update the error message accordingly
+					if ( err.code === 'rest_cookie_invalid_nonce' ) {
+						errorButtonText  = 'ORDER FAILED';
+						errorMessageText = 'Your session has expired, please refresh the page and try again';
+						sendPayload      = true;
+					}
+				} );
+			}
+
+			themeCheckout.checkoutSubmitted = false;
+			themeCheckout.$submitError.attr( 'role', 'alert' ).text( errorMessageText );
+			themeCheckout.$submitButton.prop( 'value', errorButtonText );
+
+			$( document ).trigger( 'checkout-error', { type: 'error', details: error } );
+
+			console.error( xhr, status, error );
+
+			var extras = {
+				xhr: xhr,
+				status: status,
+			};
+
+			if ( sendPayload ) {
+				extras.payload = payload;
+			}
+
+			themeCheckout.triggerSentryWithExtras( '[ Checkout error ] ' + error, extras );
+		},
+		orderSuccess: function ( orderDetails ) {
+			if ( orderDetails.membership && orderDetails.membership.scheduled_for_renewal ) {
+				var $confirmationMessage = themeCheckout.$orderConfirmation.find( '.membership-confirmation-message' );
+
+				if ( $confirmationMessage ) {
+					$confirmationMessage.remove();
+				}
+			}
+
+			var $ticketsRow = themeCheckout.$orderConfirmation.find( '.tickets_quantity_subtotal' ).remove();
+			var $orderData  = themeCheckout.$orderConfirmation.find( '.order-data' );
+
+			$( '#order-id' ).text( orderDetails.orderId );
+			$( '.order-email' ).text( orderDetails.customerEmail ).attr( 'href', `mailto:${orderDetails.customerEmail}` );
+
+			$.each( orderDetails.totals.items, function ( i, item ) {
+				$ticketsRow.clone().find( 'span' ).html( item.html_description ).appendTo( $orderData.find( '.tickets .data' ) );
+			} );
+
+			$orderData.find( '.booking_fee_total' ).text( orderDetails.totals.booking_fees.toFixed( 2 ) );
+			$orderData.find( '.total_purchase_price' ).text( orderDetails.totals.total.toFixed( 2 ) );
+
+			themeCheckout.stopTimer();
+
+			$( '.dnd-pickup-instructions' ).hide();
+
+			themeCheckout.$checkout.hide();
+			themeCheckout.$membershipSignup.hide();
+			themeCheckout.$orderConfirmation.show();
+			themeCheckout.$ticketPackPurchase.hide();
+
+			if ( themeCheckout.$dndCheckbox.is( ':checked' ) ) {
+				$( '.dnd-pickup-instructions' ).show();
+			}
+
+			$( 'html, body' ).animate( {
+				scrollTop: 0
+			}, 500 );
+		},
+		monthlySubscriptionStartSuccess: async function ( orderDetails ) {
+			themeCheckout.stripe.confirmCardPayment(
+				orderDetails.membership.clientSecret,
+				{
+					payment_method: {
+						card: themeCheckout.cardNumber,
+						billing_details: {
+							name: $( '#first_name' ).val() + ' ' + $( '#last_name' ).val(),
+						},
+					},
+				} )
+				.then( resp => {
+					if ( resp.error ) {
+						themeCheckout.checkoutSubmitted = false;
+						themeCheckout.enableForm( resp.error.message );
+						$( document ).trigger( 'checkout-error', { type: 'error', details: resp.error.message } );
+						console.error( '[ Subscription Confirmation error ] ' + resp.error.message, resp.error );
+					} else {
+						themeCheckout.monthlySubscriptionFinalization( orderDetails.postId );
+					}
+				} );
+		},
+		monthlySubscriptionFinalization: async function ( orderId ) {
+
+			const data = {
+				action: 'filmbot_subscription_finalize',
+				_ajax_nonce: $( '#filmbot_checkout_nonce' ).val(),
+				order_id: orderId,
+			};
+
+			$.ajax( {
+				url: window.ajaxurl || window.themeSettings.ajaxUrl,
+				method: 'POST',
+				timeout: 60000,
+				data: data,
+				success: function ( response ) {
+					themeCheckout.checkoutSubmitted = false;
+					if ( response.success ) {
+						themeCheckout.orderSuccess( response.orderDetails );
+					} else {
+						// some error...
+						var error = response.error_message || 'Unknown Error';
+						themeCheckout.enableForm( error );
+						$( document ).trigger( 'checkout-error', { type: 'error', details: error } );
+						console.error( '[ Checkout error ] ' + error, response );
+
+						themeCheckout.triggerSentryWithExtras( '[ Checkout error ] ' + error, {
+							response: response,
+						} );
+					}
+				},
+				error: function ( xhr, status, error ) {
+					themeCheckout.orderError( xhr, status, error );
+				},
+				finally: function () {
+					themeCheckout.checkoutSubmitted = false;
+				}
+			} );
+		},
+		scrollUp: function () {
+			if ( themeCheckout.$isMobile.matches ) {
+				$( 'html, body' ).animate( {
+					scrollTop: 0
+				}, 500 );
+			}
+		},
+		orderHasTickets: function () {
+			for ( var ticketType in themeCheckout.order.tickets ) {
+				if ( themeCheckout.order.tickets[ticketType] > 0 )
+					return true;
+			}
+			return false;
+		},
+		orderHasPaidTickets: function () {
+			var hasPaidTickets = false;
+			$.each( themeCheckout.$seatTicketTypeSelect, function ( i, ticketTypeSelect ) {
+				var ticketType = $( 'option:selected', ticketTypeSelect ).data( 'ticket_type' );
+				if ( ticketType.price > 0 ) {
+					hasPaidTickets = true;
+					return;
+				}
+			} );
+			return hasPaidTickets;
+		},
+		getShortSeatMapList: function () {
+			var seatsData = themeCheckout.$hall;
+			$.each( seatsData.sections, function ( index, section ) {
+				if ( section ) {
+					$.each( section.rows, function ( index, rows ) {
+						if ( rows ) {
+							$.each( rows.seats, function ( index, seatsList ) {
+								if ( seatsList['display_id'] ) {
+									themeCheckout.$shortSeatsList.push( {
+										display_id: seatsList['display_id'],
+										seat_address: seatsList['seat_address']
+									} );
+								}
+							} )
+						}
+					} )
+				}
+			} );
+			return themeCheckout.$shortSeatsList;
+		},
+		changeTextCheckoutButton: function ( items ) {
+			var reservedSeatsMapped = [],
+				reservedSeats       = '';
+
+			function getNameSeat( seat ) {
+				return themeCheckout.$shortSeatsList.find( displayId => displayId.seat_address === seat ).display_id;
+			}
+
+			$.each( items, function ( index, item ) {
+				var newSeat = getNameSeat( item );
+				reservedSeatsMapped.push( newSeat );
+			} );
+			if ( !themeCheckout.ADAMode && items.length ) {
+				reservedSeats = reservedSeatsMapped.join( ', ' );
+				themeCheckout.$checkoutSeatsModal.attr( 'disabled', false ).text( "Reserve Seats: " + reservedSeats );
+			} else {
+				themeCheckout.$checkoutSeatsModal.attr( 'disabled', 'disable' ).text( "Checkout" );
+			}
+		},
+		recheckShowtimeSelect: function () {
+			if ( themeCheckout.$rsShowtimeSelect.val() !== window.location.href ) {
+				themeCheckout.$rsShowtimeSelect.val( window.location.href );
+			}
+		},
+		startApplyingDiscountCode( params ) {
+			themeCheckout.$discountCodeError.html( '' ).css( 'visibility', 'hidden' );
+			themeCheckout.$discountCodeError.parent().removeClass( 'large-error-message' );
+			themeCheckout.$discountCodeSuccess.html( '' ).css( 'visibility', 'hidden' );
+			if ( themeCheckout.$discountCode.prop( 'readonly' ) === true && themeCheckout.$discountCodeApply.html() === 'REMOVE' ) {
+				themeCheckout.removeDiscountCode();
+				themeCheckout.maybeReapplyGiftCard();
+				return false;
+			}
+			themeCheckout.applyDiscountCode( params );
+		},
+		checkEmailMaybeApplyMembershipCode: function () {
+			if ( !themeCheckout.$getCodeLookupNonce.length ) {
+				return;
+			}
+			const hasError = themeCheckout.checkEmailInput();
+
+			if ( !themeCheckout.requestingDiscountCode && !themeCheckout.applyingDiscountCode ) {
+
+				if ( themeCheckout.appliedCodeForEmail !== themeCheckout.$emailInput.val() ) {
+					themeCheckout.removeDiscountCode();
+				}
+
+				if ( !hasError && themeCheckout.$getCodeLookupNonce.length && !themeCheckout.appliedCodeForEmail ) {
+					themeCheckout.getMembershipDiscountCode();
+				}
+			}
+		},
+		getMembershipDiscountCode: function () {
+			if ( themeCheckout.requestingDiscountCode ) {
+				return false;
+			}
+
+			var data = {
+				action: 'fb_membership_lookup_code',
+				_ajax_nonce: themeCheckout.$getCodeLookupNonce.val(),
+				email: themeCheckout.$emailInput.val(),
+			};
+
+			themeCheckout.requestingDiscountCode = true;
+			themeCheckout.$discountCode.prop( 'readonly', true );
+
+			themeCheckout.$discountCodeError.html( '' ).css( 'visibility', 'hidden' );
+			themeCheckout.$discountCodeError.parent().removeClass( 'large-error-message' );
+
+			$.ajax( {
+				url: window.ajaxurl || window.themeSettings.ajaxUrl,
+				method: 'POST',
+				timeout: 60000,
+				data: data,
+				success: function ( response ) {
+					if ( response.success && response.discount_code && themeCheckout.$discountCodeRow.length ) {
+						themeCheckout.$discountCodeRow.addClass( 'toggle--opened' );
+						themeCheckout.$discountCodeField.val( response.discount_code );
+						themeCheckout.startApplyingDiscountCode( {
+							successMessage: 'Your membership code was applied',
+						} );
+					}
+				},
+				complete: function () {
+					themeCheckout.requestingDiscountCode = false;
+					themeCheckout.$discountCode.prop( 'readonly', false );
+				}
+			} );
+		}
+	};
+
+})( window.jQuery, window.Stripe );

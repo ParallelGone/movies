@@ -1,0 +1,1938 @@
+/* globals themeBuyTickets, themeUx, Pikaday, moment, filmbotCountriesStates */
+'use strict';
+//animation top menu
+;(function ( $ ) {
+	window.themeTopMenu = {
+		init: function () {
+			themeTopMenu.initProps();
+			themeTopMenu.attachEvents();
+		},
+		initProps: function () {
+			themeTopMenu.$buyTickets       = $( '#buy-tickets' );
+			themeTopMenu.$buyTicketsHeader = $( '#buy-tickets-header' );
+			themeTopMenu.$menu             = $( '#site-header' );
+
+			if ( themeTopMenu.$buyTickets.length ) {
+				themeTopMenu.$buyTicketsTop = themeTopMenu.$buyTickets.offset().top;
+			}
+
+			themeTopMenu.$homePage          = $( '#home-page' );
+			themeTopMenu.$page              = $( '#page' );
+			themeTopMenu.$templatePage      = $( '#template-page' );
+			themeTopMenu.heightPromo        = themeTopMenu.$templatePage.find( '.promo-block' ).height() || 0;
+			themeTopMenu.imageElement       = themeTopMenu.$homePage.find( '.site-branding' );
+			themeTopMenu.menuHeight         = themeTopMenu.$menu.height();
+			themeTopMenu.menuOuterHeight    = themeTopMenu.$menu.outerHeight();
+			themeTopMenu.submenu            = $( '.customizer-top-menu-show ul.sub-menu' );
+			themeTopMenu.fixedBuyTicketsTop = themeTopMenu.menuOuterHeight;
+
+			if ( themeUx.$body.hasClass( 'admin-bar' ) ) {
+				themeTopMenu.fixedBuyTicketsTop += 32;
+			}
+		},
+		attachEvents: function () {
+			$( window ).resize( function () {
+				themeTopMenu.menuOuterHeight = $( '.customizer-top-menu-show ul.menu' ).outerHeight();
+				themeTopMenu.animationTopMenu();
+			} );
+
+			$( window ).scroll( function () {
+				themeTopMenu.animationTopMenu();
+			} );
+
+			themeTopMenu.animationTopMenu();
+		},
+		animationTopMenu: function () {
+			if ( window.pageYOffset >= 120 ) {
+				themeTopMenu.imageElement.addClass( 'active' );
+			} else {
+				themeTopMenu.imageElement.removeClass( 'active' );
+			}
+			if ( window.pageYOffset >= themeTopMenu.heightPromo ) {
+				themeTopMenu.$templatePage.find( '#site-header' ).addClass( 'fixed-menu' );
+			} else {
+				themeTopMenu.$templatePage.find( '#site-header' ).removeClass( 'fixed-menu' );
+			}
+		}
+	};
+})( jQuery );
+
+(function ( $ ) {
+	window.themeBuyTickets = {
+		init: function () {
+			themeBuyTickets.initProps();
+			themeBuyTickets.attachEvents();
+		},
+		initProps: function () {
+			themeBuyTickets.$datepickerModal          = $( '.datepicker-modal' );
+			themeBuyTickets.$blogPanel                = $( '#blog-panel' );
+			themeBuyTickets.$datepickerModalContainer = $( '#datepicker-modal-container' );
+			themeBuyTickets.$dateBoxes                = $( '.date-box' );
+			themeBuyTickets.$buyTicketsHdr            = $( '#buy-tickets-header' );
+			themeBuyTickets.$dateField                = $( '#buytickets-datepicker' );
+
+			themeBuyTickets.initPicker( themeBuyTickets.$datepickerModalContainer.get( 0 ), themeBuyTickets.$dateField.get( 0 ) );
+		},
+		attachEvents: function () {
+			// affix the date nav when scrolled down
+			themeUx.$document.ready( themeBuyTickets.affixDateNav );
+			themeUx.$window.on( 'resize scroll', themeBuyTickets.affixDateNav );
+
+			// fix the datepicker modal height so it can have rounded corners
+			themeUx.$window.on( 'resize', themeBuyTickets.fixDatepickerModalHeight );
+
+			// close the datepicker modal
+			themeBuyTickets.$datepickerModal.find( '.close-modal' ).on( 'click', themeBuyTickets.closeDatepickerModal );
+
+			// choose a day in the days nav
+			themeBuyTickets.$dateBoxes.on( 'click', function ( e ) {
+				themeBuyTickets.onDayClick( e );
+			} );
+
+			$( '#buy-tickets-listview' ).find( '.no-showtimes a' ).on( 'click', function ( e ) {
+				var $dateBox = themeBuyTickets.$dateBoxes.filter( '[data-date=' + $( this ).data( 'date' ) + ']' );
+
+				if ( $dateBox.length ) {
+					e.preventDefault();
+					$dateBox.trigger( 'click' );
+				} else {
+					return true;
+				}
+			} );
+		},
+		affixDateNav: function () {
+			var $buyTicketsHeader = $( '#buy-tickets-header' );
+
+			if ( !$buyTicketsHeader.get( 0 ) ) {
+				return;
+			}
+
+			var $buyTicketsHeaderContainer = $( '#buy-tickets-header-container' );
+			var $buyTicketsHeaderInner     = $( '#buy-tickets-header-inner' );
+			var winTop                     = themeUx.$window.scrollTop();
+			var datepickerOffset           = $buyTicketsHeaderContainer.offset().top - $( '.customizer-top-menu-show ul.menu' ).outerHeight();
+			var newWidth                   = $( '#buy-tickets-listview' ).css( 'width' );
+			var $buyTickets                = $( '#buy-tickets' );
+
+			if ( $( 'html' ).outerWidth() <= 1024 ) {
+				datepickerOffset = $buyTicketsHeaderContainer.offset().top - 44;
+			}
+
+			$( window ).resize( function () {
+				if ( $( 'html' ).outerWidth() <= 1024 ) {
+					datepickerOffset = $buyTicketsHeaderContainer.offset().top - 44;
+				}
+			} );
+
+			if ( $( '.admin-bar' ).length === 1 ) {
+
+				if ( $( 'html' ).outerWidth() > 1024 ) {
+					datepickerOffset = $buyTicketsHeaderContainer.offset().top - ($( '.customizer-top-menu-show ul.menu' ).outerHeight() + 32);
+				} else if ( $( 'html' ).outerWidth() <= 1024 && $( 'html' ).outerWidth() > 782 ) {
+					datepickerOffset = $buyTicketsHeaderContainer.offset().top - 76;
+				} else if ( $( 'html' ).outerWidth() <= 782 ) {
+					datepickerOffset = $buyTicketsHeaderContainer.offset().top - 90;
+				}
+
+				$( window ).resize( function () {
+					if ( $( 'html' ).outerWidth() > 1024 ) {
+						datepickerOffset = $buyTicketsHeaderContainer.offset().top - ($( '.customizer-top-menu-show ul.menu' ).outerHeight() + 32);
+					} else if ( $( 'html' ).outerWidth() <= 1024 && $( 'html' ).outerWidth() > 782 ) {
+						datepickerOffset = $buyTicketsHeaderContainer.offset().top - 76;
+					} else if ( $( 'html' ).outerWidth() <= 782 ) {
+						datepickerOffset = $buyTicketsHeaderContainer.offset().top - 90;
+					}
+				} );
+			}
+
+			if ( winTop >= datepickerOffset - 1 ) {
+				$buyTicketsHeader.addClass( 'fixed' );
+				//$buyTicketsHeaderInner.css( 'width', newWidth );
+				$buyTicketsHeaderContainer.css( 'padding-top', $buyTicketsHeader.outerHeight() );
+				$buyTickets.addClass( 'fixed-header' );
+				themeBuyTickets.$blogPanel.css( 'margin-top', '-13px' );
+			} else {
+				$buyTicketsHeader.removeClass( 'fixed' );
+				//$buyTicketsHeaderInner.css( 'width', '' );
+				$buyTickets.removeClass( 'fixed-header' );
+
+				$buyTicketsHeaderContainer.css( 'padding-top', '0' );
+				themeBuyTickets.$blogPanel.css( 'margin-top', '0' );
+			}
+		},
+		fixDatepickerModalHeight: function () {
+			if ( themeBuyTickets.$datepickerModal.hasClass( 'active' ) ) {
+				var winHeight = themeUx.$window.height() - 25;
+				themeBuyTickets.$datepickerModalContainer.css( 'max-height', winHeight );
+			}
+		},
+		closeDatepickerModal: function () {
+			themeBuyTickets.picker.hide();
+			themeBuyTickets.$datepickerModal.removeClass( 'active' );
+
+			$( 'body' ).removeClass( 'modal-open' );
+		},
+		onDayClick: function ( e ) {
+			if ( themeBuyTickets.$buyTicketsHdr.hasClass( 'date-loading' ) ) {
+				return;
+			}
+			var $dateBox = $( e.delegateTarget );
+			var date     = $dateBox.data( 'date' );
+			var offset   = $dateBox.data( 'offset' );
+
+			if ( $dateBox.hasClass( 'disabled' ) ) {
+				return;
+			}
+
+			themeBuyTickets.$buyTicketsHdr.addClass( 'date-loading' );
+			themeBuyTickets.loadShowtimes( date );
+			themeBuyTickets.selectDateNav( $dateBox );
+			themeBuyTickets.setDateUrl( date, offset );
+		},
+		initPicker: function ( container, field ) {
+			if ( !container || !field || typeof themeScheduledDates === 'undefined' ) {
+				return;
+			} // no container, nothing to do
+
+			themeBuyTickets.picker = new Pikaday( {
+				field: field,
+				container: container,
+				numberOfMonths: 1,
+				minDate: new Date(),
+				maxDate: moment( window.themeScheduledDates[window.themeScheduledDates.length - 1] ).toDate(),
+
+				disableDayFn: function ( date ) {
+					return !themeBuyTickets.checkDayHasShowtimes( date );
+				},
+
+				onSelect: function () {
+					var selected = this.getMoment();
+
+					themeBuyTickets.loadShowtimes( selected );
+					themeBuyTickets.setDaysNav( selected.format() );
+					themeBuyTickets.selectDateNav( themeBuyTickets.$dateBoxes.filter( ':first' ) );
+					themeBuyTickets.setDateUrl( selected );
+
+					$( '.dates-wrapper' ).addClass( 'fade-in' );
+					$( container ).trigger( 'selected', [selected.format( 'YYYYMMDD' )] );
+				},
+
+				onOpen: function () {
+					themeBuyTickets.$datepickerModal.addClass( 'active' );
+					themeUx.$body.addClass( 'modal-open' );
+
+					var winHeight = themeUx.$window.height() - 25;
+
+					themeBuyTickets.$datepickerModalContainer.css( 'max-height', winHeight );
+					$( '.dates-wrapper' ).removeClass( 'fade-in' );
+				},
+
+				onClose: function () {
+					themeBuyTickets.$datepickerModal.removeClass( 'active' );
+					themeUx.$body.removeClass( 'modal-open' );
+					this.destroy();
+					themeBuyTickets.initPicker( themeBuyTickets.$datepickerModalContainer.get( 0 ), themeBuyTickets.$dateField.get( 0 ) );
+				}
+			} );
+		},
+		checkDayHasShowtimes: function ( date ) {
+			var dayMoment = moment( date );
+			return ($.inArray( dayMoment.format( 'YYYY-MM-DD' ), window.themeScheduledDates || [] ) > -1);
+		},
+		getShowtimesUrl: function ( date ) {
+			date = !moment.isMoment( date ) ? moment( date ) : date;
+			return window.themeSettings.homeUrl + '/' + date.format( 'YYYY-MM-DD' ) + '/';
+		},
+		selectDateNav: function ( $dateBox ) {
+			$( '.date-box' ).removeClass( 'selected' );
+			$dateBox.addClass( 'selected' );
+		},
+		loadShowtimes: function ( selected ) {
+			var $buyTicketsListview = $( '#buy-tickets-listview' );
+			var loaderHeight        = $buyTicketsListview.height();
+			var animElTop           = $buyTicketsListview.find( '.show-thumbnail:first' ).height();
+			var $loaderContainer    = $( '#loader-container' );
+			var listOffset          = $( '#buy-tickets' ).offset().top;
+
+			$loaderContainer.show();
+
+			$( 'body, html' ).animate( { scrollTop: listOffset }, '500' );
+
+			window.selectedDate = !moment.isMoment( selected ) ? moment( selected ) : selected;
+
+			$buyTicketsListview.empty().load( this.getShowtimesUrl( selected ) + ' .show-details', function () {
+				$loaderContainer.hide();
+				themeUx.$window.trigger( 'resize' );
+				themeBuyTickets.$buyTicketsHdr.removeClass( 'date-loading' );
+			} );
+
+		},
+		setDaysNav: function ( firstDay ) {
+			var $dateContainers = $( '.date-box' );
+			var currentDay      = !moment.isMoment( firstDay ) ? moment( firstDay ) : firstDay;
+
+			$dateContainers.each( function ( i, e ) {
+				var dayText = '';
+				var $e      = $( e );
+
+				if ( currentDay.format( 'DDD' ) === moment().format( 'DDD' ) ) {
+					dayText = 'Today';
+				} else if ( currentDay.format( 'DDD' ) === moment().format( 'DDD' ) + 1 ) {
+					dayText = 'Tomorrow';
+				} else {
+					dayText = currentDay.format( 'dddd' );
+				}
+
+				if ( themeBuyTickets.checkDayHasShowtimes( currentDay.toDate() ) ) {
+					dayText += ' <span>' + currentDay.format( 'MMM D' ) + '</span>';
+					$e.removeClass( 'disabled' ).attr( 'href', themeBuyTickets.getShowtimesUrl( currentDay.format( 'YYYY-MM-DD' ) ) );
+				} else {
+					dayText += ' <span>No Showtimes</span>';
+					$e.addClass( 'disabled' ).removeAttr( 'href' );
+				}
+
+				$e.html( dayText );
+				$e.data( 'date', currentDay.format( 'YYYY-MM-DD' ) );
+
+				currentDay.add( 1, 'days' );
+			} );
+		},
+		setDateUrl: function ( date, offset ) {
+			offset = offset || 0;
+
+			if ( window.history.replaceState ) {
+				window.history.replaceState( '', '', this.getShowtimesUrl( date ) + offset + '/' );
+			}
+		}
+	};
+})( jQuery );
+
+/* jshint camelcase: false */
+/* globals themeCheckout, BOOKING_FEE, Raven */
+
+(function ( $ ) {
+	window.themeSingleShow = {
+		init: function () {
+			themeSingleShow.initProps();
+			themeSingleShow.attachEvents();
+		},
+		initProps: function () {
+			themeSingleShow.$window                   = $( 'window' );
+			themeSingleShow.$thumbnails               = $( '.show-container' );
+			themeSingleShow.$showtimesDescription     = $( '.showtimes-description' );
+			themeSingleShow.descriptionExpanded       = false;
+			themeSingleShow.$screeningPosterThumbnail = $( '.screening-poster-thumbnail' );
+
+			themeSingleShow.$showDetails  = $( '.show-details' );
+			themeSingleShow.$dateSelector = $( '.date-selector' );
+		},
+		attachEvents: function () {
+			themeUx.$window.bind( 'load scroll resize', themeSingleShow.animateThumbnails );
+			themeUx.$window.bind( 'load', themeSingleShow.normalizePosterThumbnails );
+			themeUx.$window.bind( 'scroll resize', themeSingleShow.stickyDatepicker );
+		},
+		normalizePosterThumbnails: function () {
+			themeSingleShow.$screeningPosterThumbnail.each( function () {
+				var $this           = $( this ),
+					posterImgHeight = $this.find( 'img' ).height(),
+					posterHeight    = $this.width() * 1.4815;
+				if ( posterHeight > posterImgHeight ) {
+					$this.addClass( 'short-poster' );
+				}
+			} );
+		},
+		stickyDatepicker: function () {
+			var winTop            = themeUx.$window.scrollTop();
+			var showDetailsOffset = themeSingleShow.$showDetails.offset().top;
+
+			if ( winTop >= showDetailsOffset ) {
+				themeSingleShow.$dateSelector.addClass( 'sticky-date' );
+			} else {
+				themeSingleShow.$dateSelector.removeClass( 'sticky-date' );
+			}
+		}
+	};
+})( jQuery );
+
+(function ( $ ) {
+	'use strict';
+
+	$( function () {
+		$( document ).on( 'click', '.date-box:not(.selected), .date-box:not(.disabled)', function () {
+			var $this       = $( this );
+			var eventFields = {
+				hitType: 'event',
+				eventCategory: 'Date Picker',
+				eventAction: 'select',
+				eventLabel: 'Buy Tickets Large',
+				eventValue: ($this.data( 'date' ) || '').replace( /\-/g, '' )
+			};
+			// ga( 'send', eventFields );
+		} );
+
+		$( document ).on( 'selected', '#datepicker-modal-container', function ( e, date ) {
+			var $this       = $( this );
+			var eventFields = {
+				hitType: 'event',
+				eventCategory: 'Date Picker',
+				eventAction: 'select',
+				eventLabel: 'Buy Tickets Calendar',
+				eventValue: date
+			};
+
+			// ga( 'send', eventFields );
+		} );
+
+		$( document ).on( 'click', '.date-selector li.show-date', function ( e ) {
+			var $this       = $( this );
+			var $wrapper    = $this.parents( '.date-selector' );
+			var eventFields = {
+				hitType: 'event',
+				eventCategory: 'Date Picker',
+				eventAction: 'select',
+				eventLabel: 'Show Detail',
+				eventValue: $wrapper.data( 'show-id' ) + '.' + $this.data( 'date' )
+			};
+
+			// ga( 'send', eventFields );
+		} );
+
+		$( document ).on( 'click', '#coming-soon-header a.filter', function () {
+			var $this       = $( this );
+			var $wrapper    = $this.parents( '.date-selector' );
+			var eventFields = {
+				hitType: 'event',
+				eventCategory: 'Coming Soon Header',
+				eventAction: 'select',
+				eventLabel: $this.data( 'target' ).replace( '#', '' )
+			};
+
+			// ga( 'send', eventFields );
+		} );
+
+		$( document ).on( 'checkout-error', function ( e, info ) {
+			// send error to GA
+			if ( typeof ga !== 'undefined' ) {
+				var eventFields = {
+					hitType: 'event',
+					eventCategory: 'Checkout',
+					eventAction: info.type,
+					eventLabel: info.details
+				};
+
+				// ga( 'send', eventFields );
+			}
+
+			// repopulate placeholders on the form
+			if ( themeUx.$body.hasClass( 'single-membership_plan' ) || themeUx.$body.hasClass( 'membership-renew' ) ) {
+				themeMembership.updatePlaceholders();
+			}
+		} );
+
+		$( document ).on( 'checkout-success', function ( e, info ) {
+			// send success to GA
+			if ( typeof ga !== 'undefined' ) {
+				var eventFields = {
+					hitType: 'event',
+					eventCategory: 'Checkout',
+					eventAction: info.type,
+					eventLabel: info.details.orderId,
+					eventValue: info.details.postId
+				};
+				// ga( 'send', eventFields );
+			}
+		} );
+
+		$( document ).on( 'click', 'a[data-trailer]', function () {
+			var $this = $( this );
+			var $link = $this.parent().siblings( '.overlay-link' );
+			var slug  = ($link.attr( 'href' ) || '').match( /movies\/(.*)\/$/ );
+
+			var eventFields = {
+				hitType: 'event',
+				eventCategory: 'Watch Trailer',
+				eventAction: 'click',
+				eventLabel: !!slug ? slug[1] : null,
+			};
+
+			if ( typeof ga !== 'undefined' ) {
+				ga( 'send', eventFields );
+			}
+		} );
+	} );
+})( jQuery );
+
+(function ( $ ) {
+	window.themeUx = {
+		init: function () {
+			themeUx.initProps();
+			themeUx.attachEvents();
+			themeUx.externalTicketingLinks();
+
+			themeBuyTickets.init();
+
+			themeUx.initNav();
+
+			if ( themeUx.$body.hasClass( 'page-top-menu' ) ) {
+				themeTopMenu.init();
+			}
+
+			if ( themeUx.$body.hasClass( 'single-show' ) ) {
+				themeSingleShow.init();
+			}
+
+			if ( (themeUx.$body.hasClass( 'checkout' ) || themeUx.$body.hasClass( 'page-template-donate-template' )) && !themeUx.$body.hasClass( 'membership-renew' ) ) {
+				themeCheckout.init();
+			}
+
+			if ( themeUx.$body.hasClass( 'single-membership_plan' ) || themeUx.$body.hasClass( 'membership-renew' ) ) {
+				themeMembership.init();
+			}
+
+			if ( themeUx.$body.hasClass( 'membership-update' ) ) {
+				themeMembershipUpdate.init();
+			}
+
+			if ( themeUx.$body.hasClass( 'membership-renew' ) ) {
+				themeMembershipRenew.init();
+			}
+
+			if ( themeUx.$body.hasClass( 'single-ticket_pack_offer' ) ) {
+				themeTicketPack.init();
+			}
+
+			if ( null !== document.getElementById( 'virtual-cinema-panel' ) ) {
+				virtualCinemaPanel.init();
+			}
+		},
+		initProps: function () {
+			themeUx.$window               = $( window );
+			themeUx.$document             = $( document );
+			themeUx.$body                 = $( 'body' );
+			themeUx.$thumbnailsContainer  = $( '.thumbnails-container' );
+			themeUx.$showDatelist         = $( '.show-datelist' );
+			themeUx.$datelist             = $( '.datelist' );
+			themeUx.$showTrailerModal     = $( '.show-trailer-modal' );
+			themeUx.$closeTrailerModal    = $( '.trailer-modal .close-modal, .trailer-modal .modal-backdrop' );
+			themeUx.$navToggle            = $( '.nav-button-toggle' );
+			themeUx.$filters              = $( '.filter-container button' );
+			themeUx.$slider               = $( '.filmbot_slideshow' );
+			themeUx.$showNewsletterModal  = $( '.show-newsletter-signup-modal' );
+			themeUx.$closeNewsletterModal = $( '.newsletter-signup-modal .close-modal, .newsletter-signup-modal .modal-backdrop' );
+			themeUx.$primaryNav           = $( '#primary-nav' );
+			themeUx.$mobileNav            = $( '#mobile-nav' );
+			themeUx.$mobileNavLinks       = themeUx.$mobileNav.find( 'a' );
+			themeUx.$closeDatelist        = $( '.mobile-close-date-selector, .show-date' );
+			themeUx.$videoHero            = $( '#video-hero' );
+			themeUx.$scrollToAnchor       = $( '.scroll-to' );
+			themeUx.$showList             = $( '.fauxselect .show-list' );
+			themeUx.$list                 = $( '.fauxselect .list' );
+		},
+		attachEvents: function () {
+
+			themeUx.$document.on( 'keypress', function ( e ) {
+				if ( 13 === e.which ) {
+					themeUx.handleEnterKeypress( e );
+				}
+			} );
+
+			themeUx.$document.on( 'focus', 'input[data-fb-placeholder]', function ( e ) {
+				var $input = $( e.target );
+
+				$input.attr( 'data-fb-placeholder', $input.attr( 'placeholder' ) );
+				$input.attr( 'placeholder', '' );
+			} );
+
+			themeUx.$document.on( 'blur', 'input[data-fb-placeholder]', function ( e ) {
+				var $input = $( e.target );
+
+				$input.attr( 'placeholder', $input.attr( 'data-fb-placeholder' ) );
+				$input.attr( 'data-fb-placeholder', '' );
+			} );
+
+			themeUx.$document.on( 'click', '[role="checkbox"]', function ( e ) {
+				themeUx.handleCheckboxRoleToggle( e );
+			} );
+
+			// animate thumbnails
+			if ( themeUx.$thumbnailsContainer.length ) {
+				themeUx.animateThumbnails();
+				themeUx.$window.on( 'scroll resize', themeUx.animateThumbnails );
+			}
+
+			// open the single show date dropdowns
+			themeUx.$showDatelist.on( 'click', function ( e ) {
+				themeUx.openDatelist( e );
+			} );
+
+			// close the single show date dropdowns
+			themeUx.$closeDatelist.on( 'click', function ( e ) {
+				themeUx.closeDatelist( e );
+			} );
+
+			// select a date in the single show dropdowns
+			themeUx.$datelist.find( 'li' ).click( function ( e, initialLoad ) {
+				themeUx.selectDatelistDate( e, initialLoad );
+			} );
+
+			// make sure the extra and series for the first date are showing
+			themeUx.$datelist.each( function ( i, e ) {
+				$( this ).find( 'li' ).filter( ':first' ).trigger( 'click', [true] );
+			} );
+
+			// open trailers
+			themeUx.$document.on( 'click', '.show-trailer-modal', themeUx.openTrailerModal );
+
+			// close trailers
+			themeUx.$document.on( 'click', '.trailer-modal .close-modal, .trailer-modal .modal-backdrop', themeUx.closeTrailerModal );
+
+			// filters
+			themeUx.initFilters();
+
+			themeUx.$filters.on( 'click', function ( e ) {
+				themeUx.toggleFilter( e );
+			} );
+
+			// sliders
+			themeUx.initializeSlider();
+
+			// open newsletter signup modal
+			themeUx.$document.on( 'click', '.show-newsletter-signup-modal', function ( e ) {
+				themeUx.openNewsletterModal( e );
+			} );
+
+			// close newsletter signup modal
+			themeUx.$document.on( 'click', '.newsletter-signup-modal .close-modal, .newsletter-signup-modal .modal-backdrop', themeUx.closeNewsletterModal );
+
+			themeUx.attachFauxselect();
+
+			// video hero
+			themeUx.launchVideoHero();
+
+			// check for mobile
+			themeUx.checkMobile();
+
+			themeUx.$scrollToAnchor.on( 'click', themeUx.scrollTo );
+
+			// Checkout section toggles.
+			themeUx.initCheckoutSectionToggles();
+			themeUx.initCheckoutSkipToContent();
+
+			// Change states on country change
+			themeUx.$document.on( 'change', '[data-country-selector]', function ( e ) {
+				themeUx.updateSelectableCountryStates( e );
+			} );
+		},
+		/**
+		 * When keypressing Enter on elements with role="link" or role="button", trigger a click.
+		 *
+		 * @param {object} e Original keypress event.
+		 */
+		handleEnterKeypress: function ( e ) {
+			var $el  = $( e.target );
+			var role = $el.attr( 'role' );
+
+			if ( 'link' === role || 'button' === role || 'checkbox' === role ) {
+				$el.trigger( 'click' );
+			}
+		},
+		/**
+		 * Toggles aria-checked attr on items using "checkbox" role.
+		 *
+		 * @param {object} e Original click event.
+		 *
+		 * @return {string}
+		 */
+		handleCheckboxRoleToggle: function ( e ) {
+			// `prevAttrValue` is always a string or undefined.
+			$( e.target ).attr( 'aria-checked', function ( i, prevAttrValue ) {
+				if ( 'undefined' === typeof prevAttrValue || 'false' === prevAttrValue ) {
+					return 'true';
+				}
+
+				return 'false';
+			} );
+		},
+
+		/**
+		 * Returns modifier of requiredness of a states select field.
+		 * If returned valie is undefined, then the field is not a valid states select field.
+		 * If returned value is true, then selected country has states and states selector can be required, depending on form settings.
+		 * If returned value is false, then selected country has no states and states selector should not be required.
+		 */
+		getStateRequirednessModifier: function ( $field ) {
+
+			// Return undefined if field is not a states select field.
+			if ( !$field.length || !$field.is( 'select' ) || !$field.data( 'state-selector' ) ) {
+				return;
+			}
+
+			var fieldId            = $field.attr( 'id' );
+			var $countriesSelector = $( '[data-country-selector="' + fieldId + '"]' );
+			var selectedCountry    = $countriesSelector.val() || 'US';
+			var statesList         = filmbotCountriesStates[selectedCountry];
+
+			// Check if there are no states for the selected country
+			return !(Array.isArray( statesList.states ) && statesList.states.length === 0);
+		},
+
+		/**
+		 * Returns requiredness of a single field based on form settings and data attribute if it is not empty.
+		 */
+		getSingleFieldRequiredness: function ( conditions, formSettings ) {
+			// Return field requiredness based on membership type and gift/non-gift status.
+			if ( formSettings.isSingle ) {
+				return formSettings.isGift ? conditions.singleGift : conditions.default;
+			} else {
+				return formSettings.isGift ? conditions.dualGift : conditions.dual;
+			}
+		},
+
+		/**
+		 * Updates requiredness of a single field based on form settings.
+		 */
+		updateSingleFieldIsRequired: function ( $field, formSettings ) {
+			let isRequired;
+			let conditions        = $field.data( 'fb-required' ); // jQuery.data() will already JSON-parse this value for us.
+			const initialRequired = $field.hasClass( 'required' ) || !!formSettings.requiredByDefault;
+
+			isRequired = conditions ? themeUx.getSingleFieldRequiredness( conditions, formSettings ) : initialRequired;
+
+			var requirednessModifier = themeUx.getStateRequirednessModifier( $field );
+			if ( requirednessModifier !== undefined ) {
+				// If requiredness modifier is not undefined, field can be required only if modifier is true.
+				// For example: if selected country has no states, then states selector should not be required.
+				isRequired = isRequired && requirednessModifier;
+			}
+
+			// If field has error status and requiredness is changed, remove error status.
+			if ( !$field.val() && initialRequired !== isRequired ) {
+				$field.removeClass( 'error' );
+			}
+
+			// Set requiredness class based on isRequired value.
+			$field.toggleClass( 'required', isRequired );
+			isRequired ? $field.attr( 'required', 'required' ) : $field.removeAttr( 'required' );
+		},
+
+		/**
+		 * Returns placeholder of a single field based on form settings and data attribute if it is not empty.
+		 */
+		getSingleFieldPlaceholder: function ( $field, formSettings ) {
+			let placeholders = $field.data( 'fb-placeholders' ); // jQuery.data() will already JSON-parse this value for us.
+			let placeholder  = '';
+
+			if ( placeholders ) {
+				if ( formSettings.isSingle ) {
+					placeholder = placeholders.single || placeholders.default || '';
+
+					if ( formSettings.isGift ) {
+						placeholder = placeholders.singleGift || placeholders.single || placeholders.default || '';
+					}
+				} else {
+					placeholder = placeholders.dual || placeholders.default || '';
+
+					if ( formSettings.isGift ) {
+						placeholder = placeholders.dualGift || placeholders.dual || placeholders.default || '';
+					}
+				}
+			} else {
+				// If field has no custom placeholders, use default placeholders (or text of empty option in select as it is what customer see).
+				placeholder = $field.is( 'select' ) ? $field.find( 'option[value=""]' ).text() : $field.attr( 'placeholder' );
+			}
+
+			return placeholder;
+		},
+
+		/**
+		 * Updates placeholders of a single field based on form settings.
+		 */
+		updateSingleFieldPlaceholder: function ( $field, formSettings, forceCheck ) {
+			let placeholder = themeUx.getSingleFieldPlaceholder( $field, formSettings );
+
+			var requirednessModifier = themeUx.getStateRequirednessModifier( $field );
+			if ( requirednessModifier !== undefined || forceCheck ) {
+				let isRequired = $field.hasClass( 'required' ) || !!formSettings.requiredByDefault;
+				// If requiredness modifier is not undefined, field can be required only if modifier is true.
+				// For example: if selected country has no states, then states selector should not be required.
+				// We can use forceCheck if we need to ignore requirednessModifier (for fields that are not states- nor countries-related)
+				isRequired = (isRequired && requirednessModifier) || (isRequired && forceCheck);
+
+				// Add or remove '*' from placeholder instead of replacing whole label as it may contain different text with different capitalization.
+
+				// Remove '*' from placeholder.
+				placeholder = placeholder.replace( /\*/, '' ).trim();
+
+				if ( isRequired ) {
+					// Add '*' to placeholder after first word.
+					placeholder = placeholder.replace( /(\w+)(.*)/, '$1* $2' );
+				}
+			}
+
+			if ( $field.is( 'select' ) ) {
+				$field.find( 'option[value=""]' ).text( placeholder );
+			} else {
+				$field.attr( 'placeholder', placeholder );
+			}
+		},
+
+		/**
+		 * Updates states of selected country in states field.
+		 *
+		 * @param {object} e Original click event.
+		 */
+		updateSelectableCountryStates: function ( e ) {
+			var $statesFieldId = $( e.target ).data( 'country-selector' );
+			var $statesField   = $( '#' + $statesFieldId );
+
+			if ( $statesFieldId && $statesField.length && filmbotCountriesStates ) {
+				var selectedCountry = $( e.target ).val() || 'US';
+				var previousCountry = $statesField.data( 'state-selector' );
+
+				var statesList     = filmbotCountriesStates[selectedCountry];
+				var prevStatesList = filmbotCountriesStates[previousCountry];
+
+				// Check if there are no states for the selected country
+				var currentHasStates  = !(Array.isArray( statesList.states ) && statesList.states.length === 0);
+				var previousHasStates = !(Array.isArray( prevStatesList.states ) && prevStatesList.states.length === 0);
+
+				// Make changes only if selected country is different from previous one
+				if ( previousCountry && previousCountry !== selectedCountry && statesList ) {
+
+					// Remove all states of previous country
+					$statesField.find( 'option[data-state]' ).remove();
+
+					// Create new options and append them to the states field
+					$.each( statesList.states, function ( key, value ) {
+						$statesField.append( $( '<option data-state value="' + key + '">' + value + '</option>' ) );
+					} );
+
+					// If current country has no states, but previous had, or vice versa,
+					// update requiredness and placeholders of the states select field
+					if ( currentHasStates !== previousHasStates ) {
+						var form             = $statesField.closest( 'form' );
+						// Membership signup form has its own state with placeholders and requiredness settings
+						var isMembershipForm = form.length && form.attr( 'name' ) === 'membership-signup';
+						var formSettings     = isMembershipForm ? themeMembership.getFormSettings() : { requiredByDefault: true };
+						// Update requiredness and placeholders of the states select field
+						themeUx.updateSingleFieldIsRequired( $statesField, formSettings );
+						themeUx.updateSingleFieldPlaceholder( $statesField, formSettings );
+					}
+
+					// set the new selected country as data attribute
+					$statesField.data( 'state-selector', selectedCountry );
+					$statesField.val( '' );
+				}
+			}
+		},
+		attachFauxselect: function () {
+			// open the styled select dropdown
+			themeUx.$showList.on( 'click', function ( e ) {
+				themeUx.openDropdownList( e );
+			} );
+
+			// close the styled select dropdown
+			themeUx.$document.on( 'click', function ( e ) {
+				themeUx.closeDropdownList( e );
+			} );
+		},
+		externalTicketingLinks: function () {
+			$( 'a.showtime' ).filter( function () {
+				return !!this.hostname && this.hostname !== location.hostname;
+			} ).attr( 'target', '_blank' );
+		},
+		animateThumbnails: function () {
+			var bottom = themeUx.$window.scrollTop() + themeUx.$window.height();
+
+			themeUx.$thumbnailsContainer.find( '.thumbnail' ).each( function () {
+				var $this = $( this );
+
+				if ( $this.offset().top < bottom + 20 ) {
+					$this.addClass( 'animate_active' );
+				}
+			} );
+		},
+		openDatelist: function ( e ) {
+			var $dateSelector = $( e.target ).closest( '.date-selector:not(:has(.single-date))' );
+			var $dateList     = $dateSelector.find( '.datelist' );
+
+			$dateSelector.toggleClass( 'active' );
+			$dateList.toggleClass( 'active' );
+
+			$dateList.find( 'li' ).each( function ( i, el ) {
+				$( el ).attr( 'tabindex', '0' );
+			} );
+
+			themeUx.$body.toggleClass( 'mobile-modal-open' );
+
+			themeUx.$showDatelist.attr( 'aria-expanded', ($dateList.is( '.active' ) ? 'true' : 'false') );
+		},
+		closeDatelist: function ( e ) {
+
+			themeUx.$datelist.removeClass( 'active' );
+
+			$( '.date-selector' ).removeClass( 'active' );
+
+			var $thisDateSelector = $( e.target ).closest( '.date-selector:not(:has(.single-date))' );
+
+			$thisDateSelector.find( 'li' ).each( function ( i, el ) {
+				$( el ).attr( 'tabindex', '-1' );
+			} );
+
+			themeUx.$body.removeClass( 'mobile-modal-open' );
+			themeUx.$showDatelist.attr( 'aria-expanded', 'false' );
+		},
+		selectDatelistDate: function ( e, initialLoad ) {
+			var $clickedDate        = $( e.target ).closest( 'li' );
+			var $dateSelector       = $clickedDate.closest( '.date-selector' );
+			var $showtimesContainer = $dateSelector.next( '.single-show-showtimes' ).find( '.showtimes-container' );
+			var $showContainer      = $dateSelector.closest( '.show-details' );
+			var $showtimeList       = $showtimesContainer.find( '.showtime-button-row' );
+			var selectedDate        = $clickedDate.html();
+			var date                = $clickedDate.data( 'date' );
+
+			$dateSelector.find( '.selected-date' ).html( selectedDate );
+			$dateSelector.find( '.datelist li' ).removeClass( 'selected' );
+			$clickedDate.addClass( 'selected' );
+			$showContainer.find( '.extra a, .extra span, .pill' ).hide();
+
+			if ( !initialLoad ) {
+				$showtimesContainer.hide();
+				$showtimeList.find( 'li' ).hide();
+			}
+			$showtimeList.find( '[data-date=' + date + ']' ).each( function ( i, showtimeLi ) {
+				const $showtime  = $( showtimeLi ).find( '.showtime' );
+				const showtimeId = $showtime.data( 'showtime_id' );
+				$( '#showtime-extra-' + showtimeId ).show();
+				$( '.pill.series-showtime-' + showtimeId ).show();
+			} ).show();
+			if ( !initialLoad ) {
+				$showtimesContainer.fadeIn( '300' );
+			}
+
+
+			if ( $clickedDate.data( 'has-midnight' ) === 1 ) {
+				$clickedDate.closest( '.show-details' ).find( '.midnight-screening-note' ).show().css( 'display', 'flex' );
+			} else {
+				$clickedDate.closest( '.show-details' ).find( '.midnight-screening-note' ).hide();
+			}
+
+		},
+		openTrailerModal: function ( e ) {
+			e.preventDefault();
+
+			var $trailerBtn = $( this );
+			var $trailerUrl = $trailerBtn.attr( 'data-trailer' );
+			var $modal      = $( '.trailer-modal' );
+
+			$modal.find( '.iframe-holder-inner' ).html( $trailerUrl );
+			$modal.addClass( 'active' );
+		},
+		closeTrailerModal: function () {
+			var videoContent = $( '.modal.active .iframe-holder' ).html();
+
+			$( '.modal.active .iframe-holder' ).html( videoContent );
+			$( '.modal.active' ).removeClass( 'active' );
+		},
+		initNav: function () {
+			themeUx.$navToggle.on( 'click', function ( e ) {
+				e.preventDefault();
+				themeUx.toggleNavVisibility();
+			} );
+
+			themeUx.toggleNavAccessibility();
+
+			$( window ).on( 'resize', themeUx.toggleNavAccessibility );
+
+			// Simplebar content is dynamically added, and creates duplicates of some markup that should only be in the accessibility tree once.
+			$( '.simplebar-content' ).find( '.site-branding a, .site-branding h1, .site-branding h2' ).attr( 'tabindex', '-1' );
+		},
+		toggleNavVisibility: function () {
+			themeUx.$mobileNav.toggleClass( 'drawer-open' );
+			themeUx.$body.toggleClass( 'modal-open blur-background' );
+			themeUx.toggleNavAccessibility();
+		},
+		toggleNavAccessibility: function () {
+			var mobileNavOpen  = themeUx.$mobileNav.is( '.drawer-open' );
+			var primaryNavOpen = 'none' !== themeUx.$primaryNav.css( 'display' );
+
+			if ( !primaryNavOpen ) {
+				themeUx.$navToggle.attr( 'tabindex', '0' );
+			} else {
+				themeUx.$navToggle.attr( 'tabindex', '-1' );
+			}
+
+			if ( mobileNavOpen ) {
+				themeUx.$navToggle.attr( 'aria-expanded', 'true' );
+
+				themeUx.$mobileNavLinks.each( function ( i, el ) {
+					$( el ).attr( 'tabindex', '0' );
+				} );
+			} else {
+				themeUx.$navToggle.attr( 'aria-expanded', 'false' );
+
+				themeUx.$mobileNavLinks.each( function ( i, el ) {
+					$( el ).attr( 'tabindex', '-1' );
+				} );
+			}
+		},
+		initFilters: function () {
+			themeUx.makeInactiveFiltersInaccessible();
+		},
+		makeInactiveFiltersInaccessible: function () {
+			var $inactiveFilters = themeUx.$filters.filter( ':not(.selected)' );
+			var $inactiveTargets = [];
+
+			$inactiveFilters.each( function ( i, filter ) {
+				var $filter = $( filter );
+				var target  = $filter.data( 'target' );
+
+				$filter.attr( 'aria-selected', false );
+
+				$inactiveTargets.push( $( target ) );
+			} );
+
+			$.each( $inactiveTargets, function ( i, target ) {
+				var $target = $( target );
+				$target.add( $target.find( 'a' ) ).add( $target.find( 'h2' ) ).attr( 'tabindex', '-1' );
+			} );
+		},
+		toggleFilter: function ( e ) {
+			e.preventDefault();
+
+			if ( target != '' ) {
+				var $clicked = $( e.delegateTarget );
+				var target   = $clicked.data( 'target' );
+				var $target  = $( target );
+
+				// toggle selected filter
+				$clicked.siblings().removeClass( 'selected' );
+				$clicked.addClass( 'selected' );
+				$clicked.attr( 'aria-selected', 'true' );
+
+				// toggle selected content
+				$target.siblings().removeClass( 'active' );
+				$target.addClass( 'active' );
+
+				// handle form fields
+				$target.siblings().find( 'input, select' ).prop( 'disabled', true );
+				$target.find( 'input, select' ).prop( 'disabled', false );
+
+				$target.find( 'a' ).add( $target.find( 'h2' ) ).attr( 'tabindex', '0' );
+
+				themeUx.makeInactiveFiltersInaccessible();
+			}
+		},
+		initializeSlider: function () {
+			themeUx.$slider.each( function () {
+				var slickInduvidual = $( this );
+
+				slickInduvidual.on( 'init reInit afterChange', function ( event, slick, currentSlide, nextSlide ) {
+					console.log( slick.slideCount );
+					var i = (currentSlide ? currentSlide : 0) + 1;
+					slickInduvidual.closest( '.filmbot_slideshow_container' ).find( '.counter' ).text( i + ' of ' + slick.slideCount );
+				} );
+
+				slickInduvidual.slick( {
+					accessibility: true,
+					nextArrow: slickInduvidual.closest( '.filmbot_slideshow_container' ).find( '.gallery-arrow-right' ),
+					prevArrow: slickInduvidual.closest( '.filmbot_slideshow_container' ).find( '.gallery-arrow-left' )
+				} );
+			} );
+		},
+		openNewsletterModal: function ( e ) {
+			e.preventDefault();
+
+			var $modal = $( '.newsletter-signup-modal' );
+
+			$modal.addClass( 'active' );
+		},
+		closeNewsletterModal: function () {
+			$( '.modal.active' ).removeClass( 'active' );
+		},
+		openDropdownList: function ( e ) {
+			$( e.target ).next( '.list' ).toggleClass( 'active' );
+			$( 'body' ).toggleClass( 'list-active' );
+		},
+		closeDropdownList: function ( e ) {
+			var n = $( e.target );
+
+			if ( themeUx.$list.hasClass( 'active' ) ) {
+				if ( !n.parents().hasClass( 'show-list' ) && !n.hasClass( 'show-list' ) ) {
+					themeUx.$list.removeClass( 'active' );
+				}
+			}
+		},
+		selectDropdownListQuantity: function ( e ) {
+			var $clickedItem          = $( e.target );
+			var $dummySelectContainer = $clickedItem.closest( '.dummy-select-container' );
+			var $nativeSelect         = $dummySelectContainer.prev( '.select-container' ).find( 'select' );
+			var selectedValue         = $clickedItem.attr( 'data-value' );
+
+			$nativeSelect.val( selectedValue ).trigger( 'change' );
+		},
+		updateDummySelect: function ( e ) {
+			var selectedValue         = $( e.target ).val();
+			var selectedValueDisplay  = $( e.target ).find( 'option:selected' ).text();
+			var $dummySelectContainer = $( e.target ).closest( '.select-container' ).next( '.dummy-select-container' );
+			var $dummySelect          = $dummySelectContainer.find( '.selected-quantity' );
+
+			$dummySelect.html( selectedValueDisplay );
+			$dummySelectContainer.find( '.list li' ).removeClass( 'selected' );
+			$dummySelectContainer.find( '.list li[data-value="' + selectedValue + '"]' ).addClass( 'selected' );
+		},
+		/**
+		 * If a video hero is on the page, initialize it.
+		 */
+		launchVideoHero: function () {
+			if ( !themeUx.$videoHero.length ) {
+				return;
+			}
+
+			var videoID = themeUx.$videoHero.data( 'video' );
+
+			$( window ).on( 'filmbot-tubular-onPlayerReady', function () {
+				$( '.video-hero-control' ).removeClass( 'video-hero--disabled' );
+			} );
+
+			themeUx.$document.on( 'click', '.video-hero-play', function () {
+				themeUx.$videoHero.addClass( 'video-hero--playing' ).removeClass( 'video-hero--paused' );
+
+			} );
+
+			themeUx.$document.on( 'click', '.video-hero-pause', function () {
+				themeUx.$videoHero.addClass( 'video-hero--paused' ).removeClass( 'video-hero--playing' );
+			} );
+
+			themeUx.$videoHero.tubular( {
+				videoId: videoID,
+				start: 0,
+				mute: true,
+				playButtonClass: 'video-hero-play',
+				pauseButtonClass: 'video-hero-pause'
+			} );
+		},
+		checkMobile: function () {
+			var isMobile = /iPhone|iPad|iPod|Android/i.test( navigator.userAgent );
+
+			if ( isMobile ) {
+				themeUx.$body.addClass( 'mobile' );
+			}
+		},
+		scrollTo: function ( e ) {
+			e.preventDefault();
+
+			var scrollToId   = $( this ).attr( 'href' );
+			var scrollOffset = $( scrollToId ).offset().top;
+
+			console.log( scrollOffset );
+
+			if ( themeUx.$body.hasClass( 'page-top-menu' ) ) {
+				scrollOffset -= $( '#primary-nav' ).height();
+			}
+
+			console.log( scrollOffset );
+
+			$( 'body, html' ).animate( { scrollTop: scrollOffset }, '500' );
+		},
+		/**
+		 * Inits the "Gift Card" and "Promo Code" section toggle behavior.
+		 */
+		initCheckoutSectionToggles: function () {
+
+			themeUx.$document.on( 'click', '.toggle-section-header', function ( event ) {
+
+				if ( !themeCheckout.$checkoutContainer.is( '.checkout-active' ) ) {
+					return;
+				}
+
+				$( this ).parent( '.row' ).toggleClass( 'toggle--opened' );
+			} );
+		},
+		initCheckoutSkipToContent: function () {
+			if ( !themeUx.$body.is( '.checkout' ) ) {
+				return;
+			}
+
+			var $skipToContent  = themeUx.$body.find( '#skip-to-content' );
+			var $seatsModal     = themeUx.$body.find( '.seats-modal' );
+			var $paymentDetails = themeUx.$body.find( '#payment-details' );
+
+			// Ensure that for checkouts without reserved seating, the Skip to Content link is available immediately.
+			if ( !$seatsModal.length ) {
+				$skipToContent.attr( 'tabindex', '0' );
+			}
+
+			// When a seat map's present, once it's closed make the Skip to Content link available.
+			themeUx.$body.on( 'filmbot-seats-modal-hide', function () {
+				$skipToContent.attr( 'tabindex', '0' );
+
+				if ( window.themeCheckout.stripeElementsInit ) {
+					window.themeCheckout.cardNumber.focus();
+				}
+			} );
+
+			$skipToContent.on( 'keypress', function ( e ) {
+				if ( 13 === e.which ) {
+					e.preventDefault();
+
+					if ( window.themeCheckout.stripeElementsInit ) {
+						window.themeCheckout.cardNumber.focus();
+					}
+				}
+			} );
+		}
+	};
+
+	$( themeUx.init );
+})
+( jQuery );
+
+(function ( $ ) {
+	window.themeMembership = {
+		init: function () {
+			themeCheckout.init();
+			themeMembership.initProps();
+			themeMembership.attachEvents();
+			themeCheckout.applyMembershipCosts();
+			themeMembership.updateRequiredFields();
+			themeMembership.updatePlaceholders();
+			themeMembership.$signupForm.css( 'visibility', 'visible' );
+			themeMembership.checkInitialPlanSize();
+			themeMembership.checkInitialPlan();
+		},
+		initProps: function () {
+			themeMembership.$customerContainer    = $( '#customer-fields' );
+			themeMembership.$member1Container     = $( '#member-1-fields' );
+			themeMembership.$member2Container     = $( '#member-2-fields' );
+			themeMembership.$customerFields       = themeMembership.$customerContainer.find( 'input[type=text], input[type=email], select' );
+			themeMembership.$member1Fields        = themeMembership.$member1Container.find( 'input[type=text], input[type=email], select' );
+			themeMembership.$member2Fields        = themeMembership.$member2Container.find( 'input[type=text], input[type=email], select' );
+			themeMembership.$memberSelfOnlyFields = $( '[data-self-only="true"] input, [data-self-only="true"] select' );
+			themeMembership.$memberGiftOnlyFields = $( '[data-gift-only="true"] input, [data-gift-only="true"] select' );
+			themeMembership.$mailingAddressFields = $( '#mailing_address, #mailing_address_2, #mailing_city, #state, #country, #mailing_postal_code' );
+			themeMembership.$birthdayFields       = $( '#birthday, #birthday_2' );
+			themeMembership.$signupForm           = $( '#membership-signup form[name="membership-signup"]' );
+			themeMembership.$giftToggle           = $( '#membership-gift-toggle [type="radio"]' );
+			themeMembership.$giftSendToggle       = $( '#membership-gift-send-toggle [type="radio"]' );
+			themeMembership.$planSizeToggle       = $( '#membership-plan-size-toggle [type="radio"]' );
+			themeMembership.$planToggle           = $( '#membership-plan-toggle [type="radio"]' );
+			themeMembership.$paymentMethod        = $( '#payment-method-select select' );
+			themeMembership.$selectedPlanIdField  = $( '#membership_plan_current_id' );
+			themeMembership.$selectedSizeField    = $( '#membership_plan_selected_size' );
+			themeMembership.$dualSwitcher         = $( '#dual-switcher' );
+			themeMembership.$birthdayContainers   = $( '.birthday-containers' );
+			themeMembership.$benefitsSummaries    = $( '.benefits-summary' );
+
+			themeMembership.initDatePickers();
+		},
+		attachEvents: function () {
+			themeMembership.setupPaymentMethodUi();
+
+			themeMembership.$giftToggle.on( 'change', themeMembership.handleGiftToggle );
+			themeMembership.$planSizeToggle.on( 'change', themeMembership.handlePlanSizeToggleClick );
+			$( '#membership_gift_send_date, #membership_gift_send_time' ).on( 'change', function () {
+				$( 'input[name=membership_gift_send][value=scheduled]' ).prop( 'checked', 'checked' );
+			} );
+			if ( themeMembership.$planToggle.length ) {
+				themeMembership.$planToggle.on( 'change', themeMembership.handlePlanSwitchClick );
+			}
+
+			$( document ).on( 'checkout-success', themeMembership.maybeUpdateOrderConfirmationMessage );
+		},
+		/**
+		 * Enables payment method UI (e.g. switching to Cash payment method) on Membership Signup and Renewal pages.
+		 *
+		 * @returns void
+		 */
+		setupPaymentMethodUi: function () {
+			if ( !themeMembership.$paymentMethod.length ) {
+				return;
+			}
+
+			themeMembership.$paymentMethod.on( 'change', function () {
+				var pm = $( this ).val();
+
+				$( '.required.error' ).toggleClass( 'error' );
+
+				themeMembership.updateRequiredFields();
+
+				if ( pm == 'cc' ) {
+					$( '.payment-info' ).slideDown();
+					$( '#postal_code' ).slideDown();
+
+					themeCheckout.$fields = themeCheckout.$fields.add( '#postal_code' );
+				} else if ( pm == 'cash' ) {
+					$( '.payment-info' ).slideUp();
+					$( '#postal_code' ).slideUp();
+
+					themeCheckout.$fields = themeCheckout.$fields.not( '#postal_code' );
+				}
+
+				themeCheckout.paymentMethod = pm;
+			} );
+		},
+		/**
+		 * Inits Pikaday datepickers on birthday and "send at" fields when those exist.
+		 */
+		initDatePickers: function () {
+			let birthdayPickerOptions = {
+				minDate: new Date( 'January 1, ' + (moment().get( 'year' ) - 100) ),
+				maxDate: moment().subtract( 13, 'year' ).toDate(),
+				yearRange: 100,
+				format: 'MM/DD/YYYY',
+				minYear: moment().get( 'year' ) - 100
+			};
+
+			birthdayPickerOptions.defaultDate = birthdayPickerOptions.maxDate;
+
+			const birthdayField       = $( '#birthday' );
+			const birthday2Field      = $( '#birthday_2' );
+			const giftSendDateField   = $( '#membership_gift_send_date' );
+			const birthdayDateFormat  = birthdayField.data( 'date-format' );
+			const birthday2DateFormat = birthday2Field.data( 'date-format' );
+			const giftSendDateFormat  = giftSendDateField.data( 'date-format' );
+
+			themeMembership.pickers = {
+				birthday: new Pikaday( {
+					field: birthdayField.get( 0 ),
+					...birthdayPickerOptions,
+					format: birthdayDateFormat ? birthdayDateFormat : 'MM/DD/YYYY'
+				} ),
+				birthday2: new Pikaday( {
+					field: birthday2Field.get( 0 ),
+					...birthdayPickerOptions,
+					format: birthday2DateFormat ? birthday2DateFormat : 'MM/DD/YYYY'
+				} ),
+				sendAt: new Pikaday( {
+					field: giftSendDateField.get( 0 ),
+					defaultDate: new Date(),
+					setDefaultDate: false,
+					minDate: new Date(),
+					format: giftSendDateFormat ? giftSendDateFormat : 'MM/DD/YYYY',
+					maxDate: moment().add( 1, 'year' ).toDate()
+				} )
+			};
+		},
+		/**
+		 * Updates form UI based on choosing to buy a membership for yourself or as a gift for someone else.
+		 */
+		handleGiftToggle: function () {
+			themeMembership.$signupForm[0].dataset.giftMembership = $( this ).val();
+
+			themeMembership.updateRequiredFields();
+			themeMembership.updatePlaceholders();
+		},
+		/**
+		 * Updates form UI based on choosing "single" or "dual" plan types.
+		 */
+		handlePlanSizeToggle: function ( planType ) {
+			var planId = themeMembership.$selectedPlanIdField.val();
+			var json   = $( '.membership_type_value' ).data( 'json' );
+			var costs  = json[planId] ? json[planId]['costs'] : {};
+
+			themeMembership.$signupForm[0].dataset.membershipType = planType;
+
+			themeMembership.$member2Container.toggle( 'dual' === planType );
+
+			$( '.total_purchase_price' ).text( costs[planType] );
+
+			themeMembership.updateRequiredFields();
+			themeMembership.updatePlaceholders();
+		},
+		/**
+		 * Handles clicking on the "single" or "dual" plan type toggle.
+		 */
+		handlePlanSizeToggleClick: function () {
+			var newSelectedSize = $( this ).val();
+			themeMembership.$selectedSizeField.val( newSelectedSize );
+			themeMembership.handlePlanSizeToggle( $( this ).val() );
+		},
+		/**
+		 * Checks the initial plan size toggle and updates the form UI accordingly.
+		 */
+		checkInitialPlanSize: function () {
+			var $activeToggle = themeMembership.$planSizeToggle.filter( ':checked' );
+			if ( $activeToggle.length ) {
+				themeMembership.handlePlanSizeToggle( $( $activeToggle[0] ).val() );
+			}
+		},
+		/**
+		 * Checks the initial plan size toggle and updates the form UI accordingly.
+		 */
+		getCurrentMembershipSize: function () {
+			var membershipPlanInfo = themeCheckout.getCurrentMembershipPlanInfo();
+
+			if ( !membershipPlanInfo['id'] ) {
+				return 'single';
+			}
+
+			var customerSelectedSize         = themeMembership.$selectedSizeField.val();
+			var hasCustomerSelectedDual      = 'dual' === customerSelectedSize;
+			var isSelectedPlanSupportingDual = !!membershipPlanInfo['is_dual'];
+
+			return hasCustomerSelectedDual && !isSelectedPlanSupportingDual ? 'single' : customerSelectedSize;
+		},
+		/**
+		 * Updates form UI based on selected offered membership plan
+		 */
+		handlePlanSwitch: function ( $activeToggle ) {
+			var membershipPlanInfo = themeCheckout.getCurrentMembershipPlanInfo();
+
+			if ( !membershipPlanInfo['id'] ) {
+				return;
+			}
+
+			var isSelectedPlanSupportingDual      = !!membershipPlanInfo['is_dual'];
+			var isSelectedPlanCollectingBirthdays = !!membershipPlanInfo['collect_birthdays'];
+
+			var updatedSelectedSize = themeMembership.getCurrentMembershipSize();
+
+			isSelectedPlanSupportingDual ? themeMembership.$dualSwitcher.show() : themeMembership.$dualSwitcher.hide();
+
+			isSelectedPlanCollectingBirthdays ? themeMembership.$birthdayContainers.show() : themeMembership.$birthdayContainers.hide();
+
+			themeMembership.updateRequiredFields();
+			themeMembership.updatePlaceholders();
+			themeMembership.handlePlanSizeToggle( updatedSelectedSize );
+			themeCheckout.updateOrderMembershipSize( updatedSelectedSize );
+
+			themeMembership.$benefitsSummaries.hide();
+			$( '[data-benefits-plan-id=' + membershipPlanInfo['id'] + ']' ).show();
+
+			$( '#current-plan-single-cost' ).html( membershipPlanInfo['costs']['single'] );
+			$( '#current-plan-dual-cost' ).html( membershipPlanInfo['costs']['dual'] );
+		},
+
+		/**
+		 * Handles clicking on the "single" or "dual" plan type toggle.
+		 */
+		handlePlanSwitchClick: function () {
+			themeMembership.$selectedPlanIdField.val( $( this ).val() );
+			themeMembership.handlePlanSwitch();
+		},
+		/**
+		 * Checks the initial plan size toggle and updates the form UI accordingly.
+		 */
+		checkInitialPlan: function () {
+			var $activeToggle = themeMembership.$planToggle.filter( ':checked' );
+			if ( $activeToggle.length ) {
+				themeMembership.handlePlanSwitch();
+			}
+		},
+		/**
+		 * Adds/removes fields to/from the set of required fields that must pass validation checks in themeCheckout.
+		 */
+		getFormSettings: function () {
+			if ( !themeMembership.$signupForm.length ) {
+				return { isSingle: true, isGift: false, collectAddressForGift: false };
+			}
+			var isSingle              = 'single' === themeMembership.$signupForm[0].dataset.membershipType;
+			var isGift                = 'true' === themeMembership.$signupForm[0].dataset.giftMembership;
+			var collectAddressForGift = 'true' === themeMembership.$signupForm[0].dataset.collectAddressForGift;
+
+			return { isSingle, isGift, collectAddressForGift };
+		},
+		/**
+		 * Adds/removes fields to/from the set of required fields that must pass validation checks in themeCheckout.
+		 */
+		updateRequiredFields: function () {
+			themeCheckout.$fields = themeCheckout.$fields.add( themeMembership.$customerFields ).add( themeMembership.$member1Fields ).add( themeMembership.$member2Fields );
+
+			var formSettings = themeMembership.getFormSettings();
+
+			if ( formSettings.isSingle ) {
+				themeCheckout.$fields = themeCheckout.$fields.not( themeMembership.$member2Fields );
+				themeMembership.$member2Fields.removeClass( 'error' );
+			}
+
+			var membershipInfo = themeCheckout.getCurrentMembershipPlanInfo();
+
+			if ( membershipInfo['birthdays_required'] ) {
+				var customerSelectedSize    = themeMembership.$selectedSizeField.val();
+				var hasCustomerSelectedDual = 'dual' === customerSelectedSize;
+
+				var $birthday2Field   = $( '#birthday_2' );
+				var $birthdayFields   = hasCustomerSelectedDual ? themeMembership.$birthdayFields : themeMembership.$birthdayFields.not( $birthday2Field );
+				themeCheckout.$fields = themeCheckout.$fields.add( $birthdayFields );
+				$birthdayFields.addClass( 'required' );
+				// Do not include birthday2 field in required fields if it is not required in the current selected membership plan
+				if ( !hasCustomerSelectedDual ) {
+					$birthday2Field.removeClass( 'required' );
+					$birthday2Field.removeClass( 'error' );
+				}
+			} else {
+				themeCheckout.$fields = themeCheckout.$fields.not( themeMembership.$birthdayFields );
+				themeMembership.$birthdayFields.removeClass( 'required' );
+				themeMembership.$birthdayFields.removeClass( 'error' );
+			}
+
+			// $birthdayFields
+
+			if ( formSettings.isGift ) {
+				themeCheckout.$fields = themeCheckout.$fields.not( themeMembership.$memberSelfOnlyFields ).add( themeMembership.$giftSendToggle );
+				if ( formSettings.collectAddressForGift ) {
+					themeCheckout.$fields = themeCheckout.$fields.add( themeMembership.$mailingAddressFields );
+				}
+				themeMembership.$memberSelfOnlyFields.removeClass( 'error' );
+			} else {
+				themeCheckout.$fields = themeCheckout.$fields.not( themeMembership.$memberGiftOnlyFields );
+				themeMembership.$memberGiftOnlyFields.removeClass( 'error' );
+			}
+
+			// Check fields with variable requiredness setting. This setting is stored in the data-fb-required attribute and is JSON-encoded.
+			// It is the same as for placeholders, requiredness can be set for single/dual and gift/non-gift, as we can have field (f.e. mailing address)
+			// required for non-gift but with different requiredness for gift.
+			$( '[data-fb-required]' ).each( ( i, field ) => {
+				themeUx.updateSingleFieldIsRequired( $( field ), formSettings );
+			} );
+		},
+		/**
+		 * Handles custom placeholder toggling on Membership Signup fields, each of which may have 2 or more possible placeholders.
+		 */
+		updatePlaceholders: function () {
+			var formSettings = themeMembership.getFormSettings();
+			$( '[data-fb-placeholders]' ).each( ( i, field ) => {
+				var forceCheck = false;
+				// check if birthdays are required for the current selected membership plan
+				if ( $( field ).hasClass( 'birthday-picker' ) ) {
+					forceCheck = true;
+				}
+				themeUx.updateSingleFieldPlaceholder( $( field ), formSettings, forceCheck );
+			} );
+		},
+		getMember1FirstName: function () {
+			return 'true' === themeMembership.$signupForm[0].dataset.giftMembership ? $( '#member_1_first_name' ).val() : $( '#first_name' ).val();
+		},
+		getMember1LastName: function () {
+			return 'true' === themeMembership.$signupForm[0].dataset.giftMembership ? $( '#member_1_last_name' ).val() : $( '#last_name' ).val();
+		},
+		getMember1Email: function () {
+			return 'true' === themeMembership.$signupForm[0].dataset.giftMembership ? $( '#member_1_email' ).val() : $( '#email' ).val();
+		},
+		getMemberData: function ( data ) {
+			var interests = $( 'input[name="interests[]"]:checked' ).map( function ( _, el ) {
+				return $( el ).val();
+			} ).get();
+
+			data.member_1 = {
+				first_name: themeMembership.getMember1FirstName(),
+				last_name: themeMembership.getMember1LastName(),
+				email: themeMembership.getMember1Email(),
+				mailing_address: $( '#mailing_address' ).val(),
+				mailing_address_2: $( '#mailing_address_2' ).val(),
+				mailing_city: $( '#mailing_city' ).val(),
+				mailing_state: $( '#state' ).val(),
+				mailing_country: $( '#country' ).val(),
+				mailing_postal_code: $( '#mailing_postal_code' ).val(),
+				phone: $( '#phone_number' ).val(),
+				interest: interests,
+				acquisition_source: $( '#user-where' ).val(),
+			};
+
+			const member_1_birthday_field = $( '#birthday' );
+			const member_1_birthday       = member_1_birthday_field.val();
+			let member_1_birthday_format  = member_1_birthday_field.data( 'date-format' );
+			member_1_birthday_format      = member_1_birthday_format ? member_1_birthday_format : 'MM/DD/YYYY';
+
+			if ( member_1_birthday ) {
+				data.member_1.birthdate = moment( member_1_birthday, member_1_birthday_format ).format( 'YYYY-MM-DD' );
+			}
+
+			if ( ($( '#checkout' ).length && themeCheckout.order.membership_plan.size === 'dual') || $( '#member_first_name_2' ).is( ':visible' ) ) {
+				data.member_2 = {
+					first_name: $( '#member_first_name_2' ).val(),
+					last_name: $( '#member_last_name_2' ).val(),
+					email: $( '#member_email_2' ).val(),
+				};
+
+				const member_2_birthday_field = $( '#birthday_2' );
+				const member_2_birthday       = member_2_birthday_field.val();
+				let member_2_birthday_format  = member_2_birthday_field.data( 'date-format' );
+				member_2_birthday_format      = member_2_birthday_format ? member_2_birthday_format : 'MM/DD/YYYY';
+
+				if ( member_2_birthday ) {
+					data.member_2.birthdate = moment( member_2_birthday, member_2_birthday_format ).format( 'YYYY-MM-DD' );
+				}
+			}
+
+			if ( 'true' === themeMembership.$signupForm[0].dataset.giftMembership ) {
+				const delivery_date_field = $( '#membership_gift_send_date' );
+				const delivery_date       = delivery_date_field.val();
+				let delivery_date_format  = delivery_date_field.data( 'date-format' );
+				delivery_date_format      = delivery_date_format ? delivery_date_format : 'MM/DD/YYYY';
+
+				data.member_gift = {
+					message: $( '#member_gift_message' ).val(),
+					from_name: $( '#first_name' ).val() + ' ' + $( '#last_name' ).val(),
+					from_email: $( '#email' ).val(),
+					delivery: $( '[name="membership_gift_send"]:checked' ).val(),
+					delivery_date: moment( delivery_date, delivery_date_format ).format( 'MM/DD/YYYY' ),
+					delivery_time: $( '#membership_gift_send_time' ).val()
+				};
+			}
+
+			if ( $( '#checkout' ).length ) {
+				if ( themeCheckout.paymentMethod == 'cash' ) {
+					data.address.postal_code = $( '#mailing_postal_code' ).val();
+				}
+			}
+
+			return data;
+		},
+		maybeUpdateOrderConfirmationMessage: function () {
+			if ( 'true' === themeMembership.$signupForm[0].dataset.giftMembership ) {
+				themeCheckout.$orderConfirmation.find( '#self-purchase-confirmation' ).hide();
+				themeCheckout.$orderConfirmation.find( '#gift-purchase-confirmation' ).show();
+
+				if ( 'dual' === themeMembership.$signupForm[0].dataset.membershipType ) {
+					themeCheckout.$orderConfirmation.find( '[data-membership-type="dual"]' ).show();
+				}
+			}
+		},
+		checkState: function () {
+			themeMembershipUpdate.$form.find( 'select' ).each( function ( i, e ) {
+				var $e    = $( e );
+				var value = $( e ).data( 'selected' );
+
+				if ( value !== '' ) {
+
+					if ( typeof value === 'string' || value instanceof String ) {
+						value = value.replace( /(\")/g, '\\$1' );
+					}
+
+					$e.find( 'option[value="' + value + '"]' ).prop( 'selected', true );
+				}
+			} );
+		}
+	};
+})( jQuery );
+
+(function ( $ ) {
+	window.themeMembershipUpdate = {
+		init: function () {
+			themeMembership.initProps();
+			themeMembershipUpdate.initProps();
+			themeMembershipUpdate.attachEvents();
+			themeMembershipUpdate.setSelects();
+		},
+		initProps: function () {
+			themeMembershipUpdate.$form                      = $( '#membership-signup' );
+			themeMembershipUpdate.$fields                    = themeMembership.$member1Fields.add( themeMembership.$member2Fields );
+			themeMembershipUpdate.$updateConfirmation        = $( '#membership-update-confirmation' );
+			themeMembershipUpdate.$submitButton              = $( '#submit-membership-update' );
+			themeMembershipUpdate.$validateSubmitButton      = $( '#submit-update-validation' );
+			themeMembershipUpdate.$validationError           = $( '#validation-error' );
+			themeMembershipUpdate.$validationWindow          = $( '#membership-update-validation-container' );
+			themeMembershipUpdate.$updatePaymentMethodButton = $( '#update-payment-method-button' );
+			themeMembershipUpdate.$cancelMembershipButton    = $( '#cancel-membership-button' );
+			themeMembershipUpdate.$monthlyMembershipError    = $( '#monthly-membership-error' );
+			themeMembershipUpdate.$monthlyMembershipCardImg  = $( '#monthly-membership-card-image' );
+			themeMembershipUpdate.$monthlyMembershipCardNum  = $( '#monthly-membership-card-number' );
+			themeMembershipUpdate.validated                  = themeMembershipUpdate.$form.hasClass( 'access-verified' );
+		},
+		attachEvents: function () {
+			themeMembership.setupPaymentMethodUi();
+
+			themeMembershipUpdate.$submitButton.on( 'click', themeMembershipUpdate.updateMemberDetails );
+			themeMembershipUpdate.$validateSubmitButton.on( 'click', themeMembershipUpdate.validateMembershipAccess );
+			themeMembershipUpdate.$fields.on( 'change', function () {
+				themeMembershipUpdate.$submitButton.removeClass( 'success' ).html( 'Save' );
+			} );
+			if ( themeMembershipUpdate.$updatePaymentMethodButton.length ) {
+				themeMembershipUpdate.$updatePaymentMethodButton.on( 'click', themeMembershipUpdate.updatePaymentMethod );
+			}
+			if ( themeMembershipUpdate.$cancelMembershipButton.length ) {
+				themeMembershipUpdate.$cancelMembershipButton.on( 'click', themeMembershipUpdate.cancelMembership );
+			}
+
+			setTimeout( function () {
+				themeMembershipUpdate.checkPaymentMethod();
+			}, 2000 );
+		},
+		updateMemberDetails: function ( e ) {
+			e.preventDefault();
+
+			if ( !themeMembershipUpdate.validated ) {
+				return;
+			}
+
+			var $this = $( this );
+
+			$this.html( 'Please wait...' ).addClass( 'processing' );
+
+			$( '#update-error' ).html( '' );
+
+			var data = themeMembership.getMemberData( {} );
+			data     = themeMembershipUpdate.getData( data );
+
+			$.ajax( {
+				method: 'POST',
+				url: window.ajaxurl || window.themeSettings.ajaxUrl,
+				data: data,
+				success: function ( response ) {
+					if ( response === 'success' ) {
+						themeMembershipUpdate.$submitButton.removeClass( 'processing' ).addClass( 'success' ).html( 'Update saved' ).prop( 'disabled', true );
+					} else {
+						var msg = response.data ? response.data[0] : 'We were unable to save your details, please try again.';
+
+						$( '#update-error' ).html( msg ).css( 'visibility', 'visible' );
+
+						themeMembershipUpdate.$submitButton.removeClass( 'processing' ).html( 'Save' );
+					}
+				},
+				error: function () {
+					alert( 'We were unable to save your details, please try again.' );
+					themeMembershipUpdate.$submitButton.removeClass( 'processing' ).html( 'Save' );
+				}
+			} );
+		},
+		validateMembershipAccess: function ( e ) {
+			e.preventDefault();
+
+			themeMembershipUpdate.$validationError.removeClass( 'visible' );
+			themeMembershipUpdate.$validateSubmitButton.attr( 'value', 'Checking...' );
+
+			$.ajax( {
+				method: 'POST',
+				url: window.ajaxurl || window.themeSettings.ajaxUrl,
+				data: {
+					action: 'fb_membership_update_validate_access',
+					_ajax_nonce: $( '#fb_membership_update_validate_nonce' ).val(),
+					email: $( '#membership-update-validation-form #member-email' ).val(),
+					code: $( '#membership-update-validation-form #member-code' ).val(),
+					membership_id: typeof window.current_membership_id != 'undefined' ? window.current_membership_id : ''
+				},
+				success: function ( response ) {
+					if ( response.success === false ) {
+						themeMembershipUpdate.$validationError.html( response.data.join( ', ' ) ).addClass( 'visible' );
+						themeMembershipUpdate.$validateSubmitButton.attr( 'value', 'Continue' );
+					} else {
+						themeMembershipUpdate.$validationWindow.css( 'height', '0px' );
+						themeMembershipUpdate.$form.removeClass( 'access-not-verified' );
+						themeMembershipUpdate.validated = true;
+					}
+				}
+			} );
+		},
+		updatePaymentMethod: function ( e ) {
+			e.preventDefault();
+
+			themeMembershipUpdate.$monthlyMembershipError.removeClass( 'visible' );
+			themeMembershipUpdate.$updatePaymentMethodButton.html( 'Redirecting...' );
+			themeMembershipUpdate.$updatePaymentMethodButton.prop( 'disabled', true );
+
+			$.ajax( {
+				method: 'POST',
+				url: window.ajaxurl || window.themeSettings.ajaxUrl,
+				data: {
+					action: 'fb_create_update_payment_method_stripe_portal_session',
+					_ajax_nonce: $( '#fb_membership_update_nonce' ).val(),
+					membership_id: typeof window.current_membership_id != 'undefined' ? window.current_membership_id : ''
+				},
+				success: function ( response ) {
+					if ( response.success === true ) {
+						window.location = response.url;
+					} else {
+						themeMembershipUpdate.$monthlyMembershipError.html( response.data.join( ', ' ) ).addClass( 'visible' );
+						themeMembershipUpdate.$updatePaymentMethodButton.html( 'Update Payment Method' );
+						themeMembershipUpdate.$updatePaymentMethodButton.prop( 'disabled', false );
+					}
+				}
+			} );
+		},
+		cancelMembership: function ( e ) {
+			e.preventDefault();
+
+			var banWarningMessage = themeMembershipUpdate.$cancelMembershipButton.data( 'ban-warning' );
+			if ( !banWarningMessage ) {
+				themeMembershipUpdate.cancelMembershipConfirmed();
+			} else {
+				window.Swal.fire(
+					{
+						html: banWarningMessage,
+						showCancelButton: true,
+						confirmButtonText: 'Cancel renewal',
+						confirmButtonColor: '',
+						cancelButtonText: 'Never mind',
+						cancelButtonColor: '',
+					}
+				).then( ( result ) => {
+					if ( result.value == true ) {
+						themeMembershipUpdate.cancelMembershipConfirmed();
+					}
+				} );
+			}
+		},
+		cancelMembershipConfirmed: function () {
+			themeMembershipUpdate.$monthlyMembershipError.removeClass( 'visible' );
+			themeMembershipUpdate.$cancelMembershipButton.html( 'Cancelling...' );
+			themeMembershipUpdate.$cancelMembershipButton.prop( 'disabled', true );
+
+			$.ajax( {
+				method: 'POST',
+				url: window.ajaxurl || window.themeSettings.ajaxUrl,
+				data: {
+					action: 'fb_cancel_membership_subscription',
+					_ajax_nonce: $( '#fb_membership_update_nonce' ).val(),
+					membership_id: typeof window.current_membership_id ? window.current_membership_id : ''
+				},
+				success: function ( response ) {
+					if ( response.success === true ) {
+						window.location = response.url;
+					} else {
+						themeMembershipUpdate.$monthlyMembershipError.html( response.data.join( ', ' ) ).addClass( 'visible' );
+						themeMembershipUpdate.$cancelMembershipButton.html( 'Cancel Renewal' );
+						themeMembershipUpdate.$cancelMembershipButton.prop( 'disabled', false );
+					}
+				}
+			} );
+		},
+		checkPaymentMethod: function () {
+			if ( !themeMembershipUpdate.$monthlyMembershipCardNum.length ) {
+				return;
+			}
+
+			$.ajax( {
+				method: 'POST',
+				url: window.ajaxurl || window.themeSettings.ajaxUrl,
+				data: {
+					action: 'fb_check_membership_payment_method',
+					_ajax_nonce: $( '#fb_membership_update_nonce' ).val(),
+					membership_id: typeof window.current_membership_id != 'undefined' ? window.current_membership_id : ''
+				},
+				success: function ( response ) {
+					if ( response.success === true ) {
+						if ( response.data.card_brand ) {
+							themeMembershipUpdate.$monthlyMembershipCardImg.attr( 'src', response.data.card_image );
+							themeMembershipUpdate.$monthlyMembershipCardImg.attr( 'alt', response.data.card_brand );
+							themeMembershipUpdate.$monthlyMembershipCardImg.show();
+						} else {
+							themeMembershipUpdate.$monthlyMembershipCardImg.hide();
+						}
+						themeMembershipUpdate.$monthlyMembershipCardNum.html( response.data.card_number );
+					}
+				}
+			} );
+		},
+		getData: function ( data ) {
+			data.member_1.first_name = $( '#member_first_name' ).val();
+			data.member_1.last_name  = $( '#member_last_name' ).val();
+			data.member_1.email      = $( '#member_email' ).val();
+			data.action              = 'fb_membership_update';
+			data.membership_id       = window.current_membership_id || '';
+			data._ajax_nonce         = $( '#fb_membership_update_nonce' ).val();
+			data.order               = $.extend( data.order ?? {}, { email: data.member_1.email } );
+
+			if ( (data.member_2 ?? []).length || data.order?.membership_plan?.size === 'dual' ) {
+				data.member_2.first_name = $( '#member_first_name_2' ).val();
+				data.member_2.last_name  = $( '#member_last_name_2' ).val();
+				data.member_2.email      = $( '#member_email_2' ).val();
+			}
+			return data;
+		},
+		setSelects: function () {
+			themeMembershipUpdate.$form.find( 'select' ).each( function ( i, e ) {
+				var $e    = $( e );
+				var value = $( e ).data( 'selected' );
+
+				if ( value !== '' ) {
+
+					if ( typeof value === 'string' || value instanceof String ) {
+						value = value.replace( /(\")/g, '\\$1' );
+					}
+
+					$e.find( 'option[value="' + value + '"]' ).prop( 'selected', true );
+				}
+			} );
+		}
+	};
+})( jQuery );
+
+(function ( $ ) {
+	window.themeMembershipRenew = {
+		init: function () {
+			themeMembershipUpdate.$form                 = $( '#membership-signup' );
+			themeMembershipUpdate.$validateSubmitButton = $( '#submit-update-validation' );
+			themeMembershipUpdate.$validationWindow     = $( '#membership-update-validation-container' );
+			themeMembershipUpdate.$validationError      = $( '#validation-error' );
+			themeMembershipUpdate.$form.removeClass( 'access-not-verified' );
+			themeMembershipUpdate.validated = true;
+			themeMembershipUpdate.$validateSubmitButton.on( 'click', themeMembershipUpdate.validateMembershipAccess );
+		}
+	};
+})( jQuery );
+
+
+(function ( $ ) {
+	window.themeTicketPack = {
+		init: function () {
+			themeCheckout.init();
+			themeTicketPack.initProps();
+			themeTicketPack.attachEvents();
+			themeCheckout.applyTicketPackCosts();
+		},
+		initProps: function () {
+			themeTicketPack.$paymentMethod = $( '#payment-method-select select' );
+		},
+		attachEvents: function () {
+			if ( themeTicketPack.$paymentMethod.length ) {
+				themeTicketPack.$paymentMethod.on( 'change', function () {
+					var pm = $( this ).val();
+					// When the payment method changes, reset the errors.
+					$( '.required.error' ).toggleClass( 'error' );
+					// Toggle credit card fields
+					if ( pm === 'cc' ) {
+						$( '.payment-info' ).slideDown();
+						$( '#postal_code' ).slideDown();
+						themeCheckout.$fields = themeCheckout.$fields.add( '#postal_code' );
+					} else if ( pm === 'cash' ) {
+						$( '.payment-info' ).slideUp();
+						$( '#postal_code' ).slideUp();
+						themeCheckout.$fields = themeCheckout.$fields.not( '#postal_code' );
+					}
+					themeCheckout.paymentMethod = pm;
+				} );
+			}
+		},
+	};
+})( jQuery );
+
+(function ( $ ) {
+	window.virtualCinemaPanel = {
+		init: function () {
+
+			virtualCinemaPanel.cacheSections();
+
+			$( window ).on( 'load', virtualCinemaPanel.equalizePosterHeights );
+			$( window ).on( 'resize', virtualCinemaPanel.equalizePosterHeights );
+		},
+		cacheSections: function () {
+			virtualCinemaPanel.sections = [];
+
+			$( '.virtual-cinema__section' ).each( function ( i, section ) {
+				virtualCinemaPanel.sections[i] = section;
+			} );
+		},
+		equalizePosterHeights: function () {
+
+			$.each( virtualCinemaPanel.sections, function ( i, section ) {
+				const $posters = $( section ).find( '.virtual-cinema__movie img' );
+				let maxHeight  = 0;
+
+				$posters.each( function ( j, poster ) {
+					if ( $( poster ).height() > maxHeight ) {
+						maxHeight = $( poster ).height();
+					}
+				} );
+
+				$posters.each( function ( j, poster ) {
+					$( poster ).css( 'min-height', maxHeight );
+				} );
+			} );
+
+		}
+	};
+})( jQuery );
+
+//# sourceMappingURL=development.js.map

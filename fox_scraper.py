@@ -1,29 +1,92 @@
-# fox_scraper.py
-
-import requests
-from bs4 import BeautifulSoup
+import json
+import time
+import re
 from datetime import datetime
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 
-def scrape_fox():
-    url = "https://www.foxtheatre.ca/"
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, "html.parser")
+options = Options()
+options.add_argument("--start-maximized")
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+driver.get("https://www.foxtheatre.ca/whats-on/now-showing/")
+print("📄 Page loaded")
 
-    events = []
+# Scroll until fully loaded
+actions = ActionChains(driver)
+prev_height = 0
+unchanged_scrolls = 0
+while unchanged_scrolls < 6:
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    actions.move_by_offset(0, 50).perform()
+    time.sleep(2)
+    new_height = driver.execute_script("return document.body.scrollHeight")
+    if new_height == prev_height:
+        unchanged_scrolls += 1
+    else:
+        unchanged_scrolls = 0
+        prev_height = new_height
 
-    schedule_items = soup.select("div.sqs-block-content h3")  # Each movie title is in an h3 tag inside .sqs-block-content
-    for item in schedule_items:
-        title = item.get_text(strip=True)
-        if title and not title.lower().startswith("coming soon"):
-            events.append({
-                "title": title,
-                "datetime": "TBD",
-                "link": url  # There's not always a dedicated page, so just link to homepage for now
-            })
+print("✅ Finished scrolling")
 
-    return events
+# Extract films
+films = []
+seen = set()  # for deduplication
+blocks = driver.find_elements(By.CSS_SELECTOR, "div[data-element_type='container']")
+print(f"🔍 Processing {len(blocks)} blocks")
 
-if __name__ == "__main__":
-    movies = scrape_fox()
-    for movie in movies:
-        print(f"{movie['datetime']} - {movie['title']}\n{movie['link']}\n")
+current_title = None
+current_link = None
+
+for block in blocks:
+    try:
+        # Get title
+        try:
+            h4 = block.find_element(By.CSS_SELECTOR, "h4.elementor-heading-title")
+            current_title = h4.text.strip()
+        except:
+            pass
+
+        # Get link
+        try:
+            link_elem = block.find_element(By.CSS_SELECTOR, "a[href*='/movies/']")
+            current_link = link_elem.get_attribute("href")
+        except:
+            current_link = "https://www.foxtheatre.ca/whats-on/now-showing/"
+
+        # Times
+        spans = block.find_elements(By.CSS_SELECTOR, "span[data-date]")
+        for span in spans:
+            time_text = span.text.strip()
+            raw_date = span.get_attribute("data-date")
+            if ":" in time_text and ("am" in time_text.lower() or "pm" in time_text.lower()):
+                try:
+                    formatted_date = datetime.strptime(raw_date, "%Y-%m-%d").strftime("%A, %B %-d")
+                except ValueError:
+                    formatted_date = raw_date
+                if current_title:
+                    showtime = f"{formatted_date}, {time_text}"
+                    key = (current_title, showtime)
+                    if key not in seen:
+                        seen.add(key)
+                        films.append({
+                            "title": current_title,
+                            "showtime": showtime,
+                            "link": current_link,
+                            "source": "Fox Theatre"
+                        })
+
+    except Exception as e:
+        print(f"⚠️ Skipped block due to error: {e}")
+        continue
+
+driver.quit()
+
+# Save
+with open("fox_films.json", "w", encoding="utf-8") as f:
+    json.dump(films, f, indent=2, ensure_ascii=False)
+
+print(f"✅ Done! Saved {len(films)} unique films to fox_films.json")

@@ -1,6 +1,6 @@
 import subprocess
 print("🧩 Generating updated calendar...")
-subprocess.run(["python", "generate_calendar_colored.py"])
+subprocess.run(["python", "generate_calendar_with_fox_stylefix.py"])
 
 print("✅ Calendar updated and saved to calendar_grid.html")
 
