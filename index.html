@@ -12,6 +12,7 @@ h2 { font-size: 1.2rem; margin-top: 2rem; margin-bottom: 1rem; border-bottom: 1p
 .toggle.revue { background-color: #3b82f6; }
 .toggle.paradise { background-color: #10b981; }
 .toggle.tiff { background-color: #ef4444; }
+
 .toggle.inactive { opacity: 0.4; }
 .view-buttons { margin-bottom: 1rem; }
 .view-buttons button { padding: 0.4rem 1rem; font-size: 1rem; margin: 0 0.3rem; cursor: pointer; }
@@ -23,6 +24,7 @@ h2 { font-size: 1.2rem; margin-top: 2rem; margin-bottom: 1rem; border-bottom: 1p
 .revue .time { background-color: #3b82f6; }
 .paradise .time { background-color: #10b981; }
 .tiff .time { background-color: #ef4444; }
+.fox .time { background-color: #f59e0b; }
 a { color: #000; text-decoration: none; font-weight: 500; }
 a:hover { text-decoration: underline; }
 .hidden { display: none; }
@@ -32,10 +34,13 @@ a:hover { text-decoration: underline; }
 <div class='filters'>
   <label>🎭 Filter by Theater:</label>
   <div class='toggle-filters'>
+
     <button class='toggle tiff active' data-source='TIFF Bell Lightbox'>TIFF</button>
     <button class='toggle revue active' data-source='Revue Cinema'>REVUE</button>
     <button class='toggle paradise active' data-source='Paradise Theatre'>PARADISE</button>
-  </div>
+    <button class='toggle fox active' data-source='Fox Theatre'>FOX</button>
+
+</div>
   <div class='view-buttons'>
     <button onclick="toggleView('grid-view')">🗓️ Grid View</button>
     <button onclick="toggleView('list-view')">📃 List View</button>
@@ -44,17 +49,20 @@ a:hover { text-decoration: underline; }
 <div id='grid-view'>
 <h2>April 2025</h2><div class='grid'>
 <div class='day-box'><h3>Wednesday, April 09</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:30 PM</span><a href='https://www.foxtheatre.ca/movies/becoming-led-zeppelin/' target='_blank'>Becoming Led Zeppelin</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>03:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTM0VDI=' target='_blank'>A Nice Indian Boy</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTQxVDE=' target='_blank'>The Ballad of Wallis Island</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTQzVDU=' target='_blank'>Bob Trevino Likes It</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:00 PM</span><a href='https://revuecinema.ca/films/uncaged-face-off-1997-presented-on-35mm/' target='_blank'>UnCAGED: FACE/OFF (1997) – Presented on 35mm!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTYxVDI=' target='_blank'>A Nice Indian Boy</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTYzVDQ=' target='_blank'>Infinite Returns curated by Suneil Sanzgiri</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:40 PM</span><a href='https://www.foxtheatre.ca/movies/detour-the-elephant-man-4k-restoration/' target='_blank'>Detour: The Elephant Man – 4K Restoration!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTY0VDE=' target='_blank'>The Ballad of Wallis Island</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:10 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTcxVDU=' target='_blank'>No Other Land</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTg0VDI=' target='_blank'>Grand Tour</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTkxVDE=' target='_blank'>The Ballad of Wallis Island</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTkzVDU=' target='_blank'>The Luckiest Man in America</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/mickey-17/' target='_blank'>Mickey 17</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTk0VDQ=' target='_blank'>A Nice Indian Boy</a></div>
 </div>
 <div class='day-box'><h3>Thursday, April 10</h3>
@@ -62,17 +70,20 @@ a:hover { text-decoration: underline; }
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDQwVDI=' target='_blank'>A Nice Indian Boy</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDQxVDE=' target='_blank'>Bob Trevino Likes It</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDQzVDU=' target='_blank'>No Other Land</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>04:30 PM</span><a href='https://www.foxtheatre.ca/movies/no-other-land/' target='_blank'>No Other Land</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>05:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDUxVDQ=' target='_blank'>Manas</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:25 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDYyVDI=' target='_blank'>A Nice Indian Boy</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:30 PM</span><a href='https://revuecinema.ca/films/we-really-like-her-mary-janes-not-a-virgin-anymore-i-was-a-teenage-serial-killer-double-feature/' target='_blank'>We Really Like Her: MARY JANE’S NOT A VIRGIN ANYMORE + I WAS A TEENAGE SERIAL KILLER Double Feature!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDY0VDU=' target='_blank'>Misericordia</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDcwVDE=' target='_blank'>The Ballad of Wallis Island</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>07:00 PM</span><a href='https://www.foxtheatre.ca/movies/slumber-party-the-breakfast-club/' target='_blank'>Slumber Party: The Breakfast Club</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDczVDM=' target='_blank'>Loved It: Chandler Levack on Fast Times at Ridgemont High</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDgxVDQ=' target='_blank'>We Were Dangerous</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDg0VDI=' target='_blank'>The Luckiest Man in America</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDkxVDU=' target='_blank'>Grand Tour</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/nightmare-alley-demons-1985-new-restoration/' target='_blank'>Nightmare Alley: DEMONS (1985) – New Restoration!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDkzVDE=' target='_blank'>The Ballad of Wallis Island</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/restoration-princess-mononoke-4k-restoration-subtitled/' target='_blank'>Restoration: Princess Mononoke – 4K Restoration (Subtitled)</a></div>
 </div>
 <div class='day-box'><h3>Friday, April 11</h3>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>03:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMTMxVDM=' target='_blank'>Sacramento</a></div>
@@ -80,16 +91,20 @@ a:hover { text-decoration: underline; }
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMTY0VDE=' target='_blank'>Sacramento</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>07:00 PM</span><a href='https://paradiseonbloor.com/movies/outrageous/' target='_blank'>Outrageous!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMTcwVDI=' target='_blank'>Battle of the Scores + Opening Night Party</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>07:00 PM</span><a href='https://www.foxtheatre.ca/movies/restoration-a-woman-is-a-woman-1961/' target='_blank'>Restoration: A Woman Is A Woman (1961)</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMTkwVDE=' target='_blank'>Sacramento</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/revue-event-house-40th-anniversary-screening/' target='_blank'>Revue Event: HOUSE – 40th Anniversary Screening!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMTkzVDM=' target='_blank'>Queens of Drama</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/swamp-ball-shrek-an-interactive-drag-screening/' target='_blank'>Swamp Ball! Shrek – An Interactive Drag Screening</a></div>
 </div>
 <div class='day-box'><h3>Saturday, April 12</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>01:15 PM</span><a href='https://www.foxtheatre.ca/movies/the-penguin-lessons/' target='_blank'>The Penguin Lessons</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>01:30 PM</span><a href='https://revuecinema.ca/films/toronto-silent-film-festival-mantrap-1926/' target='_blank'>Toronto Silent Film Festival: MANTRAP (1926)</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>02:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMjIwVDM=' target='_blank'>Brides</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>02:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMjIxVDQ=' target='_blank'>Seaside Serendipity</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:00 PM</span><a href='https://revuecinema.ca/films/toronto-silent-film-festival-the-last-command-1928/' target='_blank'>Toronto Silent Film Festival: THE LAST COMMAND (1928)</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>04:00 PM</span><a href='https://paradiseonbloor.com/movies/the-age-of-innocence/' target='_blank'>The Age of Innocence</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>04:00 PM</span><a href='https://www.foxtheatre.ca/movies/the-friend/' target='_blank'>The Friend</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMjQ0VDM=' target='_blank'>Pools</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMjYzVDE=' target='_blank'>Sacramento</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>07:00 PM</span><a href='https://revuecinema.ca/films/the-players/' target='_blank'>THE PLAYERS</a></div>
@@ -99,6 +114,7 @@ a:hover { text-decoration: underline; }
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMjkwVDE=' target='_blank'>Sacramento</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:30 AM</span><a href='https://am.ticketmaster.com/tiff/buy/ism/NUExMkkzVDM=%20614' target='_blank'>Young Creators Co-Lab: Expanded Cinema</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/black-belt-cinema-kung-fu-rascals-1992/' target='_blank'>Black Belt Cinema: KUNG FU RASCALS (1992)</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:45 PM</span><a href='https://www.foxtheatre.ca/movies/detour-the-french-connection/' target='_blank'>Detour: The French Connection</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>11:45 AM</span><a href='https://am.ticketmaster.com/tiff/buy/ism/NUExMks0VDM=' target='_blank'>Young Creators Co-Lab: Actors in Focus</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>12:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMkw0VDI=' target='_blank'>Sacramento</a></div>
 </div>
@@ -108,37 +124,50 @@ a:hover { text-decoration: underline; }
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>02:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMzIwVDQ=' target='_blank'>The Dog Thief</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>03:00 PM</span><a href='https://paradiseonbloor.com/movies/an-unmarried-woman/' target='_blank'>An Unmarried Woman</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>03:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMzMxVDI=' target='_blank'>Sacramento</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:45 PM</span><a href='https://www.foxtheatre.ca/movies/restoration-a-woman-is-a-woman-1961/' target='_blank'>Restoration: A Woman Is A Woman (1961)</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:00 PM</span><a href='https://revuecinema.ca/films/toronto-silent-film-festival-laffs-in-the-aft-comedy-show/' target='_blank'>Toronto Silent Film Festival: LAFFS IN THE AFT COMEDY SHOW</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMzQzVDM=' target='_blank'>Rape Play</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMzYxVDE=' target='_blank'>Sacramento</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:15 PM</span><a href='https://www.foxtheatre.ca/movies/the-friend/' target='_blank'>The Friend</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>06:30 PM</span><a href='https://paradiseonbloor.com/movies/certified-copy/' target='_blank'>Certified Copy</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMzYzVDI=' target='_blank'>TIFF 50 Alumni Spotlight with Emma Seligman</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>07:00 PM</span><a href='https://revuecinema.ca/films/staff-pick-of-the-month-titanic-1997/' target='_blank'>Staff Pick Of The Month: TITANIC (1997)</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMzcwVDM=' target='_blank'>Where the Wind Comes From</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMzgzVDE=' target='_blank'>Sacramento</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:00 PM</span><a href='https://www.foxtheatre.ca/movies/detour-the-french-connection/' target='_blank'>Detour: The French Connection</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:30 AM</span><a href='https://am.ticketmaster.com/tiff/' target='_blank'>Young Creators Co-Lab: Coming-of-Age Confrontations</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>11:45 AM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExM0s0VDM=' target='_blank'>Young Creators Co-Lab: Let's Get Weird! with New Toronto Bizarre</a></div>
 </div>
 <div class='day-box'><h3>Monday, April 14</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>04:00 PM</span><a href='https://www.foxtheatre.ca/movies/111th-birthday-open-house/' target='_blank'>111th Birthday Open House</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:30 PM</span><a href='https://revuecinema.ca/films/revue-film-society-yojimbo-1961/' target='_blank'>Revue Film Society: YOJIMBO (1961)</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:30 PM</span><a href='https://www.foxtheatre.ca/movies/free-for-members-the-great-dictator/' target='_blank'>Free For Members: The Great Dictator</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>07:30 PM</span><a href='https://paradiseonbloor.com/special_events/moca-presents-artist-x-artist-jessica-stockholder-x-julia-dault/' target='_blank'>MOCA presents: Artist x Artist: Jessica Stockholder x Julia Dault</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/the-friend/' target='_blank'>The Friend</a></div>
 </div>
 <div class='day-box'><h3>Tuesday, April 15</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>04:15 PM</span><a href='https://www.foxtheatre.ca/movies/restoration-a-woman-is-a-woman-1961/' target='_blank'>Restoration: A Woman Is A Woman (1961)</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNTYzVDQ=' target='_blank'>Beeba Boys with Deepa Mehta</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/closed-for-private-rental/' target='_blank'>CLOSED FOR PRIVATE RENTAL</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNTY0VDM=' target='_blank'>Sacramento</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/the-friend/' target='_blank'>The Friend</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNTcwVDE=' target='_blank'>Secret Movie Club</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/mickey-17/' target='_blank'>Mickey 17</a></div>
 </div>
 <div class='day-box'><h3>Wednesday, April 16</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:30 PM</span><a href='https://www.foxtheatre.ca/movies/the-friend/' target='_blank'>The Friend</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNjQwVDE=' target='_blank'>Sacramento</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>05:00 PM</span><a href='https://am.ticketmaster.com/tiff/buy/quickbuy?id=NDI3MQ==' target='_blank'>Script to Screen: Pan's Labyrinth</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNjYxVDE=' target='_blank'>Sacramento</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNjYzVDM=' target='_blank'>Sam & Me with Deepa Mehta</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/national-canadian-film-day-waydowntown-2000-presented-on-35mm-with-cast-crew-in-attendance/' target='_blank'>National Canadian Film Day: WAYDOWNTOWN (2000) Presented on 35mm – with Cast & Crew In Attendance!</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/national-canadian-film-day-the-tragically-hip-long-time-running/' target='_blank'>National Canadian Film Day: The Tragically Hip – Long Time Running</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>07:30 PM</span><a href='https://paradiseonbloor.com/movies/the-art-of-woo/' target='_blank'>The Art of Woo</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/uncaged-pig-2021/' target='_blank'>UnCAGED: PIG (2021)</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/mickey-17/' target='_blank'>Mickey 17</a></div>
 </div>
 <div class='day-box'><h3>Thursday, April 17</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:30 PM</span><a href='https://www.foxtheatre.ca/movies/the-friend/' target='_blank'>The Friend</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:10 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNzQxVDQ=' target='_blank'>Sacramento</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNzQzVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNzYzVDQ=' target='_blank'>Lázaro at Night with Nicolás Pereda</a></div>
@@ -147,15 +176,18 @@ a:hover { text-decoration: underline; }
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNzkwVDQ=' target='_blank'>Sacramento</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/free-members-only-screening-trailer-trash-stoned/' target='_blank'>Free Members-Only Screening: TRAILER TRASH: STONED</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNzkzVDE=' target='_blank'>The Wedding Banquet</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/detour-lady-snowblood/' target='_blank'>Detour: Lady Snowblood</a></div>
 </div>
 <div class='day-box'><h3>Friday, April 18</h3>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>01:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExODExVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>03:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExODM0VDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:00 PM</span><a href='https://revuecinema.ca/films/good-friday-screening-hop-2011/' target='_blank'>Good Friday Screening: HOP (2011)</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>04:15 PM</span><a href='https://www.foxtheatre.ca/movies/black-bag/' target='_blank'>Black Bag</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExODYwVDI=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:30 PM</span><a href='https://revuecinema.ca/films/revue-event-donnie-darko-2001-canadian-premiere-of-new-35mm-print/' target='_blank'>Revue Event: DONNIE DARKO (2001) – 35mm Print!</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>06:30 PM</span><a href='https://paradiseonbloor.com/special_events/candlelight-the-best-of-britpop-ft-oasis-blur-more/' target='_blank'>Candlelight: The Best of Britpop ft. Oasis, Blur & More</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExODYzVDQ=' target='_blank'>Funny Boy with Deepa Mehta</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/detour-the-long-good-friday/' target='_blank'>Detour: The Long Good Friday</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExODcwVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExODgzVDI=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>08:45 PM</span><a href='https://paradiseonbloor.com/special_events/candlelight-punjabi-hits/' target='_blank'>Candlelight: Punjabi Hits</a></div>
@@ -164,42 +196,54 @@ a:hover { text-decoration: underline; }
 </div>
 <div class='day-box'><h3>Saturday, April 19</h3>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>01:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTEwVDM=' target='_blank'>Batang West Side</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>01:00 PM</span><a href='https://www.foxtheatre.ca/movies/klassic-kidz-the-great-muppet-caper/' target='_blank'>Klassic Kidz: The Great Muppet Caper</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>01:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTExVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>02:00 PM</span><a href='https://revuecinema.ca/films/rental-event-everything-i-hope-for-book-launch-free-screening-of-harold-and-maude/' target='_blank'>Rental Event: ‘Everything I Hope For’ Book Launch + Free Screening of HAROLD AND MAUDE!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>03:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTM0VDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTYwVDI=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:30 PM</span><a href='https://revuecinema.ca/films/when-animals-attack-the-night-of-the-lepus-1972/' target='_blank'>When Animals Attack: THE NIGHT OF THE LEPUS (1972)</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>06:30 PM</span><a href='https://paradiseonbloor.com/special_events/candlelight-jazz-nina-simone-ella-fitzgerald-and-the-women-of-jazz-feat-joanna-majoko/' target='_blank'>Candlelight Jazz: Nina Simone, Ella Fitzgerald, and the Women of Jazz feat. Joanna Majoko</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>07:00 PM</span><a href='https://www.foxtheatre.ca/movies/black-bag/' target='_blank'>Black Bag</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTcxVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTgwVDM=' target='_blank'>Screamers</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTgzVDI=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>08:45 PM</span><a href='https://paradiseonbloor.com/special_events/candlelight-jazz-nina-simone-ella-fitzgerald-and-the-women-of-jazz-feat-joanna-majoko/' target='_blank'>Candlelight Jazz: Nina Simone, Ella Fitzgerald, and the Women of Jazz feat. Joanna Majoko</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/not-so-terrible-twos-critters-2-1988-new-restoration/' target='_blank'>(Not-So) Terrible Twos: CRITTERS 2 (1988) – New Restoration!</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/detour-clue/' target='_blank'>Detour: Clue</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTk0VDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>11:59 PM</span><a href='https://revuecinema.ca/films/the-midnight-revue-the-harder-they-come-1972/' target='_blank'>The Midnight Revue: THE HARDER THEY COME (1972)</a></div>
 </div>
 <div class='day-box'><h3>Sunday, April 20</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>01:00 PM</span><a href='https://www.foxtheatre.ca/movies/sing-along-jesus-christ-superstar/' target='_blank'>Sing-Along! Jesus Christ Superstar</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>01:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDExVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>02:30 PM</span><a href='https://paradiseonbloor.com/movies/far-from-the-madding-crowd/' target='_blank'>Far from the Madding Crowd</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>02:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDIzVDI=' target='_blank'>Midnight's Children with Deepa Mehta</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>03:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDMwVDQ=' target='_blank'>Easter Parade</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>03:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDM0VDE=' target='_blank'>The Wedding Banquet</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:50 PM</span><a href='https://www.foxtheatre.ca/movies/black-bag/' target='_blank'>Black Bag</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:20 PM</span><a href='https://revuecinema.ca/films/420-day-screening-reefer-madness-1938/' target='_blank'>420 Day Screening: REEFER MADNESS (1938)</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDYwVDI=' target='_blank'>The Wedding Banquet</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:10 PM</span><a href='https://www.foxtheatre.ca/movies/restoration-princess-mononoke-4k-restoration-dubbed/' target='_blank'>Restoration: Princess Mononoke – 4K Restoration – (Dubbed)</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDYzVDQ=' target='_blank'>Anatomy of Violence with Deepa Mehta</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/the-black-nerds-friday-30th-anniversary-screening/' target='_blank'>The Black Nerds: FRIDAY – 30th Anniversary Screening!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDcwVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>07:30 PM</span><a href='https://paradiseonbloor.com/movies/open-doom-crescendo/' target='_blank'>Open Doom Crescendo</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDgzVDI=' target='_blank'>The Wedding Banquet</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:15 PM</span><a href='https://www.foxtheatre.ca/movies/detour-dazed-and-confused/' target='_blank'>Detour: Dazed and Confused</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/420-day-screening-the-big-lebowski-1998/' target='_blank'>420 Day Screening: THE BIG LEBOWSKI (1998)</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDkzVDE=' target='_blank'>The Wedding Banquet</a></div>
 </div>
 <div class='day-box'><h3>Monday, April 21</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>01:00 PM</span><a href='https://www.foxtheatre.ca/movies/klassic-kidz-the-great-muppet-caper/' target='_blank'>Klassic Kidz: The Great Muppet Caper</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/revue-event-the-visitor-2024/' target='_blank'>Revue Event: THE VISITOR (2024)</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/black-bag/' target='_blank'>Black Bag</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>07:30 PM</span><a href='https://paradiseonbloor.com/movies/sounder/' target='_blank'>Sounder</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:15 PM</span><a href='https://www.foxtheatre.ca/movies/detour-clue/' target='_blank'>Detour: Clue</a></div>
 </div>
 <div class='day-box'><h3>Tuesday, April 22</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>04:00 PM</span><a href='https://www.foxtheatre.ca/movies/black-bag/' target='_blank'>Black Bag</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMjYzVDQ=' target='_blank'>Water</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/diva-valley-of-the-dolls/' target='_blank'>Diva!: Valley of the Dolls</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>07:00 PM</span><a href='https://revuecinema.ca/films/we-really-like-her-bystanders-toronto-theatrical-premiere/' target='_blank'>We Really Like Her!: BYSTANDERS – Toronto Theatrical Premiere!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMjcwVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>07:30 PM</span><a href='https://paradiseonbloor.com/movies/the-fox/' target='_blank'>The Fox</a></div>
@@ -210,6 +254,7 @@ a:hover { text-decoration: underline; }
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:15 PM</span><a href='https://revuecinema.ca/films/uncaged-wild-at-heart-35th-anniversary-screening/' target='_blank'>UnCAGED: WILD AT HEART – 35th Anniversary Screening!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMzYxVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMzYzVDQ=' target='_blank'>Bollywood/Hollywood</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:50 PM</span><a href='https://www.foxtheatre.ca/movies/black-bag/' target='_blank'>Black Bag</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>08:00 PM</span><a href='https://paradiseonbloor.com/movies/born-in-flames/' target='_blank'>Born in Flames</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMzg0VDE=' target='_blank'>The Wedding Banquet</a></div>
 </div>
@@ -217,12 +262,15 @@ a:hover { text-decoration: underline; }
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyNDQwVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyNDYzVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/hold-up-eurotrip-2004/' target='_blank'>Hold Up: EUROTRIP (2004)</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/black-bag/' target='_blank'>Black Bag</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyNDkwVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/not-so-terrible-twos-desperado-30th-anniversary-screening/' target='_blank'>(Not-So) Terrible Twos: DESPERADO – 30th Anniversary Screening!</a></div>
 </div>
 <div class='day-box'><h3>Friday, April 25</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:40 PM</span><a href='https://www.foxtheatre.ca/movies/on-swift-horses/' target='_blank'>On Swift Horses</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:00 PM</span><a href='https://revuecinema.ca/films/death-of-a-unicorn/' target='_blank'>DEATH OF A UNICORN</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/the-perfect-date-miss-congeniality-25th-anniversary-screening/' target='_blank'>The Perfect Date: MISS CONGENIALITY – 25th Anniversary Screening!</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:15 PM</span><a href='https://www.foxtheatre.ca/movies/detour-uhf/' target='_blank'>Detour: UHF</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/neon-dreams-cisco-pike-1972-presented-on-35mm/' target='_blank'>Neon Dreams: CISCO PIKE (1972) – Presented on 35mm!</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>09:30 PM</span><a href='https://paradiseonbloor.com/movies/the-rocky-horror-picture-show-2/' target='_blank'>The Rocky Horror Picture Show</a></div>
 </div>
@@ -230,24 +278,36 @@ a:hover { text-decoration: underline; }
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>02:30 PM</span><a href='https://paradiseonbloor.com/special_events/splashn-boots-live/' target='_blank'>Splash’N Boots LIVE!</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>03:15 PM</span><a href='https://revuecinema.ca/films/the-perfect-date-alien-aliens-double-feature/' target='_blank'>The Perfect Date: ALIEN & ALIENS Double Feature!</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:00 PM</span><a href='https://revuecinema.ca/films/the-perfect-date-alien-aliens-double-feature-2/' target='_blank'>The Perfect Date: ALIEN & ALIENS Double Feature!</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:30 PM</span><a href='https://www.foxtheatre.ca/movies/on-swift-horses/' target='_blank'>On Swift Horses</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>08:00 PM</span><a href='https://paradiseonbloor.com/movies/days-of-heaven/' target='_blank'>Days of Heaven</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/dumpster-raccoon-cant-stop-the-music-45th-anniversary-screening/' target='_blank'>Dumpster Raccoon: CAN’T STOP THE MUSIC – 45th Anniversary Screening!</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/showstoppers-tommy/' target='_blank'>Showstoppers: Tommy</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>12:15 PM</span><a href='https://revuecinema.ca/films/the-monkey/' target='_blank'>THE MONKEY</a></div>
 </div>
 <div class='day-box'><h3>Sunday, April 27</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>01:00 PM</span><a href='https://www.foxtheatre.ca/movies/golden-age-a-night-at-the-opera/' target='_blank'>Golden Age: A Night at the Opera</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:00 PM</span><a href='https://revuecinema.ca/films/silent-revue-the-hound-of-baskervilles-1929/' target='_blank'>Silent Revue: THE HOUND OF BASKERVILLES (1929)</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>06:00 PM</span><a href='https://paradiseonbloor.com/movies/certain-women/' target='_blank'>Certain Women</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:15 PM</span><a href='https://www.foxtheatre.ca/movies/on-swift-horses/' target='_blank'>On Swift Horses</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>07:00 PM</span><a href='https://revuecinema.ca/films/dont-be-so-political-memories-of-a-murder-2003/' target='_blank'>Don’t Be So Political: MEMORIES OF A MURDER (2003)</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:00 PM</span><a href='https://www.foxtheatre.ca/movies/detour-uhf/' target='_blank'>Detour: UHF</a></div>
 </div>
 <div class='day-box'><h3>Monday, April 28</h3>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>08:00 PM</span><a href='https://paradiseonbloor.com/movies/red-rooms/' target='_blank'>Red Rooms</a></div>
 </div>
+<div class='day-box'><h3>Tuesday, April 29</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:30 PM</span><a href='https://www.foxtheatre.ca/movies/on-swift-horses/' target='_blank'>On Swift Horses</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/hookers-on-davie-w-janis-cole-holly-dale/' target='_blank'>Hookers on Davie w/Janis Cole & Holly Dale</a></div>
+</div>
 <div class='day-box'><h3>Wednesday, April 30</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:50 PM</span><a href='https://www.foxtheatre.ca/movies/on-swift-horses/' target='_blank'>On Swift Horses</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/golden-age-a-night-at-the-opera/' target='_blank'>Golden Age: A Night at the Opera</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>07:00 PM</span><a href='https://revuecinema.ca/films/uncaged-birdy-1984-presented-on-35mm/' target='_blank'>UnCAGED: BIRDY (1984) – Presented on 35mm!</a></div>
 </div>
 </div>
 <h2>May 2025</h2><div class='grid'>
 <div class='day-box'><h3>Thursday, May 01</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:40 PM</span><a href='https://www.foxtheatre.ca/movies/on-swift-horses/' target='_blank'>On Swift Horses</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/designing-the-movies-the-great-gatsby-1974/' target='_blank'>Designing The Movies: THE GREAT GATSBY (1974)</a></div>
 </div>
 <div class='day-box'><h3>Friday, May 02</h3>
@@ -265,7 +325,9 @@ a:hover { text-decoration: underline; }
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:00 PM</span><a href='https://revuecinema.ca/films/the-perfect-date-star-wars-episode-iv-a-new-hope-4k-restoration/' target='_blank'>The Perfect Date: STAR WARS: EPISODE IV – A NEW HOPE (4K Restoration!)</a></div>
 </div>
 <div class='day-box'><h3>Monday, May 05</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>05:30 PM</span><a href='https://www.foxtheatre.ca/movies/face-off-1971-vip-meet-and-greet-with-art-hindle/' target='_blank'>Face-Off (1971) – VIP Meet and Greet with Art Hindle!</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:30 PM</span><a href='https://revuecinema.ca/films/anime-at-the-revue-princess-mononoke-1997-new-4k-restoration/' target='_blank'>Anime At The Revue: PRINCESS MONONOKE (1997) – New 4K Restoration!</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:30 PM</span><a href='https://www.foxtheatre.ca/movies/face-off-1971-w-art-hindle-qa/' target='_blank'>Face-Off (1971) w/Art Hindle Q&A</a></div>
 </div>
 <div class='day-box'><h3>Tuesday, May 06</h3>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/free-members-only-screening-secret-screening/' target='_blank'>Free Members-Only Screening: SECRET SCREENING!</a></div>
@@ -277,6 +339,7 @@ a:hover { text-decoration: underline; }
 </div>
 <div class='day-box'><h3>Thursday, May 08</h3>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/we-really-like-her-the-decline-of-western-civilization-part-ii-the-metal-years/' target='_blank'>We Really Like Her: The Decline of Western Civilization Part II: The Metal Years</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>07:00 PM</span><a href='https://www.foxtheatre.ca/movies/thom-yorke-mark-pritchards-tall-tales-a-global-listening-event/' target='_blank'>Thom Yorke & Mark Pritchard’s TALL TALES: A Global Listening Event</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/nightmare-alley-may-2003/' target='_blank'>Nightmare Alley: MAY (2003)</a></div>
 </div>
 <div class='day-box'><h3>Friday, May 09</h3>
@@ -314,6 +377,7 @@ a:hover { text-decoration: underline; }
 </div>
 <div class='day-box'><h3>Thursday, May 15</h3>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:30 PM</span><a href='https://revuecinema.ca/films/paid-in-sweat-raging-bull-1980-45th-anniversary-screening/' target='_blank'>Paid In Sweat: RAGING BULL (1980) – 45th Anniversary Screening!</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>07:00 PM</span><a href='https://www.foxtheatre.ca/movies/book-film-club-woman-in-the-dunes/' target='_blank'>Book & Film Club: Woman in the Dunes</a></div>
 </div>
 <div class='day-box'><h3>Friday, May 16</h3>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/revue-event-the-frighteners-1996-presented-on-35mm/' target='_blank'>Revue Event: THE FRIGHTENERS (1996) – Presented on 35mm!</a></div>
@@ -348,14 +412,17 @@ a:hover { text-decoration: underline; }
 <div class='day-box'><h3>Saturday, May 24</h3>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>02:00 PM</span><a href='https://paradiseonbloor.com/movies/casanova/' target='_blank'>Casanova</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:00 PM</span><a href='https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/' target='_blank'>The 48 Hour Science Fiction Film Project – Toronto</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>05:45 PM</span><a href='https://www.foxtheatre.ca/movies/ran-4k-restoration/' target='_blank'>RAN 4K Restoration</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>07:00 PM</span><a href='https://revuecinema.ca/films/not-so-terrible-twos-waynes-world-2-1993/' target='_blank'>(Not-So) Terrible Twos: WAYNE’S WORLD 2 (1993)</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>11:59 PM</span><a href='https://revuecinema.ca/films/the-midnight-revue-dressed-to-kill-45th-anniversary-screening/' target='_blank'>The Midnight Revue: DRESSED TO KILL – 45th Anniversary Screening!</a></div>
 </div>
 <div class='day-box'><h3>Sunday, May 25</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>02:45 PM</span><a href='https://www.foxtheatre.ca/movies/ran-4k-restoration/' target='_blank'>RAN 4K Restoration</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>07:00 PM</span><a href='https://revuecinema.ca/films/dont-be-so-political-wargames-1983/' target='_blank'>Don’t Be So Political: WARGAMES (1983)</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>07:00 PM</span><a href='https://paradiseonbloor.com/movies/coffy/' target='_blank'>Coffy</a></div>
 </div>
 <div class='day-box'><h3>Wednesday, May 28</h3>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>07:00 PM</span><a href='https://www.foxtheatre.ca/movies/ran-4k-restoration/' target='_blank'>RAN 4K Restoration</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/revue-event-it-feeds-cast-crew-in-attendance/' target='_blank'>Revue Event: IT FEEDS – Cast & Crew In Attendance!</a></div>
 </div>
 <div class='day-box'><h3>Thursday, May 29</h3>
@@ -506,17 +573,20 @@ a:hover { text-decoration: underline; }
 </div>
 </div><div id='list-view' class='hidden'>
 <div class='list-day'><h2>Wednesday, April 09</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:30 PM</span><a href='https://www.foxtheatre.ca/movies/becoming-led-zeppelin/' target='_blank'>Becoming Led Zeppelin</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>03:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTM0VDI=' target='_blank'>A Nice Indian Boy</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTQxVDE=' target='_blank'>The Ballad of Wallis Island</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTQzVDU=' target='_blank'>Bob Trevino Likes It</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:00 PM</span><a href='https://revuecinema.ca/films/uncaged-face-off-1997-presented-on-35mm/' target='_blank'>UnCAGED: FACE/OFF (1997) – Presented on 35mm!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTYxVDI=' target='_blank'>A Nice Indian Boy</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTYzVDQ=' target='_blank'>Infinite Returns curated by Suneil Sanzgiri</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:40 PM</span><a href='https://www.foxtheatre.ca/movies/detour-the-elephant-man-4k-restoration/' target='_blank'>Detour: The Elephant Man – 4K Restoration!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTY0VDE=' target='_blank'>The Ballad of Wallis Island</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:10 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTcxVDU=' target='_blank'>No Other Land</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTg0VDI=' target='_blank'>Grand Tour</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTkxVDE=' target='_blank'>The Ballad of Wallis Island</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTkzVDU=' target='_blank'>The Luckiest Man in America</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/mickey-17/' target='_blank'>Mickey 17</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEwOTk0VDQ=' target='_blank'>A Nice Indian Boy</a></div>
 </div>
 <div class='list-day'><h2>Thursday, April 10</h2>
@@ -524,17 +594,20 @@ a:hover { text-decoration: underline; }
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDQwVDI=' target='_blank'>A Nice Indian Boy</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDQxVDE=' target='_blank'>Bob Trevino Likes It</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDQzVDU=' target='_blank'>No Other Land</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>04:30 PM</span><a href='https://www.foxtheatre.ca/movies/no-other-land/' target='_blank'>No Other Land</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>05:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDUxVDQ=' target='_blank'>Manas</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:25 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDYyVDI=' target='_blank'>A Nice Indian Boy</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:30 PM</span><a href='https://revuecinema.ca/films/we-really-like-her-mary-janes-not-a-virgin-anymore-i-was-a-teenage-serial-killer-double-feature/' target='_blank'>We Really Like Her: MARY JANE’S NOT A VIRGIN ANYMORE + I WAS A TEENAGE SERIAL KILLER Double Feature!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDY0VDU=' target='_blank'>Misericordia</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDcwVDE=' target='_blank'>The Ballad of Wallis Island</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>07:00 PM</span><a href='https://www.foxtheatre.ca/movies/slumber-party-the-breakfast-club/' target='_blank'>Slumber Party: The Breakfast Club</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDczVDM=' target='_blank'>Loved It: Chandler Levack on Fast Times at Ridgemont High</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDgxVDQ=' target='_blank'>We Were Dangerous</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDg0VDI=' target='_blank'>The Luckiest Man in America</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDkxVDU=' target='_blank'>Grand Tour</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/nightmare-alley-demons-1985-new-restoration/' target='_blank'>Nightmare Alley: DEMONS (1985) – New Restoration!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMDkzVDE=' target='_blank'>The Ballad of Wallis Island</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/restoration-princess-mononoke-4k-restoration-subtitled/' target='_blank'>Restoration: Princess Mononoke – 4K Restoration (Subtitled)</a></div>
 </div>
 <div class='list-day'><h2>Friday, April 11</h2>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>03:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMTMxVDM=' target='_blank'>Sacramento</a></div>
@@ -542,16 +615,20 @@ a:hover { text-decoration: underline; }
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMTY0VDE=' target='_blank'>Sacramento</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>07:00 PM</span><a href='https://paradiseonbloor.com/movies/outrageous/' target='_blank'>Outrageous!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMTcwVDI=' target='_blank'>Battle of the Scores + Opening Night Party</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>07:00 PM</span><a href='https://www.foxtheatre.ca/movies/restoration-a-woman-is-a-woman-1961/' target='_blank'>Restoration: A Woman Is A Woman (1961)</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMTkwVDE=' target='_blank'>Sacramento</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/revue-event-house-40th-anniversary-screening/' target='_blank'>Revue Event: HOUSE – 40th Anniversary Screening!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMTkzVDM=' target='_blank'>Queens of Drama</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/swamp-ball-shrek-an-interactive-drag-screening/' target='_blank'>Swamp Ball! Shrek – An Interactive Drag Screening</a></div>
 </div>
 <div class='list-day'><h2>Saturday, April 12</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>01:15 PM</span><a href='https://www.foxtheatre.ca/movies/the-penguin-lessons/' target='_blank'>The Penguin Lessons</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>01:30 PM</span><a href='https://revuecinema.ca/films/toronto-silent-film-festival-mantrap-1926/' target='_blank'>Toronto Silent Film Festival: MANTRAP (1926)</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>02:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMjIwVDM=' target='_blank'>Brides</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>02:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMjIxVDQ=' target='_blank'>Seaside Serendipity</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:00 PM</span><a href='https://revuecinema.ca/films/toronto-silent-film-festival-the-last-command-1928/' target='_blank'>Toronto Silent Film Festival: THE LAST COMMAND (1928)</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>04:00 PM</span><a href='https://paradiseonbloor.com/movies/the-age-of-innocence/' target='_blank'>The Age of Innocence</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>04:00 PM</span><a href='https://www.foxtheatre.ca/movies/the-friend/' target='_blank'>The Friend</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMjQ0VDM=' target='_blank'>Pools</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMjYzVDE=' target='_blank'>Sacramento</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>07:00 PM</span><a href='https://revuecinema.ca/films/the-players/' target='_blank'>THE PLAYERS</a></div>
@@ -561,6 +638,7 @@ a:hover { text-decoration: underline; }
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMjkwVDE=' target='_blank'>Sacramento</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:30 AM</span><a href='https://am.ticketmaster.com/tiff/buy/ism/NUExMkkzVDM=%20614' target='_blank'>Young Creators Co-Lab: Expanded Cinema</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/black-belt-cinema-kung-fu-rascals-1992/' target='_blank'>Black Belt Cinema: KUNG FU RASCALS (1992)</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:45 PM</span><a href='https://www.foxtheatre.ca/movies/detour-the-french-connection/' target='_blank'>Detour: The French Connection</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>11:45 AM</span><a href='https://am.ticketmaster.com/tiff/buy/ism/NUExMks0VDM=' target='_blank'>Young Creators Co-Lab: Actors in Focus</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>12:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMkw0VDI=' target='_blank'>Sacramento</a></div>
 </div>
@@ -570,37 +648,50 @@ a:hover { text-decoration: underline; }
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>02:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMzIwVDQ=' target='_blank'>The Dog Thief</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>03:00 PM</span><a href='https://paradiseonbloor.com/movies/an-unmarried-woman/' target='_blank'>An Unmarried Woman</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>03:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMzMxVDI=' target='_blank'>Sacramento</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:45 PM</span><a href='https://www.foxtheatre.ca/movies/restoration-a-woman-is-a-woman-1961/' target='_blank'>Restoration: A Woman Is A Woman (1961)</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:00 PM</span><a href='https://revuecinema.ca/films/toronto-silent-film-festival-laffs-in-the-aft-comedy-show/' target='_blank'>Toronto Silent Film Festival: LAFFS IN THE AFT COMEDY SHOW</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMzQzVDM=' target='_blank'>Rape Play</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMzYxVDE=' target='_blank'>Sacramento</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:15 PM</span><a href='https://www.foxtheatre.ca/movies/the-friend/' target='_blank'>The Friend</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>06:30 PM</span><a href='https://paradiseonbloor.com/movies/certified-copy/' target='_blank'>Certified Copy</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMzYzVDI=' target='_blank'>TIFF 50 Alumni Spotlight with Emma Seligman</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>07:00 PM</span><a href='https://revuecinema.ca/films/staff-pick-of-the-month-titanic-1997/' target='_blank'>Staff Pick Of The Month: TITANIC (1997)</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMzcwVDM=' target='_blank'>Where the Wind Comes From</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExMzgzVDE=' target='_blank'>Sacramento</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:00 PM</span><a href='https://www.foxtheatre.ca/movies/detour-the-french-connection/' target='_blank'>Detour: The French Connection</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:30 AM</span><a href='https://am.ticketmaster.com/tiff/' target='_blank'>Young Creators Co-Lab: Coming-of-Age Confrontations</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>11:45 AM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExM0s0VDM=' target='_blank'>Young Creators Co-Lab: Let's Get Weird! with New Toronto Bizarre</a></div>
 </div>
 <div class='list-day'><h2>Monday, April 14</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>04:00 PM</span><a href='https://www.foxtheatre.ca/movies/111th-birthday-open-house/' target='_blank'>111th Birthday Open House</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:30 PM</span><a href='https://revuecinema.ca/films/revue-film-society-yojimbo-1961/' target='_blank'>Revue Film Society: YOJIMBO (1961)</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:30 PM</span><a href='https://www.foxtheatre.ca/movies/free-for-members-the-great-dictator/' target='_blank'>Free For Members: The Great Dictator</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>07:30 PM</span><a href='https://paradiseonbloor.com/special_events/moca-presents-artist-x-artist-jessica-stockholder-x-julia-dault/' target='_blank'>MOCA presents: Artist x Artist: Jessica Stockholder x Julia Dault</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/the-friend/' target='_blank'>The Friend</a></div>
 </div>
 <div class='list-day'><h2>Tuesday, April 15</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>04:15 PM</span><a href='https://www.foxtheatre.ca/movies/restoration-a-woman-is-a-woman-1961/' target='_blank'>Restoration: A Woman Is A Woman (1961)</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNTYzVDQ=' target='_blank'>Beeba Boys with Deepa Mehta</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/closed-for-private-rental/' target='_blank'>CLOSED FOR PRIVATE RENTAL</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNTY0VDM=' target='_blank'>Sacramento</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/the-friend/' target='_blank'>The Friend</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNTcwVDE=' target='_blank'>Secret Movie Club</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/mickey-17/' target='_blank'>Mickey 17</a></div>
 </div>
 <div class='list-day'><h2>Wednesday, April 16</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:30 PM</span><a href='https://www.foxtheatre.ca/movies/the-friend/' target='_blank'>The Friend</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNjQwVDE=' target='_blank'>Sacramento</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>05:00 PM</span><a href='https://am.ticketmaster.com/tiff/buy/quickbuy?id=NDI3MQ==' target='_blank'>Script to Screen: Pan's Labyrinth</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNjYxVDE=' target='_blank'>Sacramento</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNjYzVDM=' target='_blank'>Sam & Me with Deepa Mehta</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/national-canadian-film-day-waydowntown-2000-presented-on-35mm-with-cast-crew-in-attendance/' target='_blank'>National Canadian Film Day: WAYDOWNTOWN (2000) Presented on 35mm – with Cast & Crew In Attendance!</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/national-canadian-film-day-the-tragically-hip-long-time-running/' target='_blank'>National Canadian Film Day: The Tragically Hip – Long Time Running</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>07:30 PM</span><a href='https://paradiseonbloor.com/movies/the-art-of-woo/' target='_blank'>The Art of Woo</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/uncaged-pig-2021/' target='_blank'>UnCAGED: PIG (2021)</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/mickey-17/' target='_blank'>Mickey 17</a></div>
 </div>
 <div class='list-day'><h2>Thursday, April 17</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:30 PM</span><a href='https://www.foxtheatre.ca/movies/the-friend/' target='_blank'>The Friend</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:10 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNzQxVDQ=' target='_blank'>Sacramento</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNzQzVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNzYzVDQ=' target='_blank'>Lázaro at Night with Nicolás Pereda</a></div>
@@ -609,15 +700,18 @@ a:hover { text-decoration: underline; }
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNzkwVDQ=' target='_blank'>Sacramento</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/free-members-only-screening-trailer-trash-stoned/' target='_blank'>Free Members-Only Screening: TRAILER TRASH: STONED</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExNzkzVDE=' target='_blank'>The Wedding Banquet</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/detour-lady-snowblood/' target='_blank'>Detour: Lady Snowblood</a></div>
 </div>
 <div class='list-day'><h2>Friday, April 18</h2>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>01:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExODExVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>03:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExODM0VDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:00 PM</span><a href='https://revuecinema.ca/films/good-friday-screening-hop-2011/' target='_blank'>Good Friday Screening: HOP (2011)</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>04:15 PM</span><a href='https://www.foxtheatre.ca/movies/black-bag/' target='_blank'>Black Bag</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExODYwVDI=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:30 PM</span><a href='https://revuecinema.ca/films/revue-event-donnie-darko-2001-canadian-premiere-of-new-35mm-print/' target='_blank'>Revue Event: DONNIE DARKO (2001) – 35mm Print!</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>06:30 PM</span><a href='https://paradiseonbloor.com/special_events/candlelight-the-best-of-britpop-ft-oasis-blur-more/' target='_blank'>Candlelight: The Best of Britpop ft. Oasis, Blur & More</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExODYzVDQ=' target='_blank'>Funny Boy with Deepa Mehta</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/detour-the-long-good-friday/' target='_blank'>Detour: The Long Good Friday</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExODcwVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExODgzVDI=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>08:45 PM</span><a href='https://paradiseonbloor.com/special_events/candlelight-punjabi-hits/' target='_blank'>Candlelight: Punjabi Hits</a></div>
@@ -626,42 +720,54 @@ a:hover { text-decoration: underline; }
 </div>
 <div class='list-day'><h2>Saturday, April 19</h2>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>01:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTEwVDM=' target='_blank'>Batang West Side</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>01:00 PM</span><a href='https://www.foxtheatre.ca/movies/klassic-kidz-the-great-muppet-caper/' target='_blank'>Klassic Kidz: The Great Muppet Caper</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>01:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTExVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>02:00 PM</span><a href='https://revuecinema.ca/films/rental-event-everything-i-hope-for-book-launch-free-screening-of-harold-and-maude/' target='_blank'>Rental Event: ‘Everything I Hope For’ Book Launch + Free Screening of HAROLD AND MAUDE!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>03:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTM0VDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTYwVDI=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:30 PM</span><a href='https://revuecinema.ca/films/when-animals-attack-the-night-of-the-lepus-1972/' target='_blank'>When Animals Attack: THE NIGHT OF THE LEPUS (1972)</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>06:30 PM</span><a href='https://paradiseonbloor.com/special_events/candlelight-jazz-nina-simone-ella-fitzgerald-and-the-women-of-jazz-feat-joanna-majoko/' target='_blank'>Candlelight Jazz: Nina Simone, Ella Fitzgerald, and the Women of Jazz feat. Joanna Majoko</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>07:00 PM</span><a href='https://www.foxtheatre.ca/movies/black-bag/' target='_blank'>Black Bag</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTcxVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTgwVDM=' target='_blank'>Screamers</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTgzVDI=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>08:45 PM</span><a href='https://paradiseonbloor.com/special_events/candlelight-jazz-nina-simone-ella-fitzgerald-and-the-women-of-jazz-feat-joanna-majoko/' target='_blank'>Candlelight Jazz: Nina Simone, Ella Fitzgerald, and the Women of Jazz feat. Joanna Majoko</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/not-so-terrible-twos-critters-2-1988-new-restoration/' target='_blank'>(Not-So) Terrible Twos: CRITTERS 2 (1988) – New Restoration!</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/detour-clue/' target='_blank'>Detour: Clue</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUExOTk0VDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>11:59 PM</span><a href='https://revuecinema.ca/films/the-midnight-revue-the-harder-they-come-1972/' target='_blank'>The Midnight Revue: THE HARDER THEY COME (1972)</a></div>
 </div>
 <div class='list-day'><h2>Sunday, April 20</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>01:00 PM</span><a href='https://www.foxtheatre.ca/movies/sing-along-jesus-christ-superstar/' target='_blank'>Sing-Along! Jesus Christ Superstar</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>01:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDExVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>02:30 PM</span><a href='https://paradiseonbloor.com/movies/far-from-the-madding-crowd/' target='_blank'>Far from the Madding Crowd</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>02:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDIzVDI=' target='_blank'>Midnight's Children with Deepa Mehta</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>03:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDMwVDQ=' target='_blank'>Easter Parade</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>03:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDM0VDE=' target='_blank'>The Wedding Banquet</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:50 PM</span><a href='https://www.foxtheatre.ca/movies/black-bag/' target='_blank'>Black Bag</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:20 PM</span><a href='https://revuecinema.ca/films/420-day-screening-reefer-madness-1938/' target='_blank'>420 Day Screening: REEFER MADNESS (1938)</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDYwVDI=' target='_blank'>The Wedding Banquet</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:10 PM</span><a href='https://www.foxtheatre.ca/movies/restoration-princess-mononoke-4k-restoration-dubbed/' target='_blank'>Restoration: Princess Mononoke – 4K Restoration – (Dubbed)</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDYzVDQ=' target='_blank'>Anatomy of Violence with Deepa Mehta</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/the-black-nerds-friday-30th-anniversary-screening/' target='_blank'>The Black Nerds: FRIDAY – 30th Anniversary Screening!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDcwVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>07:30 PM</span><a href='https://paradiseonbloor.com/movies/open-doom-crescendo/' target='_blank'>Open Doom Crescendo</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDgzVDI=' target='_blank'>The Wedding Banquet</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:15 PM</span><a href='https://www.foxtheatre.ca/movies/detour-dazed-and-confused/' target='_blank'>Detour: Dazed and Confused</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/420-day-screening-the-big-lebowski-1998/' target='_blank'>420 Day Screening: THE BIG LEBOWSKI (1998)</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMDkzVDE=' target='_blank'>The Wedding Banquet</a></div>
 </div>
 <div class='list-day'><h2>Monday, April 21</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>01:00 PM</span><a href='https://www.foxtheatre.ca/movies/klassic-kidz-the-great-muppet-caper/' target='_blank'>Klassic Kidz: The Great Muppet Caper</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/revue-event-the-visitor-2024/' target='_blank'>Revue Event: THE VISITOR (2024)</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/black-bag/' target='_blank'>Black Bag</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>07:30 PM</span><a href='https://paradiseonbloor.com/movies/sounder/' target='_blank'>Sounder</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:15 PM</span><a href='https://www.foxtheatre.ca/movies/detour-clue/' target='_blank'>Detour: Clue</a></div>
 </div>
 <div class='list-day'><h2>Tuesday, April 22</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>04:00 PM</span><a href='https://www.foxtheatre.ca/movies/black-bag/' target='_blank'>Black Bag</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMjYzVDQ=' target='_blank'>Water</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/diva-valley-of-the-dolls/' target='_blank'>Diva!: Valley of the Dolls</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>07:00 PM</span><a href='https://revuecinema.ca/films/we-really-like-her-bystanders-toronto-theatrical-premiere/' target='_blank'>We Really Like Her!: BYSTANDERS – Toronto Theatrical Premiere!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>07:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMjcwVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>07:30 PM</span><a href='https://paradiseonbloor.com/movies/the-fox/' target='_blank'>The Fox</a></div>
@@ -672,6 +778,7 @@ a:hover { text-decoration: underline; }
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:15 PM</span><a href='https://revuecinema.ca/films/uncaged-wild-at-heart-35th-anniversary-screening/' target='_blank'>UnCAGED: WILD AT HEART – 35th Anniversary Screening!</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:15 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMzYxVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMzYzVDQ=' target='_blank'>Bollywood/Hollywood</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:50 PM</span><a href='https://www.foxtheatre.ca/movies/black-bag/' target='_blank'>Black Bag</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>08:00 PM</span><a href='https://paradiseonbloor.com/movies/born-in-flames/' target='_blank'>Born in Flames</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>08:45 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyMzg0VDE=' target='_blank'>The Wedding Banquet</a></div>
 </div>
@@ -679,12 +786,15 @@ a:hover { text-decoration: underline; }
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>04:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyNDQwVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>06:30 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyNDYzVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/hold-up-eurotrip-2004/' target='_blank'>Hold Up: EUROTRIP (2004)</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/black-bag/' target='_blank'>Black Bag</a></div>
 <div class='film tiff' data-source='TIFF Bell Lightbox'><span class='time'>09:00 PM</span><a href='https://am.ticketmaster.com/tiff/ism/NUEyNDkwVDE=' target='_blank'>The Wedding Banquet</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/not-so-terrible-twos-desperado-30th-anniversary-screening/' target='_blank'>(Not-So) Terrible Twos: DESPERADO – 30th Anniversary Screening!</a></div>
 </div>
 <div class='list-day'><h2>Friday, April 25</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:40 PM</span><a href='https://www.foxtheatre.ca/movies/on-swift-horses/' target='_blank'>On Swift Horses</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:00 PM</span><a href='https://revuecinema.ca/films/death-of-a-unicorn/' target='_blank'>DEATH OF A UNICORN</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/the-perfect-date-miss-congeniality-25th-anniversary-screening/' target='_blank'>The Perfect Date: MISS CONGENIALITY – 25th Anniversary Screening!</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:15 PM</span><a href='https://www.foxtheatre.ca/movies/detour-uhf/' target='_blank'>Detour: UHF</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/neon-dreams-cisco-pike-1972-presented-on-35mm/' target='_blank'>Neon Dreams: CISCO PIKE (1972) – Presented on 35mm!</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>09:30 PM</span><a href='https://paradiseonbloor.com/movies/the-rocky-horror-picture-show-2/' target='_blank'>The Rocky Horror Picture Show</a></div>
 </div>
@@ -692,22 +802,34 @@ a:hover { text-decoration: underline; }
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>02:30 PM</span><a href='https://paradiseonbloor.com/special_events/splashn-boots-live/' target='_blank'>Splash’N Boots LIVE!</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>03:15 PM</span><a href='https://revuecinema.ca/films/the-perfect-date-alien-aliens-double-feature/' target='_blank'>The Perfect Date: ALIEN & ALIENS Double Feature!</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:00 PM</span><a href='https://revuecinema.ca/films/the-perfect-date-alien-aliens-double-feature-2/' target='_blank'>The Perfect Date: ALIEN & ALIENS Double Feature!</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:30 PM</span><a href='https://www.foxtheatre.ca/movies/on-swift-horses/' target='_blank'>On Swift Horses</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>08:00 PM</span><a href='https://paradiseonbloor.com/movies/days-of-heaven/' target='_blank'>Days of Heaven</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/dumpster-raccoon-cant-stop-the-music-45th-anniversary-screening/' target='_blank'>Dumpster Raccoon: CAN’T STOP THE MUSIC – 45th Anniversary Screening!</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:30 PM</span><a href='https://www.foxtheatre.ca/movies/showstoppers-tommy/' target='_blank'>Showstoppers: Tommy</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>12:15 PM</span><a href='https://revuecinema.ca/films/the-monkey/' target='_blank'>THE MONKEY</a></div>
 </div>
 <div class='list-day'><h2>Sunday, April 27</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>01:00 PM</span><a href='https://www.foxtheatre.ca/movies/golden-age-a-night-at-the-opera/' target='_blank'>Golden Age: A Night at the Opera</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:00 PM</span><a href='https://revuecinema.ca/films/silent-revue-the-hound-of-baskervilles-1929/' target='_blank'>Silent Revue: THE HOUND OF BASKERVILLES (1929)</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>06:00 PM</span><a href='https://paradiseonbloor.com/movies/certain-women/' target='_blank'>Certain Women</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:15 PM</span><a href='https://www.foxtheatre.ca/movies/on-swift-horses/' target='_blank'>On Swift Horses</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>07:00 PM</span><a href='https://revuecinema.ca/films/dont-be-so-political-memories-of-a-murder-2003/' target='_blank'>Don’t Be So Political: MEMORIES OF A MURDER (2003)</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>09:00 PM</span><a href='https://www.foxtheatre.ca/movies/detour-uhf/' target='_blank'>Detour: UHF</a></div>
 </div>
 <div class='list-day'><h2>Monday, April 28</h2>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>08:00 PM</span><a href='https://paradiseonbloor.com/movies/red-rooms/' target='_blank'>Red Rooms</a></div>
 </div>
+<div class='list-day'><h2>Tuesday, April 29</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:30 PM</span><a href='https://www.foxtheatre.ca/movies/on-swift-horses/' target='_blank'>On Swift Horses</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/hookers-on-davie-w-janis-cole-holly-dale/' target='_blank'>Hookers on Davie w/Janis Cole & Holly Dale</a></div>
+</div>
 <div class='list-day'><h2>Wednesday, April 30</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>03:50 PM</span><a href='https://www.foxtheatre.ca/movies/on-swift-horses/' target='_blank'>On Swift Horses</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:45 PM</span><a href='https://www.foxtheatre.ca/movies/golden-age-a-night-at-the-opera/' target='_blank'>Golden Age: A Night at the Opera</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>07:00 PM</span><a href='https://revuecinema.ca/films/uncaged-birdy-1984-presented-on-35mm/' target='_blank'>UnCAGED: BIRDY (1984) – Presented on 35mm!</a></div>
 </div>
 <div class='list-day'><h2>Thursday, May 01</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:40 PM</span><a href='https://www.foxtheatre.ca/movies/on-swift-horses/' target='_blank'>On Swift Horses</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/designing-the-movies-the-great-gatsby-1974/' target='_blank'>Designing The Movies: THE GREAT GATSBY (1974)</a></div>
 </div>
 <div class='list-day'><h2>Friday, May 02</h2>
@@ -725,7 +847,9 @@ a:hover { text-decoration: underline; }
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:00 PM</span><a href='https://revuecinema.ca/films/the-perfect-date-star-wars-episode-iv-a-new-hope-4k-restoration/' target='_blank'>The Perfect Date: STAR WARS: EPISODE IV – A NEW HOPE (4K Restoration!)</a></div>
 </div>
 <div class='list-day'><h2>Monday, May 05</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>05:30 PM</span><a href='https://www.foxtheatre.ca/movies/face-off-1971-vip-meet-and-greet-with-art-hindle/' target='_blank'>Face-Off (1971) – VIP Meet and Greet with Art Hindle!</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:30 PM</span><a href='https://revuecinema.ca/films/anime-at-the-revue-princess-mononoke-1997-new-4k-restoration/' target='_blank'>Anime At The Revue: PRINCESS MONONOKE (1997) – New 4K Restoration!</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>06:30 PM</span><a href='https://www.foxtheatre.ca/movies/face-off-1971-w-art-hindle-qa/' target='_blank'>Face-Off (1971) w/Art Hindle Q&A</a></div>
 </div>
 <div class='list-day'><h2>Tuesday, May 06</h2>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/free-members-only-screening-secret-screening/' target='_blank'>Free Members-Only Screening: SECRET SCREENING!</a></div>
@@ -737,6 +861,7 @@ a:hover { text-decoration: underline; }
 </div>
 <div class='list-day'><h2>Thursday, May 08</h2>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/we-really-like-her-the-decline-of-western-civilization-part-ii-the-metal-years/' target='_blank'>We Really Like Her: The Decline of Western Civilization Part II: The Metal Years</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>07:00 PM</span><a href='https://www.foxtheatre.ca/movies/thom-yorke-mark-pritchards-tall-tales-a-global-listening-event/' target='_blank'>Thom Yorke & Mark Pritchard’s TALL TALES: A Global Listening Event</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/nightmare-alley-may-2003/' target='_blank'>Nightmare Alley: MAY (2003)</a></div>
 </div>
 <div class='list-day'><h2>Friday, May 09</h2>
@@ -774,6 +899,7 @@ a:hover { text-decoration: underline; }
 </div>
 <div class='list-day'><h2>Thursday, May 15</h2>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:30 PM</span><a href='https://revuecinema.ca/films/paid-in-sweat-raging-bull-1980-45th-anniversary-screening/' target='_blank'>Paid In Sweat: RAGING BULL (1980) – 45th Anniversary Screening!</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>07:00 PM</span><a href='https://www.foxtheatre.ca/movies/book-film-club-woman-in-the-dunes/' target='_blank'>Book & Film Club: Woman in the Dunes</a></div>
 </div>
 <div class='list-day'><h2>Friday, May 16</h2>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>06:45 PM</span><a href='https://revuecinema.ca/films/revue-event-the-frighteners-1996-presented-on-35mm/' target='_blank'>Revue Event: THE FRIGHTENERS (1996) – Presented on 35mm!</a></div>
@@ -808,14 +934,17 @@ a:hover { text-decoration: underline; }
 <div class='list-day'><h2>Saturday, May 24</h2>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>02:00 PM</span><a href='https://paradiseonbloor.com/movies/casanova/' target='_blank'>Casanova</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>04:00 PM</span><a href='https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/' target='_blank'>The 48 Hour Science Fiction Film Project – Toronto</a></div>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>05:45 PM</span><a href='https://www.foxtheatre.ca/movies/ran-4k-restoration/' target='_blank'>RAN 4K Restoration</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>07:00 PM</span><a href='https://revuecinema.ca/films/not-so-terrible-twos-waynes-world-2-1993/' target='_blank'>(Not-So) Terrible Twos: WAYNE’S WORLD 2 (1993)</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>11:59 PM</span><a href='https://revuecinema.ca/films/the-midnight-revue-dressed-to-kill-45th-anniversary-screening/' target='_blank'>The Midnight Revue: DRESSED TO KILL – 45th Anniversary Screening!</a></div>
 </div>
 <div class='list-day'><h2>Sunday, May 25</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>02:45 PM</span><a href='https://www.foxtheatre.ca/movies/ran-4k-restoration/' target='_blank'>RAN 4K Restoration</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>07:00 PM</span><a href='https://revuecinema.ca/films/dont-be-so-political-wargames-1983/' target='_blank'>Don’t Be So Political: WARGAMES (1983)</a></div>
 <div class='film paradise' data-source='Paradise Theatre'><span class='time'>07:00 PM</span><a href='https://paradiseonbloor.com/movies/coffy/' target='_blank'>Coffy</a></div>
 </div>
 <div class='list-day'><h2>Wednesday, May 28</h2>
+<div class='film fox' data-source='Fox Theatre'><span class='time'>07:00 PM</span><a href='https://www.foxtheatre.ca/movies/ran-4k-restoration/' target='_blank'>RAN 4K Restoration</a></div>
 <div class='film revue' data-source='Revue Cinema'><span class='time'>09:30 PM</span><a href='https://revuecinema.ca/films/revue-event-it-feeds-cast-crew-in-attendance/' target='_blank'>Revue Event: IT FEEDS – Cast & Crew In Attendance!</a></div>
 </div>
 <div class='list-day'><h2>Thursday, May 29</h2>
@@ -960,7 +1089,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <script>
-const activeSources = new Set(["Revue Cinema", "Paradise Theatre", "TIFF Bell Lightbox"]);
+const activeSources = new Set(["Revue Cinema", "Paradise Theatre", "TIFF Bell Lightbox", "Fox Theatre"]);
 
 function updateFilters() {
   document.querySelectorAll('.film').forEach(film => {
