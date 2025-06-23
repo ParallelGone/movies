@@ -1,10 +1,11 @@
 import subprocess
 
 print("🔍 Running all scrapers...")
+subprocess.run(["python", "fox_scraper.py"])
 subprocess.run(["python", "Revue_scraper.py"])
 subprocess.run(["python", "paradise_scraper.py"])
 subprocess.run(["python", "tiff_scraper.py"])
-subprocess.run(["python", "fox_scraper.py"])
+
 
 
 print("🧩 Generating updated calendar...")
@@ -14,7 +15,7 @@ print("✅ Calendar updated and saved to calendar_grid.html")
 
 print("📤 Publishing calendar to GitHub Pages...")
 
-subprocess.run(["git", "add", "*.*"])
+subprocess.run(["git", "add", "index.html"])
 subprocess.run(["git", "commit", "-m", "📅 Auto-update calendar"])
 subprocess.run(["git", "push"])
 

@@ -5,6 +5,7 @@ from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
@@ -17,32 +18,40 @@ try:
     driver.get("https://www.foxtheatre.ca/whats-on/now-showing/")
     print("📄 Page loaded")
 
-    # Improved scrolling logic
-    SCROLL_PAUSE_TIME = 2
-    MAX_SCROLL_ATTEMPTS = 20
-    last_height = driver.execute_script("return document.body.scrollHeight")
-    same_height_count = 0
+    # Scroll more aggressively by card count
+    actions = ActionChains(driver)
+    body = driver.find_element(By.TAG_NAME, "body")
 
-    for i in range(MAX_SCROLL_ATTEMPTS):
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(SCROLL_PAUSE_TIME)
-        new_height = driver.execute_script("return document.body.scrollHeight")
-        print(f"🔄 Scroll attempt {i+1}, height: {new_height}")
+    last_count = 0
+    same_count = 0
+    max_same_count = 5
 
-        if new_height == last_height:
-            same_height_count += 1
-            if same_height_count >= 3:
-                print("✅ Reached end of scrollable content")
-                break
+    while same_count < max_same_count:
+        cards = driver.find_elements(By.CSS_SELECTOR, "div[data-element_type='container']")
+        driver.execute_script("window.scrollBy(0, 1000);")
+        try:
+            actions.move_to_element_with_offset(body, 10, 10).perform()
+        except Exception as e:
+            print(f"⚠️ move_to_element_with_offset failed: {e}")
+        time.sleep(3)  # slightly longer wait
+        new_count = len(driver.find_elements(By.CSS_SELECTOR, "div[data-element_type='container']"))
+        print(f"🔄 Cards loaded: {new_count}")
+        if new_count == last_count:
+            same_count += 1
         else:
-            same_height_count = 0
-            last_height = new_height
+            same_count = 0
+            last_count = new_count
+
+    print("✅ Scrolling complete with", last_count, "containers")
 
     # Extract films
     films = []
     seen = set()
     blocks = driver.find_elements(By.CSS_SELECTOR, "div[data-element_type='container']")
     print(f"🔍 Processing {len(blocks)} blocks")
+
+    current_title = None
+    current_link = None
 
     for block in blocks:
         try:
@@ -66,16 +75,17 @@ try:
                     formatted_date = datetime.strptime(raw_date, "%Y-%m-%d").strftime("%A, %B %-d")
                 except ValueError:
                     formatted_date = raw_date
-                showtime = f"{formatted_date}, {time_text}"
-                key = (current_title, showtime)
-                if key not in seen:
-                    seen.add(key)
-                    films.append({
-                        "title": current_title,
-                        "showtime": showtime,
-                        "link": current_link,
-                        "source": "Fox Theatre"
-                    })
+                if current_title:
+                    showtime = f"{formatted_date}, {time_text}"
+                    key = (current_title, showtime)
+                    if key not in seen:
+                        seen.add(key)
+                        films.append({
+                            "title": current_title,
+                            "showtime": showtime,
+                            "link": current_link,
+                            "source": "Fox Theatre"
+                        })
 
     with open("fox_films.json", "w", encoding="utf-8") as f:
         json.dump(films, f, indent=2, ensure_ascii=False)
