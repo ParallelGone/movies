@@ -1,7 +1,11 @@
 @echo off
 REM =========================================
 REM Toronto Rep Cinema Calendar - Auto Deploy
+REM Windows-Compatible Version (Unicode Fix)
 REM =========================================
+
+REM Set console to UTF-8 to handle emoji and Unicode
+chcp 65001 >nul 2>&1
 
 echo.
 echo ========================================
@@ -22,8 +26,11 @@ if %errorlevel% neq 0 (
 echo Starting automated deployment...
 echo.
 
-REM Run the deployment script
-python deploy.py
+REM Set Python to use UTF-8 encoding
+set PYTHONIOENCODING=utf-8
+
+REM Run the deployment script (suppress ChromeDriver warnings with 2>nul)
+python deploy.py 2>nul
 
 REM Check if deployment was successful
 if %errorlevel% equ 0 (
@@ -41,7 +48,8 @@ if %errorlevel% equ 0 (
     echo DEPLOYMENT FAILED
     echo ========================================
     echo.
-    echo Please check the error messages above.
+    echo Run without 2^>nul to see error details:
+    echo python deploy.py
     echo.
 )
 
