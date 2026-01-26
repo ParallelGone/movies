@@ -1,0 +1,70 @@
+name: Update Cinema Calendar
+
+# This workflow automatically updates the calendar twice daily
+# and whenever you manually trigger it
+
+on:
+  # Schedule automatic updates
+  schedule:
+    # Run at 8 AM and 8 PM UTC (adjust timezone as needed)
+    # Cron format: minute hour day month weekday
+    - cron: '0 8,20 * * *'
+  
+  # Allow manual triggering from GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Get full history for proper commits
+      
+      # Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      # Install Chrome (needed for Selenium scrapers)
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@latest
+      
+      # Install Python dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      
+      # Run the scrapers and generate calendar
+      - name: Update calendar
+        run: |
+          python deploy.py --continue-on-error --no-push
+      
+      # Commit and push changes
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Add generated files
+          git add data/*.json index.html
+          
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update calendar - $(date '+%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          fi
+      
+      # Notify on failure (optional)
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Calendar update failed!"
+          echo "Check the Actions tab for details."
