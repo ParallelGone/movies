@@ -1,12 +1,6 @@
 [
   {
     "title": "Rental Family",
-    "showtime": "Monday, January 26, 1:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Rental Family",
     "showtime": "Tuesday, January 27, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -61,7 +55,7 @@
   },
   {
     "title": "Rental Family",
-    "showtime": "Monday, January 26, 7:00 pm",
+    "showtime": "Monday, February 9, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -144,8 +138,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Resurrection",
-    "showtime": "Monday, January 26, 2:00 pm",
+    "title": "Rental Family",
+    "showtime": "Monday, February 9, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -228,8 +222,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Father Mother Sister Brother",
-    "showtime": "Monday, January 26, 3:00 pm",
+    "title": "Resurrection",
+    "showtime": "Monday, February 9, 2:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -313,7 +307,7 @@
   },
   {
     "title": "Father Mother Sister Brother",
-    "showtime": "Monday, January 26, 5:00 pm",
+    "showtime": "Monday, February 9, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -397,7 +391,7 @@
   },
   {
     "title": "Father Mother Sister Brother",
-    "showtime": "Monday, January 26, 7:00 pm",
+    "showtime": "Monday, February 9, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -480,38 +474,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Bugonia",
-    "showtime": "Monday, January 26, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Bugonia",
-    "showtime": "Wednesday, January 28, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Bugonia",
-    "showtime": "Saturday, January 31, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Bugonia",
-    "showtime": "Monday, February 2, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Bugonia",
-    "showtime": "Wednesday, February 4, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Bugonia",
-    "showtime": "Saturday, February 7, 5:00 pm",
+    "title": "Father Mother Sister Brother",
+    "showtime": "Monday, February 9, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -564,8 +528,38 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Kill Bill the Whole Blood Affair",
-    "showtime": "Monday, January 26, 8:45 pm",
+    "title": "Bugonia",
+    "showtime": "Wednesday, January 28, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Bugonia",
+    "showtime": "Saturday, January 31, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Bugonia",
+    "showtime": "Monday, February 2, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Bugonia",
+    "showtime": "Wednesday, February 4, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Bugonia",
+    "showtime": "Saturday, February 7, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Bugonia",
+    "showtime": "Monday, February 9, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -648,8 +642,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Is This Thing On",
-    "showtime": "Monday, January 26, 8:45 pm",
+    "title": "Kill Bill the Whole Blood Affair",
+    "showtime": "Monday, February 9, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -728,6 +722,12 @@
   {
     "title": "Is This Thing On",
     "showtime": "Sunday, February 8, 8:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Is This Thing On",
+    "showtime": "Monday, February 9, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
