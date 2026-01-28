@@ -1,25 +1,13 @@
 [
   {
-    "title": "Toward Intimacy",
-    "showtime": "Today, Jan 27, 6:30 pm",
-    "link": "https://paradiseonbloor.com/movies/toward-intimacy/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Peter Hujar’s Day",
-    "showtime": "Today, Jan 27, 8:45 pm",
-    "link": "https://paradiseonbloor.com/movies/peter-hujars-day/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Galaxy Quest",
-    "showtime": "Wed, Jan 28, 6:00 pm",
+    "showtime": "Today, Jan 28, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/galaxy-quest/",
     "source": "Paradise Theatre"
   },
   {
     "title": "I Saw the TV Glow",
-    "showtime": "Wed, Jan 28, 8:30 pm",
+    "showtime": "Today, Jan 28, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/i-saw-the-tv-glow/",
     "source": "Paradise Theatre"
   },
@@ -51,6 +39,12 @@
     "title": "Hercules and the Captive Women",
     "showtime": "Mon, Feb 2, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/hercules-and-the-captive-women/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Peter Hujar’s Day",
+    "showtime": "Wed, Feb 4, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/peter-hujars-day/",
     "source": "Paradise Theatre"
   },
   {
@@ -117,6 +111,12 @@
     "title": "Dirty Dancing",
     "showtime": "Tue, Feb 10, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/dirty-dancing/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Story of a Three-Day Pass",
+    "showtime": "Wed, Feb 11, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/the-story-of-a-three-day-pass/",
     "source": "Paradise Theatre"
   },
   {
@@ -225,6 +225,12 @@
     "title": "Brief Encounter",
     "showtime": "Sun, Feb 22, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/brief-encounter/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Member Mondays: Strangers on a Train",
+    "showtime": "Mon, Feb 23, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/member-mondays-strangers-on-a-train/",
     "source": "Paradise Theatre"
   },
   {
