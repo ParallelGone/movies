@@ -1,19 +1,7 @@
 [
   {
-    "title": "Galaxy Quest",
-    "showtime": "Today, Jan 28, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/galaxy-quest/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "I Saw the TV Glow",
-    "showtime": "Today, Jan 28, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/i-saw-the-tv-glow/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Inside Out Run it Back Double Feature: A League of Their Own & The Broken Hearts Club",
-    "showtime": "Thu, Jan 29, 6:30 pm",
+    "showtime": "Today, Jan 29, 6:30 pm",
     "link": "https://paradiseonbloor.com/programs/inside-out-run-it-back-double-feature-a-league-of-their-own-the-broken-hearts-club/",
     "source": "Paradise Theatre"
   },
@@ -285,6 +273,12 @@
     "title": "Doctor Sleep",
     "showtime": "Tue, Mar 3, 9:15 pm",
     "link": "https://paradiseonbloor.com/movies/doctor-sleep/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Bridget Jones’s Diary + Definitely Thriving Book Launch with Kerry Clare",
+    "showtime": "Thu, Mar 5, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/bridget-joness-diary-definitely-thriving-book-launch-with-kerry-clare/",
     "source": "Paradise Theatre"
   },
   {

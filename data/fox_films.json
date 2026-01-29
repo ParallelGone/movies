@@ -1,23 +1,5 @@
 [
   {
-    "title": "The Voice of Hind Rajab",
-    "showtime": "Wednesday, January 28, 4:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/the-voice-of-hind-rajab/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Father Mother Sister Brother",
-    "showtime": "Wednesday, January 28, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/father-mother-sister-brother/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Restoration: The Virgin Suicides",
-    "showtime": "Wednesday, January 28, 9:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/restoration-the-virgin-suicides/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Marty Supreme",
     "showtime": "Thursday, January 29, 3:40 pm",
     "link": "https://www.foxtheatre.ca/movies/marty-supreme/",
@@ -180,6 +162,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Is This Thing On?",
+    "showtime": "Friday, February 6, 8:50 pm",
+    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Arco",
     "showtime": "Saturday, February 7, 1:00 pm",
     "link": "https://www.foxtheatre.ca/movies/arco/",
@@ -189,6 +177,12 @@
     "title": "Arco",
     "showtime": "Saturday, February 7, 6:50 pm",
     "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Is This Thing On?",
+    "showtime": "Saturday, February 7, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
     "source": "Fox Theatre"
   },
   {
@@ -216,15 +210,45 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Is This Thing On?",
+    "showtime": "Sunday, February 8, 8:50 pm",
+    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Arco",
     "showtime": "Monday, February 9, 6:45 pm",
     "link": "https://www.foxtheatre.ca/movies/arco/",
     "source": "Fox Theatre"
   },
   {
+    "title": "Sinners",
+    "showtime": "Monday, February 9, 9:05 pm",
+    "link": "https://www.foxtheatre.ca/movies/sinners/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Sentimental Value",
+    "showtime": "Tuesday, February 10, 3:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/sentimental-value/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Is This Thing On?",
+    "showtime": "Tuesday, February 10, 6:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Arco",
     "showtime": "Tuesday, February 10, 9:20 pm",
     "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Is This Thing On?",
+    "showtime": "Wednesday, February 11, 3:50 pm",
+    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
     "source": "Fox Theatre"
   },
   {
