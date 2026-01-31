@@ -1,17 +1,5 @@
 [
   {
-    "title": "Mad Fate",
-    "showtime": "Today, Jan 30, 6:30 pm",
-    "link": "https://paradiseonbloor.com/movies/mad-fate/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "The Secret Agent",
-    "showtime": "Today, Jan 30, 9:00 pm",
-    "link": "https://paradiseonbloor.com/movies/the-secret-agent/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Double Feature: Two Films by Monika Treut",
     "showtime": "Sun, Feb 1, 7:00 pm",
     "link": "https://paradiseonbloor.com/programs/double-feature-two-films-by-monika-treut/",
@@ -21,6 +9,12 @@
     "title": "Hercules and the Captive Women",
     "showtime": "Mon, Feb 2, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/hercules-and-the-captive-women/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Secret Agent",
+    "showtime": "Mon, Feb 2, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/the-secret-agent/",
     "source": "Paradise Theatre"
   },
   {
