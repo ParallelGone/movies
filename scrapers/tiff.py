@@ -310,7 +310,9 @@ class TiffScraper(BaseScraper):
                     old = json.load(f)
 
                 keep = [x for x in old if _date_part(x.get('showtime','')) == today_str]
+
                 if keep:
+                    # Merge today's entries back in
                     seen = set((x.get('title',''), x.get('showtime','')) for x in self.films)
                     for x in keep:
                         key = (x.get('title',''), x.get('showtime',''))
@@ -318,6 +320,14 @@ class TiffScraper(BaseScraper):
                             self.films.append(x)
                             seen.add(key)
                     print(f"🧩 [{self.theater_name}] TIFF site omitted today; merged {len(keep)} saved entries for {today_str}")
+                else:
+                    # Guardrail: if TIFF is returning no 'today' and we have no saved 'today'
+                    # entries to merge, do NOT clobber the existing file late in the day.
+                    # (TIFF appears to hide same-day listings once showtimes have passed.)
+                    now_local = datetime.now(ZoneInfo("America/Toronto"))
+                    if now_local.hour >= 17:
+                        print(f"🛡️  [{self.theater_name}] TIFF omitted today and no saved today entries exist; preserving previous TIFF dataset (late-day guard)")
+                        return old
         except Exception as e:
             print(f"⚠️  [{self.theater_name}] Could not merge today's TIFF entries: {e}")
 
