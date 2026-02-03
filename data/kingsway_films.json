@@ -1,12 +1,6 @@
 [
   {
     "title": "Rental Family",
-    "showtime": "Monday, February 2, 1:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Rental Family",
     "showtime": "Tuesday, February 3, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -61,7 +55,7 @@
   },
   {
     "title": "Rental Family",
-    "showtime": "Monday, February 2, 7:00 pm",
+    "showtime": "Monday, February 16, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -144,8 +138,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Resurrection",
-    "showtime": "Monday, February 2, 2:00 pm",
+    "title": "Rental Family",
+    "showtime": "Monday, February 16, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -228,8 +222,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Wicked for Good",
-    "showtime": "Monday, February 2, 3:00 pm",
+    "title": "Resurrection",
+    "showtime": "Monday, February 16, 2:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -312,8 +306,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Bugonia",
-    "showtime": "Monday, February 2, 5:00 pm",
+    "title": "Wicked for Good",
+    "showtime": "Monday, February 16, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -397,7 +391,7 @@
   },
   {
     "title": "Bugonia",
-    "showtime": "Monday, February 2, 9:00 pm",
+    "showtime": "Monday, February 16, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -480,8 +474,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Is This Thing On",
-    "showtime": "Monday, February 2, 5:15 pm",
+    "title": "Bugonia",
+    "showtime": "Monday, February 16, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -564,8 +558,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Father Mother Sister Brother",
-    "showtime": "Monday, February 2, 7:00 pm",
+    "title": "Is This Thing On",
+    "showtime": "Monday, February 16, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -644,6 +638,12 @@
   {
     "title": "Father Mother Sister Brother",
     "showtime": "Sunday, February 15, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Father Mother Sister Brother",
+    "showtime": "Monday, February 16, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
