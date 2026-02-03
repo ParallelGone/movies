@@ -287,6 +287,40 @@ class TiffScraper(BaseScraper):
                     # Add event without showtime (like exhibitions, etc.)
                     self.add_film(title, formatted_date, link)
                 
+        # If TIFF's site hides "today" once showtimes have passed, we still want
+        # the calendar to include today's TIFF entries until the nightly run.
+        # So: if we scraped zero items for today's date, merge in any existing
+        # saved entries for today from the previous tiff_films.json.
+        try:
+            from datetime import datetime
+            from zoneinfo import ZoneInfo
+            today_str = datetime.now(ZoneInfo("America/Toronto")).strftime("%A, %B %-d").replace(" 0", " ")
+
+            def _date_part(showtime: str) -> str:
+                parts = (showtime or "").split(',')
+                if len(parts) >= 2:
+                    return ','.join(parts[:-1]).strip()
+                # no time part
+                return (showtime or "").strip()
+
+            has_today = any(_date_part(f.get('showtime','')) == today_str for f in self.films)
+            if not has_today and self.output_file.exists():
+                import json
+                with open(self.output_file, "r", encoding="utf-8") as f:
+                    old = json.load(f)
+
+                keep = [x for x in old if _date_part(x.get('showtime','')) == today_str]
+                if keep:
+                    seen = set((x.get('title',''), x.get('showtime','')) for x in self.films)
+                    for x in keep:
+                        key = (x.get('title',''), x.get('showtime',''))
+                        if key not in seen:
+                            self.films.append(x)
+                            seen.add(key)
+                    print(f"🧩 [{self.theater_name}] TIFF site omitted today; merged {len(keep)} saved entries for {today_str}")
+        except Exception as e:
+            print(f"⚠️  [{self.theater_name}] Could not merge today's TIFF entries: {e}")
+
         return self.films
 
 
