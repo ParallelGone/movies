@@ -285,6 +285,20 @@ class BaseScraper:
             # Always cleanup
             self.cleanup()
     
+    def add_film(self, title: str, showtime: str, link: str = "") -> None:
+        """Back-compat helper used by existing scrapers.
+
+        Appends a film/screening dict to self.films.
+        """
+        if not title:
+            return
+        self.films.append({
+            "title": title.strip(),
+            "showtime": showtime.strip() if showtime else "",
+            "link": link.strip() if link else self.url,
+            "source": self.theater_name,
+        })
+
     def format_showtime(self, date: str, time: str) -> str:
         """
         Format a showtime string in the standard format.
