@@ -46,13 +46,17 @@ class TiffScraper(BaseScraper):
 
         IMPORTANT: must return a bool so BaseScraper.run() knows whether to continue.
         """
-        ok = super().load_page(wait_time=wait_time or 20)
+        ok = super().load_page()
         if not ok:
             return False
 
+        # BaseScraper.load_page() is intentionally minimal; TIFF needs extra render time.
+        import time
+        time.sleep(wait_time or 20)
+
         try:
             # Wait for React to render date groups
-            wait = WebDriverWait(self.driver, 30)
+            wait = WebDriverWait(self.driver, 45)
             wait.until(EC.presence_of_element_located(
                 (By.CSS_SELECTOR, self.SELECTORS['date_group'])
             ))
