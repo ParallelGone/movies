@@ -243,6 +243,45 @@ class BaseScraper:
         """
         raise NotImplementedError("Subclasses must implement scrape() method")
     
+    def scroll_to_load_all(self, item_selector: str, max_attempts: int = 25, wait_s: float = 1.5) -> None:
+        """Scroll down until the number of elements matching item_selector stops increasing."""
+        import time
+        last_count = -1
+        stable = 0
+        for _ in range(max_attempts):
+            try:
+                items = self.driver.find_elements(By.CSS_SELECTOR, item_selector)
+                count = len(items)
+                print(f"🔄 [{self.theater_name}] {count} items loaded...")
+                if count == last_count:
+                    stable += 1
+                else:
+                    stable = 0
+                    last_count = count
+
+                if stable >= 3:
+                    break
+
+                self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                time.sleep(wait_s)
+            except Exception:
+                time.sleep(wait_s)
+        print(f"✅ [{self.theater_name}] Finished scrolling, {max(last_count,0)} items found.")
+
+    def click_load_more(self, load_more_xpath: str, max_clicks: int = 10, wait_s: float = 1.2) -> None:
+        """Click a 'Load More' element repeatedly until it disappears."""
+        import time
+        for i in range(max_clicks):
+            try:
+                btn = self.driver.find_element(By.XPATH, load_more_xpath)
+                self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", btn)
+                time.sleep(0.3)
+                btn.click()
+                print(f"🔄 [{self.theater_name}] Clicked 'Load More' ({i+1})")
+                time.sleep(wait_s)
+            except Exception:
+                break
+
     def run(self) -> List[Dict]:
         """
         Complete scraping workflow: setup → scrape → save → cleanup.
