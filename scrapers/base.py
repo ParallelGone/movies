@@ -72,6 +72,7 @@ class BaseScraper:
         self.theater_id = theater_id
         self.theater_name = theater_name
         self.theater_url = theater_url
+        self.url = theater_url  # backward-compat alias used by older scrapers
         self.driver = None
         self.films = []
         
