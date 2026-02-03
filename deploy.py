@@ -132,7 +132,7 @@ class GitHubDeployer:
         
         for scraper in scrapers:
             success = self.run_command(
-                f"python -m scrapers.{scraper}",
+                f"{sys.executable} -m scrapers.{scraper}",
                 f"Scraping {scraper.upper()}",
                 check=False  # Don't stop if one fails
             )
@@ -152,7 +152,7 @@ class GitHubDeployer:
         print("="*60)
         
         return self.run_command(
-            "python generator.py",
+            f"{sys.executable} generator.py",
             "Generating HTML calendar"
         )
     
