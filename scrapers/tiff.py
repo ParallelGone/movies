@@ -46,7 +46,7 @@ class TiffScraper(BaseScraper):
 
         IMPORTANT: must return a bool so BaseScraper.run() knows whether to continue.
         """
-        ok = super().load_page(wait_time or 20)
+        ok = super().load_page(wait_time=wait_time or 20)
         if not ok:
             return False
 
