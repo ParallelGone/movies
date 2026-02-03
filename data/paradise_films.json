@@ -1,19 +1,7 @@
 [
   {
-    "title": "Double Feature: Two Films by Monika Treut",
-    "showtime": "Sun, Feb 1, 7:00 pm",
-    "link": "https://paradiseonbloor.com/programs/double-feature-two-films-by-monika-treut/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Hercules and the Captive Women",
-    "showtime": "Mon, Feb 2, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/hercules-and-the-captive-women/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "The Secret Agent",
-    "showtime": "Mon, Feb 2, 8:30 pm",
+    "showtime": "Today, Feb 2, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/the-secret-agent/",
     "source": "Paradise Theatre"
   },
@@ -138,6 +126,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Montreal, My Beautiful",
+    "showtime": "Sun, Feb 15, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/montreal-my-beautiful/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "My Neighbor Totoro",
     "showtime": "Mon, Feb 16, 2:30 pm",
     "link": "https://paradiseonbloor.com/movies/my-neighbor-totoro/",
@@ -204,6 +198,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Shanghai Blues",
+    "showtime": "Sun, Feb 22, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/shanghai-blues/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Member Mondays: Strangers on a Train",
     "showtime": "Mon, Feb 23, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/member-mondays-strangers-on-a-train/",
@@ -243,6 +243,12 @@
     "title": "The Cabinet of Dr. Caligari",
     "showtime": "Sat, Feb 28, 2:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-cabinet-of-dr-caligari/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Juice with DJ Agile",
+    "showtime": "Sat, Feb 28, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/juice-with-dj-agile/",
     "source": "Paradise Theatre"
   },
   {
