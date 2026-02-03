@@ -41,22 +41,32 @@ class TiffScraper(BaseScraper):
         config = THEATERS["tiff"]
         super().__init__("tiff", config["name"], config["url"])
         
-    def load_page(self, wait_time=None):
-        """Override with longer wait for React rendering."""
-        super().load_page(wait_time or 20)
-        
-        # Wait for React to render date groups
-        wait = WebDriverWait(self.driver, 20)
-        wait.until(EC.presence_of_element_located(
-            (By.CSS_SELECTOR, self.SELECTORS['date_group'])
-        ))
-        
-        # Additional wait for result cards to render
-        wait.until(EC.presence_of_element_located(
-            (By.CSS_SELECTOR, self.SELECTORS['result_card'])
-        ))
-        
-        print(f"🎬 [{self.theater_name}] React app loaded successfully")
+    def load_page(self, wait_time=None) -> bool:
+        """Override with longer wait for React rendering.
+
+        IMPORTANT: must return a bool so BaseScraper.run() knows whether to continue.
+        """
+        ok = super().load_page(wait_time or 20)
+        if not ok:
+            return False
+
+        try:
+            # Wait for React to render date groups
+            wait = WebDriverWait(self.driver, 30)
+            wait.until(EC.presence_of_element_located(
+                (By.CSS_SELECTOR, self.SELECTORS['date_group'])
+            ))
+
+            # Additional wait for result cards to render
+            wait.until(EC.presence_of_element_located(
+                (By.CSS_SELECTOR, self.SELECTORS['result_card'])
+            ))
+
+            print(f"🎬 [{self.theater_name}] React app loaded successfully")
+            return True
+        except Exception as e:
+            print(f"❌ [{self.theater_name}] React calendar did not render: {e}")
+            return False
     
     def _convert_date(self, date_text: str) -> str:
         """
