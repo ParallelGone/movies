@@ -12,6 +12,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Tuple
 from collections import defaultdict
+from zoneinfo import ZoneInfo
 
 
 # Configuration
@@ -205,6 +206,42 @@ def extract_date(showtime: str) -> str:
     return normalize_date(showtime)
 
 
+def date_to_obj(date_str: str, tz: str = "America/Toronto"):
+    """Convert a normalized date string like "Monday, January 26" into a date object.
+
+    We infer the year based on the current date in the given timezone.
+    """
+    # Expect: "<DayName>, <MonthName> <Day>"
+    m = re.search(r'^\w+,\s+(\w+)\s+(\d{1,2})$', date_str.strip())
+    if not m:
+        return None
+
+    month_name = m.group(1)
+    day_num = int(m.group(2))
+
+    month_order = {
+        'January': 1, 'February': 2, 'March': 3, 'April': 4,
+        'May': 5, 'June': 6, 'July': 7, 'August': 8,
+        'September': 9, 'October': 10, 'November': 11, 'December': 12
+    }
+    month = month_order.get(month_name)
+    if not month:
+        return None
+
+    now = datetime.now(ZoneInfo(tz)).date()
+    year = now.year
+
+    # Handle year rollover for schedules that span Dec -> Jan
+    # If the month is "far behind" the current month, assume next year.
+    if month < now.month and (now.month - month) >= 6:
+        year += 1
+
+    try:
+        return datetime(year, month, day_num).date()
+    except ValueError:
+        return None
+
+
 def extract_time(showtime: str) -> str:
     """
     Extract just the time portion from a showtime string.
@@ -242,10 +279,21 @@ def parse_and_organize_films(all_films: List[Dict]) -> Tuple[Dict, List[Tuple]]:
     """
     # Group films by date
     date_map = defaultdict(list)
-    
+
+    # Always exclude past dates (based on Toronto local date)
+    today = datetime.now(ZoneInfo("America/Toronto")).date()
+    dropped = 0
+
     for film in all_films:
-        date = extract_date(film['showtime'])
-        date_map[date].append(film)
+        date_str = extract_date(film['showtime'])
+        date_obj = date_to_obj(date_str)
+
+        # If we can parse the date, enforce: date >= today
+        if date_obj and date_obj < today:
+            dropped += 1
+            continue
+
+        date_map[date_str].append(film)
     
     # Sort films within each day by time (CRITICAL FIX!)
     for date in date_map:
@@ -253,14 +301,15 @@ def parse_and_organize_films(all_films: List[Dict]) -> Tuple[Dict, List[Tuple]]:
     
     # Extract and sort unique months
     month_set = set()
-    for date in date_map.keys():
-        # Extract month and year from date strings like "Monday, January 26"
-        match = re.search(r'(\w+),\s+(\w+)\s+\d+', date)
-        if match:
-            month_name = match.group(2)
-            # Determine year (assume current or next year)
-            current_year = datetime.now().year
-            month_set.add((month_name, current_year))
+    for date_str in date_map.keys():
+        date_obj = date_to_obj(date_str)
+        if date_obj:
+            month_set.add((date_obj.strftime('%B'), date_obj.year))
+        else:
+            # Fallback: best-effort month name, current year
+            match = re.search(r'(\w+),\s+(\w+)\s+\d+', date_str)
+            if match:
+                month_set.add((match.group(2), datetime.now().year))
     
     # Sort months chronologically
     month_order = {
@@ -273,7 +322,10 @@ def parse_and_organize_films(all_films: List[Dict]) -> Tuple[Dict, List[Tuple]]:
         month_set,
         key=lambda m: (m[1], month_order.get(m[0], 13))
     )
-    
+
+    if dropped:
+        print(f"🧹 Filtered out {dropped} past screenings (before {today.isoformat()})")
+
     return dict(date_map), sorted_months
 
 
