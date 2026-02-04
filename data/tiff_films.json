@@ -1,72 +1,6 @@
 [
   {
     "title": "A Private Life - Rebecca Zlotowski",
-    "showtime": "Tuesday, February 3, 5:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwMzUzVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "All That's Left of You - Cherien Dabis",
-    "showtime": "Tuesday, February 3, 8:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwMzg0VDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Arco - Ugo Bienvenu",
-    "showtime": "Tuesday, February 3, 6:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwMzYwVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Atropia - Hailey Gates",
-    "showtime": "Tuesday, February 3, 6:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwMzYxVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Celebrating John Candy: The Exhibit",
-    "showtime": "Tuesday, February 3, 12:00PM (Free)",
-    "link": "https://tiff.net/events/celebrating-john-candy-the-exhibit",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Film Reference Library Public Hours",
-    "showtime": "Tuesday, February 3, 12:00PM",
-    "link": "https://am.ticketmaster.com/tiff/",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Hamnet - Chloé Zhao",
-    "showtime": "Tuesday, February 3, 8:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwMzgwVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "I Am Cuba, with Cameron Bailey",
-    "showtime": "Tuesday, February 3, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwMzYzVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "No Other Choice - Park Chan-wook",
-    "showtime": "Tuesday, February 3, 8:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwMzgzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Sound of Falling - Mascha Schilinski",
-    "showtime": "Tuesday, February 3, 8:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwMzgxVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Voice of Hind Rajab - Kaouther Ben Hania",
-    "showtime": "Tuesday, February 3, 6:10PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwMzYxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "A Private Life - Rebecca Zlotowski",
     "showtime": "Wednesday, February 4, 9:55PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkYwNDk1VDI=",
     "source": "TIFF Bell Lightbox"
@@ -482,7 +416,7 @@
   {
     "title": "The Red Spectacles with Zachary Goldkind",
     "showtime": "Friday, February 13, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxMzYzVDQ=",
+    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkYxMzYzVDM=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -1172,6 +1106,24 @@
   {
     "title": "Setting the Scene Exhibition",
     "showtime": "Saturday, May 2, 12:00PM (Free)",
+    "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Film Reference Library Public Hours",
+    "showtime": "Tuesday, May 5, 12:00PM (Free)",
+    "link": "https://tiff.net/events/film-reference-library-public-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Secret Movie Club",
+    "showtime": "Tuesday, May 5, 7:00PM",
+    "link": "https://am.ticketmaster.com/tiff/buy/ism/NlkwNTcwVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Setting the Scene Exhibition",
+    "showtime": "Tuesday, May 5, 12:00PM (Free)",
     "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
     "source": "TIFF Bell Lightbox"
   }
