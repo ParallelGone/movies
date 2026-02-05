@@ -1,14 +1,14 @@
 [
   {
-    "title": "Anime At The Revue: BELLADONNA OF SADNESS (New 4K Restoration!)",
-    "showtime": "Tue Feb 03, 07:00 PM",
-    "link": "https://revuecinema.ca/films/anime-at-the-revue-belladonna-of-sadness-new-4k-restoration/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Tarantino Unchained: ONCE UPON A TIME…IN HOLLYWOOD – Presented on 70mm!",
     "showtime": "Wed Feb 04, 06:00 PM",
     "link": "https://revuecinema.ca/films/tarantino-unchained-once-upon-a-time-in-hollywood-presented-on-70mm/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Anime At The Revue: BELLADONNA OF SADNESS (New 4K Restoration!)",
+    "showtime": "Wed Feb 04, 09:30 PM",
+    "link": "https://revuecinema.ca/films/anime-at-the-revue-belladonna-of-sadness-new-4k-restoration/",
     "source": "Revue Cinema"
   },
   {
@@ -117,12 +117,6 @@
     "title": "Drunken Cinema: FRIDAY THE 13TH (1980) – Presented on 35mm – With Live Performance By Blood Opera!",
     "showtime": "Fri Feb 13, 09:30 PM",
     "link": "https://revuecinema.ca/films/drunken-cinema-friday-the-13th-1980-presented-on-35mm-with-live-performance-by-blood-opera/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "We Really Like Her!: MARIE ANTOINETTE (2006) – Presented on 35mm!",
-    "showtime": "Fri Feb 13, 06:30 PM",
-    "link": "https://revuecinema.ca/films/we-really-like-her-marie-antoinette-2006-presented-on-35mm/",
     "source": "Revue Cinema"
   },
   {
@@ -732,6 +726,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Revue Event: THE SWORD AND THE SORCERER (1982) – Featuring A Live Performance by THUNDER GLOVE!",
+    "showtime": "Thu Apr 23, 09:30 PM",
+    "link": "https://revuecinema.ca/films/revue-event-the-sword-and-the-sorcerer-1982-featuring-a-live-performance-by-thunder-glove/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "MOTHER MARY",
     "showtime": "Fri Apr 24, 06:45 PM",
     "link": "https://revuecinema.ca/films/mother-mary/",
@@ -777,6 +777,12 @@
     "title": "Nightmare Alley: THE LORDS OF SALEM (2012)",
     "showtime": "Thu Apr 30, 09:30 PM",
     "link": "https://revuecinema.ca/films/nightmare-alley-the-lords-of-salem-2012/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "To 70 And Beyond: CLOSE ENCOUNTERS OF THE THIRD KIND (1977) – Presented on 70mm!",
+    "showtime": "Fri May 01, 09:30 PM",
+    "link": "https://revuecinema.ca/films/close-encounters-of-the-third-kind/",
     "source": "Revue Cinema"
   },
   {
