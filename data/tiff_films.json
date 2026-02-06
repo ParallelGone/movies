@@ -1,95 +1,5 @@
 [
   {
-    "title": "A Private Life - Rebecca Zlotowski",
-    "showtime": "Thursday, February 5, 4:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwNTQxVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "All That's Left of You - Cherien Dabis",
-    "showtime": "Thursday, February 5, 6:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwNTYxVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Arco - Ugo Bienvenu",
-    "showtime": "Thursday, February 5, 3:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwNTM0VDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Arco - Ugo Bienvenu",
-    "showtime": "Thursday, February 5, 6:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwNTY0VDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Arco - Ugo Bienvenu",
-    "showtime": "Thursday, February 5, 9:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwNTkwVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Atropia - Hailey Gates",
-    "showtime": "Thursday, February 5, 6:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwNTYwVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Atropia - Hailey Gates",
-    "showtime": "Thursday, February 5, 9:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwNTkzVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Celebrating John Candy: The Exhibit",
-    "showtime": "Thursday, February 5, 12:00PM (Free)",
-    "link": "https://tiff.net/events/celebrating-john-candy-the-exhibit",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Film Reference Library Public Hours",
-    "showtime": "Thursday, February 5, 12:00PM",
-    "link": "https://am.ticketmaster.com/tiff/",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Hamnet - Chloé Zhao",
-    "showtime": "Thursday, February 5, 9:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwNTkxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "No Other Choice - Park Chan-wook",
-    "showtime": "Thursday, February 5, 3:50PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwNTM1VDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Sound of Falling - Mascha Schilinski",
-    "showtime": "Thursday, February 5, 8:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwNTgzVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Strengthening the Canadian Screen Sector at TIFF: The Market",
-    "showtime": "Thursday, February 5, 3:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwNTMzVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Voice of Hind Rajab - Kaouther Ben Hania",
-    "showtime": "Thursday, February 5, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwNTcwVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Uiksaringitara (Wrong Husband) with Zacharias Kunuk",
-    "showtime": "Thursday, February 5, 8:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYwNTgxVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
     "title": "2025 Canada's Top Ten Shorts Programme 01",
     "showtime": "Friday, February 6, 1:00PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkYwNjEwVDM=",
@@ -1592,6 +1502,18 @@
   {
     "title": "Setting the Scene Exhibition",
     "showtime": "Wednesday, May 6, 12:00PM (Free)",
+    "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Film Reference Library Public Hours",
+    "showtime": "Thursday, May 7, 12:00PM (Free)",
+    "link": "https://tiff.net/events/film-reference-library-public-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Setting the Scene Exhibition",
+    "showtime": "Thursday, May 7, 12:00PM (Free)",
     "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
     "source": "TIFF Bell Lightbox"
   }
