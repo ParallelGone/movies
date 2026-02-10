@@ -1,12 +1,6 @@
 [
   {
     "title": "The Testament of Ann Lee",
-    "showtime": "Monday, February 9, 12:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Testament of Ann Lee",
     "showtime": "Tuesday, February 10, 12:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -61,7 +55,7 @@
   },
   {
     "title": "The Testament of Ann Lee",
-    "showtime": "Monday, February 9, 7:00 pm",
+    "showtime": "Monday, February 23, 12:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -144,8 +138,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Wicked for Good",
-    "showtime": "Monday, February 9, 12:30 pm",
+    "title": "The Testament of Ann Lee",
+    "showtime": "Monday, February 23, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -228,8 +222,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Sound of Falling",
-    "showtime": "Monday, February 9, 2:35 pm",
+    "title": "Wicked for Good",
+    "showtime": "Monday, February 23, 12:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -313,7 +307,7 @@
   },
   {
     "title": "Sound of Falling",
-    "showtime": "Monday, February 9, 7:00 pm",
+    "showtime": "Monday, February 23, 2:35 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -396,8 +390,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Is This Thing On",
-    "showtime": "Monday, February 9, 2:45 pm",
+    "title": "Sound of Falling",
+    "showtime": "Monday, February 23, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -481,7 +475,7 @@
   },
   {
     "title": "Is This Thing On",
-    "showtime": "Monday, February 9, 9:15 pm",
+    "showtime": "Monday, February 23, 2:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -564,8 +558,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Song Sung Blue",
-    "showtime": "Monday, February 9, 4:45 pm",
+    "title": "Is This Thing On",
+    "showtime": "Monday, February 23, 9:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -648,38 +642,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Father Mother Sister Brother",
-    "showtime": "Monday, February 9, 5:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Father Mother Sister Brother",
-    "showtime": "Wednesday, February 11, 5:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Father Mother Sister Brother",
-    "showtime": "Saturday, February 14, 5:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Father Mother Sister Brother",
-    "showtime": "Monday, February 16, 5:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Father Mother Sister Brother",
-    "showtime": "Wednesday, February 18, 5:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Father Mother Sister Brother",
-    "showtime": "Saturday, February 21, 5:05 pm",
+    "title": "Song Sung Blue",
+    "showtime": "Monday, February 23, 4:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -732,38 +696,38 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Primate",
-    "showtime": "Monday, February 9, 9:30 pm",
+    "title": "Father Mother Sister Brother",
+    "showtime": "Wednesday, February 11, 5:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Primate",
-    "showtime": "Wednesday, February 11, 9:30 pm",
+    "title": "Father Mother Sister Brother",
+    "showtime": "Saturday, February 14, 5:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Primate",
-    "showtime": "Saturday, February 14, 9:30 pm",
+    "title": "Father Mother Sister Brother",
+    "showtime": "Monday, February 16, 5:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Primate",
-    "showtime": "Monday, February 16, 9:30 pm",
+    "title": "Father Mother Sister Brother",
+    "showtime": "Wednesday, February 18, 5:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Primate",
-    "showtime": "Wednesday, February 18, 9:30 pm",
+    "title": "Father Mother Sister Brother",
+    "showtime": "Saturday, February 21, 5:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Primate",
-    "showtime": "Saturday, February 21, 9:30 pm",
+    "title": "Father Mother Sister Brother",
+    "showtime": "Monday, February 23, 5:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -812,6 +776,42 @@
   {
     "title": "Bugonia",
     "showtime": "Sunday, February 22, 9:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Primate",
+    "showtime": "Wednesday, February 11, 9:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Primate",
+    "showtime": "Saturday, February 14, 9:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Primate",
+    "showtime": "Monday, February 16, 9:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Primate",
+    "showtime": "Wednesday, February 18, 9:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Primate",
+    "showtime": "Saturday, February 21, 9:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Primate",
+    "showtime": "Monday, February 23, 9:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
