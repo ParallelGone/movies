@@ -1,72 +1,6 @@
 [
   {
     "title": "A Poet - Simón Mesa Soto",
-    "showtime": "Tuesday, February 10, 6:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxMDYwVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "A Private Life - Rebecca Zlotowski",
-    "showtime": "Tuesday, February 10, 9:50PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxMDk1VDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "All That's Left of You - Cherien Dabis",
-    "showtime": "Tuesday, February 10, 8:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxMDg0VDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Arco - Ugo Bienvenu",
-    "showtime": "Tuesday, February 10, 6:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxMDYxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Celebrating John Candy: The Exhibit",
-    "showtime": "Tuesday, February 10, 12:00PM (Free)",
-    "link": "https://tiff.net/events/celebrating-john-candy-the-exhibit",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Film Reference Library Public Hours",
-    "showtime": "Tuesday, February 10, 12:00PM",
-    "link": "https://am.ticketmaster.com/tiff/",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Frankenstein - Guillermo del Toro",
-    "showtime": "Tuesday, February 10, 6:40PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxMDY0VDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Hamnet - Chloé Zhao",
-    "showtime": "Tuesday, February 10, 9:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxMDk0VDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Learn to Swim with Thyrone Tommy",
-    "showtime": "Tuesday, February 10, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxMDYzVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "No Other Choice - Park Chan-wook",
-    "showtime": "Tuesday, February 10, 8:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxMDgzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Secret Movie Club",
-    "showtime": "Tuesday, February 10, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkYxMDcwVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "A Poet - Simón Mesa Soto",
     "showtime": "Wednesday, February 11, 4:30PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkYxMTQzVDM=",
     "source": "TIFF Bell Lightbox"
@@ -253,7 +187,7 @@
   },
   {
     "title": "Mr. Nobody Against Putin - David Borenstein",
-    "showtime": "Friday, February 13, 6:15PM",
+    "showtime": "Friday, February 13, 6:00PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkYxMzYwVDQ=",
     "source": "TIFF Bell Lightbox"
   },
@@ -1184,6 +1118,18 @@
   {
     "title": "Setting the Scene Exhibition",
     "showtime": "Saturday, May 9, 12:00PM (Free)",
+    "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Film Reference Library Public Hours",
+    "showtime": "Tuesday, May 12, 12:00PM (Free)",
+    "link": "https://tiff.net/events/film-reference-library-public-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Setting the Scene Exhibition",
+    "showtime": "Tuesday, May 12, 12:00PM (Free)",
     "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
     "source": "TIFF Bell Lightbox"
   }

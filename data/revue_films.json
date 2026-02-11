@@ -1,17 +1,5 @@
 [
   {
-    "title": "Revue Event: THE TWILIGHT SAGA: BREAKING DAWN Part 2",
-    "showtime": "Mon Feb 09, 06:30 PM",
-    "link": "https://revuecinema.ca/films/revue-event-the-twilight-saga-breaking-dawn-part-2/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Tainted Love: SID & NANCY – 40th Anniversary Screening!",
-    "showtime": "Mon Feb 09, 09:30 PM",
-    "link": "https://revuecinema.ca/films/tainted-love-sid-nancy-40th-anniversary-screening/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Tainted Love: FATAL ATTRACTION (1987) – New 4K Restoration!",
     "showtime": "Tue Feb 10, 09:30 PM",
     "link": "https://revuecinema.ca/films/tainted-love-fatal-attraction-1987-new-4k-restoration/",
@@ -120,15 +108,15 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Paid In Sweat x Black Belt Cinema: SHAOLIN SOCCER – 25th Anniversary Screening!",
-    "showtime": "Thu Feb 19, 06:30 PM",
-    "link": "https://revuecinema.ca/films/paid-in-sweat-x-black-belt-cinema-shaolin-soccer-25th-anniversary-screening/",
+    "title": "Revue Event: CUTTING THROUGH ROCKS (2025)",
+    "showtime": "Tue Feb 17, 06:45 PM",
+    "link": "https://revuecinema.ca/films/revue-event-cutting-through-rocks-2025/",
     "source": "Revue Cinema"
   },
   {
-    "title": "Nightmare Alley: THE VISITOR (1979)",
-    "showtime": "Thu Feb 19, 09:30 PM",
-    "link": "https://revuecinema.ca/films/nightmare-alley-the-visitor-1979/",
+    "title": "Psych-Out Cinema: WINGS OF DESIRE (1987)",
+    "showtime": "Wed Feb 18, 07:00 PM",
+    "link": "https://revuecinema.ca/films/psych-out-cinema-wings-of-desire-1987/",
     "source": "Revue Cinema"
   },
   {
@@ -288,6 +276,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "MARTY SUPREME – Presented on 70mm!",
+    "showtime": "Sat Mar 07, 12:30 PM",
+    "link": "https://revuecinema.ca/films/marty-supreme-presented-on-70mm/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Revue Event: TWIN PEAKS: Season 1 (Pilot + episode 1)",
     "showtime": "Sun Mar 08, 12:00 PM",
     "link": "https://revuecinema.ca/films/revue-event-twin-peaks-season-1-pilot-episode-1/",
@@ -423,6 +417,12 @@
     "title": "Paid In Sweat: BEST IN SHOW (2000)",
     "showtime": "Thu Mar 19, 06:45 PM",
     "link": "https://revuecinema.ca/films/paid-in-sweat-best-in-show-2000/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "March Break Screening: The SpongeBob Movie: Search for SquarePants",
+    "showtime": "Thu Mar 19, 01:00 PM",
+    "link": "https://revuecinema.ca/films/march-break-screening-the-spongebob-movie-search-for-squarepants/",
     "source": "Revue Cinema"
   },
   {
@@ -576,6 +576,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Revue Event: FRAILTY – 25th Anniversary Screening!",
+    "showtime": "Thu Apr 02, 09:30 PM",
+    "link": "https://revuecinema.ca/films/revue-event-frailty-25th-anniversary-screening/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "The Midnight Revue: DONNIE DARKO – 25th Anniversary Screening!",
     "showtime": "Fri Apr 03, 11:59 PM",
     "link": "https://revuecinema.ca/films/revue-event-donnie-darko/",
@@ -618,9 +624,21 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "(Not-So) Terrible Twos: 2010: THE YEAR WE MAKE CONTACT (1984)",
+    "showtime": "Sat Apr 11, 06:45 PM",
+    "link": "https://revuecinema.ca/films/not-so-terrible-twos-2010-the-year-we-make-contact-1984/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Revue Event: WHAT DOES THAT NATURE SAY TO YOU",
     "showtime": "Mon Apr 13, 06:45 PM",
     "link": "https://revuecinema.ca/films/revue-event-what-does-that-nature-say-to-you/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Staff Pick Of The Month: DISTRICT 9 (2009)",
+    "showtime": "Tue Apr 14, 06:30 PM",
+    "link": "https://revuecinema.ca/films/staff-pick-of-the-month-district-9-2009/",
     "source": "Revue Cinema"
   },
   {
@@ -750,9 +768,21 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "The Perfect Date: STAR WARS: EPISODE IV – A NEW HOPE (4K Restoration!)",
+    "showtime": "Mon May 04, 06:30 PM",
+    "link": "https://revuecinema.ca/films/the-perfect-date-star-wars-episode-iv-a-new-hope-4k-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Revue Event: TWIN PEAKS: Season 2 (episodes 19 – 22)",
     "showtime": "Sat May 09, 12:00 PM",
     "link": "https://revuecinema.ca/films/revue-event-twin-peaks-season-2-episodes-19-22/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Staff Pick Of The Month: ZAZIE DANS LE MÉTRO (1960)",
+    "showtime": "Sun May 10, 07:00 PM",
+    "link": "https://revuecinema.ca/films/staff-pick-of-the-month-zazie-dans-le-metro-1960/",
     "source": "Revue Cinema"
   },
   {
@@ -783,6 +813,12 @@
     "title": "Drunken Cinema: BACK TO THE FUTURE (1985)",
     "showtime": "Fri Jun 19, 09:30 PM",
     "link": "https://revuecinema.ca/films/drunken-cinema-back-to-the-future-1985/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Father’s Day: THE SHINING (1980)",
+    "showtime": "Sun Jun 21, 03:30 PM",
+    "link": "https://revuecinema.ca/films/fathers-day-the-shining-4k-restoration/",
     "source": "Revue Cinema"
   }
 ]
