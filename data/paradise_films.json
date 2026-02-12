@@ -1,19 +1,13 @@
 [
   {
-    "title": "The Story of a Three-Day Pass",
-    "showtime": "Today, Feb 11, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/the-story-of-a-three-day-pass/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Ghost",
-    "showtime": "Thu, Feb 12, 6:00 pm",
+    "showtime": "Today, Feb 12, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/ghost/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Knife+Heart",
-    "showtime": "Thu, Feb 12, 9:00 pm",
+    "showtime": "Today, Feb 12, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/knifeheart/",
     "source": "Paradise Theatre"
   },
@@ -99,6 +93,12 @@
     "title": "Candlelight: A Tribute to the Kings of R&B: Usher, Mario, and More feat. Del Hartley",
     "showtime": "Fri, Feb 20, 8:45 pm",
     "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-the-kings-of-rb-usher-mario-and-more-feat-del-hartley/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "My Father’s Shadow",
+    "showtime": "Sat, Feb 21, 1:30 pm",
+    "link": "https://paradiseonbloor.com/movies/my-fathers-shadow/",
     "source": "Paradise Theatre"
   },
   {
@@ -210,6 +210,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Cabaret",
+    "showtime": "Wed, Mar 11, 7:30 pm",
+    "link": "https://paradiseonbloor.com/movies/cabaret/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Candlelight: A Tribute to Frank Sinatra & Nat King Cole",
     "showtime": "Thu, Mar 12, 6:30 pm",
     "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-frank-sinatra-nat-king-cole/",
@@ -222,6 +228,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Josie and the Pussycats",
+    "showtime": "Fri, Mar 13, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/josie-and-the-pussycats/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Oscars in Paradise",
     "showtime": "Sun, Mar 15, 7:00 pm",
     "link": "https://paradiseonbloor.com/special_events/oscars-in-paradise/",
@@ -231,6 +243,12 @@
     "title": "In the Movies: The Music Videos of Sloan with Jay Ferguson and Chris Murphy",
     "showtime": "Sun, Mar 22, 2:00 pm",
     "link": "https://paradiseonbloor.com/special_events/in-the-movies-the-music-videos-of-sloan-with-jay-ferguson-and-chris-murphy/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Winterbeast",
+    "showtime": "Mon, Mar 23, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/winterbeast/",
     "source": "Paradise Theatre"
   },
   {
@@ -255,6 +273,24 @@
     "title": "The Mist",
     "showtime": "Tue, Mar 31, 8:45 pm",
     "link": "https://paradiseonbloor.com/movies/the-mist/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Scarecrow in a Garden of Cucumbers",
+    "showtime": "Fri, Apr 10, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/scarecrow-in-a-garden-of-cucumbers/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Female Trouble",
+    "showtime": "Wed, Apr 22, 7:30 pm",
+    "link": "https://paradiseonbloor.com/movies/female-trouble/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Come Back to the 5 & Dime, Jimmy Dean, Jimmy Dean",
+    "showtime": "Wed, May 20, 7:30 pm",
+    "link": "https://paradiseonbloor.com/movies/come-back-to-the-5-dime-jimmy-dean-jimmy-dean/",
     "source": "Paradise Theatre"
   }
 ]

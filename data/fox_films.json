@@ -1,511 +1,475 @@
 [
   {
-    "title": "Is This Thing On?",
-    "showtime": "Wednesday, February 11, 3:50 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Wednesday, February 11, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Wednesday, February 11, 9:10 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Thursday, February 12, 3:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Thursday, February 12, 7:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Friday, February 13, 11:15 am",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Friday, February 13, 1:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Friday, February 13, 7:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Friday, February 13, 4:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Friday, February 13, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Saturday, February 14, 1:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Saturday, February 14, 4:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Saturday, February 14, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Saturday, February 14, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Sunday, February 15, 12:40 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Sunday, February 15, 3:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Sunday, February 15, 8:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Sunday, February 15, 5:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Monday, February 16, 1:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Monday, February 16, 3:50 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Monday, February 16, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Monday, February 16, 9:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Tuesday, February 17, 4:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Tuesday, February 17, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Tuesday, February 17, 9:10 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Wednesday, February 18, 4:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Wednesday, February 18, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Wednesday, February 18, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Thursday, February 19, 4:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Thursday, February 19, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Thursday, February 19, 9:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Friday, February 20, 3:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Friday, February 20, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Friday, February 20, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Saturday, February 21, 12:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Saturday, February 21, 3:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Saturday, February 21, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Saturday, February 21, 9:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Sunday, February 22, 12:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Sunday, February 22, 3:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Sunday, February 22, 6:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Sunday, February 22, 8:40 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Monday, February 23, 3:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Monday, February 23, 6:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Monday, February 23, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Tuesday, February 24, 3:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Tuesday, February 24, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Tuesday, February 24, 9:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Wednesday, February 25, 3:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Wednesday, February 25, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Wednesday, February 25, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Thursday, February 26, 3:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Thursday, February 26, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Thursday, February 26, 9:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Friday, February 27, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Saturday, February 28, 1:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Sunday, March 1, 1:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Friday, March 6, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Saturday, March 7, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Sunday, March 8, 3:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Tuesday, March 10, 9:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Wednesday, March 11, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Sunday, March 15, 7:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Saturday, March 21, 10:00 am",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Sunday, March 22, 12:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Monday, March 23, 7:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Saturday, March 28, 12:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Sunday, March 29, 1:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Friday, April 3, 4:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Friday, April 3, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Saturday, April 4, 1:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Saturday, April 4, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Sunday, April 5, 3:50 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Sunday, April 5, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Monday, April 6, 12:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Monday, April 6, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Tuesday, April 7, 3:50 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Tuesday, April 7, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Wednesday, April 8, 4:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Wednesday, April 8, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Thursday, April 9, 4:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Is This Thing On?",
-    "showtime": "Thursday, April 9, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/is-this-thing-on/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Arco",
-    "showtime": "Wednesday, February 11, 6:45 pm",
+    "showtime": "Thursday, February 12, 3:30 pm",
     "link": "https://www.foxtheatre.ca/movies/arco/",
     "source": "Fox Theatre"
   },
   {
-    "title": "Staff Picks: They Live",
-    "showtime": "Wednesday, February 11, 9:10 pm",
-    "link": "https://www.foxtheatre.ca/movies/staff-picks-they-live/",
+    "title": "Arco",
+    "showtime": "Thursday, February 12, 7:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
     "source": "Fox Theatre"
   },
   {
     "title": "Arco",
-    "showtime": "Thursday, February 12, 3:30 pm",
+    "showtime": "Friday, February 13, 11:15 am",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Friday, February 13, 1:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Friday, February 13, 7:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Friday, February 13, 4:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Friday, February 13, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Saturday, February 14, 1:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Saturday, February 14, 4:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Saturday, February 14, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Saturday, February 14, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Sunday, February 15, 12:40 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Sunday, February 15, 3:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Sunday, February 15, 8:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Sunday, February 15, 5:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Monday, February 16, 1:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Monday, February 16, 3:50 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Monday, February 16, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Monday, February 16, 9:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Tuesday, February 17, 4:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Tuesday, February 17, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Tuesday, February 17, 9:10 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Wednesday, February 18, 4:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Wednesday, February 18, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Wednesday, February 18, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Thursday, February 19, 4:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Thursday, February 19, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Thursday, February 19, 9:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Friday, February 20, 3:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Friday, February 20, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Friday, February 20, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Saturday, February 21, 12:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Saturday, February 21, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Saturday, February 21, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Saturday, February 21, 9:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Sunday, February 22, 12:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Sunday, February 22, 3:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Sunday, February 22, 6:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Sunday, February 22, 8:40 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Monday, February 23, 3:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Monday, February 23, 6:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Monday, February 23, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Tuesday, February 24, 3:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Tuesday, February 24, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Tuesday, February 24, 9:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Wednesday, February 25, 3:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Wednesday, February 25, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Wednesday, February 25, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Thursday, February 26, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Thursday, February 26, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Thursday, February 26, 9:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Friday, February 27, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Saturday, February 28, 1:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Sunday, March 1, 1:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Friday, March 6, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Saturday, March 7, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Sunday, March 8, 3:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Tuesday, March 10, 9:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Wednesday, March 11, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Sunday, March 15, 7:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Saturday, March 21, 10:00 am",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Sunday, March 22, 12:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Monday, March 23, 7:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Saturday, March 28, 12:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Sunday, March 29, 1:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Friday, April 3, 4:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Friday, April 3, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Saturday, April 4, 1:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Saturday, April 4, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Sunday, April 5, 3:50 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Sunday, April 5, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Monday, April 6, 12:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Monday, April 6, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Tuesday, April 7, 3:50 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Tuesday, April 7, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Wednesday, April 8, 4:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Wednesday, April 8, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Thursday, April 9, 4:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/arco/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Arco",
+    "showtime": "Thursday, April 9, 6:45 pm",
     "link": "https://www.foxtheatre.ca/movies/arco/",
     "source": "Fox Theatre"
   },
@@ -516,12 +480,6 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Arco",
-    "showtime": "Friday, February 13, 11:15 am",
-    "link": "https://www.foxtheatre.ca/movies/arco/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Nirvanna the Band the Show the Movie",
     "showtime": "Friday, February 13, 1:30 pm",
     "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
@@ -546,12 +504,6 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Arco",
-    "showtime": "Saturday, February 14, 1:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/arco/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Nirvanna the Band the Show the Movie",
     "showtime": "Saturday, February 14, 4:00 pm",
     "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
@@ -570,12 +522,6 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Arco",
-    "showtime": "Sunday, February 15, 12:40 pm",
-    "link": "https://www.foxtheatre.ca/movies/arco/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Nirvanna the Band the Show the Movie",
     "showtime": "Sunday, February 15, 3:00 pm",
     "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
@@ -591,12 +537,6 @@
     "title": "Pillion",
     "showtime": "Sunday, February 15, 5:45 pm",
     "link": "https://www.foxtheatre.ca/movies/pillion/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Arco",
-    "showtime": "Monday, February 16, 1:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/arco/",
     "source": "Fox Theatre"
   },
   {
@@ -624,21 +564,9 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Arco",
-    "showtime": "Tuesday, February 17, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/arco/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Nirvanna the Band the Show the Movie",
     "showtime": "Tuesday, February 17, 9:10 pm",
     "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Arco",
-    "showtime": "Wednesday, February 18, 4:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/arco/",
     "source": "Fox Theatre"
   },
   {
@@ -651,12 +579,6 @@
     "title": "Nirvanna the Band the Show the Movie",
     "showtime": "Wednesday, February 18, 9:30 pm",
     "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Arco",
-    "showtime": "Thursday, February 19, 4:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/arco/",
     "source": "Fox Theatre"
   },
   {
