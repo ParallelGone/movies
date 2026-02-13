@@ -1,19 +1,7 @@
 [
   {
-    "title": "Ghost",
-    "showtime": "Today, Feb 12, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/ghost/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Knife+Heart",
-    "showtime": "Today, Feb 12, 9:00 pm",
-    "link": "https://paradiseonbloor.com/movies/knifeheart/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "White Chicks",
-    "showtime": "Fri, Feb 13, 7:00 pm",
+    "showtime": "Today, Feb 13, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/white-chicks/",
     "source": "Paradise Theatre"
   },
@@ -141,6 +129,12 @@
     "title": "Christine",
     "showtime": "Tue, Feb 24, 9:15 pm",
     "link": "https://paradiseonbloor.com/movies/christine/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Thelonious Monk: Straight, No Chaser: 4K Restoration!",
+    "showtime": "Wed, Feb 25, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/thelonious-monk-straight-no-chaser-4k-restoration/",
     "source": "Paradise Theatre"
   },
   {
