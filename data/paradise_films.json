@@ -1,37 +1,19 @@
 [
   {
-    "title": "Gary Topp Presents Junkie Run",
-    "showtime": "Today, Feb 15, 3:00 pm\nSOLD OUT",
-    "link": "https://paradiseonbloor.com/special_events/gary-topp-presents-junkie-run/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "La Collectionneuse",
-    "showtime": "Today, Feb 15, 6:30 pm",
-    "link": "https://paradiseonbloor.com/movies/la-collectionneuse/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Montreal, My Beautiful",
-    "showtime": "Today, Feb 15, 9:00 pm",
-    "link": "https://paradiseonbloor.com/movies/montreal-my-beautiful/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "My Neighbor Totoro",
-    "showtime": "Mon, Feb 16, 2:30 pm",
+    "showtime": "Today, Feb 16, 2:30 pm",
     "link": "https://paradiseonbloor.com/movies/my-neighbor-totoro/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Where the Wild Things Are",
-    "showtime": "Mon, Feb 16, 5:00 pm",
+    "showtime": "Today, Feb 16, 5:00 pm",
     "link": "https://paradiseonbloor.com/movies/where-the-wild-things-are/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Lost in Translation",
-    "showtime": "Mon, Feb 16, 7:45 pm",
+    "showtime": "Today, Feb 16, 7:45 pm",
     "link": "https://paradiseonbloor.com/movies/lost-in-translation/",
     "source": "Paradise Theatre"
   },
@@ -45,6 +27,12 @@
     "title": "The Birdcage",
     "showtime": "Wed, Feb 18, 7:30 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/movies/the-birdcage-2/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Montreal, My Beautiful",
+    "showtime": "Thu, Feb 19, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/montreal-my-beautiful/",
     "source": "Paradise Theatre"
   },
   {
