@@ -1,31 +1,13 @@
 [
   {
-    "title": "My Neighbor Totoro",
-    "showtime": "Today, Feb 16, 2:30 pm",
-    "link": "https://paradiseonbloor.com/movies/my-neighbor-totoro/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Where the Wild Things Are",
-    "showtime": "Today, Feb 16, 5:00 pm",
-    "link": "https://paradiseonbloor.com/movies/where-the-wild-things-are/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Lost in Translation",
-    "showtime": "Today, Feb 16, 7:45 pm",
-    "link": "https://paradiseonbloor.com/movies/lost-in-translation/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "The Bridges of Madison County",
-    "showtime": "Tue, Feb 17, 6:00 pm",
+    "showtime": "Today, Feb 17, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-bridges-of-madison-county/",
     "source": "Paradise Theatre"
   },
   {
     "title": "The Birdcage",
-    "showtime": "Wed, Feb 18, 7:30 pm\nSOLD OUT",
+    "showtime": "Wed, Feb 18, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/the-birdcage-2/",
     "source": "Paradise Theatre"
   },
