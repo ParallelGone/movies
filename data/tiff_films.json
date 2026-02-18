@@ -1,66 +1,6 @@
 [
   {
     "title": "A Poet - Simón Mesa Soto",
-    "showtime": "Tuesday, February 17, 7:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxNzczVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "All That's Left of You - Cherien Dabis",
-    "showtime": "Tuesday, February 17, 8:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxNzgzVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Arco - Ugo Bienvenu",
-    "showtime": "Tuesday, February 17, 6:10PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxNzYxVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Celebrating John Candy: The Exhibit",
-    "showtime": "Tuesday, February 17, 12:00PM (Free)",
-    "link": "https://tiff.net/events/celebrating-john-candy-the-exhibit",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Diary of a Chambermaid - Luis Buñuel",
-    "showtime": "Tuesday, February 17, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxNzYzVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Film Reference Library Public Hours",
-    "showtime": "Tuesday, February 17, 12:00PM",
-    "link": "https://am.ticketmaster.com/tiff/",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Hamnet - Chloé Zhao",
-    "showtime": "Tuesday, February 17, 8:50PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxNzg1VDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Magellan - Lav Diaz",
-    "showtime": "Tuesday, February 17, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxNzcwVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Sentimental Value - Joachim Trier",
-    "showtime": "Tuesday, February 17, 8:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxNzg0VDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Sirāt - Oliver Laxe",
-    "showtime": "Tuesday, February 17, 6:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxNzYwVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "A Poet - Simón Mesa Soto",
     "showtime": "Wednesday, February 18, 3:45PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkYxODM0VDQ=",
     "source": "TIFF Bell Lightbox"
@@ -1736,6 +1676,18 @@
   {
     "title": "Setting the Scene Exhibition",
     "showtime": "Saturday, May 16, 12:00PM (Free)",
+    "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Film Reference Library Public Hours",
+    "showtime": "Tuesday, May 19, 12:00PM (Free)",
+    "link": "https://tiff.net/events/film-reference-library-public-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Setting the Scene Exhibition",
+    "showtime": "Tuesday, May 19, 12:00PM (Free)",
     "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
     "source": "TIFF Bell Lightbox"
   }

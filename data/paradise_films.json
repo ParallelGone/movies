@@ -1,13 +1,7 @@
 [
   {
-    "title": "The Bridges of Madison County",
-    "showtime": "Today, Feb 17, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/the-bridges-of-madison-county/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "The Birdcage",
-    "showtime": "Wed, Feb 18, 7:30 pm",
+    "showtime": "Today, Feb 18, 7:30 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/movies/the-birdcage-2/",
     "source": "Paradise Theatre"
   },
@@ -207,6 +201,18 @@
     "title": "It",
     "showtime": "Tue, Mar 24, 8:45 pm",
     "link": "https://paradiseonbloor.com/movies/it/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Double Feature: My Favorite Wife & The Awful Truth",
+    "showtime": "Sun, Mar 29, 1:30 pm",
+    "link": "https://paradiseonbloor.com/programs/double-feature-my-favorite-wife-the-awful-truth/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Foxy Brown",
+    "showtime": "Sun, Mar 29, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/foxy-brown/",
     "source": "Paradise Theatre"
   },
   {
