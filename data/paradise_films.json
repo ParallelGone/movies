@@ -1,25 +1,13 @@
 [
   {
-    "title": "Montreal, My Beautiful",
-    "showtime": "Today, Feb 19, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/montreal-my-beautiful/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Road House",
-    "showtime": "Today, Feb 19, 9:00 pm",
-    "link": "https://paradiseonbloor.com/movies/road-house/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Candlelight: A Tribute to the Kings of R&B: Usher, Mario, and More feat. Del Hartley",
-    "showtime": "Fri, Feb 20, 6:30 pm",
+    "showtime": "Today, Feb 20, 6:30 pm",
     "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-the-kings-of-rb-usher-mario-and-more-feat-del-hartley/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Candlelight: A Tribute to the Kings of R&B: Usher, Mario, and More feat. Del Hartley",
-    "showtime": "Fri, Feb 20, 8:45 pm",
+    "showtime": "Today, Feb 20, 8:45 pm",
     "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-the-kings-of-rb-usher-mario-and-more-feat-del-hartley/",
     "source": "Paradise Theatre"
   },
@@ -114,6 +102,18 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "2026 Oscar Nominated Shorts: Live Action",
+    "showtime": "Mon, Mar 2, 6:00 pm",
+    "link": "https://paradiseonbloor.com/programs/2026-oscar-nominated-shorts-live-action/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "A Poet",
+    "showtime": "Mon, Mar 2, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/a-poet/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "The Shining",
     "showtime": "Tue, Mar 3, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-shining/",
@@ -126,9 +126,39 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "What We Dreamed of Then: Toronto Premiere!",
+    "showtime": "Wed, Mar 4, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/what-we-dreamed-of-then-toronto-premiere/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Nirvanna the Band the Show the Movie",
+    "showtime": "Wed, Mar 4, 9:30 pm",
+    "link": "https://paradiseonbloor.com/movies/nirvanna-the-band-the-show-the-movie/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Bridget Jones’s Diary + Definitely Thriving Book Launch with Kerry Clare",
     "showtime": "Thu, Mar 5, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/bridget-joness-diary-definitely-thriving-book-launch-with-kerry-clare/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "2026 Oscar Nominated Shorts: Animated",
+    "showtime": "Sat, Mar 7, 2:30 pm",
+    "link": "https://paradiseonbloor.com/programs/2026-oscar-nominated-shorts-animated/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Dreams in Nightmares: Canadian Premiere!",
+    "showtime": "Sun, Mar 8, 2:00 pm",
+    "link": "https://paradiseonbloor.com/movies/dreams-in-nightmares-canadian-premiere/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "2026 Oscar Nominated Shorts: Documentary",
+    "showtime": "Mon, Mar 9, 6:00 pm",
+    "link": "https://paradiseonbloor.com/programs/2026-oscar-nominated-shorts-documentary/",
     "source": "Paradise Theatre"
   },
   {
@@ -195,6 +225,12 @@
     "title": "It",
     "showtime": "Tue, Mar 24, 8:45 pm",
     "link": "https://paradiseonbloor.com/movies/it/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Mirrors No. 3",
+    "showtime": "Fri, Mar 27, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/mirrors-no-3/",
     "source": "Paradise Theatre"
   },
   {

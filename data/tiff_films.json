@@ -1,95 +1,5 @@
 [
   {
-    "title": "A Poet - Simón Mesa Soto",
-    "showtime": "Thursday, February 19, 3:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxOTM0VDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "All That's Left of You - Cherien Dabis",
-    "showtime": "Thursday, February 19, 4:10PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxOTQxVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "All That's Left of You - Cherien Dabis",
-    "showtime": "Thursday, February 19, 7:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxOTczVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Arco - Ugo Bienvenu",
-    "showtime": "Thursday, February 19, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxOTQwVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Arco - Ugo Bienvenu",
-    "showtime": "Thursday, February 19, 6:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxOTYxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Celebrating John Candy: The Exhibit",
-    "showtime": "Thursday, February 19, 12:00PM (Free)",
-    "link": "https://tiff.net/events/celebrating-john-candy-the-exhibit",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Film Reference Library Public Hours",
-    "showtime": "Thursday, February 19, 12:00PM",
-    "link": "https://am.ticketmaster.com/tiff/",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Hamnet - Chloé Zhao",
-    "showtime": "Thursday, February 19, 8:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxOTgzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Magellan - Lav Diaz",
-    "showtime": "Thursday, February 19, 9:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxOTkxVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Montreal, My Beautiful - Xiaodan He",
-    "showtime": "Thursday, February 19, 9:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxOTkwVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Sirāt - Oliver Laxe",
-    "showtime": "Thursday, February 19, 4:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxOTQxVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Sirāt - Oliver Laxe",
-    "showtime": "Thursday, February 19, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxOTcwVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Sirāt - Oliver Laxe",
-    "showtime": "Thursday, February 19, 9:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxOTk0VDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Discreet Charm of the Bourgeoisie - Luis Buñuel",
-    "showtime": "Thursday, February 19, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxOTYzVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Train Dreams - Clint Bentley",
-    "showtime": "Thursday, February 19, 6:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYxOTY0VDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
     "title": "2026 Oscar-Nominated Short Films: Animated",
     "showtime": "Friday, February 20, 1:00PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkYyMDEwVDE=",
@@ -914,7 +824,7 @@
   {
     "title": "Sing Along: Encanto",
     "showtime": "Saturday, March 14, 1:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0xNDEwVDE=",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0xNDEwVDI=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -1604,6 +1514,18 @@
   {
     "title": "Setting the Scene Exhibition",
     "showtime": "Wednesday, May 20, 12:00PM (Free)",
+    "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Film Reference Library Public Hours",
+    "showtime": "Thursday, May 21, 12:00PM (Free)",
+    "link": "https://tiff.net/events/film-reference-library-public-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Setting the Scene Exhibition",
+    "showtime": "Thursday, May 21, 12:00PM (Free)",
     "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
     "source": "TIFF Bell Lightbox"
   }
