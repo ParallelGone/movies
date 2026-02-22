@@ -1,25 +1,19 @@
 [
   {
-    "title": "My Father’s Shadow",
-    "showtime": "Today, Feb 21, 1:30 pm",
-    "link": "https://paradiseonbloor.com/movies/my-fathers-shadow/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Double Feature: Il Sorpasso & Orchestra Rehearsal",
-    "showtime": "Sun, Feb 22, 1:30 pm",
+    "showtime": "Today, Feb 22, 1:30 pm",
     "link": "https://paradiseonbloor.com/programs/double-feature-il-sorpasso-orchestra-rehearsal/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Brief Encounter",
-    "showtime": "Sun, Feb 22, 6:00 pm",
+    "showtime": "Today, Feb 22, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/brief-encounter/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Shanghai Blues",
-    "showtime": "Sun, Feb 22, 8:30 pm",
+    "showtime": "Today, Feb 22, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/shanghai-blues/",
     "source": "Paradise Theatre"
   },
@@ -27,6 +21,12 @@
     "title": "Member Mondays: Strangers on a Train",
     "showtime": "Mon, Feb 23, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/member-mondays-strangers-on-a-train/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "My Father’s Shadow",
+    "showtime": "Mon, Feb 23, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/my-fathers-shadow/",
     "source": "Paradise Theatre"
   },
   {
