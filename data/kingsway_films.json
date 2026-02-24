@@ -1,12 +1,6 @@
 [
   {
     "title": "Song Sung Blue",
-    "showtime": "Monday, February 23, 1:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Song Sung Blue",
     "showtime": "Tuesday, February 24, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -85,7 +79,7 @@
   },
   {
     "title": "Song Sung Blue",
-    "showtime": "Monday, February 23, 7:30 pm",
+    "showtime": "Monday, March 9, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,8 +162,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Dracula 2026",
-    "showtime": "Monday, February 23, 8:45 pm",
+    "title": "Song Sung Blue",
+    "showtime": "Monday, March 9, 7:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -240,8 +234,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Sound of Falling",
-    "showtime": "Monday, February 23, 3:00 pm",
+    "title": "Dracula 2026",
+    "showtime": "Monday, March 9, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -272,6 +266,12 @@
   {
     "title": "Sound of Falling",
     "showtime": "Saturday, March 7, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Sound of Falling",
+    "showtime": "Monday, March 9, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -320,12 +320,6 @@
   {
     "title": "A Poet",
     "showtime": "Sunday, March 8, 3:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Testament of Ann Lee",
-    "showtime": "Monday, February 23, 5:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -408,8 +402,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Father Mother Sister Brother",
-    "showtime": "Monday, February 23, 5:30 pm",
+    "title": "The Testament of Ann Lee",
+    "showtime": "Monday, March 9, 5:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -440,6 +434,12 @@
   {
     "title": "Father Mother Sister Brother",
     "showtime": "Saturday, March 7, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Father Mother Sister Brother",
+    "showtime": "Monday, March 9, 5:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -589,12 +589,6 @@
   },
   {
     "title": "28 Years Later the Bone Temple",
-    "showtime": "Monday, February 23, 10:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "28 Years Later the Bone Temple",
     "showtime": "Wednesday, February 25, 10:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -637,7 +631,7 @@
   },
   {
     "title": "28 Years Later the Bone Temple",
-    "showtime": "Monday, February 23, 9:35 pm",
+    "showtime": "Monday, March 9, 10:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -680,6 +674,12 @@
   {
     "title": "28 Years Later the Bone Temple",
     "showtime": "Saturday, March 7, 9:35 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "28 Years Later the Bone Temple",
+    "showtime": "Monday, March 9, 9:35 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
