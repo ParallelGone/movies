@@ -1,12 +1,6 @@
 [
   {
     "title": "Song Sung Blue",
-    "showtime": "Tuesday, February 24, 1:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Song Sung Blue",
     "showtime": "Wednesday, February 25, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -85,7 +79,7 @@
   },
   {
     "title": "Song Sung Blue",
-    "showtime": "Tuesday, February 24, 7:30 pm",
+    "showtime": "Tuesday, March 10, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,8 +162,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Dracula 2026",
-    "showtime": "Tuesday, February 24, 8:45 pm",
+    "title": "Song Sung Blue",
+    "showtime": "Tuesday, March 10, 7:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -240,6 +234,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "Dracula 2026",
+    "showtime": "Tuesday, March 10, 8:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "Sound of Falling",
     "showtime": "Wednesday, February 25, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
@@ -272,12 +272,6 @@
   {
     "title": "Sound of Falling",
     "showtime": "Monday, March 9, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Tuesday, February 24, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -324,8 +318,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Testament of Ann Lee",
-    "showtime": "Tuesday, February 24, 5:05 pm",
+    "title": "A Poet",
+    "showtime": "Tuesday, March 10, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -408,6 +402,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "The Testament of Ann Lee",
+    "showtime": "Tuesday, March 10, 5:05 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "Father Mother Sister Brother",
     "showtime": "Wednesday, February 25, 5:30 pm",
     "link": "http://kingswaymovies.ca/",
@@ -444,30 +444,6 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Rental Family",
-    "showtime": "Thursday, February 26, 5:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Rental Family",
-    "showtime": "Friday, February 27, 5:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Rental Family",
-    "showtime": "Thursday, March 5, 5:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Rental Family",
-    "showtime": "Friday, March 6, 5:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
     "title": "Bugonia",
     "showtime": "Thursday, February 26, 5:30 pm",
     "link": "http://kingswaymovies.ca/",
@@ -488,12 +464,6 @@
   {
     "title": "Bugonia",
     "showtime": "Sunday, March 8, 5:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Is This Thing On",
-    "showtime": "Tuesday, February 24, 7:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -540,8 +510,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Strangers Chapter 3",
-    "showtime": "Tuesday, February 24, 9:25 pm",
+    "title": "Is This Thing On",
+    "showtime": "Tuesday, March 10, 7:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -584,6 +554,12 @@
   {
     "title": "The Strangers Chapter 3",
     "showtime": "Sunday, March 8, 9:25 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Strangers Chapter 3",
+    "showtime": "Tuesday, March 10, 9:25 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },

@@ -1,42 +1,6 @@
 [
   {
     "title": "2026 Oscar-Nominated Short Films: Animated",
-    "showtime": "Tuesday, February 24, 6:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNDYwVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "2026 Oscar-Nominated Short Films: Documentary",
-    "showtime": "Tuesday, February 24, 9:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNDkwVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "2026 Oscar-Nominated Short Films: Live Action",
-    "showtime": "Tuesday, February 24, 8:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNDgxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Celebrating John Candy: The Exhibit",
-    "showtime": "Tuesday, February 24, 12:00PM (Free)",
-    "link": "https://tiff.net/events/celebrating-john-candy-the-exhibit",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Film Reference Library Public Hours",
-    "showtime": "Tuesday, February 24, 12:00PM",
-    "link": "https://am.ticketmaster.com/tiff/",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Discreet Charm of the Bourgeoisie - Luis Buñuel",
-    "showtime": "Tuesday, February 24, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNDYzVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "2026 Oscar-Nominated Short Films: Animated",
     "showtime": "Wednesday, February 25, 6:15PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkYyNTYxVDU=",
     "source": "TIFF Bell Lightbox"
@@ -1202,6 +1166,18 @@
   {
     "title": "Setting the Scene Exhibition",
     "showtime": "Saturday, May 23, 12:00PM (Free)",
+    "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Film Reference Library Public Hours",
+    "showtime": "Tuesday, May 26, 12:00PM (Free)",
+    "link": "https://tiff.net/events/film-reference-library-public-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Setting the Scene Exhibition",
+    "showtime": "Tuesday, May 26, 12:00PM (Free)",
     "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
     "source": "TIFF Bell Lightbox"
   }
