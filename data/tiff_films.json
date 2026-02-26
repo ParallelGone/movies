@@ -1,48 +1,6 @@
 [
   {
     "title": "2026 Oscar-Nominated Short Films: Animated",
-    "showtime": "Wednesday, February 25, 6:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNTYxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "2026 Oscar-Nominated Short Films: Documentary",
-    "showtime": "Wednesday, February 25, 8:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNTgzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "2026 Oscar-Nominated Short Films: Live Action",
-    "showtime": "Wednesday, February 25, 8:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNTgwVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Belle de Jour - Luis Buñuel",
-    "showtime": "Wednesday, February 25, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNTYzVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Celebrating John Candy: The Exhibit",
-    "showtime": "Wednesday, February 25, 12:00PM (Free)",
-    "link": "https://tiff.net/events/celebrating-john-candy-the-exhibit",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Film Reference Library Public Hours",
-    "showtime": "Wednesday, February 25, 12:00PM",
-    "link": "https://am.ticketmaster.com/tiff/",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Sirāt - Oliver Laxe",
-    "showtime": "Wednesday, February 25, 9:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNTkwVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "2026 Oscar-Nominated Short Films: Animated",
     "showtime": "Thursday, February 26, 6:35PM",
     "link": "https://am.ticketmaster.com/tiff/buy/ism/NkYyNjYzVDM=",
     "source": "TIFF Bell Lightbox"
@@ -55,8 +13,8 @@
   },
   {
     "title": "2026 Oscar-Nominated Short Films: Live Action",
-    "showtime": "Thursday, February 26, 4:10PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNjQxVDE=",
+    "showtime": "Thursday, February 26",
+    "link": "https://tiff.net/events/2026-oscar-nominated-short-films-live-action",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -67,32 +25,26 @@
   },
   {
     "title": "Celebrating John Candy: The Exhibit",
-    "showtime": "Thursday, February 26, 12:00PM (Free)",
+    "showtime": "Thursday, February 26",
     "link": "https://tiff.net/events/celebrating-john-candy-the-exhibit",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Film Reference Library Public Hours",
-    "showtime": "Thursday, February 26, 12:00PM",
-    "link": "https://am.ticketmaster.com/tiff/",
+    "showtime": "Thursday, February 26",
+    "link": "https://tiff.net/events/film-reference-library-public-hours",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Magellan - Lav Diaz",
-    "showtime": "Thursday, February 26, 4:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNjQxVDU=",
+    "showtime": "Thursday, February 26",
+    "link": "https://tiff.net/events/magellan",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Montreal, My Beautiful - Xiaodan He",
-    "showtime": "Thursday, February 26, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkYyNjQwVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Sirāt - Oliver Laxe",
-    "showtime": "Thursday, February 26, 3:45PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkYyNjM0VDM=",
+    "showtime": "Thursday, February 26",
+    "link": "https://tiff.net/events/montreal-my-beautiful",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -111,6 +63,54 @@
     "title": "The Secret Agent - Kleber Mendonça Filho",
     "showtime": "Thursday, February 26, 7:15PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkYyNjcxVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Animated",
+    "showtime": "Friday, February 27, 2:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNzIxVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Animated",
+    "showtime": "Friday, February 27, 4:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNzQzVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Documentary",
+    "showtime": "Friday, February 27, 12:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyN0wzVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Documentary",
+    "showtime": "Friday, February 27, 7:45PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNzc0VDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Live Action",
+    "showtime": "Friday, February 27, 4:45PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNzQ0VDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Live Action",
+    "showtime": "Friday, February 27, 9:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNzkxVDM=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "All That's Left of You - Cherien Dabis",
+    "showtime": "Friday, February 27, 2:45PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNzI0VDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "All That's Left of You - Cherien Dabis",
+    "showtime": "Friday, February 27, 8:50PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNzg1VDU=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -144,6 +144,42 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Montreal, My Beautiful - Xiaodan He",
+    "showtime": "Friday, February 27, 12:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyN0wwVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Montreal, My Beautiful - Xiaodan He",
+    "showtime": "Friday, February 27, 6:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNzYwVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Montreal, My Beautiful - Xiaodan He",
+    "showtime": "Friday, February 27, 9:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNzkzVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Pillion - Harry Lighton",
+    "showtime": "Friday, February 27, 8:45PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNzg0VDQ=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Sirāt - Oliver Laxe",
+    "showtime": "Friday, February 27, 12:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyN0wxVDQ=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Sirāt - Oliver Laxe",
+    "showtime": "Friday, February 27, 3:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyNzMwVDQ=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "The President's Cake - Hasan Hadi",
     "showtime": "Friday, February 27, 3:45PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkYyNzM0VDM=",
@@ -153,6 +189,54 @@
     "title": "The President's Cake - Hasan Hadi",
     "showtime": "Friday, February 27, 6:15PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkYyNzYxVDQ=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Animated",
+    "showtime": "Saturday, February 28, 1:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyODEwVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Animated",
+    "showtime": "Saturday, February 28, 4:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyODQxVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Animated",
+    "showtime": "Saturday, February 28, 9:35PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyODkzVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Documentary",
+    "showtime": "Saturday, February 28, 12:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyOEwzVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Documentary",
+    "showtime": "Saturday, February 28, 8:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyODgzVDM=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Live Action",
+    "showtime": "Saturday, February 28, 3:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyODMxVDM=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Live Action",
+    "showtime": "Saturday, February 28, 6:40PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyODY0VDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "All That's Left of You - Cherien Dabis",
+    "showtime": "Saturday, February 28, 3:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyODMwVDU=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -192,6 +276,42 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Montreal, My Beautiful - Xiaodan He",
+    "showtime": "Saturday, February 28, 12:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyOEwxVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Montreal, My Beautiful - Xiaodan He",
+    "showtime": "Saturday, February 28, 9:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyODkwVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Pillion - Harry Lighton",
+    "showtime": "Saturday, February 28, 12:45PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyOEw0VDM=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Sirāt - Oliver Laxe",
+    "showtime": "Saturday, February 28, 3:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyODMzVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Sirāt - Oliver Laxe",
+    "showtime": "Saturday, February 28, 6:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyODYxVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Sirāt - Oliver Laxe",
+    "showtime": "Saturday, February 28, 9:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkYyODkzVDQ=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "The President's Cake - Hasan Hadi",
     "showtime": "Saturday, February 28, 1:30PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkYyODEzVDQ=",
@@ -201,6 +321,54 @@
     "title": "The President's Cake - Hasan Hadi",
     "showtime": "Saturday, February 28, 6:00PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkYyODYwVDM=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Animated",
+    "showtime": "Sunday, March 1, 2:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMTIwVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Animated",
+    "showtime": "Sunday, March 1, 6:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMTYwVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Documentary",
+    "showtime": "Sunday, March 1, 12:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMUwwVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Documentary",
+    "showtime": "Sunday, March 1, 7:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMTcxVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Live Action",
+    "showtime": "Sunday, March 1, 4:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMTQxVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Live Action",
+    "showtime": "Sunday, March 1, 8:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMTgxVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "All That's Left of You - Cherien Dabis",
+    "showtime": "Sunday, March 1, 12:05PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMUwwVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "All That's Left of You - Cherien Dabis",
+    "showtime": "Sunday, March 1, 9:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMTkxVDQ=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -228,9 +396,33 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Montreal, My Beautiful - Xiaodan He",
+    "showtime": "Sunday, March 1, 3:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMTMxVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Pillion - Harry Lighton",
+    "showtime": "Sunday, March 1, 8:45PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMTg0VDM=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "Reporters with Gaëlle Morel",
     "showtime": "Sunday, March 1, 6:30PM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMTYzVDQ=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Sirāt - Oliver Laxe",
+    "showtime": "Sunday, March 1, 3:45PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMTM0VDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Sirāt - Oliver Laxe",
+    "showtime": "Sunday, March 1, 9:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMTkzVDI=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -252,6 +444,30 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "2026 Oscar-Nominated Short Films: Animated",
+    "showtime": "Tuesday, March 3, 5:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMzUwVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Documentary",
+    "showtime": "Tuesday, March 3, 8:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMzgzVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Live Action",
+    "showtime": "Tuesday, March 3, 7:05PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMzcwVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "All That's Left of You - Cherien Dabis",
+    "showtime": "Tuesday, March 3, 5:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMzUxVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "Film Reference Library Public Hours",
     "showtime": "Tuesday, March 3, 12:00PM",
     "link": "https://am.ticketmaster.com/tiff/",
@@ -264,6 +480,12 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Sirāt - Oliver Laxe",
+    "showtime": "Tuesday, March 3, 9:50PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMzk1VDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "The President's Cake - Hasan Hadi",
     "showtime": "Tuesday, March 3, 6:15PM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMzYxVDM=",
@@ -273,6 +495,30 @@
     "title": "The Wind Will Carry Us, with Cameron Bailey",
     "showtime": "Tuesday, March 3, 6:00PM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMzYwVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Animated",
+    "showtime": "Wednesday, March 4, 4:05PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNDQwVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Documentary",
+    "showtime": "Wednesday, March 4, 7:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNDcxVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Live Action",
+    "showtime": "Wednesday, March 4, 4:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNDQwVDQ=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "All That's Left of You - Cherien Dabis",
+    "showtime": "Wednesday, March 4, 9:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNDkxVDQ=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -294,6 +540,30 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Montreal, My Beautiful - Xiaodan He",
+    "showtime": "Wednesday, March 4, 9:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNDkzVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Pillion - Harry Lighton",
+    "showtime": "Wednesday, March 4, 6:40PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNDY0VDQ=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Sirāt - Oliver Laxe",
+    "showtime": "Wednesday, March 4, 4:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNDQzVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Sirāt - Oliver Laxe",
+    "showtime": "Wednesday, March 4, 9:20PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNDkyVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "The President's Cake - Hasan Hadi",
     "showtime": "Wednesday, March 4, 4:15PM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNDQxVDE=",
@@ -306,6 +576,30 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "2026 Oscar-Nominated Short Films: Animated",
+    "showtime": "Thursday, March 5, 3:50PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTM1VDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Documentary",
+    "showtime": "Thursday, March 5, 8:55PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTg1VDM=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "2026 Oscar-Nominated Short Films: Live Action",
+    "showtime": "Thursday, March 5, 7:10PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTcxVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "All That's Left of You - Cherien Dabis",
+    "showtime": "Thursday, March 5, 4:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTQwVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "Film Reference Library Public Hours",
     "showtime": "Thursday, March 5, 12:00PM",
     "link": "https://am.ticketmaster.com/tiff/",
@@ -315,6 +609,24 @@
     "title": "Jimpa - Sophie Hyde",
     "showtime": "Thursday, March 5, 8:30PM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTgzVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Montreal, My Beautiful - Xiaodan He",
+    "showtime": "Thursday, March 5, 3:45PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTM0VDM=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Sinners - Ryan Coogler",
+    "showtime": "Thursday, March 5, 9:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTkzVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Sirāt - Oliver Laxe",
+    "showtime": "Thursday, March 5, 9:50PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTk1VDU=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -336,6 +648,30 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Friday, March 6, 2:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNjIwVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Friday, March 6, 4:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNjQxVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Friday, March 6, 7:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNjcxVDM=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Friday, March 6, 9:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNjkzVDM=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "A Thousand and One - A.V. Rockwell",
     "showtime": "Saturday, March 7, 3:30PM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNzMzVDQ=",
@@ -345,6 +681,36 @@
     "title": "Film Reference Library Public Hours",
     "showtime": "Saturday, March 7, 12:00PM",
     "link": "https://am.ticketmaster.com/tiff/",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Saturday, March 7, 1:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNzEzVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Saturday, March 7, 3:45PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNzM0VDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Saturday, March 7, 6:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNzYwVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Saturday, March 7, 9:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNzkwVDQ=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Sinners - Ryan Coogler",
+    "showtime": "Saturday, March 7, 7:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNzczVDE=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -366,6 +732,36 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Little Amélie or the Character of Rain - Maïlys Vallade, Liane-Cho Han",
+    "showtime": "Sunday, March 8, 3:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wODMwVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Sunday, March 8, 1:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wODEwVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Sunday, March 8, 3:45PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wODM0VDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Sunday, March 8, 6:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wODYxVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Sunday, March 8, 9:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wODkwVDQ=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "The Girls - Sumitra Peries",
     "showtime": "Sunday, March 8, 3:30PM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk0wODMzVDQ=",
@@ -381,6 +777,12 @@
     "title": "Monsieur Lazhar - Philippe Falardeau",
     "showtime": "Tuesday, March 10, 6:30PM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk0xMDYzVDM=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Tuesday, March 10, 6:45PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0xMDY0VDI=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -402,9 +804,51 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Wednesday, March 11, 4:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0xMTQxVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Wednesday, March 11, 6:45PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0xMTY0VDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Wednesday, March 11, 9:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0xMTkwVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "Film Reference Library Public Hours",
     "showtime": "Thursday, March 12, 12:00PM",
     "link": "https://am.ticketmaster.com/tiff/",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Thursday, March 12, 4:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0xMjQwVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Thursday, March 12, 7:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0xMjczVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Peaky Blinders: The Immortal Man - Tom Harper",
+    "showtime": "Thursday, March 12, 10:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0xMjAwVDQ=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Sinners - Ryan Coogler",
+    "showtime": "Thursday, March 12, 7:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0xMjcxVDE=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -492,6 +936,12 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "How to Craft a Standout Submission and Make the Most of Creators’ Labs at TIFF: The Market",
+    "showtime": "Wednesday, March 18, 5:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0xODUwVDQ=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "Songs My Brothers Taught Me - Chloé Zhao",
     "showtime": "Wednesday, March 18, 7:00PM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk0xODcwVDQ=",
@@ -501,6 +951,12 @@
     "title": "Film Reference Library Public Hours",
     "showtime": "Thursday, March 19, 12:00PM (Free)",
     "link": "https://tiff.net/events/film-reference-library-public-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Idiotka - Nastasya Popov",
+    "showtime": "Thursday, March 19, 7:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0xOTcwVDM=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -585,6 +1041,12 @@
     "title": "Film Reference Library Public Hours",
     "showtime": "Thursday, March 26, 12:00PM (Free)",
     "link": "https://tiff.net/events/film-reference-library-public-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Idiotka - Nastasya Popov",
+    "showtime": "Thursday, March 26, 8:45PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yNjg0VDQ=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -1178,6 +1640,18 @@
   {
     "title": "Setting the Scene Exhibition",
     "showtime": "Tuesday, May 26, 12:00PM (Free)",
+    "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Film Reference Library Public Hours",
+    "showtime": "Wednesday, May 27, 12:00PM (Free)",
+    "link": "https://tiff.net/events/film-reference-library-public-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Setting the Scene Exhibition",
+    "showtime": "Wednesday, May 27, 12:00PM (Free)",
     "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
     "source": "TIFF Bell Lightbox"
   }

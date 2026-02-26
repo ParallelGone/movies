@@ -1,23 +1,5 @@
 [
   {
-    "title": "The Perfect Date: TWIN PEAKS: FIRE WALK WITH ME – Presented on 35mm!",
-    "showtime": "Tue Feb 24, 06:15 PM",
-    "link": "https://revuecinema.ca/films/the-perfect-date-twin-peaks-fire-walk-with-me-presented-on-35mm/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Dead of Winter: ICED (1989) – New Restoration!",
-    "showtime": "Tue Feb 24, 09:30 PM",
-    "link": "https://revuecinema.ca/films/dead-of-winter-iced-1989-new-restoration/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Dead of Winter: DREAMCATCHER (2003)",
-    "showtime": "Wed Feb 25, 06:30 PM",
-    "link": "https://revuecinema.ca/films/dead-of-winter-dreamcatcher-2003/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Dead of Winter: THE WOLF OF SNOW HOLLOW (2020)",
     "showtime": "Thu Feb 26, 09:30 PM",
     "link": "https://revuecinema.ca/films/dead-of-winter-the-wolf-of-snow-hollow-2020/",
@@ -117,6 +99,18 @@
     "title": "MARTY SUPREME – Presented on 70mm!",
     "showtime": "Sat Mar 07, 12:30 PM",
     "link": "https://revuecinema.ca/films/marty-supreme-presented-on-70mm/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Revue Event: TWIN PEAKS: Season 1 (Pilot + episode 1)",
+    "showtime": "Sun Mar 08, 12:00 PM",
+    "link": "https://revuecinema.ca/films/revue-event-twin-peaks-season-1-pilot-episode-1/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "The Perfect Date: BARBIE (2023)",
+    "showtime": "Mon Mar 09, 06:30 PM",
+    "link": "https://revuecinema.ca/films/the-perfect-date-barbie-2023/",
     "source": "Revue Cinema"
   },
   {
@@ -468,6 +462,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "UnCAGED: THE ROCK – 30th Anniversary Screening!",
+    "showtime": "Wed Apr 08, 06:15 PM",
+    "link": "https://revuecinema.ca/films/uncaged-the-rock-30th-anniversary-screening/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "We Really Like Her!: LITTLE MISS SUNSHINE – 20th Anniversary Screening!",
     "showtime": "Thu Apr 09, 06:45 PM",
     "link": "https://revuecinema.ca/films/we-really-like-her-little-miss-sunshine-20th-anniversary-screening/",
@@ -543,6 +543,24 @@
     "title": "The Maiku Hama Trilogy: THE TRAP (1996) – Toronto Theatrical Premiere of New 4K Restoration",
     "showtime": "Tue Apr 14, 09:30 PM",
     "link": "https://revuecinema.ca/films/the-maiku-hama-trilogy-the-trap-1996-toronto-theatrical-premiere-of-new-4k-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "UnCAGED: DRIVE ANGRY (2011) – In 3D & 35mm!",
+    "showtime": "Wed Apr 15, 09:30 PM",
+    "link": "https://revuecinema.ca/films/uncaged-drive-angry-2011-in-3d-35mm/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Paid In Sweat: JACKASS NUMBER TWO – 20th Anniversary Screening!",
+    "showtime": "Thu Apr 16, 06:45 PM",
+    "link": "https://revuecinema.ca/films/paid-in-sweat-jackass-number-two-20th-anniversary-screening/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Free Members-Only Screening: TRAILER TRASH: SPY-FI",
+    "showtime": "Thu Apr 16, 09:30 PM",
+    "link": "https://revuecinema.ca/films/free-members-only-screening-trailer-trash-spy-fi/",
     "source": "Revue Cinema"
   },
   {
@@ -624,9 +642,21 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "UnCAGED: RED ROCK WEST (1993)",
+    "showtime": "Wed Apr 22, 09:30 PM",
+    "link": "https://revuecinema.ca/films/uncaged-red-rock-west-1993/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Revue Event: THE SWORD AND THE SORCERER (1982) – Featuring A Live Performance by THUNDER GLOVE!",
     "showtime": "Thu Apr 23, 09:30 PM",
     "link": "https://revuecinema.ca/films/revue-event-the-sword-and-the-sorcerer-1982-featuring-a-live-performance-by-thunder-glove/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Hold Up: JOHN TUCKER MUST DIE (2006) – Presented on 35mm!",
+    "showtime": "Thu Apr 23, 06:45 PM",
+    "link": "https://revuecinema.ca/films/hold-up-john-tucker-must-die-2006-presented-on-35mm/",
     "source": "Revue Cinema"
   },
   {
@@ -687,6 +717,12 @@
     "title": "Stompbox: VINYL (2000) – + Q and A with Director Alan Zweig!",
     "showtime": "Tue Apr 28, 06:30 PM",
     "link": "https://revuecinema.ca/films/stompbox-vinyl-2000-q-and-a-with-director-alan-zweig/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "UnCAGED: BAD LIEUTENANT: PORT OF NEW ORLEANS (2009)",
+    "showtime": "Wed Apr 29, 06:30 PM",
+    "link": "https://revuecinema.ca/films/uncaged-bad-lieutenant-port-of-new-orleans-2009/",
     "source": "Revue Cinema"
   },
   {
@@ -771,6 +807,12 @@
     "title": "When Animals Attack: TICKS (1993)",
     "showtime": "Tue May 19, 09:30 PM",
     "link": "https://revuecinema.ca/films/when-animals-attack-ticks-1993/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Hold Up: A KNIGHT’S TALE – 25th Anniversary Screening!",
+    "showtime": "Wed May 20, 06:30 PM",
+    "link": "https://revuecinema.ca/films/hold-up-a-knights-tale-25th-anniversary-screening/",
     "source": "Revue Cinema"
   },
   {
