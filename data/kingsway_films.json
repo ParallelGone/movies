@@ -1,12 +1,6 @@
 [
   {
     "title": "Song Sung Blue",
-    "showtime": "Tuesday, March 3, 12:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Song Sung Blue",
     "showtime": "Wednesday, March 4, 12:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -73,7 +67,7 @@
   },
   {
     "title": "Song Sung Blue",
-    "showtime": "Tuesday, March 3, 7:15 pm",
+    "showtime": "Tuesday, March 17, 12:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -144,8 +138,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Hamnet",
-    "showtime": "Tuesday, March 3, 2:45 pm",
+    "title": "Song Sung Blue",
+    "showtime": "Tuesday, March 17, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -229,7 +223,7 @@
   },
   {
     "title": "Hamnet",
-    "showtime": "Tuesday, March 3, 7:10 pm",
+    "showtime": "Tuesday, March 17, 2:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -313,7 +307,7 @@
   },
   {
     "title": "Hamnet",
-    "showtime": "Tuesday, March 3, 1:00 pm",
+    "showtime": "Tuesday, March 17, 7:10 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -396,14 +390,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Sound of Falling",
-    "showtime": "Tuesday, March 3, 2:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Sound of Falling",
-    "showtime": "Tuesday, March 10, 2:45 pm",
+    "title": "Hamnet",
+    "showtime": "Tuesday, March 17, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -492,18 +480,6 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Rental Family",
-    "showtime": "Tuesday, March 3, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Rental Family",
-    "showtime": "Tuesday, March 10, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
     "title": "Father Mother Sister Brother",
     "showtime": "Wednesday, March 4, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
@@ -548,12 +524,6 @@
   {
     "title": "Bugonia",
     "showtime": "Thursday, March 12, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "My Father's Shadow",
-    "showtime": "Tuesday, March 3, 5:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -636,6 +606,48 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "My Father's Shadow",
+    "showtime": "Tuesday, March 17, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Dracula 2026",
+    "showtime": "Wednesday, March 4, 9:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Dracula 2026",
+    "showtime": "Saturday, March 7, 9:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Dracula 2026",
+    "showtime": "Monday, March 9, 9:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Dracula 2026",
+    "showtime": "Wednesday, March 11, 9:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Dracula 2026",
+    "showtime": "Saturday, March 14, 9:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Dracula 2026",
+    "showtime": "Monday, March 16, 9:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "28 Years Later the Bone Temple",
     "showtime": "Wednesday, March 4, 9:20 pm",
     "link": "http://kingswaymovies.ca/",
@@ -673,12 +685,6 @@
   },
   {
     "title": "Anaconda",
-    "showtime": "Tuesday, March 3, 9:20 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Anaconda",
     "showtime": "Thursday, March 5, 9:20 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -696,38 +702,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Dracula 2026",
-    "showtime": "Wednesday, March 4, 9:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Dracula 2026",
-    "showtime": "Saturday, March 7, 9:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Dracula 2026",
-    "showtime": "Monday, March 9, 9:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Dracula 2026",
-    "showtime": "Wednesday, March 11, 9:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Dracula 2026",
-    "showtime": "Saturday, March 14, 9:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Dracula 2026",
-    "showtime": "Monday, March 16, 9:15 pm",
+    "title": "Anaconda",
+    "showtime": "Tuesday, March 17, 9:20 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },

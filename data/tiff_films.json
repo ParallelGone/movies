@@ -1,60 +1,6 @@
 [
   {
     "title": "2026 Oscar-Nominated Short Films: Animated",
-    "showtime": "Tuesday, March 3, 5:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMzUwVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "2026 Oscar-Nominated Short Films: Documentary",
-    "showtime": "Tuesday, March 3, 8:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMzgzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "2026 Oscar-Nominated Short Films: Live Action",
-    "showtime": "Tuesday, March 3, 7:05PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMzcwVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "All That's Left of You - Cherien Dabis",
-    "showtime": "Tuesday, March 3, 5:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMzUxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Film Reference Library Public Hours",
-    "showtime": "Tuesday, March 3, 12:00PM",
-    "link": "https://am.ticketmaster.com/tiff/",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Jimpa - Sophie Hyde",
-    "showtime": "Tuesday, March 3, 8:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMzg0VDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Sirāt - Oliver Laxe",
-    "showtime": "Tuesday, March 3, 9:50PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMzk1VDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The President's Cake - Hasan Hadi",
-    "showtime": "Tuesday, March 3, 6:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMzYxVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Wind Will Carry Us, with Cameron Bailey",
-    "showtime": "Tuesday, March 3, 6:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wMzYwVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "2026 Oscar-Nominated Short Films: Animated",
     "showtime": "Wednesday, March 4, 4:05PM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNDQwVDI=",
     "source": "TIFF Bell Lightbox"
@@ -1244,6 +1190,18 @@
   {
     "title": "Setting the Scene Exhibition",
     "showtime": "Saturday, May 30, 12:00PM (Free)",
+    "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Film Reference Library Public Hours",
+    "showtime": "Tuesday, June 2, 12:00PM (Free)",
+    "link": "https://tiff.net/events/film-reference-library-public-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Setting the Scene Exhibition",
+    "showtime": "Tuesday, June 2, 12:00PM (Free)",
     "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
     "source": "TIFF Bell Lightbox"
   }
