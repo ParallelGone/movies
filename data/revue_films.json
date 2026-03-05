@@ -1,17 +1,5 @@
 [
   {
-    "title": "Revue Event: TRAIN DREAMS – Presented on 35mm!",
-    "showtime": "Tue Mar 03, 09:30 PM",
-    "link": "https://revuecinema.ca/films/revue-event-train-dreams-presented-on-35mm/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Hollywood Suite’s Movie Madness: DAZED AND CONFUSED (1993)",
-    "showtime": "Tue Mar 03, 06:45 PM",
-    "link": "https://revuecinema.ca/films/hollywood-suites-movie-madness-dazed-and-confused-1993/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "2026 Oscar Nominated Shorts: Live Action",
     "showtime": "Wed Mar 04, 09:30 PM",
     "link": "https://revuecinema.ca/films/2026-oscar-nominated-shorts-live-action/",
@@ -27,6 +15,12 @@
     "title": "Designing The Movies: BLOW-UP – 60th Anniversary Screening!",
     "showtime": "Thu Mar 05, 06:30 PM",
     "link": "https://revuecinema.ca/films/designing-the-movies-blow-up-60th-anniversary-screening/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Revue Event: TRAIN DREAMS – Presented on 35mm!",
+    "showtime": "Thu Mar 05, 09:30 PM",
+    "link": "https://revuecinema.ca/films/revue-event-train-dreams-presented-on-35mm/",
     "source": "Revue Cinema"
   },
   {
@@ -120,9 +114,9 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Superhero Holiday: DICK TRACY (1990) – Presented on 35mm!",
-    "showtime": "Sun Mar 15, 12:00 PM",
-    "link": "https://revuecinema.ca/films/superhero-holiday-dick-tracy-1990-presented-on-35mm/",
+    "title": "Superhero Holiday After Dark: SUCKER PUNCH – 15th Anniversary Screening!",
+    "showtime": "Sat Mar 14, 09:30 PM",
+    "link": "https://revuecinema.ca/films/superhero-holiday-after-dark-sucker-punch-15th-anniversary-screening/",
     "source": "Revue Cinema"
   },
   {
@@ -780,6 +774,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Designing The Movies: BIG NIGHT – 30th Anniversary Screening!",
+    "showtime": "Thu May 21, 06:30 PM",
+    "link": "https://revuecinema.ca/films/designing-the-movies-big-night-30th-anniversary-screening/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Destination Love: DOUBLE HAPPINESS (1994)",
     "showtime": "Sat May 23, 07:00 PM",
     "link": "https://revuecinema.ca/films/destination-love-double-happiness-1994/",
@@ -837,24 +837,6 @@
     "title": "Father’s Day: THE SHINING (1980)",
     "showtime": "Sun Jun 21, 03:30 PM",
     "link": "https://revuecinema.ca/films/fathers-day-the-shining-4k-restoration/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "When Animals Attack: JAWS (1975) – Presented on 35mm!",
-    "showtime": "Sat Jun 27, 06:30 PM",
-    "link": "https://revuecinema.ca/films/when-animals-attack-jaws-1975/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "35 on 35: MADONNA: TRUTH OR DARE (1991) – Presented on 35mm!",
-    "showtime": "Mon Jun 29, 06:30 PM",
-    "link": "https://revuecinema.ca/films/35-on-35-madonna-truth-or-dare-1991-presented-on-35mm/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Drunken Cinema: TIMECOP (1994)",
-    "showtime": "Fri Jul 10, 09:30 PM",
-    "link": "https://revuecinema.ca/films/drunken-cinema-timecop-1994/",
     "source": "Revue Cinema"
   }
 ]
