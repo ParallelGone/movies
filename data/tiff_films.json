@@ -1,71 +1,5 @@
 [
   {
-    "title": "10e Chambre, instants d’audience - Raymond Depardon",
-    "showtime": "Thursday, March 5, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTYzVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "2026 Oscar-Nominated Short Films: Animated",
-    "showtime": "Thursday, March 5, 3:50PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTM1VDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "2026 Oscar-Nominated Short Films: Documentary",
-    "showtime": "Thursday, March 5, 8:55PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTg1VDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "2026 Oscar-Nominated Short Films: Live Action",
-    "showtime": "Thursday, March 5, 7:10PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTcxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "All That's Left of You - Cherien Dabis",
-    "showtime": "Thursday, March 5, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTQwVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Film Reference Library Public Hours",
-    "showtime": "Thursday, March 5, 12:00PM",
-    "link": "https://am.ticketmaster.com/tiff/",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Jimpa - Sophie Hyde",
-    "showtime": "Thursday, March 5, 8:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTgzVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Montreal, My Beautiful - Xiaodan He",
-    "showtime": "Thursday, March 5, 3:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTM0VDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Sinners - Ryan Coogler",
-    "showtime": "Thursday, March 5, 9:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTkzVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Sirāt - Oliver Laxe",
-    "showtime": "Thursday, March 5, 9:50PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTk1VDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The President's Cake - Hasan Hadi",
-    "showtime": "Thursday, March 5, 6:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNTYwVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
     "title": "2026 Oscar-Nominated Short Films: Animated",
     "showtime": "Friday, March 6, 6:15PM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk0wNjYxVDU=",
@@ -836,7 +770,7 @@
   {
     "title": "Idiotka - Nastasya Popov",
     "showtime": "Thursday, March 26, 8:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yNjg0VDQ=",
+    "link": "https://am.ticketmaster.com/tiff/buy/ism/Nk0yNjg0VDI=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -1508,6 +1442,18 @@
   {
     "title": "Setting the Scene Exhibition",
     "showtime": "Wednesday, June 3, 12:00PM (Free)",
+    "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Film Reference Library Public Hours",
+    "showtime": "Thursday, June 4, 12:00PM (Free)",
+    "link": "https://tiff.net/events/film-reference-library-public-hours",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Setting the Scene Exhibition",
+    "showtime": "Thursday, June 4, 12:00PM (Free)",
     "link": "https://tiff.net/events/setting-the-scene-exhibition-open-hours",
     "source": "TIFF Bell Lightbox"
   }
