@@ -1,24 +1,6 @@
 [
   {
     "title": "The Secret Agent",
-    "showtime": "Friday, March 6, 2:40 pm",
-    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Secret Agent",
-    "showtime": "Friday, March 6, 6:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Secret Agent",
-    "showtime": "Friday, March 6, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Secret Agent",
     "showtime": "Saturday, March 7, 12:30 pm",
     "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
     "source": "Fox Theatre"
@@ -397,6 +379,12 @@
   },
   {
     "title": "The Secret Agent",
+    "showtime": "Saturday, March 28, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Secret Agent",
     "showtime": "Sunday, March 29, 1:00 pm",
     "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
     "source": "Fox Theatre"
@@ -434,6 +422,12 @@
   {
     "title": "The Secret Agent",
     "showtime": "Wednesday, April 1, 6:40 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Secret Agent",
+    "showtime": "Wednesday, April 1, 9:10 pm",
     "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
     "source": "Fox Theatre"
   },
@@ -505,6 +499,12 @@
   },
   {
     "title": "The Secret Agent",
+    "showtime": "Monday, April 6, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Secret Agent",
     "showtime": "Tuesday, April 7, 3:50 pm",
     "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
     "source": "Fox Theatre"
@@ -553,6 +553,12 @@
   },
   {
     "title": "The Secret Agent",
+    "showtime": "Saturday, April 11, 1:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Secret Agent",
     "showtime": "Saturday, April 11, 9:15 pm",
     "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
     "source": "Fox Theatre"
@@ -561,18 +567,6 @@
     "title": "The Secret Agent",
     "showtime": "Friday, April 24, 9:30 pm",
     "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Hamnet",
-    "showtime": "Friday, March 6, 6:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/hamnet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Romy and Michele’s High School Reunion w/ Live Performance from BoylesqueTO",
-    "showtime": "Friday, March 6, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/romy-and-micheles-high-school-reunion-w-live-performance-from-boylesqueto/",
     "source": "Fox Theatre"
   },
   {
@@ -924,6 +918,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Staff Picks: Signs",
+    "showtime": "Saturday, March 28, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/staff-picks-signs/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Golden Age: Leave Her to Heaven",
     "showtime": "Sunday, March 29, 1:00 pm",
     "link": "https://www.foxtheatre.ca/movies/golden-age-leave-her-to-heaven/",
@@ -963,6 +963,12 @@
     "title": "A Magnificent Life",
     "showtime": "Wednesday, April 1, 6:40 pm",
     "link": "https://www.foxtheatre.ca/movies/a-magnificent-life/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Total Recall",
+    "showtime": "Wednesday, April 1, 9:10 pm",
+    "link": "https://www.foxtheatre.ca/movies/total-recall/",
     "source": "Fox Theatre"
   },
   {
@@ -1032,6 +1038,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Kidz Klassics: Bambi",
+    "showtime": "Monday, April 6, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/kidz-klassics-bambi/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "The Drama",
     "showtime": "Tuesday, April 7, 3:50 pm",
     "link": "https://www.foxtheatre.ca/movies/the-drama/",
@@ -1077,6 +1089,12 @@
     "title": "Dead Lover – Director Q&A",
     "showtime": "Friday, April 10, 9:00 pm",
     "link": "https://www.foxtheatre.ca/movies/dead-lover-director-qa/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Kidz Klassics: Bambi",
+    "showtime": "Saturday, April 11, 1:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/kidz-klassics-bambi/",
     "source": "Fox Theatre"
   },
   {
