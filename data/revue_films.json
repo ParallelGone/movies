@@ -1,17 +1,5 @@
 [
   {
-    "title": "2026 Oscar Nominated Shorts: Documentary",
-    "showtime": "Fri Mar 06, 06:00 PM",
-    "link": "https://revuecinema.ca/films/2026-oscar-nominated-shorts-documentary/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Revue Event: www.RachelOrmont.com",
-    "showtime": "Fri Mar 06, 09:30 PM",
-    "link": "https://revuecinema.ca/films/revue-event-www-rachelormont-com/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "2026 Oscar Nominated Shorts: Animation",
     "showtime": "Sat Mar 07, 04:00 PM",
     "link": "https://revuecinema.ca/films/2026-oscar-nominated-shorts-animation/",
@@ -27,6 +15,12 @@
     "title": "The Midnight Revue: ESCAPE FROM NEW YORK (1981) – New 4K Restoration!",
     "showtime": "Sat Mar 07, 11:59 PM",
     "link": "https://revuecinema.ca/films/the-midnight-revue-escape-from-new-york-1981-new-4k-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Revue Event: www.RachelOrmont.com",
+    "showtime": "Sat Mar 07, 09:30 PM",
+    "link": "https://revuecinema.ca/films/revue-event-www-rachelormont-com/",
     "source": "Revue Cinema"
   },
   {
@@ -120,27 +114,9 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Free Members-Only Screening: SPRING BREAKERS (2013)",
-    "showtime": "Mon Mar 16, 06:45 PM",
-    "link": "https://revuecinema.ca/films/free-members-only-screening-spring-breakers-2013/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Superhero Holiday After Dark: BLANKMAN (1994) – Presented on 35mm!",
-    "showtime": "Mon Mar 16, 09:30 PM",
-    "link": "https://revuecinema.ca/films/superhero-holiday-after-dark-blankman-1994-presented-on-35mm/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Superhero Holiday: X-MEN (2000)",
-    "showtime": "Tue Mar 17, 06:45 PM",
-    "link": "https://revuecinema.ca/films/superhero-holiday-x-men-2000/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Superhero Holiday After Dark: BRIGHTBURN (2019)",
-    "showtime": "Tue Mar 17, 09:30 PM",
-    "link": "https://revuecinema.ca/films/superhero-holiday-after-dark-brightburn-2019/",
+    "title": "Superhero Holiday: PAW PATROL: THE MIGHTY MOVIE (2023)",
+    "showtime": "Mon Mar 16, 02:00 PM",
+    "link": "https://revuecinema.ca/films/superhero-holiday-paw-patrol-the-mighty-movie-2023/",
     "source": "Revue Cinema"
   },
   {
@@ -319,8 +295,14 @@
   },
   {
     "title": "CLOSED FOR PRIVATE RENTAL",
-    "showtime": "Tue Mar 31, 06:30 PM",
+    "showtime": "Tue Mar 31, 09:30 PM",
     "link": "https://revuecinema.ca/films/closed-for-private-rental/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Rental Event: Triple Film Screening hosted by Alstroemedia",
+    "showtime": "Tue Mar 31, 06:30 PM",
+    "link": "https://revuecinema.ca/films/rental-event-triple-film-screening-hosted-by-alstroemedia/",
     "source": "Revue Cinema"
   },
   {
@@ -711,6 +693,12 @@
     "title": "Revue Film Society: TOKYO DRIFTER (1966) – New Restoration!",
     "showtime": "Tue May 05, 07:00 PM",
     "link": "https://revuecinema.ca/films/revue-film-society-tokyo-drifter-1966-new-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "The Midnight Revue: PLAN 9 FROM OUTER SPACE (1957)",
+    "showtime": "Fri May 08, 11:59 PM",
+    "link": "https://revuecinema.ca/films/the-midnight-revue-plan-9-from-outer-space-1957/",
     "source": "Revue Cinema"
   },
   {

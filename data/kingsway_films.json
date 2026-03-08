@@ -1,12 +1,6 @@
 [
   {
     "title": "Hamnet",
-    "showtime": "Saturday, March 7, 1:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hamnet",
     "showtime": "Sunday, March 8, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -85,7 +79,7 @@
   },
   {
     "title": "Hamnet",
-    "showtime": "Saturday, March 7, 5:00 pm",
+    "showtime": "Saturday, March 21, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,38 +162,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Charlie the Wonder Dog",
-    "showtime": "Saturday, March 7, 1:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Charlie the Wonder Dog",
-    "showtime": "Saturday, March 14, 1:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Father Mother Sister Brother",
-    "showtime": "Saturday, March 7, 2:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Father Mother Sister Brother",
-    "showtime": "Wednesday, March 11, 2:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Father Mother Sister Brother",
-    "showtime": "Saturday, March 14, 2:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Father Mother Sister Brother",
-    "showtime": "Wednesday, March 18, 2:30 pm",
+    "title": "Hamnet",
+    "showtime": "Saturday, March 21, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -240,6 +204,30 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "Father Mother Sister Brother",
+    "showtime": "Wednesday, March 11, 2:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Father Mother Sister Brother",
+    "showtime": "Saturday, March 14, 2:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Father Mother Sister Brother",
+    "showtime": "Wednesday, March 18, 2:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Father Mother Sister Brother",
+    "showtime": "Saturday, March 21, 2:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "The Testament of Ann Lee",
     "showtime": "Thursday, March 12, 2:30 pm",
     "link": "http://kingswaymovies.ca/",
@@ -248,12 +236,6 @@
   {
     "title": "The Testament of Ann Lee",
     "showtime": "Thursday, March 19, 2:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Zootopia 2",
-    "showtime": "Saturday, March 7, 3:10 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -336,8 +318,56 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "My Father's Shadow",
-    "showtime": "Saturday, March 7, 1:00 pm",
+    "title": "Zootopia 2",
+    "showtime": "Saturday, March 21, 3:10 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Song Sung Blue",
+    "showtime": "Sunday, March 8, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Song Sung Blue",
+    "showtime": "Tuesday, March 10, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Song Sung Blue",
+    "showtime": "Thursday, March 12, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Song Sung Blue",
+    "showtime": "Friday, March 13, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Song Sung Blue",
+    "showtime": "Sunday, March 15, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Song Sung Blue",
+    "showtime": "Tuesday, March 17, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Song Sung Blue",
+    "showtime": "Thursday, March 19, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Song Sung Blue",
+    "showtime": "Friday, March 20, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -409,7 +439,7 @@
   },
   {
     "title": "My Father's Shadow",
-    "showtime": "Saturday, March 7, 5:00 pm",
+    "showtime": "Saturday, March 21, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -480,56 +510,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Song Sung Blue",
-    "showtime": "Sunday, March 8, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Song Sung Blue",
-    "showtime": "Tuesday, March 10, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Song Sung Blue",
-    "showtime": "Thursday, March 12, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Song Sung Blue",
-    "showtime": "Friday, March 13, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Song Sung Blue",
-    "showtime": "Sunday, March 15, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Song Sung Blue",
-    "showtime": "Tuesday, March 17, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Song Sung Blue",
-    "showtime": "Thursday, March 19, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Song Sung Blue",
-    "showtime": "Friday, March 20, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Pillion",
-    "showtime": "Saturday, March 7, 7:15 pm",
+    "title": "My Father's Shadow",
+    "showtime": "Saturday, March 21, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -612,8 +594,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Housemaid",
-    "showtime": "Saturday, March 7, 7:15 pm",
+    "title": "Pillion",
+    "showtime": "Saturday, March 21, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -696,8 +678,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Dolly",
-    "showtime": "Saturday, March 7, 9:30 pm",
+    "title": "The Housemaid",
+    "showtime": "Saturday, March 21, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -781,7 +763,7 @@
   },
   {
     "title": "Dolly",
-    "showtime": "Saturday, March 7, 9:00 pm",
+    "showtime": "Saturday, March 21, 9:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -864,38 +846,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Dracula",
-    "showtime": "Saturday, March 7, 9:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Dracula",
-    "showtime": "Monday, March 9, 9:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Dracula",
-    "showtime": "Wednesday, March 11, 9:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Dracula",
-    "showtime": "Saturday, March 14, 9:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Dracula",
-    "showtime": "Monday, March 16, 9:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Dracula",
-    "showtime": "Wednesday, March 18, 9:30 pm",
+    "title": "Dolly",
+    "showtime": "Saturday, March 21, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -932,6 +884,42 @@
   {
     "title": "28 Years Later the Bone Temple",
     "showtime": "Thursday, March 19, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Dracula",
+    "showtime": "Monday, March 9, 9:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Dracula",
+    "showtime": "Wednesday, March 11, 9:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Dracula",
+    "showtime": "Saturday, March 14, 9:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Dracula",
+    "showtime": "Monday, March 16, 9:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Dracula",
+    "showtime": "Wednesday, March 18, 9:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Dracula",
+    "showtime": "Saturday, March 21, 9:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
