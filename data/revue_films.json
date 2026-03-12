@@ -1,26 +1,8 @@
 [
   {
     "title": "2026 Oscar Nominated Shorts: Live Action",
-    "showtime": "Mon Mar 09, 09:30 PM",
+    "showtime": "Wed Mar 11, 09:30 PM",
     "link": "https://revuecinema.ca/films/2026-oscar-nominated-shorts-live-action/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "The Perfect Date: BARBIE (2023)",
-    "showtime": "Mon Mar 09, 06:30 PM",
-    "link": "https://revuecinema.ca/films/the-perfect-date-barbie-2023/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "2026 Oscar Nominated Shorts: Animation",
-    "showtime": "Tue Mar 10, 09:30 PM",
-    "link": "https://revuecinema.ca/films/2026-oscar-nominated-shorts-animation/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Revue Film Society: THE RED SHOES (1948)",
-    "showtime": "Tue Mar 10, 06:30 PM",
-    "link": "https://revuecinema.ca/films/revue-film-society-the-red-shoes-1948/",
     "source": "Revue Cinema"
   },
   {
@@ -120,21 +102,21 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Superhero Holiday: X-MEN (2000)",
+    "showtime": "Tue Mar 17, 06:45 PM",
+    "link": "https://revuecinema.ca/films/superhero-holiday-x-men-2000/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Superhero Holiday After Dark: BRIGHTBURN (2019)",
+    "showtime": "Tue Mar 17, 09:30 PM",
+    "link": "https://revuecinema.ca/films/superhero-holiday-after-dark-brightburn-2019/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "The Black Nerds: BOYZ N THE HOOD – 35th Anniversary Screening!",
     "showtime": "Wed Mar 18, 06:30 PM",
     "link": "https://revuecinema.ca/films/the-black-nerds-boyz-n-the-hood-35th-anniversary-screening/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Psych-Out Cinema: THE DARK SIDE OF OZ",
-    "showtime": "Wed Mar 18, 09:30 PM",
-    "link": "https://revuecinema.ca/films/psych-out-cinema-the-dark-side-of-oz/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "The Bloor West Food Bank: PADDINGTON 3 – March Break Fundraiser Screening!",
-    "showtime": "Wed Mar 18, 01:00 PM",
-    "link": "https://revuecinema.ca/films/the-bloor-west-food-bank-paddington-3-march-break-fundraiser-screening/",
     "source": "Revue Cinema"
   },
   {
@@ -702,6 +684,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Revue Event: FROM DUSK TILL DAWN (1996) – Presented on 35mm!",
+    "showtime": "Fri May 08, 09:00 PM",
+    "link": "https://revuecinema.ca/films/revue-event-from-dusk-till-dawn-1996-presented-on-35mm/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Revue Event: TWIN PEAKS: Season 2 (episodes 19 – 22)",
     "showtime": "Sat May 09, 12:00 PM",
     "link": "https://revuecinema.ca/films/revue-event-twin-peaks-season-2-episodes-19-22/",
@@ -762,6 +750,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Anime At The Revue: WHISPER OF THE HEART (1995) – New 4K Restoration!",
+    "showtime": "Fri May 22, 06:30 PM",
+    "link": "https://revuecinema.ca/films/anime-at-the-revue-whisper-of-the-heart-1995-new-4k-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Destination Love: DOUBLE HAPPINESS (1994)",
     "showtime": "Sat May 23, 07:00 PM",
     "link": "https://revuecinema.ca/films/destination-love-double-happiness-1994/",
@@ -804,9 +798,27 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "The Midnight Revue: POLYESTER (1981) – Presented In Odorama!",
+    "showtime": "Sat Jun 06, 11:59 PM",
+    "link": "https://revuecinema.ca/films/the-midnight-revue-polyester-1981-presented-in-odorama/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Revue Event: THE DEVIL QUEEN (1974) – Toronto Theatrical Premiere of New 4K Restoration!",
+    "showtime": "Mon Jun 08, 09:30 PM",
+    "link": "https://revuecinema.ca/films/revue-event-the-devil-queen-1974-toronto-theatrical-premiere-of-new-4k-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "When Aliens Attack: MARS ATTACK! – 30th Anniversary Screening!",
     "showtime": "Wed Jun 10, 06:45 PM",
     "link": "https://revuecinema.ca/films/when-aliens-attack-mars-attack-30th-anniversary-screening/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Designing The Movies: DODSWORTH (1936) – New 4K Restoration!",
+    "showtime": "Thu Jun 11, 06:45 PM",
+    "link": "https://revuecinema.ca/films/designing-the-movies-dodsworth-1936-new-4k-restoration/",
     "source": "Revue Cinema"
   },
   {
@@ -837,6 +849,12 @@
     "title": "35 on 35: MADONNA: TRUTH OR DARE (1991) – Presented on 35mm!",
     "showtime": "Mon Jun 29, 06:30 PM",
     "link": "https://revuecinema.ca/films/35-on-35-madonna-truth-or-dare-1991-presented-on-35mm/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "The Midnight Revue: MANDY (2018)",
+    "showtime": "Fri Jul 03, 11:59 PM",
+    "link": "https://revuecinema.ca/films/the-midnight-revue-mandy-2018/",
     "source": "Revue Cinema"
   },
   {

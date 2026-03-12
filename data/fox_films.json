@@ -1,42 +1,6 @@
 [
   {
     "title": "The Secret Agent",
-    "showtime": "Tuesday, March 10, 3:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Secret Agent",
-    "showtime": "Tuesday, March 10, 6:40 pm",
-    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Secret Agent",
-    "showtime": "Tuesday, March 10, 9:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Secret Agent",
-    "showtime": "Wednesday, March 11, 3:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Secret Agent",
-    "showtime": "Wednesday, March 11, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Secret Agent",
-    "showtime": "Wednesday, March 11, 9:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Secret Agent",
     "showtime": "Thursday, March 12, 2:50 pm",
     "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
     "source": "Fox Theatre"
@@ -247,6 +211,12 @@
   },
   {
     "title": "The Secret Agent",
+    "showtime": "Sunday, March 22, 5:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Secret Agent",
     "showtime": "Sunday, March 22, 8:45 pm",
     "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
     "source": "Fox Theatre"
@@ -271,6 +241,12 @@
   },
   {
     "title": "The Secret Agent",
+    "showtime": "Tuesday, March 24, 6:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Secret Agent",
     "showtime": "Wednesday, March 25, 6:30 pm",
     "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
     "source": "Fox Theatre"
@@ -278,6 +254,12 @@
   {
     "title": "The Secret Agent",
     "showtime": "Wednesday, March 25, 9:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Secret Agent",
+    "showtime": "Thursday, March 26, 3:40 pm",
     "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
     "source": "Fox Theatre"
   },
@@ -510,36 +492,6 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Pillion",
-    "showtime": "Tuesday, March 10, 6:40 pm",
-    "link": "https://www.foxtheatre.ca/movies/pillion/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Zone: Dark City – The Director’s Cut",
-    "showtime": "Tuesday, March 10, 9:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/the-zone-dark-city-the-directors-cut/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Hamnet",
-    "showtime": "Wednesday, March 11, 3:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/hamnet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Spectacle: Days of Heaven",
-    "showtime": "Wednesday, March 11, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/spectacle-days-of-heaven/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Nirvanna the Band the Show the Movie",
-    "showtime": "Wednesday, March 11, 9:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Hamnet",
     "showtime": "Thursday, March 12, 6:30 pm",
     "link": "https://www.foxtheatre.ca/movies/hamnet/",
@@ -744,6 +696,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "The Testament of Ann Lee",
+    "showtime": "Sunday, March 22, 5:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-testament-of-ann-lee/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Rad – 40th Anniversary",
     "showtime": "Sunday, March 22, 8:45 pm",
     "link": "https://www.foxtheatre.ca/movies/rad-40th-anniversary/",
@@ -768,6 +726,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "The Testament of Ann Lee",
+    "showtime": "Tuesday, March 24, 6:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-testament-of-ann-lee/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Calle Málaga",
     "showtime": "Wednesday, March 25, 6:30 pm",
     "link": "https://www.foxtheatre.ca/movies/calle-malaga/",
@@ -777,6 +741,12 @@
     "title": "Secretary",
     "showtime": "Wednesday, March 25, 9:15 pm",
     "link": "https://www.foxtheatre.ca/movies/secretary/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Testament of Ann Lee",
+    "showtime": "Thursday, March 26, 3:40 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-testament-of-ann-lee/",
     "source": "Fox Theatre"
   },
   {
@@ -810,9 +780,9 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Blue Heron with Director Q&A",
+    "title": "Blue Heron with Director Q&A (Premiere)",
     "showtime": "Saturday, March 28, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/blue-heron-with-director-qa/",
+    "link": "https://www.foxtheatre.ca/movies/blue-heron-with-director-qa-premiere/",
     "source": "Fox Theatre"
   },
   {
@@ -834,9 +804,9 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Blue Heron",
+    "title": "Blue Heron with Director Q&A",
     "showtime": "Sunday, March 29, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/blue-heron/",
+    "link": "https://www.foxtheatre.ca/movies/blue-heron-with-director-qa/",
     "source": "Fox Theatre"
   },
   {
@@ -852,9 +822,9 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Blue Heron",
+    "title": "Blue Heron with Director Q&A",
     "showtime": "Tuesday, March 31, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/blue-heron/",
+    "link": "https://www.foxtheatre.ca/movies/blue-heron-with-director-qa/",
     "source": "Fox Theatre"
   },
   {
