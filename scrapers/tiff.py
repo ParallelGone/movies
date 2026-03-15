@@ -178,6 +178,18 @@ class TiffScraper(BaseScraper):
         except NoSuchElementException:
             return ""
         
+    def _should_skip_title(self, title: str) -> bool:
+        if not title:
+            return True
+        lowered = title.lower().strip()
+        skip_phrases = [
+            'film reference library public hours',
+            'setting the scene exhibition',
+            'public hours',
+            'exhibition',
+        ]
+        return any(phrase in lowered for phrase in skip_phrases)
+
     def scrape(self):
         """Main scraping logic."""
         # Get all date groups
@@ -222,7 +234,9 @@ class TiffScraper(BaseScraper):
                 title = self._safe_get_text(card, self.SELECTORS['card_title'])
                 if not title:
                     continue  # Skip if no title
-                    
+                if self._should_skip_title(title):
+                    continue
+
                 director = self._safe_get_text(card, self.SELECTORS['card_directors'])
                 if director:
                     title = f"{title} - {director}"
