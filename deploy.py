@@ -31,43 +31,69 @@ class GitHubDeployer:
         self.data_dir = self.project_root / "data"
         self.errors = []
         
-    def run_command(self, cmd, description, check=True):
-        """Run a shell command and handle errors."""
+    def run_command(self, cmd, description, check=True, timeout=None):
+        """Run a shell command and handle errors.
+
+        Uses a process-group so timeouts reliably kill child processes (e.g., chromedriver).
+
+        timeout: seconds (None = no timeout)
+        """
         print(f"\n{'='*60}")
         print(f"📋 {description}")
         print(f"{'='*60}")
-        
+
+        # Start in a new process group so we can kill the whole tree on timeout.
+        popen_kwargs = {
+            "shell": True,
+            "stdout": subprocess.PIPE,
+            "stderr": subprocess.PIPE,
+            "text": True,
+            "cwd": self.project_root,
+        }
+        if os.name == "posix":
+            popen_kwargs["start_new_session"] = True
+        else:
+            # Windows: create a new process group
+            popen_kwargs["creationflags"] = getattr(subprocess, "CREATE_NEW_PROCESS_GROUP", 0)
+
         try:
-            result = subprocess.run(
-                cmd,
-                shell=True,
-                check=check,
-                capture_output=True,
-                text=True,
-                cwd=self.project_root
-            )
-            
-            if result.stdout:
-                print(result.stdout)
-            
-            if result.returncode == 0:
-                print(f"✅ {description} - Success!")
-            else:
-                error_msg = f"❌ {description} - Failed!"
+            proc = subprocess.Popen(cmd, **popen_kwargs)
+            try:
+                stdout, stderr = proc.communicate(timeout=timeout)
+            except subprocess.TimeoutExpired:
+                # Kill process group/session
+                try:
+                    if os.name == "posix":
+                        import signal
+                        os.killpg(proc.pid, signal.SIGKILL)
+                    else:
+                        proc.kill()
+                except Exception:
+                    proc.kill()
+                stdout, stderr = proc.communicate()
+                error_msg = f"⏱️ {description} - Timed out after {timeout}s (killed)"
                 print(error_msg)
-                if result.stderr:
-                    print(f"Error: {result.stderr}")
                 self.errors.append(error_msg)
-                
-            return result.returncode == 0
-            
-        except subprocess.CalledProcessError as e:
-            error_msg = f"❌ {description} - Failed with error: {e}"
+                if stdout:
+                    print(stdout)
+                if stderr:
+                    print(f"Error: {stderr}")
+                return False
+
+            if stdout:
+                print(stdout)
+
+            if proc.returncode == 0:
+                print(f"✅ {description} - Success!")
+                return True
+
+            error_msg = f"❌ {description} - Failed!"
             print(error_msg)
-            if e.stderr:
-                print(f"Error details: {e.stderr}")
+            if stderr:
+                print(f"Error: {stderr}")
             self.errors.append(error_msg)
             return False
+
         except Exception as e:
             error_msg = f"❌ {description} - Unexpected error: {e}"
             print(error_msg)
@@ -131,11 +157,31 @@ class GitHubDeployer:
         all_success = True
         
         for scraper in scrapers:
+            # FOX is intermittently flaky; retry once with a fresh browser if it times out/stalls.
+            timeout_s = 240 if scraper == "fox" else 180
+
             success = self.run_command(
                 f"{sys.executable} -m scrapers.{scraper}",
                 f"Scraping {scraper.upper()}",
-                check=False  # Don't stop if one fails
+                check=False,  # Don't stop if one fails
+                timeout=timeout_s,
             )
+
+            if not success and scraper == "fox":
+                print("🔁 FOX scrape failed; retrying once for freshest data...")
+                # small breather to avoid reusing a bad state
+                try:
+                    import time
+                    time.sleep(5)
+                except Exception:
+                    pass
+                success = self.run_command(
+                    f"{sys.executable} -m scrapers.{scraper}",
+                    f"Scraping {scraper.upper()} (retry)",
+                    check=False,
+                    timeout=timeout_s,
+                )
+
             if not success:
                 all_success = False
                 print(f"⚠️  Warning: {scraper} scraper failed, continuing...")
@@ -190,7 +236,7 @@ class GitHubDeployer:
         
         # Add all changes
         if not self.run_command(
-            "git add data/*.json index.html",
+            "git add data/*.json index.html data/last_success.json",
             "Staging changes"
         ):
             return False
@@ -245,12 +291,31 @@ class GitHubDeployer:
             if not self.generate_calendar():
                 print("\n❌ Calendar generation failed. Stopping.")
                 return False
+
+            # Phase 2.5: Sanity check current scrape against previous baseline
+            sanity = self.run_command(
+                f"{sys.executable} check_sanity.py",
+                "Sanity checking scraped counts",
+                check=False,
+                timeout=30,
+            )
+            if not sanity:
+                print("\n❌ Sanity check failed. Stopping before deploy.")
+                return False
         
         # Phase 3: Deployment
         if not self.args.scrape_only:
             if not self.git_commit_and_push():
                 print("\n❌ Deployment to GitHub failed.")
                 return False
+
+            # Phase 3.5: Write/update success baseline after successful push
+            self.run_command(
+                f"{sys.executable} write_last_success.py",
+                "Writing last success metadata",
+                check=False,
+                timeout=30,
+            )
         
         # Summary
         print("\n" + "="*60)
