@@ -49,12 +49,6 @@
   },
   {
     "title": "Zootopia 2",
-    "showtime": "Saturday, March 14, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Zootopia 2",
     "showtime": "Sunday, March 15, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -132,6 +126,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "Zootopia 2",
+    "showtime": "Saturday, March 28, 1:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "All That's Left of You",
     "showtime": "Sunday, March 15, 2:30 pm",
     "link": "http://kingswaymovies.ca/",
@@ -140,12 +140,6 @@
   {
     "title": "All That's Left of You",
     "showtime": "Sunday, March 22, 2:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Pompei Below the Clouds",
-    "showtime": "Saturday, March 14, 3:10 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -229,7 +223,7 @@
   },
   {
     "title": "Pompei Below the Clouds",
-    "showtime": "Saturday, March 14, 7:15 pm",
+    "showtime": "Saturday, March 28, 3:10 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -312,8 +306,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Father Mother Sister Brother",
-    "showtime": "Saturday, March 14, 3:30 pm",
+    "title": "Pompei Below the Clouds",
+    "showtime": "Saturday, March 28, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -344,6 +338,12 @@
   {
     "title": "Father Mother Sister Brother",
     "showtime": "Wednesday, March 25, 3:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Father Mother Sister Brother",
+    "showtime": "Saturday, March 28, 3:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -380,12 +380,6 @@
   {
     "title": "Is this Thing On",
     "showtime": "Friday, March 27, 3:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hamnet",
-    "showtime": "Saturday, March 14, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -468,8 +462,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "My Father's Shadow",
-    "showtime": "Saturday, March 14, 5:30 pm",
+    "title": "Hamnet",
+    "showtime": "Saturday, March 28, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -552,8 +546,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Song Sung Blue",
-    "showtime": "Saturday, March 14, 7:05 pm",
+    "title": "My Father's Shadow",
+    "showtime": "Saturday, March 28, 5:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -596,6 +590,12 @@
   {
     "title": "Song Sung Blue",
     "showtime": "Wednesday, March 25, 7:05 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Song Sung Blue",
+    "showtime": "Saturday, March 28, 7:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -696,8 +696,26 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pillion",
-    "showtime": "Saturday, March 14, 1:15 pm",
+    "title": "28 Years Later the Bone Temple",
+    "showtime": "Sunday, March 15, 9:05 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "28 Years Later the Bone Temple",
+    "showtime": "Thursday, March 19, 9:05 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "28 Years Later the Bone Temple",
+    "showtime": "Sunday, March 22, 9:05 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "28 Years Later the Bone Temple",
+    "showtime": "Thursday, March 26, 9:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -732,26 +750,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "28 Years Later the Bone Temple",
-    "showtime": "Sunday, March 15, 9:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "28 Years Later the Bone Temple",
-    "showtime": "Thursday, March 19, 9:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "28 Years Later the Bone Temple",
-    "showtime": "Sunday, March 22, 9:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "28 Years Later the Bone Temple",
-    "showtime": "Thursday, March 26, 9:05 pm",
+    "title": "Pillion",
+    "showtime": "Saturday, March 28, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -764,12 +764,6 @@
   {
     "title": "Dracula 2026",
     "showtime": "Tuesday, March 24, 9:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Housemaid",
-    "showtime": "Saturday, March 14, 9:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -800,6 +794,12 @@
   {
     "title": "The Housemaid",
     "showtime": "Wednesday, March 25, 9:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Housemaid",
+    "showtime": "Saturday, March 28, 9:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }

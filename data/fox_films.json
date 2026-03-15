@@ -1,625 +1,577 @@
 [
   {
-    "title": "A Poet",
-    "showtime": "Saturday, March 14, 12:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, March 14, 3:40 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, March 14, 7:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, March 14, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
+    "title": "One Battle After Another",
     "showtime": "Sunday, March 15, 11:30 am",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Sunday, March 15, 3:10 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Sunday, March 15, 7:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Monday, March 16, 12:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Monday, March 16, 3:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Monday, March 16, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Tuesday, March 17, 1:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Tuesday, March 17, 3:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Tuesday, March 17, 6:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Tuesday, March 17, 8:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Wednesday, March 18, 12:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Wednesday, March 18, 2:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Wednesday, March 18, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Wednesday, March 18, 9:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Thursday, March 19, 1:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Thursday, March 19, 3:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Thursday, March 19, 6:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Thursday, March 19, 8:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Friday, March 20, 1:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Friday, March 20, 3:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Friday, March 20, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Friday, March 20, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, March 21, 10:00 am",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, March 21, 1:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, March 21, 4:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, March 21, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, March 21, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Sunday, March 22, 12:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Sunday, March 22, 2:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Sunday, March 22, 5:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Sunday, March 22, 8:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Monday, March 23, 4:10 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Monday, March 23, 7:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Tuesday, March 24, 3:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Tuesday, March 24, 6:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Tuesday, March 24, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Wednesday, March 25, 3:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Wednesday, March 25, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Wednesday, March 25, 9:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Thursday, March 26, 3:40 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Thursday, March 26, 7:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Thursday, March 26, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Friday, March 27, 3:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Friday, March 27, 9:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, March 28, 12:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, March 28, 3:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, March 28, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, March 28, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Sunday, March 29, 1:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Sunday, March 29, 3:50 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Sunday, March 29, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Sunday, March 29, 9:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Monday, March 30, 3:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Monday, March 30, 9:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Monday, March 30, 6:40 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Tuesday, March 31, 4:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Tuesday, March 31, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Tuesday, March 31, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Wednesday, April 1, 3:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Wednesday, April 1, 6:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Wednesday, April 1, 9:10 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Thursday, April 2, 4:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Thursday, April 2, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Thursday, April 2, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Friday, April 3, 4:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Friday, April 3, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Friday, April 3, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, April 4, 1:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, April 4, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Sunday, April 5, 12:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Sunday, April 5, 3:50 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Sunday, April 5, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Monday, April 6, 12:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Monday, April 6, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Monday, April 6, 3:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Tuesday, April 7, 3:50 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Tuesday, April 7, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Wednesday, April 8, 4:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Wednesday, April 8, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Thursday, April 9, 4:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Thursday, April 9, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Thursday, April 9, 9:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Friday, April 10, 9:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, April 11, 1:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, April 11, 9:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Friday, April 17, 4:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Friday, April 17, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, April 18, 1:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Saturday, April 18, 6:50 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Sunday, April 19, 12:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Sunday, April 19, 5:50 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Monday, April 20, 4:10 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Tuesday, April 21, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Wednesday, April 22, 3:50 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Thursday, April 23, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "A Poet",
-    "showtime": "Friday, April 24, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Kokuho",
-    "showtime": "Saturday, March 14, 3:40 pm",
-    "link": "https://www.foxtheatre.ca/movies/kokuho/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "2026 Oscar Nominated Short Films: Animated",
-    "showtime": "Saturday, March 14, 7:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/2026-oscar-nominated-short-films-animated/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Nirvanna the Band the Show the Movie",
-    "showtime": "Saturday, March 14, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
     "source": "Fox Theatre"
   },
   {
     "title": "One Battle After Another",
-    "showtime": "Sunday, March 15, 11:30 am",
+    "showtime": "Sunday, March 15, 3:10 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Sunday, March 15, 7:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Monday, March 16, 12:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Monday, March 16, 3:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Monday, March 16, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Tuesday, March 17, 1:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Tuesday, March 17, 3:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Tuesday, March 17, 6:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Tuesday, March 17, 8:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Wednesday, March 18, 12:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Wednesday, March 18, 2:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Wednesday, March 18, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Wednesday, March 18, 9:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Thursday, March 19, 1:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Thursday, March 19, 3:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Thursday, March 19, 6:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Thursday, March 19, 8:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Friday, March 20, 1:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Friday, March 20, 3:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Friday, March 20, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Friday, March 20, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Saturday, March 21, 10:00 am",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Saturday, March 21, 1:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Saturday, March 21, 4:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Saturday, March 21, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Saturday, March 21, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Sunday, March 22, 12:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Sunday, March 22, 2:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Sunday, March 22, 5:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Sunday, March 22, 8:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Monday, March 23, 4:10 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Monday, March 23, 7:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Tuesday, March 24, 3:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Tuesday, March 24, 6:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Tuesday, March 24, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Wednesday, March 25, 3:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Wednesday, March 25, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Wednesday, March 25, 9:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Thursday, March 26, 3:40 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Thursday, March 26, 7:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Thursday, March 26, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Friday, March 27, 3:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Friday, March 27, 9:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Saturday, March 28, 12:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Saturday, March 28, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Saturday, March 28, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Saturday, March 28, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Sunday, March 29, 1:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Sunday, March 29, 3:50 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Sunday, March 29, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Sunday, March 29, 9:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Monday, March 30, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Monday, March 30, 9:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Monday, March 30, 6:40 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Tuesday, March 31, 4:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Tuesday, March 31, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Tuesday, March 31, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Wednesday, April 1, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Wednesday, April 1, 6:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Wednesday, April 1, 9:10 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Thursday, April 2, 4:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Thursday, April 2, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Thursday, April 2, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Friday, April 3, 4:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Friday, April 3, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Friday, April 3, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Saturday, April 4, 1:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Saturday, April 4, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Sunday, April 5, 12:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Sunday, April 5, 3:50 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Sunday, April 5, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Monday, April 6, 12:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Monday, April 6, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Monday, April 6, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Tuesday, April 7, 3:50 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Tuesday, April 7, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Wednesday, April 8, 4:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Wednesday, April 8, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Thursday, April 9, 4:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Thursday, April 9, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Thursday, April 9, 9:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Friday, April 10, 9:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Saturday, April 11, 1:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Saturday, April 11, 9:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Friday, April 17, 4:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Friday, April 17, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Saturday, April 18, 1:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Saturday, April 18, 6:50 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Sunday, April 19, 12:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Sunday, April 19, 5:50 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Monday, April 20, 4:10 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Tuesday, April 21, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Wednesday, April 22, 3:50 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Thursday, April 23, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "One Battle After Another",
+    "showtime": "Friday, April 24, 9:30 pm",
     "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
     "source": "Fox Theatre"
   },
@@ -660,15 +612,15 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Nirvanna the Band the Show the Movie",
-    "showtime": "Tuesday, March 17, 6:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
+    "title": "A Poet",
+    "showtime": "Tuesday, March 17, 3:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/a-poet/",
     "source": "Fox Theatre"
   },
   {
-    "title": "One Battle After Another",
-    "showtime": "Tuesday, March 17, 8:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
+    "title": "Nirvanna the Band the Show the Movie",
+    "showtime": "Tuesday, March 17, 6:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
     "source": "Fox Theatre"
   },
   {
@@ -681,6 +633,12 @@
     "title": "Kokuho",
     "showtime": "Wednesday, March 18, 2:45 pm",
     "link": "https://www.foxtheatre.ca/movies/kokuho/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "A Poet",
+    "showtime": "Wednesday, March 18, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/a-poet/",
     "source": "Fox Theatre"
   },
   {
@@ -705,12 +663,6 @@
     "title": "Nirvanna the Band the Show the Movie",
     "showtime": "Thursday, March 19, 6:15 pm",
     "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "One Battle After Another",
-    "showtime": "Thursday, March 19, 8:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
     "source": "Fox Theatre"
   },
   {
