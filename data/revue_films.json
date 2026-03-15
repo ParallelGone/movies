@@ -1,41 +1,5 @@
 [
   {
-    "title": "2026 Oscar Nominated Shorts: Live Action",
-    "showtime": "Wed Mar 11, 09:30 PM",
-    "link": "https://revuecinema.ca/films/2026-oscar-nominated-shorts-live-action/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "MARTY SUPREME – Presented on 70mm!",
-    "showtime": "Wed Mar 11, 06:00 PM",
-    "link": "https://revuecinema.ca/films/marty-supreme-presented-on-70mm/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "We Really Like Her: MAMMA MIA! (2008)",
-    "showtime": "Thu Mar 12, 06:45 PM",
-    "link": "https://revuecinema.ca/films/we-really-like-her-mamma-mia-2008/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "2026 Oscar Nominated Shorts: Documentary",
-    "showtime": "Fri Mar 13, 02:00 PM",
-    "link": "https://revuecinema.ca/films/2026-oscar-nominated-shorts-documentary/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Drunken Cinema: FRIDAY THE 13TH PART III in 3D! – Presented on 35mm! ( Feat. Live Performance by Blood Opera!)",
-    "showtime": "Fri Mar 13, 09:30 PM",
-    "link": "https://revuecinema.ca/films/drunken-cinema-friday-the-13th-part-iii-in-3d-presented-on-35mm-feat-live-performance-by-blood-opera/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Superhero Holiday After Dark: ROBOCOP (1987) – New 4K Restoration!",
-    "showtime": "Fri Mar 13, 06:45 PM",
-    "link": "https://revuecinema.ca/films/superhero-holiday-after-dark-robocop-1987-new-4k-restoration/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Superhero Holiday: TEENAGE MUTANT NINJA TURTLES (1990) – Pizza Party!",
     "showtime": "Sat Mar 14, 04:00 PM",
     "link": "https://revuecinema.ca/films/tmnt/",
@@ -117,6 +81,18 @@
     "title": "The Black Nerds: BOYZ N THE HOOD – 35th Anniversary Screening!",
     "showtime": "Wed Mar 18, 06:30 PM",
     "link": "https://revuecinema.ca/films/the-black-nerds-boyz-n-the-hood-35th-anniversary-screening/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Psych-Out Cinema: THE DARK SIDE OF OZ",
+    "showtime": "Wed Mar 18, 09:30 PM",
+    "link": "https://revuecinema.ca/films/psych-out-cinema-the-dark-side-of-oz/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "The Bloor West Food Bank: PADDINGTON 3 – March Break Fundraiser Screening!",
+    "showtime": "Wed Mar 18, 01:00 PM",
+    "link": "https://revuecinema.ca/films/the-bloor-west-food-bank-paddington-3-march-break-fundraiser-screening/",
     "source": "Revue Cinema"
   },
   {
@@ -840,6 +816,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "The Perfect Date: A HARD DAY’S NIGHT (1964) – 4K Restoration!",
+    "showtime": "Thu Jun 25, 09:30 PM",
+    "link": "https://revuecinema.ca/films/the-perfect-date-a-hard-days-night-1964-4k-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "When Animals Attack: JAWS (1975) – Presented on 35mm!",
     "showtime": "Sat Jun 27, 06:30 PM",
     "link": "https://revuecinema.ca/films/when-animals-attack-jaws-1975/",
@@ -855,6 +837,12 @@
     "title": "The Midnight Revue: MANDY (2018)",
     "showtime": "Fri Jul 03, 11:59 PM",
     "link": "https://revuecinema.ca/films/the-midnight-revue-mandy-2018/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "When Aliens Attack: INDEPENDENCE DAY – 30th Anniversary Screening!",
+    "showtime": "Sat Jul 04, 06:00 PM",
+    "link": "https://revuecinema.ca/films/when-aliens-attack-independence-day-30th-anniversary-screening/",
     "source": "Revue Cinema"
   },
   {
