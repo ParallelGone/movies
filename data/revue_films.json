@@ -1,29 +1,5 @@
 [
   {
-    "title": "Superhero Holiday: TEENAGE MUTANT NINJA TURTLES (1990) – Pizza Party!",
-    "showtime": "Sat Mar 14, 04:00 PM",
-    "link": "https://revuecinema.ca/films/tmnt/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Revue Event: TWIN PEAKS – Season 1 (episodes 2 – 4)",
-    "showtime": "Sat Mar 14, 12:00 PM",
-    "link": "https://revuecinema.ca/films/revue-event-twin-peaks-season-1-episodes-2-4/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Stompbox: CROSSROADS (1986) – With Live Guitar Duel!",
-    "showtime": "Sat Mar 14, 06:30 PM",
-    "link": "https://revuecinema.ca/films/stompbox-crossroads-1986-with-live-guitar-duel/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Superhero Holiday After Dark: SUCKER PUNCH – 15th Anniversary Screening!",
-    "showtime": "Sat Mar 14, 09:30 PM",
-    "link": "https://revuecinema.ca/films/superhero-holiday-after-dark-sucker-punch-15th-anniversary-screening/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "The Oscars Live At The Revue! (Free Event!)",
     "showtime": "Sun Mar 15, 06:00 PM",
     "link": "https://revuecinema.ca/films/the-oscars-live-at-the-revue-free-event/",
@@ -120,21 +96,27 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Revue Event: TWIN PEAKS – Season 1 (episodes 5 – 7)",
-    "showtime": "Sun Mar 22, 12:00 PM",
-    "link": "https://revuecinema.ca/films/revue-event-twin-peaks-season-1-episodes-5-7/",
+    "title": "Neon Dreams: LAST EMBRACE (1979)",
+    "showtime": "Fri Mar 20, 09:30 PM",
+    "link": "https://revuecinema.ca/films/neon-dreams-last-embrace-1979/",
     "source": "Revue Cinema"
   },
   {
-    "title": "Destination Love: WEDDING CRASHERS (2005)",
-    "showtime": "Sun Mar 22, 04:00 PM",
-    "link": "https://revuecinema.ca/films/destination-love-wedding-crashers-2005/",
+    "title": "RevueEvent: THE LORD OF THE RINGS: THE FELLOWSHIP OF THE RING (Extended Edition!)",
+    "showtime": "Sat Mar 21, 01:30 PM",
+    "link": "https://revuecinema.ca/films/special-event-the-lord-of-the-rings-the-fellowship-of-the-ring-extended-edition/",
     "source": "Revue Cinema"
   },
   {
-    "title": "The Staff Pick Of The Month: ED WOOD (1994)",
-    "showtime": "Sun Mar 22, 07:00 PM",
-    "link": "https://revuecinema.ca/films/the-staff-pick-of-the-month-ed-wood-1994/",
+    "title": "35 on 35: THE ADDAMS FAMILY (1991) – Presented on 35mm!",
+    "showtime": "Sat Mar 21, 06:45 PM",
+    "link": "https://revuecinema.ca/films/35-on-35-the-addams-family-1991-presented-on-35mm/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Black Belt Cinema: TIGER ON THE BEAT (1988) – North American Premiere of New 4K Restoration!",
+    "showtime": "Sat Mar 21, 09:30 PM",
+    "link": "https://revuecinema.ca/films/black-belt-cinema-tiger-on-the-beat-1988-north-american-premiere-of-new-4k-restoration/",
     "source": "Revue Cinema"
   },
   {
