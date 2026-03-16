@@ -303,19 +303,21 @@ class GitHubDeployer:
                 print("\n❌ Sanity check failed. Stopping before deploy.")
                 return False
         
-        # Phase 3: Deployment
+        # Phase 3: Write success metadata, then deploy
         if not self.args.scrape_only:
-            if not self.git_commit_and_push():
-                print("\n❌ Deployment to GitHub failed.")
-                return False
-
-            # Phase 3.5: Write/update success baseline after successful push
-            self.run_command(
+            success_meta = self.run_command(
                 f"{sys.executable} write_last_success.py",
                 "Writing last success metadata",
                 check=False,
                 timeout=30,
             )
+            if not success_meta:
+                print("\n❌ Failed to write last success metadata. Stopping before deploy.")
+                return False
+
+            if not self.git_commit_and_push():
+                print("\n❌ Deployment to GitHub failed.")
+                return False
         
         # Summary
         print("\n" + "="*60)
