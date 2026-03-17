@@ -1,19 +1,13 @@
 [
   {
     "title": "Sirāt",
-    "showtime": "Today, Mar 16, 5:45 pm",
+    "showtime": "Today, Mar 17, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/sirat/",
     "source": "Paradise Theatre"
   },
   {
-    "title": "Opening Night",
-    "showtime": "Today, Mar 16, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/opening-night/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Millennium Actress",
-    "showtime": "Tue, Mar 17, 9:00 pm",
+    "showtime": "Today, Mar 17, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/millennium-actress/",
     "source": "Paradise Theatre"
   },
@@ -192,9 +186,33 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Somewhere Along the Way: Film and Concert",
+    "showtime": "Wed, Apr 8, 6:45 pm",
+    "link": "https://paradiseonbloor.com/movies/somewhere-along-the-way-film-and-concert/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Scarecrow in a Garden of Cucumbers",
     "showtime": "Fri, Apr 10, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/scarecrow-in-a-garden-of-cucumbers/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "West End Phoenix: A Celebration of CBC’s The Newsroom",
+    "showtime": "Sat, Apr 11, 7:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/west-end-phoenix-a-celebration-of-cbcs-the-newsroom/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Southland Tales",
+    "showtime": "Mon, Apr 13, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/southland-tales/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Trial",
+    "showtime": "Tue, Apr 14, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-trial/",
     "source": "Paradise Theatre"
   },
   {
@@ -225,6 +243,12 @@
     "title": "Come Back to the 5 & Dime, Jimmy Dean, Jimmy Dean",
     "showtime": "Wed, May 20, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/come-back-to-the-5-dime-jimmy-dean-jimmy-dean/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Gary Topp Presents Gerard Malanga",
+    "showtime": "Wed, Jun 24, 8:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/gary-topp-presents-gerard-malanga/",
     "source": "Paradise Theatre"
   }
 ]
