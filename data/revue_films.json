@@ -1,38 +1,8 @@
 [
   {
-    "title": "Superhero Holiday: PAW PATROL: THE MIGHTY MOVIE (2023)",
-    "showtime": "Mon Mar 16, 02:00 PM",
-    "link": "https://revuecinema.ca/films/superhero-holiday-paw-patrol-the-mighty-movie-2023/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "ARCO",
-    "showtime": "Mon Mar 16, 04:30 PM",
+    "showtime": "Wed Mar 18, 04:00 PM",
     "link": "https://revuecinema.ca/films/arco/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Free Members-Only Screening: SPRING BREAKERS (2013)",
-    "showtime": "Mon Mar 16, 06:45 PM",
-    "link": "https://revuecinema.ca/films/free-members-only-screening-spring-breakers-2013/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Superhero Holiday After Dark: BLANKMAN (1994)",
-    "showtime": "Mon Mar 16, 09:30 PM",
-    "link": "https://revuecinema.ca/films/superhero-holiday-after-dark-blankman-1994-presented-on-35mm/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Superhero Holiday: X-MEN (2000)",
-    "showtime": "Tue Mar 17, 06:45 PM",
-    "link": "https://revuecinema.ca/films/superhero-holiday-x-men-2000/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Superhero Holiday After Dark: BRIGHTBURN (2019)",
-    "showtime": "Tue Mar 17, 09:30 PM",
-    "link": "https://revuecinema.ca/films/superhero-holiday-after-dark-brightburn-2019/",
     "source": "Revue Cinema"
   },
   {
@@ -120,6 +90,30 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "The Staff Pick Of The Month: ED WOOD (1994)",
+    "showtime": "Sun Mar 22, 07:00 PM",
+    "link": "https://revuecinema.ca/films/the-staff-pick-of-the-month-ed-wood-1994/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Destination Love: FOUR WEDDINGS AND A FUNERAL (1994) – New Restoration!",
+    "showtime": "Mon Mar 23, 06:30 PM",
+    "link": "https://revuecinema.ca/films/destination-love-four-weddings-and-a-funeral-1994-new-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Destination Love: CRAZY RICH ASIANS (2018)",
+    "showtime": "Tue Mar 24, 06:30 PM",
+    "link": "https://revuecinema.ca/films/destination-love-crazy-rich-asians-2018/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "When Animals Attack: WILD BEASTS (1984) – Toronto Theatrical Premiere of New 4K Restoration!",
+    "showtime": "Tue Mar 24, 09:30 PM",
+    "link": "https://revuecinema.ca/films/when-animals-attack-wild-beasts-1984-toronto-theatrical-premiere-of-new-4k-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Destination Love: DESTINATION WEDDING",
     "showtime": "Wed Mar 25, 09:30 PM",
     "link": "https://revuecinema.ca/films/destination-love-destination-wedding/",
@@ -138,7 +132,7 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Revue Event: MONTRÉAL, MA BELLE",
+    "title": "Revue Event: MONTREAL, MA BELLE",
     "showtime": "Fri Mar 27, 06:30 PM",
     "link": "https://revuecinema.ca/films/revue-event-montreal-ma-belle/",
     "source": "Revue Cinema"
@@ -642,6 +636,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Paid In Sweat: CHALLENGERS – With Live Burlesque Performance!",
+    "showtime": "Thu May 14, 06:15 PM",
+    "link": "https://revuecinema.ca/films/paid-in-sweat-challengers-with-live-burlesque-performance/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Drunken Cinema: ADVENTURES IN BABYSITTING (1987) – Presented in 35mm!",
     "showtime": "Fri May 15, 09:30 PM",
     "link": "https://revuecinema.ca/films/drunken-cinema-adventures-in-babysitting-1987-presented-in-35mm/",
@@ -798,13 +798,19 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Revue Film Society: SERENITY (2005)",
+    "showtime": "Tue Jul 07, 06:30 PM",
+    "link": "https://revuecinema.ca/films/revue-film-society-serenity-2005/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Drunken Cinema: TIMECOP (1994)",
     "showtime": "Fri Jul 10, 09:30 PM",
     "link": "https://revuecinema.ca/films/drunken-cinema-timecop-1994/",
     "source": "Revue Cinema"
   },
   {
-    "title": "Heat Wave: Jamón Jamón (1992) – Introduced by Alicia Fletcher",
+    "title": "Heat Wave: JAMON JAMON (1992) – Introduced by Alicia Fletcher",
     "showtime": "Wed Jul 22, 07:00 PM",
     "link": "https://revuecinema.ca/films/heat-wave-jamon-jamon-1992-introduced-by-alicia-fletcher/",
     "source": "Revue Cinema"
