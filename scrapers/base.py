@@ -108,7 +108,8 @@ class BaseScraper:
         # Aggressive output suppression
         options.add_argument('--log-level=3')
         options.add_argument('--silent')
-        options.add_experimental_option('excludeSwitches', ['enable-logging'])
+        options.add_experimental_option('excludeSwitches', ['enable-logging', 'enable-automation'])
+        options.add_experimental_option('useAutomationExtension', False)
         
         # Disable features that generate output
         options.add_argument('--disable-usb-keyboard-detect')
@@ -117,8 +118,8 @@ class BaseScraper:
         options.add_argument('--disable-background-networking')
         options.add_argument('--disable-features=VizDisplayCompositor')
         
-        # Set user agent
-        options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
+        # Set user agent (realistic Mac/Chrome to pass Cloudflare bot checks)
+        options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36')
         
         # Windows-specific encoding
         if sys.platform == 'win32':
@@ -136,6 +137,10 @@ class BaseScraper:
             
             driver = webdriver.Chrome(service=service, options=options)
             driver.set_page_load_timeout(30)
+            # Mask navigator.webdriver to pass Cloudflare bot checks
+            driver.execute_cdp_cmd('Page.addScriptToEvaluateOnNewDocument', {
+                'source': "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+            })
             return driver
             
         except Exception as e:
