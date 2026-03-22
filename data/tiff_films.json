@@ -1,107 +1,5 @@
 [
   {
-    "title": "1974, une partie de campagne - Raymond Depardon",
-    "showtime": "Saturday, March 21, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMTYzVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "André Is an Idiot - Tony Benna",
-    "showtime": "Saturday, March 21, 12:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMUwzVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "André Is an Idiot - Tony Benna",
-    "showtime": "Saturday, March 21, 6:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMTYxVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Dhurandhar: The Revenge - Aditya Dhar",
-    "showtime": "Saturday, March 21, 8:10PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMTgxVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Jocelyne Saab: Blind Faith",
-    "showtime": "Saturday, March 21, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMTQwVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Kokuho - Lee Sang-il",
-    "showtime": "Saturday, March 21, 8:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMTgxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Miroirs No. 3 - Christian Petzold",
-    "showtime": "Saturday, March 21, 1:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMTEwVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Miroirs No. 3 - Christian Petzold",
-    "showtime": "Saturday, March 21, 3:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMTMxVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Miroirs No. 3 - Christian Petzold",
-    "showtime": "Saturday, March 21, 6:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMTYwVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Nika & Madison - Eva Thomas",
-    "showtime": "Saturday, March 21, 3:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMTMzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Nika & Madison - Eva Thomas",
-    "showtime": "Saturday, March 21, 6:05PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMTYwVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Sirāt - Oliver Laxe",
-    "showtime": "Saturday, March 21, 12:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMUwwVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Things You Kill - Alireza Khatami",
-    "showtime": "Saturday, March 21, 12:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMUw0VDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Things You Kill - Alireza Khatami",
-    "showtime": "Saturday, March 21, 3:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMTMwVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Things You Kill - Alireza Khatami",
-    "showtime": "Saturday, March 21, 8:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMTgzVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Tow - Stephanie Laing",
-    "showtime": "Saturday, March 21, 8:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMTg0VDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "André Is an Idiot - Tony Benna",
-    "showtime": "Sunday, March 22, 12:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMkw0VDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
     "title": "André Is an Idiot - Tony Benna",
     "showtime": "Sunday, March 22, 6:15PM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMjYxVDM=",
@@ -109,26 +7,20 @@
   },
   {
     "title": "Dhurandhar: The Revenge - Aditya Dhar",
-    "showtime": "Sunday, March 22, 1:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMjEwVDM=",
+    "showtime": "Sunday, March 22",
+    "link": "https://tiff.net/events/dhurandhar-the-revenge",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Kokuho - Lee Sang-il",
-    "showtime": "Sunday, March 22, 11:45AM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMks0VDU=",
+    "showtime": "Sunday, March 22",
+    "link": "https://tiff.net/events/kokuho",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "La captive du désert - Raymond Depardon",
     "showtime": "Sunday, March 22, 3:15PM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMjMxVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Miroirs No. 3 - Christian Petzold",
-    "showtime": "Sunday, March 22, 1:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk0yMjExVDI=",
     "source": "TIFF Bell Lightbox"
   },
   {
