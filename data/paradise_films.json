@@ -1,25 +1,13 @@
 [
   {
-    "title": "Veronika Voss",
-    "showtime": "Mon, Mar 23, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/veronika-voss/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Winterbeast",
-    "showtime": "Mon, Mar 23, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/winterbeast/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Pet Sematary",
-    "showtime": "Tue, Mar 24, 6:15 pm",
+    "showtime": "Today, Mar 24, 6:15 pm",
     "link": "https://paradiseonbloor.com/movies/pet-sematary/",
     "source": "Paradise Theatre"
   },
   {
     "title": "It",
-    "showtime": "Tue, Mar 24, 8:45 pm",
+    "showtime": "Today, Mar 24, 8:45 pm",
     "link": "https://paradiseonbloor.com/movies/it/",
     "source": "Paradise Theatre"
   },
@@ -150,9 +138,21 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Double Feature: The Lost World & King Kong",
+    "showtime": "Sun, Apr 26, 1:00 pm",
+    "link": "https://paradiseonbloor.com/programs/double-feature-the-lost-world-jurassic-park/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Tito: Toronto Premiere!",
     "showtime": "Wed, Apr 29, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/tito-toronto-premiere/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Last Laugh",
+    "showtime": "Sun, May 3, 2:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-last-laugh/",
     "source": "Paradise Theatre"
   },
   {
