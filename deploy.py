@@ -18,6 +18,8 @@ import argparse
 import subprocess
 import sys
 import os
+import time
+import urllib.request
 from datetime import datetime
 from pathlib import Path
 
@@ -266,6 +268,40 @@ class GitHubDeployer:
                 return False
         
         return True
+
+    def verify_live_site(self, max_wait_s=180, interval_s=15):
+        """Verify GitHub Pages actually reflects a fresh deploy."""
+        try:
+            import json
+            meta = json.loads((self.data_dir / 'last_success.json').read_text())
+            local_generated_at = meta.get('generatedAt', '')
+        except Exception:
+            local_generated_at = ''
+
+        url = 'https://parallelgone.github.io/movies/'
+        deadline = time.time() + max_wait_s
+        while time.time() < deadline:
+            try:
+                req = urllib.request.Request(url, headers={'User-Agent': 'movies-deploy-verifier/1.0'})
+                with urllib.request.urlopen(req, timeout=20) as r:
+                    last_mod = r.headers.get('Last-Modified', '')
+                print(f'⏳ Live site check. Public Last-Modified: {last_mod} | local generatedAt: {local_generated_at}')
+                if local_generated_at:
+                    try:
+                        from email.utils import parsedate_to_datetime
+                        public_dt = parsedate_to_datetime(last_mod) if last_mod else None
+                        local_dt = datetime.fromisoformat(local_generated_at)
+                        if public_dt and public_dt.timestamp() >= (local_dt.timestamp() - 60):
+                            print('✅ Live site verification succeeded (public Last-Modified is fresh enough)')
+                            return True
+                    except Exception:
+                        pass
+            except Exception as e:
+                print(f'⚠️  Live site verification check failed: {e}')
+            time.sleep(interval_s)
+        self.errors.append('Live site did not reflect new deploy before timeout')
+        print('❌ Live site verification failed: public site stayed stale')
+        return False
     
     def run(self):
         """Main execution flow."""
@@ -317,6 +353,10 @@ class GitHubDeployer:
 
             if not self.git_commit_and_push():
                 print("\n❌ Deployment to GitHub failed.")
+                return False
+
+            if not self.verify_live_site():
+                print("\n❌ Deployment verification failed: live site did not update.")
                 return False
         
         # Summary
