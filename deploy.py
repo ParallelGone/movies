@@ -18,6 +18,7 @@ import argparse
 import subprocess
 import sys
 import os
+import re
 import time
 import urllib.request
 from datetime import datetime
@@ -269,14 +270,21 @@ class GitHubDeployer:
         
         return True
 
-    def verify_live_site(self, max_wait_s=180, interval_s=15):
-        """Verify GitHub Pages actually reflects a fresh deploy."""
+    def verify_live_site(self, max_wait_s=240, interval_s=15):
+        """Verify GitHub Pages reflects a fresh deploy *and* today's calendar state."""
         try:
             import json
             meta = json.loads((self.data_dir / 'last_success.json').read_text())
             local_generated_at = meta.get('generatedAt', '')
         except Exception:
             local_generated_at = ''
+
+        today = datetime.now().strftime('%B %d').replace(' 0', ' ')
+        expected_markers = [
+            f'>{today}<',
+            f'{today}</h2>',
+            f'{today},',
+        ]
 
         url = 'https://parallelgone.github.io/movies/'
         deadline = time.time() + max_wait_s
@@ -285,22 +293,34 @@ class GitHubDeployer:
                 req = urllib.request.Request(url, headers={'User-Agent': 'movies-deploy-verifier/1.0'})
                 with urllib.request.urlopen(req, timeout=20) as r:
                     last_mod = r.headers.get('Last-Modified', '')
-                print(f'⏳ Live site check. Public Last-Modified: {last_mod} | local generatedAt: {local_generated_at}')
+                    html = r.read(250000).decode('utf-8', errors='ignore')
+
+                print(f'⏳ Live site check. Public Last-Modified: {last_mod} | local generatedAt: {local_generated_at} | expecting visible today marker: {today}')
+
+                fresh_enough = False
                 if local_generated_at:
                     try:
                         from email.utils import parsedate_to_datetime
                         public_dt = parsedate_to_datetime(last_mod) if last_mod else None
                         local_dt = datetime.fromisoformat(local_generated_at)
-                        if public_dt and public_dt.timestamp() >= (local_dt.timestamp() - 60):
-                            print('✅ Live site verification succeeded (public Last-Modified is fresh enough)')
-                            return True
+                        fresh_enough = bool(public_dt and public_dt.timestamp() >= (local_dt.timestamp() - 60))
                     except Exception:
-                        pass
+                        fresh_enough = False
+
+                has_today = any(marker in html for marker in expected_markers)
+                if not has_today:
+                    # fallback: strip tags and look for month/day in visible text
+                    textish = re.sub(r'<[^>]+>', ' ', html)
+                    has_today = today in textish
+
+                if fresh_enough and has_today:
+                    print('✅ Live site verification succeeded (public site is fresh and reflects today)')
+                    return True
             except Exception as e:
                 print(f'⚠️  Live site verification check failed: {e}')
             time.sleep(interval_s)
-        self.errors.append('Live site did not reflect new deploy before timeout')
-        print('❌ Live site verification failed: public site stayed stale')
+        self.errors.append(f'Live site did not reflect today\'s calendar state before timeout (expected {today})')
+        print('❌ Live site verification failed: public site stayed stale or did not roll over to today')
         return False
     
     def run(self):
