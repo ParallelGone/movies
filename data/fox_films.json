@@ -1,44 +1,8 @@
 [
   {
-    "title": "Calle Málaga",
-    "showtime": "Tuesday, March 24, 3:15 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=605028~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Calle Málaga",
-    "showtime": "Wednesday, March 25, 6:30 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=605029~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Testament of Ann Lee",
-    "showtime": "Tuesday, March 24, 6:20 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=607248~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "The Testament of Ann Lee",
     "showtime": "Thursday, March 26, 3:40 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=607249~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Nirvanna the Band the Show the Movie",
-    "showtime": "Tuesday, March 24, 9:30 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=607782~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Montréal, My Beautiful",
-    "showtime": "Wednesday, March 25, 3:45 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=607787~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Secretary",
-    "showtime": "Wednesday, March 25, 9:15 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=605019~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
@@ -156,7 +120,7 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "SOLD OUT! Blue Heron with Director Q&A (Premiere)",
+    "title": "Blue Heron with Director Q&A (Premiere)",
     "showtime": "Saturday, March 28, 6:45 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=602829~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
@@ -357,6 +321,12 @@
     "title": "Drawn In: The Night is Short, Walk On Girl",
     "showtime": "Thursday, April 16, 9:15 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=609813~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Blue Mountain Film + Media Festival: Aontas",
+    "showtime": "Tuesday, April 14, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/blue-mountain-film-media-festival-aontas/",
     "source": "Fox Theatre"
   },
   {
