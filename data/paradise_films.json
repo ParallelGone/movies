@@ -1,29 +1,5 @@
 [
   {
-    "title": "Pet Sematary",
-    "showtime": "Today, Mar 24, 6:15 pm",
-    "link": "https://paradiseonbloor.com/movies/pet-sematary/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "It",
-    "showtime": "Today, Mar 24, 8:45 pm",
-    "link": "https://paradiseonbloor.com/movies/it/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Somersault: 4K Restoration!",
-    "showtime": "Wed, Mar 25, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/somersault-4k-restoration/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Notting Hill",
-    "showtime": "Wed, Mar 25, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/notting-hill/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Mirrors No. 3",
     "showtime": "Fri, Mar 27, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/mirrors-no-3/",
@@ -72,9 +48,45 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "April Fool’s Day- The Naked Gun: From the Files of Police Squad!",
+    "showtime": "Wed, Apr 1, 6:15 pm",
+    "link": "https://paradiseonbloor.com/movies/april-fools-day-the-naked-gun-from-the-files-of-police-squad/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Crash",
     "showtime": "Wed, Apr 1, 8:45 pm",
     "link": "https://paradiseonbloor.com/movies/crash/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Allegro non troppo: 50th Anniversary!",
+    "showtime": "Thu, Apr 2, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/allegro-non-troppo-50th-anniversary/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Idiotka",
+    "showtime": "Thu, Apr 2, 8:45 pm",
+    "link": "https://paradiseonbloor.com/movies/idiotka/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "What Does That Nature Say to You",
+    "showtime": "Fri, Apr 3, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/what-does-that-nature-say-to-you/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Blue Trail",
+    "showtime": "Mon, Apr 6, 6:15 pm",
+    "link": "https://paradiseonbloor.com/movies/the-blue-trail/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Tampopo",
+    "showtime": "Tue, Apr 7, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/tampopo/",
     "source": "Paradise Theatre"
   },
   {
@@ -102,6 +114,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Eat Drink Man Woman",
+    "showtime": "Sun, Apr 12, 6:20 pm",
+    "link": "https://paradiseonbloor.com/movies/eat-drink-man-woman/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Southland Tales",
     "showtime": "Mon, Apr 13, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/southland-tales/",
@@ -114,15 +132,39 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "The Cook, the Thief, His Wife & Her Lover",
+    "showtime": "Tue, Apr 14, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-cook-the-thief-his-wife-her-lover/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "National Canadian Film Day: The Falls",
     "showtime": "Wed, Apr 15, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/national-canadian-film-day-the-falls/",
     "source": "Paradise Theatre"
   },
   {
+    "title": "Big Night: 30th Anniversary!",
+    "showtime": "Fri, Apr 17, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/big-night-30th-anniversary/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Soul Food",
+    "showtime": "Tue, Apr 21, 6:15 pm",
+    "link": "https://paradiseonbloor.com/movies/soul-food/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Female Trouble",
     "showtime": "Wed, Apr 22, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/female-trouble/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Mystic Pizza",
+    "showtime": "Fri, Apr 24, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/mystic-pizza/",
     "source": "Paradise Theatre"
   },
   {
