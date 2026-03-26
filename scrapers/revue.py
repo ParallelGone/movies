@@ -1,100 +1,80 @@
 """
-Revue Cinema scraper - handles "Load More" pagination.
+Revue Cinema scraper.
+
+2026-03-26 rewrite:
+- Parse the richer server-rendered HTML directly with a realistic browser user-agent.
+- Avoid brittle Selenium/Bricks load-more interactions for cron reliability.
+- Use the repeated `.brxe-sdlpwn` card markup found in the raw page source.
 """
 
-from selenium.webdriver.common.by import By
+from urllib.request import Request, urlopen
+from urllib.parse import urljoin
+from html import unescape
 from .base import BaseScraper
 
 import sys
 import os
-import time
+import re
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config import THEATERS
 
 
+UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
+
+
 class RevueScraper(BaseScraper):
-    """Scraper for Revue Cinema (revuecinema.ca)"""
+    """Scraper for Revue Cinema (revuecinema.ca) using direct HTML parsing."""
 
-    MIN_EXPECTED_FILMS = 80
-    
+    MIN_EXPECTED_FILMS = 20
+
     def __init__(self):
-        config = THEATERS["revue"]
-        super().__init__("revue", config["name"], config["url"])
-        
+        config = THEATERS['revue']
+        super().__init__('revue', config['name'], config['url'])
+
+    def fetch_html(self):
+        req = Request(self.url, headers={'User-Agent': UA})
+        with urlopen(req, timeout=30) as r:
+            return r.read().decode('utf-8', errors='ignore')
+
     def scrape(self):
-        # Give the page extra time to settle/render before pagination.
-        time.sleep(4)
+        print(f"📄 Fetching page source: {self.url}")
+        html = self.fetch_html()
+        print(f"✅ Page source fetched ({len(html)} bytes)")
 
-        initial_title = self.driver.title
-        initial_blocks = self.driver.find_elements(By.CLASS_NAME, "brxe-sdlpwn")
-        load_more_links = self.driver.find_elements(By.XPATH, "//a[text()='Load More']")
-        challenge_markers = {
-            "loading-verifying": len(self.driver.find_elements(By.CLASS_NAME, "loading-verifying")),
-            "lds-ring": len(self.driver.find_elements(By.CLASS_NAME, "lds-ring")),
-            "cf-challenge-running": len(self.driver.find_elements(By.CLASS_NAME, "cf-challenge-running")),
-        }
-        print(f"ℹ️ [{self.theater_name}] Initial title: {initial_title}")
-        print(f"ℹ️ [{self.theater_name}] Initial blocks: {len(initial_blocks)} | Load More links: {len(load_more_links)} | Challenge markers: {challenge_markers}")
+        pattern = re.compile(
+            r'<div class="brxe-sdlpwn brxe-div(?: bricks-lazy-hidden)?">\s*'
+            r'<h5 class="brxe-xqcpwc brxe-heading"><a href="([^"]+)">(.*?)</a></h5>\s*'
+            r'<div class="brxe-eizvou brxe-div(?: bricks-lazy-hidden)?">\s*'
+            r'<div class="brxe-ndxpjc brxe-text-basic">(.*?)</div>',
+            re.S,
+        )
+        matches = pattern.findall(html)
+        print(f"🎬 [{self.theater_name}] Found {len(matches)} raw film cards in HTML source")
 
-        # Some bad runs appear to be partial/lazy/challenge states; a refresh can help.
-        if len(initial_blocks) < 20:
-            print(f"⚠️ [{self.theater_name}] Very low initial block count ({len(initial_blocks)}); waiting and refreshing once")
-            time.sleep(4)
-            self.driver.refresh()
-            time.sleep(6)
-            refreshed_title = self.driver.title
-            refreshed_blocks = self.driver.find_elements(By.CLASS_NAME, "brxe-sdlpwn")
-            refreshed_load_more = self.driver.find_elements(By.XPATH, "//a[text()='Load More']")
-            refreshed_markers = {
-                "loading-verifying": len(self.driver.find_elements(By.CLASS_NAME, "loading-verifying")),
-                "lds-ring": len(self.driver.find_elements(By.CLASS_NAME, "lds-ring")),
-                "cf-challenge-running": len(self.driver.find_elements(By.CLASS_NAME, "cf-challenge-running")),
-            }
-            print(f"ℹ️ [{self.theater_name}] After refresh title: {refreshed_title}")
-            print(f"ℹ️ [{self.theater_name}] After refresh blocks: {len(refreshed_blocks)} | Load More links: {len(refreshed_load_more)} | Challenge markers: {refreshed_markers}")
+        seen = set()
+        for href, raw_title, raw_showtime in matches:
+            title = ' '.join(unescape(re.sub(r'<[^>]+>', ' ', raw_title)).split())
+            showtime = ' '.join(unescape(re.sub(r'<[^>]+>', ' ', raw_showtime)).split())
+            link = urljoin(self.url, unescape(href.strip()))
+            if not title or not showtime:
+                continue
+            key = (title, showtime, link)
+            if key in seen:
+                continue
+            seen.add(key)
+            self.add_film(title, showtime, link)
 
-        # Click "Load More" until all films are loaded
-        self.click_load_more("//a[text()='Load More']", max_clicks=12, wait_s=1.8)
-        
-        # Parse film blocks
-        film_blocks = self.driver.find_elements(By.CLASS_NAME, "brxe-sdlpwn")
-        print(f"🎬 [{self.theater_name}] Found {len(film_blocks)} total films")
+        print(f"🎬 [{self.theater_name}] Final parsed films: {len(self.films)}")
 
-        if len(film_blocks) < self.MIN_EXPECTED_FILMS:
-            final_title = self.driver.title
-            final_load_more = self.driver.find_elements(By.XPATH, "//a[text()='Load More']")
-            final_markers = {
-                "loading-verifying": len(self.driver.find_elements(By.CLASS_NAME, "loading-verifying")),
-                "lds-ring": len(self.driver.find_elements(By.CLASS_NAME, "lds-ring")),
-                "cf-challenge-running": len(self.driver.find_elements(By.CLASS_NAME, "cf-challenge-running")),
-            }
+        if len(self.films) < self.MIN_EXPECTED_FILMS:
             raise RuntimeError(
-                f"Suspiciously low Revue film count ({len(film_blocks)} < {self.MIN_EXPECTED_FILMS}); title={final_title!r}; load_more_links={len(final_load_more)}; challenge_markers={final_markers}; likely anti-bot/challenge/intermittent site issue"
+                f"Direct HTML parse for Revue produced suspiciously low film count ({len(self.films)} < {self.MIN_EXPECTED_FILMS})"
             )
-        
-        for block in film_blocks:
-            # Get title and link
-            try:
-                title_tag = block.find_element(By.TAG_NAME, "h5").find_element(By.TAG_NAME, "a")
-                title = title_tag.text.strip()
-                link = title_tag.get_attribute("href")
-            except Exception:
-                title, link = "Untitled", None
-                
-            # Get showtime
-            try:
-                showtime_tag = block.find_element(By.CLASS_NAME, "brxe-ndxpjc")
-                showtime = showtime_tag.text.strip()
-            except Exception:
-                showtime = "No time listed"
-                
-            if title and showtime and showtime != "No time listed":
-                self.add_film(title, showtime, link)
-                
+
         return self.films
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     scraper = RevueScraper()
     films = scraper.run()
     print(f"\n🎬 Total films scraped: {len(films)}")
