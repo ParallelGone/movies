@@ -1,35 +1,30 @@
 """
-Revue Cinema scraper.
-
-2026-03-26 rewrite:
-- Parse the richer server-rendered HTML directly with a realistic browser user-agent.
-- Avoid brittle Selenium/Bricks load-more interactions for cron reliability.
-- Use the repeated `.brxe-sdlpwn` card markup found in the raw page source.
+Test scraper for Revue calendar page.
+Parses embedded event JSON from /calendar/ and writes the same item shape the project expects.
 """
 
 from urllib.request import Request, urlopen
 from urllib.parse import urljoin
-from html import unescape
+from datetime import datetime
 from .base import BaseScraper
 
 import sys
 import os
 import re
+import json
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config import THEATERS
 
-
 UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
+CAL_URL = 'https://revuecinema.ca/calendar/'
 
 
-class RevueScraper(BaseScraper):
-    """Scraper for Revue Cinema (revuecinema.ca) using direct HTML parsing."""
-
+class RevueCalendarScraper(BaseScraper):
     MIN_EXPECTED_FILMS = 20
 
     def __init__(self):
         config = THEATERS['revue']
-        super().__init__('revue', config['name'], config['url'])
+        super().__init__('revue_calendar_test', config['name'], CAL_URL)
 
     def fetch_html(self):
         req = Request(self.url, headers={'User-Agent': UA})
@@ -37,46 +32,35 @@ class RevueScraper(BaseScraper):
             return r.read().decode('utf-8', errors='ignore')
 
     def scrape(self):
-        print(f"📄 Fetching page source: {self.url}")
+        print(f"📄 Fetching calendar page source: {self.url}")
         html = self.fetch_html()
-        print(f"✅ Page source fetched ({len(html)} bytes)")
+        print(f"✅ Calendar page source fetched ({len(html)} bytes)")
 
-        pattern = re.compile(
-            r'<div class="brxe-sdlpwn brxe-div(?: bricks-lazy-hidden)?">\s*'
-            r'<h5 class="brxe-xqcpwc brxe-heading"><a href="([^"]+)">(.*?)</a></h5>\s*'
-            r'<div class="brxe-eizvou brxe-div(?: bricks-lazy-hidden)?">\s*'
-            r'<div class="brxe-ndxpjc brxe-text-basic">(.*?)</div>',
-            re.S,
-        )
+        # The page contains repeated event objects like:
+        # {"title":"...","start":"2026-04-09 21:30:00","url":"https://..."}
+        pattern = re.compile(r'\{"title":"(.*?)","start":"(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})","url":"(https://revuecinema\.ca/films/.*?)"\}')
         matches = pattern.findall(html)
-        print(f"🎬 [{self.theater_name}] Found {len(matches)} raw film cards in HTML source")
+        print(f"🎬 [{self.theater_name}] Found {len(matches)} raw calendar event objects")
 
         seen = set()
-        for href, raw_title, raw_showtime in matches:
-            title = ' '.join(unescape(re.sub(r'<[^>]+>', ' ', raw_title)).split())
-            showtime = ' '.join(unescape(re.sub(r'<[^>]+>', ' ', raw_showtime)).split())
-            link = urljoin(self.url, unescape(href.strip()))
-            if not title or not showtime:
-                continue
+        for raw_title, raw_start, raw_url in matches:
+            title = bytes(raw_title, 'utf-8').decode('unicode_escape')
+            link = bytes(raw_url, 'utf-8').decode('unicode_escape')
+            start = datetime.strptime(raw_start, '%Y-%m-%d %H:%M:%S')
+            showtime = start.strftime('%a %b %d, %I:%M %p').replace(' 0', ' ')
             key = (title, showtime, link)
             if key in seen:
                 continue
             seen.add(key)
-            self.add_film(title, showtime, link)
+            self.add_film(title, showtime, urljoin(self.url, link))
 
         print(f"🎬 [{self.theater_name}] Final parsed films: {len(self.films)}")
-
         if len(self.films) < self.MIN_EXPECTED_FILMS:
-            raise RuntimeError(
-                f"Direct HTML parse for Revue produced suspiciously low film count ({len(self.films)} < {self.MIN_EXPECTED_FILMS})"
-            )
-
+            raise RuntimeError(f"Calendar-page parse produced suspiciously low film count ({len(self.films)} < {self.MIN_EXPECTED_FILMS})")
         return self.films
 
 
 if __name__ == '__main__':
-    scraper = RevueScraper()
+    scraper = RevueCalendarScraper()
     films = scraper.run()
     print(f"\n🎬 Total films scraped: {len(films)}")
-    if len(films) < scraper.MIN_EXPECTED_FILMS:
-        sys.exit(1)
