@@ -19,7 +19,7 @@ UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML,
 CAL_URL = 'https://revuecinema.ca/calendar/'
 
 
-class RevueCalendarScraper(BaseScraper):
+class RevueScraper(BaseScraper):
     MIN_EXPECTED_FILMS = 20
 
     def __init__(self):
@@ -61,6 +61,6 @@ class RevueCalendarScraper(BaseScraper):
 
 
 if __name__ == '__main__':
-    scraper = RevueCalendarScraper()
+    scraper = RevueScraper()
     films = scraper.run()
     print(f"\n🎬 Total films scraped: {len(films)}")
