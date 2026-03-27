@@ -8,6 +8,16 @@ DATA = ROOT / 'data'
 LAST = DATA / 'last_success.json'
 CURRENT_THEATERS = ['fox', 'paradise', 'revue', 'tiff', 'kingsway']
 
+# Theater-specific sanity rules. Revue now uses a stable direct-source parser and
+# should be judged against that stable smaller baseline rather than the old 135+ UI path.
+MIN_FLOORS = {
+    'revue': 20,
+}
+DROP_RATIO_RULES = {
+    'default': 0.35,
+    'revue': 0.10,  # tolerate the architecture shift away from the old expanded Selenium count
+}
+
 current = {}
 for theater in CURRENT_THEATERS:
     p = DATA / f'{theater}_films.json'
@@ -25,13 +35,21 @@ prev = json.loads(LAST.read_text(encoding='utf-8')).get('counts', {})
 problems = []
 for theater, count in current.items():
     old = prev.get(theater)
+
+    floor = MIN_FLOORS.get(theater)
+    if floor is not None and count < floor:
+        problems.append(f'{theater}: below stable floor {floor} -> {count}')
+        continue
+
     if old in (None, 0):
         continue
     if count <= 0:
         problems.append(f'{theater}: zero items')
         continue
+
     ratio = count / old
-    if ratio < 0.35:
+    threshold = DROP_RATIO_RULES.get(theater, DROP_RATIO_RULES['default'])
+    if ratio < threshold:
         problems.append(f'{theater}: suspicious drop {old} -> {count}')
 
 if problems:
