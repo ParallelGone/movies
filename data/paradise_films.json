@@ -1,17 +1,5 @@
 [
   {
-    "title": "Mirrors No. 3",
-    "showtime": "Today, Mar 27, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/mirrors-no-3/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Permanent Tourist",
-    "showtime": "Today, Mar 27, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/permanent-tourist/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Double Feature: My Favorite Wife & The Awful Truth",
     "showtime": "Sun, Mar 29, 1:30 pm",
     "link": "https://paradiseonbloor.com/programs/double-feature-my-favorite-wife-the-awful-truth/",
@@ -21,6 +9,12 @@
     "title": "Foxy Brown",
     "showtime": "Sun, Mar 29, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/foxy-brown/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Mirrors No. 3",
+    "showtime": "Sun, Mar 29, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/mirrors-no-3/",
     "source": "Paradise Theatre"
   },
   {
