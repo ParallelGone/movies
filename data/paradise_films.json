@@ -1,55 +1,7 @@
 [
   {
-    "title": "Double Feature: My Favorite Wife & The Awful Truth",
-    "showtime": "Sun, Mar 29, 1:30 pm",
-    "link": "https://paradiseonbloor.com/programs/double-feature-my-favorite-wife-the-awful-truth/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Foxy Brown",
-    "showtime": "Sun, Mar 29, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/foxy-brown/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Mirrors No. 3",
-    "showtime": "Sun, Mar 29, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/mirrors-no-3/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Sunset Boulevard",
-    "showtime": "Mon, Mar 30, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/sunset-boulevard/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "BE Shorts",
-    "showtime": "Mon, Mar 30, 9:00 pm",
-    "link": "https://paradiseonbloor.com/movies/be-shorts/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "The Dead Zone",
-    "showtime": "Tue, Mar 31, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/the-dead-zone/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "The Mist",
-    "showtime": "Tue, Mar 31, 8:45 pm",
-    "link": "https://paradiseonbloor.com/movies/the-mist/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "April Fool’s Day- The Naked Gun: From the Files of Police Squad!",
-    "showtime": "Wed, Apr 1, 6:15 pm",
-    "link": "https://paradiseonbloor.com/movies/april-fools-day-the-naked-gun-from-the-files-of-police-squad/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Crash",
-    "showtime": "Wed, Apr 1, 8:45 pm",
+    "showtime": "Today, Apr 1, 8:45 pm",
     "link": "https://paradiseonbloor.com/movies/crash/",
     "source": "Paradise Theatre"
   },
@@ -79,7 +31,7 @@
   },
   {
     "title": "Tampopo",
-    "showtime": "Tue, Apr 7, 7:00 pm",
+    "showtime": "Tue, Apr 7, 7:00 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/movies/tampopo/",
     "source": "Paradise Theatre"
   },
@@ -144,6 +96,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "The SpongeBob SquarePants Movie",
+    "showtime": "Sun, Apr 19, 2:30 pm",
+    "link": "https://paradiseonbloor.com/movies/the-spongebob-squarepants-movie/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Soul Food",
     "showtime": "Tue, Apr 21, 6:15 pm",
     "link": "https://paradiseonbloor.com/movies/soul-food/",
@@ -156,9 +114,21 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Nacho Libre feat. Live Wrestling Pre-show!",
+    "showtime": "Thu, Apr 23, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/nacho-libre-feat-live-wrestling-pre-show/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Mystic Pizza",
     "showtime": "Fri, Apr 24, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/mystic-pizza/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "$POSITIONS",
+    "showtime": "Fri, Apr 24, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/positions/",
     "source": "Paradise Theatre"
   },
   {
@@ -183,6 +153,18 @@
     "title": "Tito: Toronto Premiere!",
     "showtime": "Wed, Apr 29, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/tito-toronto-premiere/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Mac Barnett and Jon Klassen: Now I See Road Show",
+    "showtime": "Thu, Apr 30, 7:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/now-i-see-road-show/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Kahaani Cafe: Table# 7 – The Stories We Carry",
+    "showtime": "Sat, May 2, 7:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/kahaani-cafe-table-7-the-stories-we-carry/",
     "source": "Paradise Theatre"
   },
   {
