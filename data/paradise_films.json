@@ -1,19 +1,13 @@
 [
   {
-    "title": "Crash",
-    "showtime": "Today, Apr 1, 8:45 pm",
-    "link": "https://paradiseonbloor.com/movies/crash/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Allegro non troppo: 50th Anniversary!",
-    "showtime": "Thu, Apr 2, 6:30 pm",
+    "showtime": "Today, Apr 2, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/allegro-non-troppo-50th-anniversary/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Idiotka",
-    "showtime": "Thu, Apr 2, 8:45 pm",
+    "showtime": "Today, Apr 2, 8:45 pm",
     "link": "https://paradiseonbloor.com/movies/idiotka/",
     "source": "Paradise Theatre"
   },
@@ -90,6 +84,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Bunnylovr: Toronto Premiere!",
+    "showtime": "Fri, Apr 17, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/bunnylovr-toronto-premiere/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Big Night: 30th Anniversary!",
     "showtime": "Fri, Apr 17, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/big-night-30th-anniversary/",
@@ -99,6 +99,12 @@
     "title": "The SpongeBob SquarePants Movie",
     "showtime": "Sun, Apr 19, 2:30 pm",
     "link": "https://paradiseonbloor.com/movies/the-spongebob-squarepants-movie/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Mermaid: Toronto Premiere!",
+    "showtime": "Mon, Apr 20, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/mermaid-toronto-premiere/",
     "source": "Paradise Theatre"
   },
   {
@@ -171,6 +177,12 @@
     "title": "The Last Laugh",
     "showtime": "Sun, May 3, 2:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-last-laugh/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Freaked",
+    "showtime": "Fri, May 8, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/freaked/",
     "source": "Paradise Theatre"
   },
   {
