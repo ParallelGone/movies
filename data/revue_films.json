@@ -72,12 +72,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Revue Event: APRIL FOOL'S DAY - 40th Anniversary Screening!",
-    "showtime": "Wed Apr 1, 7:00 PM",
-    "link": "https://revuecinema.ca/films/revue-event-april-fools-day-1986/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Drunken Cinema: BACK TO THE FUTURE (1985)",
     "showtime": "Fri Jun 19, 9:30 PM",
     "link": "https://revuecinema.ca/films/drunken-cinema-back-to-the-future-1985/",
@@ -99,6 +93,12 @@
     "title": "Toronto Silent Film Festival: BEAU GESTE (1926) - Canadian Premiere of New Restoration!",
     "showtime": "Fri Apr 10, 6:00 PM",
     "link": "https://revuecinema.ca/films/toronto-silent-film-festival-beau-geste-1926-canadian-premiere-of-new-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Because I'm A Girl Film Fest",
+    "showtime": "Thu Apr 2, 6:45 PM",
+    "link": "https://revuecinema.ca/films/because-im-a-girl-film-fest/",
     "source": "Revue Cinema"
   },
   {
@@ -135,6 +135,24 @@
     "title": "Designing The Movies: BLOW-UP - 60th Anniversary Screening!",
     "showtime": "Mon Apr 6, 6:30 PM",
     "link": "https://revuecinema.ca/films/designing-the-movies-blow-up-60th-anniversary-screening/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "BLUE HERON",
+    "showtime": "Tue May 5, 9:30 PM",
+    "link": "https://revuecinema.ca/films/blue-heron/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "BLUE HERON",
+    "showtime": "Thu May 7, 7:00 PM",
+    "link": "https://revuecinema.ca/films/blue-heron/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "BLUE HERON",
+    "showtime": "Tue May 12, 9:30 PM",
+    "link": "https://revuecinema.ca/films/blue-heron/",
     "source": "Revue Cinema"
   },
   {
@@ -738,15 +756,15 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Revue Event: SLAUGHTER HIGH - 40th Anniversary Screening!",
-    "showtime": "Wed Apr 1, 9:30 PM",
-    "link": "https://revuecinema.ca/films/revue-event-slaughter-high-40th-anniversary-screening/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Dumpster Raccoon: SLEEPAWAY CAMP (1983) - With Album Debut Performance by VIVICA (aka Vivek Shraya!)",
     "showtime": "Sat Jun 20, 9:30 PM",
     "link": "https://revuecinema.ca/films/dumpster-raccoon-sleepaway-camp-1983-with-album-debut-performance-by-vivica-aka-vivek-shraya/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Nightmare Alley: THE VANISHING (1988)",
+    "showtime": "Thu Jul 9, 9:30 PM",
+    "link": "https://revuecinema.ca/films/nightmare-alley-the-vanishing-1988/",
     "source": "Revue Cinema"
   },
   {
