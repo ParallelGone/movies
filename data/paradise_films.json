@@ -1,31 +1,7 @@
 [
   {
-    "title": "Allegro non troppo: 50th Anniversary!",
-    "showtime": "Today, Apr 3, 4:00 pm",
-    "link": "https://paradiseonbloor.com/movies/allegro-non-troppo-50th-anniversary/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "What Does That Nature Say to You",
-    "showtime": "Today, Apr 3, 6:30 pm",
-    "link": "https://paradiseonbloor.com/movies/what-does-that-nature-say-to-you/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "The Blue Trail",
-    "showtime": "Mon, Apr 6, 6:15 pm",
-    "link": "https://paradiseonbloor.com/movies/the-blue-trail/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Idiotka",
-    "showtime": "Mon, Apr 6, 8:45 pm",
-    "link": "https://paradiseonbloor.com/movies/idiotka/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Tampopo",
-    "showtime": "Tue, Apr 7, 7:00 pm\nSOLD OUT",
+    "showtime": "Today, Apr 7, 7:00 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/movies/tampopo/",
     "source": "Paradise Theatre"
   },
@@ -57,6 +33,12 @@
     "title": "Eat Drink Man Woman",
     "showtime": "Sun, Apr 12, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/eat-drink-man-woman/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Blue Trail",
+    "showtime": "Mon, Apr 13, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-blue-trail/",
     "source": "Paradise Theatre"
   },
   {
@@ -138,6 +120,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Ratatouille",
+    "showtime": "Sat, Apr 25, 2:30 pm",
+    "link": "https://paradiseonbloor.com/movies/ratatouille/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Middle Life",
     "showtime": "Sat, Apr 25, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/middle-life/",
@@ -153,6 +141,12 @@
     "title": "Double Feature: The Lost World & King Kong",
     "showtime": "Sun, Apr 26, 1:00 pm",
     "link": "https://paradiseonbloor.com/programs/double-feature-the-lost-world-jurassic-park/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "GoodFellas",
+    "showtime": "Mon, Apr 27, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/goodfellas/",
     "source": "Paradise Theatre"
   },
   {
