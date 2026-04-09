@@ -1,18 +1,6 @@
 [
   {
     "title": "Hamnet",
-    "showtime": "Tuesday, April 7, 6:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hamnet",
-    "showtime": "Wednesday, April 8, 6:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hamnet",
     "showtime": "Thursday, April 9, 6:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -85,13 +73,13 @@
   },
   {
     "title": "Hamnet",
-    "showtime": "Tuesday, April 7, 2:15 pm",
+    "showtime": "Tuesday, April 21, 6:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
     "title": "Hamnet",
-    "showtime": "Wednesday, April 8, 2:15 pm",
+    "showtime": "Wednesday, April 22, 6:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,8 +156,50 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Miroirs No 3",
-    "showtime": "Tuesday, April 7, 3:15 pm",
+    "title": "Hamnet",
+    "showtime": "Tuesday, April 21, 2:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Hamnet",
+    "showtime": "Wednesday, April 22, 2:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "L'Inconnu de la Grande Arche The Great Arch",
+    "showtime": "Saturday, April 11, 3:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "L'Inconnu de la Grande Arche The Great Arch",
+    "showtime": "Monday, April 13, 3:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "L'Inconnu de la Grande Arche The Great Arch",
+    "showtime": "Wednesday, April 15, 3:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "L'Inconnu de la Grande Arche The Great Arch",
+    "showtime": "Saturday, April 18, 3:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "L'Inconnu de la Grande Arche The Great Arch",
+    "showtime": "Monday, April 20, 3:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "L'Inconnu de la Grande Arche The Great Arch",
+    "showtime": "Wednesday, April 22, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -216,50 +246,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "L'Inconnu de la Grande Arche The Great Arch",
-    "showtime": "Wednesday, April 8, 3:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "L'Inconnu de la Grande Arche The Great Arch",
-    "showtime": "Saturday, April 11, 3:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "L'Inconnu de la Grande Arche The Great Arch",
-    "showtime": "Monday, April 13, 3:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "L'Inconnu de la Grande Arche The Great Arch",
-    "showtime": "Wednesday, April 15, 3:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "L'Inconnu de la Grande Arche The Great Arch",
-    "showtime": "Saturday, April 18, 3:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "L'Inconnu de la Grande Arche The Great Arch",
-    "showtime": "Monday, April 20, 3:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Scream 7",
-    "showtime": "Tuesday, April 7, 4:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Scream 7",
-    "showtime": "Wednesday, April 8, 4:30 pm",
+    "title": "Miroirs No 3",
+    "showtime": "Tuesday, April 21, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -337,13 +325,13 @@
   },
   {
     "title": "Scream 7",
-    "showtime": "Tuesday, April 7, 8:35 pm",
+    "showtime": "Tuesday, April 21, 4:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
     "title": "Scream 7",
-    "showtime": "Wednesday, April 8, 8:35 pm",
+    "showtime": "Wednesday, April 22, 4:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -421,13 +409,13 @@
   },
   {
     "title": "Scream 7",
-    "showtime": "Tuesday, April 7, 9:00 pm",
+    "showtime": "Tuesday, April 21, 8:35 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
     "title": "Scream 7",
-    "showtime": "Wednesday, April 8, 9:00 pm",
+    "showtime": "Wednesday, April 22, 8:35 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -504,32 +492,14 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pillion",
-    "showtime": "Tuesday, April 7, 5:05 pm",
+    "title": "Scream 7",
+    "showtime": "Tuesday, April 21, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pillion",
-    "showtime": "Saturday, April 11, 5:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Pillion",
-    "showtime": "Tuesday, April 14, 5:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Pillion",
-    "showtime": "Saturday, April 18, 5:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Pompei Below the Clouds",
-    "showtime": "Wednesday, April 8, 5:05 pm",
+    "title": "Scream 7",
+    "showtime": "Wednesday, April 22, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -564,6 +534,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "Pompei Below the Clouds",
+    "showtime": "Wednesday, April 22, 5:05 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "My Father's Shadow",
     "showtime": "Thursday, April 9, 5:05 pm",
     "link": "http://kingswaymovies.ca/",
@@ -584,18 +560,6 @@
   {
     "title": "My Father's Shadow",
     "showtime": "Sunday, April 19, 5:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Send Help",
-    "showtime": "Tuesday, April 7, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Send Help",
-    "showtime": "Wednesday, April 8, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -672,32 +636,14 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Dracula 2026",
-    "showtime": "Thursday, April 9, 9:00 pm",
+    "title": "Send Help",
+    "showtime": "Tuesday, April 21, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Dracula 2026",
-    "showtime": "Sunday, April 12, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Dracula 2026",
-    "showtime": "Thursday, April 16, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Dracula 2026",
-    "showtime": "Sunday, April 19, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Anaconda",
-    "showtime": "Wednesday, April 8, 9:00 pm",
+    "title": "Send Help",
+    "showtime": "Wednesday, April 22, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -716,6 +662,12 @@
   {
     "title": "Anaconda",
     "showtime": "Monday, April 20, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Anaconda",
+    "showtime": "Wednesday, April 22, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },

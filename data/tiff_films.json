@@ -1,102 +1,6 @@
 [
   {
-    "title": "Marc by Sofia - Sofia Coppola",
-    "showtime": "Tuesday, April 7, 6:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEwNzYxVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Palestine '36 - Annemarie Jacir",
-    "showtime": "Tuesday, April 7, 8:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEwNzgxVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The AI Doc: Or How I Became an Apocaloptimist - Daniel Roher, Charlie Tyrell",
-    "showtime": "Tuesday, April 7, 8:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEwNzgzVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Blue Trail - Gabriel Mascaro",
-    "showtime": "Tuesday, April 7, 6:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEwNzYwVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Neon Bible with recorded intro by Jacob Tierney",
-    "showtime": "Tuesday, April 7, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEwNzYzVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Two Prosecutors - Sergei Loznitsa",
-    "showtime": "Tuesday, April 7, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEwNzcwVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Light Noise Smoke: The Films of Tomonari Nishikawa",
-    "showtime": "Wednesday, April 8, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEwODcwVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Marc by Sofia - Sofia Coppola",
-    "showtime": "Wednesday, April 8, 4:15PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkEwODQxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Marc by Sofia - Sofia Coppola",
-    "showtime": "Wednesday, April 8, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkEwODYzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Palestine '36 - Annemarie Jacir",
-    "showtime": "Wednesday, April 8, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEwODQwVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Palestine '36 - Annemarie Jacir",
-    "showtime": "Wednesday, April 8, 6:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEwODY0VDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "TIFF Advance Screening: Mile End Kicks with Chandler Levack",
-    "showtime": "Wednesday, April 8, 6:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEwODYwVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The AI Doc: Or How I Became an Apocaloptimist - Daniel Roher, Charlie Tyrell",
-    "showtime": "Wednesday, April 8, 9:35PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEwODkzVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Blue Trail - Gabriel Mascaro",
-    "showtime": "Wednesday, April 8, 3:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEwODM0VDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Blue Trail - Gabriel Mascaro",
-    "showtime": "Wednesday, April 8, 8:45PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkEwODg0VDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Two Prosecutors - Sergei Loznitsa",
-    "showtime": "Wednesday, April 8, 9:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEwODkzVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "100 Sunset - Kunsang Kyirong",
+    "title": "100 Sunset with Kunsang Kyirong",
     "showtime": "Thursday, April 9, 6:30PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkEwOTYzVDM=",
     "source": "TIFF Bell Lightbox"
@@ -681,6 +585,12 @@
     "title": "Drop-In: Camera Obscurities",
     "showtime": "Saturday, April 18, 1:00PM (Free)",
     "link": "https://tiff.net/events/drop-in-camera-obscurities",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Drop-In: The Dollhouse VR Experience",
+    "showtime": "Saturday, April 18, 1:00PM (Free)",
+    "link": "https://tiff.net/events/drop-in-the-dollhouse-vr-experience",
     "source": "TIFF Bell Lightbox"
   },
   {
