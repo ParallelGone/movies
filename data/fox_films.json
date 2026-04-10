@@ -1,23 +1,5 @@
 [
   {
-    "title": "EPiC: Elvis Presley in Concert",
-    "showtime": "Thursday, April 9, 4:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=615331~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "EPiC: Elvis Presley in Concert",
-    "showtime": "Monday, April 13, 4:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=617424~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Drama",
-    "showtime": "Thursday, April 9, 6:45 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=600720~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "The Drama",
     "showtime": "Friday, April 10, 3:30 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=616396~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -84,12 +66,6 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Detour: Sympathy For the Underdog",
-    "showtime": "Thursday, April 9, 9:20 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=605779~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Dead Lover – Director Q&A",
     "showtime": "Friday, April 10, 9:00 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=603182~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -117,6 +93,12 @@
     "title": "Drawn In: The Night is Short, Walk On Girl",
     "showtime": "Thursday, April 16, 9:15 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=609813~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "EPiC: Elvis Presley in Concert",
+    "showtime": "Monday, April 13, 4:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=617424~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
