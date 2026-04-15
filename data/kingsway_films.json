@@ -1,53 +1,5 @@
 [
   {
-    "title": "Charlie the Wonder Dog",
-    "showtime": "Saturday, April 11, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Charlie the Wonder Dog",
-    "showtime": "Saturday, April 18, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The SpongeBob Movie Search for Squarepants",
-    "showtime": "Sunday, April 12, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The SpongeBob Movie Search for Squarepants",
-    "showtime": "Sunday, April 19, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Blue Trail",
-    "showtime": "Friday, April 10, 2:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Blue Trail",
-    "showtime": "Saturday, April 11, 2:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Blue Trail",
-    "showtime": "Monday, April 13, 2:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Blue Trail",
-    "showtime": "Tuesday, April 14, 2:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
     "title": "The Blue Trail",
     "showtime": "Wednesday, April 15, 2:15 pm",
     "link": "http://kingswaymovies.ca/",
@@ -97,25 +49,25 @@
   },
   {
     "title": "The Blue Trail",
-    "showtime": "Friday, April 10, 6:30 pm",
+    "showtime": "Friday, April 24, 2:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
     "title": "The Blue Trail",
-    "showtime": "Saturday, April 11, 6:30 pm",
+    "showtime": "Saturday, April 25, 2:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
     "title": "The Blue Trail",
-    "showtime": "Monday, April 13, 6:30 pm",
+    "showtime": "Monday, April 27, 2:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
     "title": "The Blue Trail",
-    "showtime": "Tuesday, April 14, 6:30 pm",
+    "showtime": "Tuesday, April 28, 2:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,44 +120,62 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Zootopia 2",
-    "showtime": "Saturday, April 11, 2:15 pm",
+    "title": "The Blue Trail",
+    "showtime": "Friday, April 24, 6:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Zootopia 2",
-    "showtime": "Sunday, April 12, 2:15 pm",
+    "title": "The Blue Trail",
+    "showtime": "Saturday, April 25, 6:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Zootopia 2",
-    "showtime": "Saturday, April 18, 2:15 pm",
+    "title": "The Blue Trail",
+    "showtime": "Monday, April 27, 6:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Zootopia 2",
-    "showtime": "Sunday, April 19, 2:15 pm",
+    "title": "The Blue Trail",
+    "showtime": "Tuesday, April 28, 6:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pillion",
-    "showtime": "Friday, April 10, 3:15 pm",
+    "title": "My Father's Shadow",
+    "showtime": "Wednesday, April 15, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pillion",
-    "showtime": "Sunday, April 12, 3:15 pm",
+    "title": "My Father's Shadow",
+    "showtime": "Saturday, April 18, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pillion",
-    "showtime": "Tuesday, April 14, 3:15 pm",
+    "title": "My Father's Shadow",
+    "showtime": "Monday, April 20, 3:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "My Father's Shadow",
+    "showtime": "Wednesday, April 22, 3:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "My Father's Shadow",
+    "showtime": "Saturday, April 25, 3:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "My Father's Shadow",
+    "showtime": "Monday, April 27, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -240,56 +210,56 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "My Father's Shadow",
-    "showtime": "Saturday, April 11, 3:15 pm",
+    "title": "Pillion",
+    "showtime": "Friday, April 24, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "My Father's Shadow",
-    "showtime": "Monday, April 13, 3:15 pm",
+    "title": "Pillion",
+    "showtime": "Sunday, April 26, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "My Father's Shadow",
-    "showtime": "Wednesday, April 15, 3:15 pm",
+    "title": "Pillion",
+    "showtime": "Tuesday, April 28, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "My Father's Shadow",
-    "showtime": "Saturday, April 18, 3:15 pm",
+    "title": "Pompei Below the Clouds",
+    "showtime": "Wednesday, April 15, 4:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "My Father's Shadow",
-    "showtime": "Monday, April 20, 3:15 pm",
+    "title": "Pompei Below the Clouds",
+    "showtime": "Saturday, April 18, 4:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "My Father's Shadow",
-    "showtime": "Wednesday, April 22, 3:15 pm",
+    "title": "Pompei Below the Clouds",
+    "showtime": "Monday, April 20, 4:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Miroirs No 3",
-    "showtime": "Friday, April 10, 4:30 pm",
+    "title": "Pompei Below the Clouds",
+    "showtime": "Wednesday, April 22, 4:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Miroirs No 3",
-    "showtime": "Sunday, April 12, 4:30 pm",
+    "title": "Pompei Below the Clouds",
+    "showtime": "Saturday, April 25, 4:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Miroirs No 3",
-    "showtime": "Tuesday, April 14, 4:30 pm",
+    "title": "Pompei Below the Clouds",
+    "showtime": "Monday, April 27, 4:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -324,68 +294,20 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pompei Below the Clouds",
-    "showtime": "Saturday, April 11, 4:30 pm",
+    "title": "Miroirs No 3",
+    "showtime": "Friday, April 24, 4:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pompei Below the Clouds",
-    "showtime": "Monday, April 13, 4:30 pm",
+    "title": "Miroirs No 3",
+    "showtime": "Sunday, April 26, 4:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pompei Below the Clouds",
-    "showtime": "Wednesday, April 15, 4:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Pompei Below the Clouds",
-    "showtime": "Saturday, April 18, 4:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Pompei Below the Clouds",
-    "showtime": "Monday, April 20, 4:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Pompei Below the Clouds",
-    "showtime": "Wednesday, April 22, 4:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "L'Inconnu de la Grande Arche The Great Arch",
-    "showtime": "Friday, April 10, 5:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "L'Inconnu de la Grande Arche The Great Arch",
-    "showtime": "Saturday, April 11, 5:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "L'Inconnu de la Grande Arche The Great Arch",
-    "showtime": "Sunday, April 12, 5:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "L'Inconnu de la Grande Arche The Great Arch",
-    "showtime": "Monday, April 13, 5:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "L'Inconnu de la Grande Arche The Great Arch",
-    "showtime": "Tuesday, April 14, 5:05 pm",
+    "title": "Miroirs No 3",
+    "showtime": "Tuesday, April 28, 4:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -444,20 +366,32 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Hamnet",
-    "showtime": "Friday, April 10, 6:30 pm",
+    "title": "L'Inconnu de la Grande Arche The Great Arch",
+    "showtime": "Friday, April 24, 5:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Hamnet",
-    "showtime": "Sunday, April 12, 6:30 pm",
+    "title": "L'Inconnu de la Grande Arche The Great Arch",
+    "showtime": "Saturday, April 25, 5:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Hamnet",
-    "showtime": "Tuesday, April 14, 6:30 pm",
+    "title": "L'Inconnu de la Grande Arche The Great Arch",
+    "showtime": "Sunday, April 26, 5:05 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "L'Inconnu de la Grande Arche The Great Arch",
+    "showtime": "Monday, April 27, 5:05 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "L'Inconnu de la Grande Arche The Great Arch",
+    "showtime": "Tuesday, April 28, 5:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -492,32 +426,20 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Send Help",
-    "showtime": "Friday, April 10, 7:00 pm",
+    "title": "Hamnet",
+    "showtime": "Friday, April 24, 6:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Send Help",
-    "showtime": "Saturday, April 11, 7:00 pm",
+    "title": "Hamnet",
+    "showtime": "Sunday, April 26, 6:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Send Help",
-    "showtime": "Sunday, April 12, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Send Help",
-    "showtime": "Monday, April 13, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Send Help",
-    "showtime": "Tuesday, April 14, 7:00 pm",
+    "title": "Hamnet",
+    "showtime": "Tuesday, April 28, 6:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -576,32 +498,32 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "In the Mouth of Madness 35mm FILM DTS Sound",
-    "showtime": "Friday, April 10, 8:45 pm",
+    "title": "Send Help",
+    "showtime": "Friday, April 24, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "In the Mouth of Madness 35mm FILM DTS Sound",
-    "showtime": "Saturday, April 11, 8:45 pm",
+    "title": "Send Help",
+    "showtime": "Saturday, April 25, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "In the Mouth of Madness 35mm FILM DTS Sound",
-    "showtime": "Sunday, April 12, 8:45 pm",
+    "title": "Send Help",
+    "showtime": "Sunday, April 26, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "In the Mouth of Madness 35mm FILM DTS Sound",
-    "showtime": "Monday, April 13, 8:45 pm",
+    "title": "Send Help",
+    "showtime": "Monday, April 27, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "In the Mouth of Madness 35mm FILM DTS Sound",
-    "showtime": "Tuesday, April 14, 8:45 pm",
+    "title": "Send Help",
+    "showtime": "Tuesday, April 28, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -661,31 +583,31 @@
   },
   {
     "title": "In the Mouth of Madness 35mm FILM DTS Sound",
-    "showtime": "Friday, April 10, 10:30 pm",
+    "showtime": "Friday, April 24, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
     "title": "In the Mouth of Madness 35mm FILM DTS Sound",
-    "showtime": "Saturday, April 11, 10:30 pm",
+    "showtime": "Saturday, April 25, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
     "title": "In the Mouth of Madness 35mm FILM DTS Sound",
-    "showtime": "Sunday, April 12, 10:30 pm",
+    "showtime": "Sunday, April 26, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
     "title": "In the Mouth of Madness 35mm FILM DTS Sound",
-    "showtime": "Monday, April 13, 10:30 pm",
+    "showtime": "Monday, April 27, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
     "title": "In the Mouth of Madness 35mm FILM DTS Sound",
-    "showtime": "Tuesday, April 14, 10:30 pm",
+    "showtime": "Tuesday, April 28, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -744,26 +666,32 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Dracula 2026",
-    "showtime": "Friday, April 10, 9:00 pm",
+    "title": "In the Mouth of Madness 35mm FILM DTS Sound",
+    "showtime": "Friday, April 24, 10:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Dracula 2026",
-    "showtime": "Friday, April 17, 9:00 pm",
+    "title": "In the Mouth of Madness 35mm FILM DTS Sound",
+    "showtime": "Saturday, April 25, 10:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Scream 7",
-    "showtime": "Saturday, April 11, 9:00 pm",
+    "title": "In the Mouth of Madness 35mm FILM DTS Sound",
+    "showtime": "Sunday, April 26, 10:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Scream 7",
-    "showtime": "Monday, April 13, 9:00 pm",
+    "title": "In the Mouth of Madness 35mm FILM DTS Sound",
+    "showtime": "Monday, April 27, 10:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "In the Mouth of Madness 35mm FILM DTS Sound",
+    "showtime": "Tuesday, April 28, 10:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -792,20 +720,14 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Anaconda",
-    "showtime": "Sunday, April 12, 9:00 pm",
+    "title": "Scream 7",
+    "showtime": "Saturday, April 25, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Anaconda",
-    "showtime": "Sunday, April 19, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "28 Years Later the Bone Temple",
-    "showtime": "Tuesday, April 14, 9:00 pm",
+    "title": "Scream 7",
+    "showtime": "Monday, April 27, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -824,6 +746,12 @@
   {
     "title": "28 Years Later the Bone Temple",
     "showtime": "Thursday, April 23, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "28 Years Later the Bone Temple",
+    "showtime": "Tuesday, April 28, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
