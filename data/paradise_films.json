@@ -1,23 +1,5 @@
 [
   {
-    "title": "National Canadian Film Day: The Falls",
-    "showtime": "Today, Apr 15, 6:30 pm\nSOLD OUT",
-    "link": "https://paradiseonbloor.com/movies/national-canadian-film-day-the-falls/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Bunnylovr: Toronto Theatrical Premiere!",
-    "showtime": "Fri, Apr 17, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/bunnylovr-toronto-premiere/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Big Night: 30th Anniversary!",
-    "showtime": "Fri, Apr 17, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/big-night-30th-anniversary/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "The SpongeBob SquarePants Movie",
     "showtime": "Sun, Apr 19, 2:30 pm",
     "link": "https://paradiseonbloor.com/movies/the-spongebob-squarepants-movie/",
@@ -27,6 +9,12 @@
     "title": "Mermaid: Toronto Premiere!",
     "showtime": "Mon, Apr 20, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/mermaid-toronto-premiere/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Bunnylovr: Toronto Theatrical Premiere!",
+    "showtime": "Mon, Apr 20, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/bunnylovr-toronto-premiere/",
     "source": "Paradise Theatre"
   },
   {
