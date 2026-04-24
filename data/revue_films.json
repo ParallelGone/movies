@@ -217,12 +217,6 @@
   },
   {
     "title": "CLOSED FOR PRIVATE RENTAL",
-    "showtime": "Sun Apr 19, 12:30 PM",
-    "link": "https://revuecinema.ca/films/closed-for-private-rental/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "CLOSED FOR PRIVATE RENTAL",
     "showtime": "Wed May 6, 6:45 PM",
     "link": "https://revuecinema.ca/films/closed-for-private-rental/",
     "source": "Revue Cinema"
@@ -312,6 +306,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Highway To Hell: DUEL (1971)",
+    "showtime": "Sun Aug 23, 7:15 PM",
+    "link": "https://revuecinema.ca/films/highway-to-hell-duel-1971/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Dumpster Raccoon: ELVIRA: MISTRESS OF THE DARK (1988)",
     "showtime": "Sat Apr 25, 9:30 PM",
     "link": "https://revuecinema.ca/films/dumpster-raccoon-elvira-mistress-of-the-dark-1988/",
@@ -396,27 +396,15 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Bleak Week: GOOD NEIGHBORS (2010) - Q&A with filmmaker JACOB TIERNEY!",
+    "title": "Bleak Week: GOOD NEIGHBORS (2010) - Q&A with filmmaker JACOB TIERNEY & star EMILY HAMPSHIRE!",
     "showtime": "Sat Jun 6, 5:30 PM",
     "link": "https://revuecinema.ca/films/bleak-week-good-neighbors-2010-qa-with-filmmaker-jacob-tierney/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "PRINCE Tribute: GRAFFITI BRIDGE (1990)",
-    "showtime": "Sun Apr 19, 7:00 PM",
-    "link": "https://revuecinema.ca/films/prince-tribute-graffiti-bridge-1990/",
     "source": "Revue Cinema"
   },
   {
     "title": "Designing The Movies: HIS GIRL FRIDAY (1940) - New 4K Restoration!",
     "showtime": "Thu Apr 30, 6:45 PM",
     "link": "https://revuecinema.ca/films/designing-the-movies-his-girl-friday-1940-new-4k-restoration/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Revue Event: DEAD MOUNTAINEER'S HOTEL (1979) - Toronto Theatrical Premiere of New Restoration!",
-    "showtime": "Tue Apr 21, 9:30 PM",
-    "link": "https://revuecinema.ca/films/revue-event-dead-mountaineers-hotel-1979-toronto-theatrical-premiere-of-new-restoration/",
     "source": "Revue Cinema"
   },
   {
@@ -480,9 +468,21 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Terrible Threes: JAWS 3-D (1983) - Presented in 3D & 35mm!",
+    "showtime": "Fri Jul 31, 6:45 PM",
+    "link": "https://revuecinema.ca/films/terrible-threes-jaws-3-d-1983-presented-in-3d-35mm/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Hold Up: JOHN TUCKER MUST DIE (2006) - Presented on 35mm!",
     "showtime": "Thu Apr 23, 6:45 PM",
     "link": "https://revuecinema.ca/films/hold-up-john-tucker-must-die-2006-presented-on-35mm/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Highway To Hell: JOY RIDE - 25th Anniversary Screening!",
+    "showtime": "Mon Aug 24, 9:30 PM",
+    "link": "https://revuecinema.ca/films/highway-to-hell-joy-ride-25th-anniversary-screening/",
     "source": "Revue Cinema"
   },
   {
@@ -492,15 +492,15 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "The Black Nerds: JUST ANOTHER GIRL ON THE I.R.T (1993) - New 4K Restoration!",
-    "showtime": "Wed Apr 22, 6:45 PM",
-    "link": "https://revuecinema.ca/films/the-black-nerds-just-another-girl-on-the-i-r-t-1993-new-4k-restoration/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Bleak Week: LAST NIGHT (1998) - Q&A with director Don McKellar!",
     "showtime": "Mon Jun 1, 6:45 PM",
     "link": "https://revuecinema.ca/films/bleak-week-last-night-1998-qa-with-director-don-mckellar/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Designing The Movies: LETTY LYNTON (1932) - New Restoration!",
+    "showtime": "Thu Jul 9, 6:45 PM",
+    "link": "https://revuecinema.ca/films/designing-the-movies-letty-lynton-1932-new-restoration/",
     "source": "Revue Cinema"
   },
   {
@@ -522,12 +522,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Silent Revue: MAN WITH A MOVIE CAMERA (1929)",
-    "showtime": "Sun Apr 19, 4:00 PM",
-    "link": "https://revuecinema.ca/films/silent-revue-man-with-a-movie-camera-1929/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "The Midnight Revue: MANDY (2018)",
     "showtime": "Fri Jul 3, 11:59 PM",
     "link": "https://revuecinema.ca/films/the-midnight-revue-mandy-2018/",
@@ -543,6 +537,12 @@
     "title": "Revue Event: MEGALOPOLIS - : Live Cinema Edition hosted by Ben Petrie",
     "showtime": "Sat May 9, 9:30 PM",
     "link": "https://revuecinema.ca/films/revue-event-megalopolis-live-cinema-edition-hosted-by-ben-petrie/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Black Belt Cinema: MIAMI CONNECTION - Featuring A Live Performance by DRAGON SOUNDS!",
+    "showtime": "Sat Jul 18, 9:30 PM",
+    "link": "https://revuecinema.ca/films/black-belt-cinema-miami-connection-featuring-a-live-performance-by-dragon-sounds/",
     "source": "Revue Cinema"
   },
   {
@@ -667,14 +667,14 @@
   },
   {
     "title": "National Canadian Film Day & Revue Events: Nirvanna the Band the Show the Movie - PRESENTED ON 35MM!",
-    "showtime": "Sun Apr 19, 9:30 PM",
+    "showtime": "Sat May 2, 9:30 PM",
     "link": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/",
     "source": "Revue Cinema"
   },
   {
-    "title": "National Canadian Film Day & Revue Events: Nirvanna the Band the Show the Movie - PRESENTED ON 35MM!",
-    "showtime": "Sat May 2, 9:30 PM",
-    "link": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/",
+    "title": "Black Belt Cinema: ONCE UPON A TIME IN CHINA - 35th Anniversary Screening!",
+    "showtime": "Sat Jun 27, 9:30 PM",
+    "link": "https://revuecinema.ca/films/black-belt-cinema-once-upon-a-time-in-china-35th-anniversary-screening/",
     "source": "Revue Cinema"
   },
   {
@@ -699,18 +699,6 @@
     "title": "Anime At The Revue: PROMARE (2019)",
     "showtime": "Wed Jun 24, 9:30 PM",
     "link": "https://revuecinema.ca/films/anime-at-the-revue-promare-2019/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "PRINCE Tribute: PURPLE RAIN (1984) - New 4K Restoration!",
-    "showtime": "Tue Apr 21, 6:45 PM",
-    "link": "https://revuecinema.ca/films/drunken-cinema-purple-rain-40th-anniversary-screening/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "UnCAGED: RED ROCK WEST (1993)",
-    "showtime": "Wed Apr 22, 9:30 PM",
-    "link": "https://revuecinema.ca/films/uncaged-red-rock-west-1993/",
     "source": "Revue Cinema"
   },
   {
@@ -852,12 +840,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "420 Day Screening: REEFER MADNESS - 90th Anniversary Screening!",
-    "showtime": "Mon Apr 20, 4:20 PM",
-    "link": "https://revuecinema.ca/films/420-day-screening-reefer-madness-1938/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "48 Hour Film Horror Sci Fi Project - Toronto",
     "showtime": "Sat May 23, 9:30 PM",
     "link": "https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/",
@@ -891,12 +873,6 @@
     "title": "48 Hour Film Horror Sci Fi Project - Toronto",
     "showtime": "Sun Jun 7, 3:00 PM",
     "link": "https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "420 Day Screening: THE BIG LEBOWSKI (1998)",
-    "showtime": "Mon Apr 20, 6:30 PM",
-    "link": "https://revuecinema.ca/films/420-day-screening-the-big-lebowski-1998/",
     "source": "Revue Cinema"
   },
   {
@@ -996,6 +972,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Terrible Threes: THE MUMMY: TOMB OF THE DRAGON EMPEROR (2008)",
+    "showtime": "Sat Aug 8, 6:30 PM",
+    "link": "https://revuecinema.ca/films/terrible-threes-the-mummy-tomb-of-the-dragon-emperor-2008/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Bleak Week: PLAGUE DOGS (1982) - Toronto Theatrical Premiere of New Restoration!",
     "showtime": "Thu Jun 4, 6:45 PM",
     "link": "https://revuecinema.ca/films/bleak-week-plague-dogs-1982-toronto-theatrical-premiere-of-new-restoration/",
@@ -1029,6 +1011,12 @@
     "title": "Destination Love: THE TIME TRAVELER'S WIFE (2009)",
     "showtime": "Tue Jul 28, 9:30 PM",
     "link": "https://revuecinema.ca/films/destination-love-the-time-travelers-wife-2009/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "The Black Nerds: THE WATERMELON WOMAN - 30th Anniversary Screening!",
+    "showtime": "Wed Jun 17, 7:00 PM",
+    "link": "https://revuecinema.ca/films/the-black-nerds-the-watermelon-woman-30th-anniversary-screening/",
     "source": "Revue Cinema"
   },
   {
@@ -1068,9 +1056,9 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Psych-Out Cinema: CHEECH & CHONG'S UP IN SMOKE (1978) - 420 Day Screening!",
-    "showtime": "Mon Apr 20, 9:30 PM",
-    "link": "https://revuecinema.ca/films/psych-out-cinema-cheech-chongs-up-in-smoke-1978-420-day-screening/",
+    "title": "Psych-Out Cinema: TWELVE MONKEYS (1995)",
+    "showtime": "Wed Jun 17, 9:30 PM",
+    "link": "https://revuecinema.ca/films/psych-out-cinema-twelve-monkeys-1995/",
     "source": "Revue Cinema"
   },
   {
@@ -1125,6 +1113,12 @@
     "title": "Extraordinary Women: Early Hollywoodu2019s Highest-Paid Scriptwriter",
     "showtime": "Sun Apr 26, 12:30 PM",
     "link": "https://revuecinema.ca/films/extraordinary-women-early-hollywoods-highest-paid-scriptwriter/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Highway To Hell: WOLF CREEK (2005)",
+    "showtime": "Wed Aug 26, 9:30 PM",
+    "link": "https://revuecinema.ca/films/highway-to-hell-wolf-creek-2005/",
     "source": "Revue Cinema"
   },
   {

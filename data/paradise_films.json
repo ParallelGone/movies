@@ -1,43 +1,13 @@
 [
   {
-    "title": "Mermaid: Toronto Premiere!",
-    "showtime": "Today, Apr 20, 6:30 pm",
-    "link": "https://paradiseonbloor.com/movies/mermaid-toronto-premiere/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Bunnylovr: Toronto Theatrical Premiere!",
-    "showtime": "Today, Apr 20, 9:00 pm",
-    "link": "https://paradiseonbloor.com/movies/bunnylovr-toronto-premiere/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Soul Food",
-    "showtime": "Tue, Apr 21, 6:15 pm",
-    "link": "https://paradiseonbloor.com/movies/soul-food/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Female Trouble",
-    "showtime": "Wed, Apr 22, 7:30 pm",
-    "link": "https://paradiseonbloor.com/movies/female-trouble/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Nacho Libre feat. Live Wrestling Pre-show!",
-    "showtime": "Thu, Apr 23, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/nacho-libre-feat-live-wrestling-pre-show/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Mystic Pizza",
-    "showtime": "Fri, Apr 24, 6:00 pm",
+    "showtime": "Today, Apr 24, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/mystic-pizza/",
     "source": "Paradise Theatre"
   },
   {
     "title": "$POSITIONS",
-    "showtime": "Fri, Apr 24, 8:30 pm",
+    "showtime": "Today, Apr 24, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/positions/",
     "source": "Paradise Theatre"
   },
@@ -85,7 +55,7 @@
   },
   {
     "title": "Mac Barnett and Jon Klassen: Now I See Road Show",
-    "showtime": "Thu, Apr 30, 7:00 pm",
+    "showtime": "Thu, Apr 30, 7:00 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/special_events/now-i-see-road-show/",
     "source": "Paradise Theatre"
   },
@@ -99,6 +69,12 @@
     "title": "The Last Laugh",
     "showtime": "Sun, May 3, 2:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-last-laugh/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Blue Heron",
+    "showtime": "Sun, May 3, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/blue-heron/",
     "source": "Paradise Theatre"
   },
   {
