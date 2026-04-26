@@ -1,12 +1,6 @@
 [
   {
     "title": "GOAT",
-    "showtime": "Saturday, April 25, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "GOAT",
     "showtime": "Sunday, April 26, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -24,8 +18,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Zootopia 2",
-    "showtime": "Saturday, April 25, 1:15 pm",
+    "title": "GOAT",
+    "showtime": "Saturday, May 9, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -48,14 +42,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Palestine 36",
-    "showtime": "Friday, April 24, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Saturday, April 25, 3:00 pm",
+    "title": "Zootopia 2",
+    "showtime": "Saturday, May 9, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -133,13 +121,13 @@
   },
   {
     "title": "Palestine 36",
-    "showtime": "Friday, April 24, 7:00 pm",
+    "showtime": "Friday, May 8, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
     "title": "Palestine 36",
-    "showtime": "Saturday, April 25, 7:00 pm",
+    "showtime": "Saturday, May 9, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -216,32 +204,38 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Blue Trail",
-    "showtime": "Friday, April 24, 3:00 pm",
+    "title": "Palestine 36",
+    "showtime": "Friday, May 8, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Blue Trail",
-    "showtime": "Thursday, April 30, 3:00 pm",
+    "title": "Palestine 36",
+    "showtime": "Saturday, May 9, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Blue Trail",
-    "showtime": "Friday, May 1, 3:00 pm",
+    "title": "My Father's Shadow",
+    "showtime": "Sunday, April 26, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Blue Trail",
-    "showtime": "Thursday, May 7, 3:00 pm",
+    "title": "My Father's Shadow",
+    "showtime": "Tuesday, April 28, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pompei Below the Clouds",
-    "showtime": "Saturday, April 25, 3:00 pm",
+    "title": "My Father's Shadow",
+    "showtime": "Sunday, May 3, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "My Father's Shadow",
+    "showtime": "Tuesday, May 5, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -276,38 +270,32 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "My Father's Shadow",
-    "showtime": "Sunday, April 26, 3:00 pm",
+    "title": "Pompei Below the Clouds",
+    "showtime": "Saturday, May 9, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "My Father's Shadow",
-    "showtime": "Tuesday, April 28, 3:00 pm",
+    "title": "The Blue Trail",
+    "showtime": "Thursday, April 30, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "My Father's Shadow",
-    "showtime": "Sunday, May 3, 3:00 pm",
+    "title": "The Blue Trail",
+    "showtime": "Friday, May 1, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "My Father's Shadow",
-    "showtime": "Tuesday, May 5, 3:00 pm",
+    "title": "The Blue Trail",
+    "showtime": "Thursday, May 7, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Hamnet",
-    "showtime": "Friday, April 24, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hamnet",
-    "showtime": "Saturday, April 25, 5:00 pm",
+    "title": "The Blue Trail",
+    "showtime": "Friday, May 8, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -384,14 +372,14 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The AI Doc",
-    "showtime": "Friday, April 24, 5:15 pm",
+    "title": "Hamnet",
+    "showtime": "Friday, May 8, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The AI Doc",
-    "showtime": "Saturday, April 25, 5:15 pm",
+    "title": "Hamnet",
+    "showtime": "Saturday, May 9, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -468,14 +456,14 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Kontinental '25",
-    "showtime": "Friday, April 24, 7:15 pm",
+    "title": "The AI Doc",
+    "showtime": "Friday, May 8, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Kontinental '25",
-    "showtime": "Saturday, April 25, 7:15 pm",
+    "title": "The AI Doc",
+    "showtime": "Saturday, May 9, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -553,13 +541,13 @@
   },
   {
     "title": "Kontinental '25",
-    "showtime": "Friday, April 24, 1:15 pm",
+    "showtime": "Friday, May 8, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
     "title": "Kontinental '25",
-    "showtime": "Saturday, April 25, 1:15 pm",
+    "showtime": "Saturday, May 9, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -636,14 +624,14 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Ready or Not 2 Here I Come",
-    "showtime": "Friday, April 24, 9:00 pm",
+    "title": "Kontinental '25",
+    "showtime": "Friday, May 8, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Ready or Not 2 Here I Come",
-    "showtime": "Saturday, April 25, 9:00 pm",
+    "title": "Kontinental '25",
+    "showtime": "Saturday, May 9, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -720,26 +708,14 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Send Help",
-    "showtime": "Saturday, April 25, 9:00 pm",
+    "title": "Ready or Not 2 Here I Come",
+    "showtime": "Friday, May 8, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Send Help",
-    "showtime": "Wednesday, April 29, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Send Help",
-    "showtime": "Saturday, May 2, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Send Help",
-    "showtime": "Wednesday, May 6, 9:00 pm",
+    "title": "Ready or Not 2 Here I Come",
+    "showtime": "Saturday, May 9, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -780,6 +756,30 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "Send Help",
+    "showtime": "Wednesday, April 29, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Send Help",
+    "showtime": "Saturday, May 2, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Send Help",
+    "showtime": "Wednesday, May 6, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Send Help",
+    "showtime": "Saturday, May 9, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "Pillion",
     "showtime": "Thursday, April 30, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
@@ -788,18 +788,6 @@
   {
     "title": "Pillion",
     "showtime": "Thursday, May 7, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Killing Them Softly 35mm FILM Dolby Digital Sound",
-    "showtime": "Friday, April 24, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Killing Them Softly 35mm FILM Dolby Digital Sound",
-    "showtime": "Friday, May 1, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
