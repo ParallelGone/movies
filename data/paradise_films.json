@@ -1,23 +1,5 @@
 [
   {
-    "title": "Double Feature: The Lost World & King Kong",
-    "showtime": "Today, Apr 26, 1:00 pm",
-    "link": "https://paradiseonbloor.com/programs/double-feature-the-lost-world-jurassic-park/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "GoodFellas",
-    "showtime": "Mon, Apr 27, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/goodfellas/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "The Height of the Coconut Trees: Toronto Premiere!",
-    "showtime": "Wed, Apr 29, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/the-height-of-the-coconut-trees-toronto-premiere/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Tito: Toronto Premiere!",
     "showtime": "Wed, Apr 29, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/tito-toronto-premiere/",
@@ -54,9 +36,15 @@
     "source": "Paradise Theatre"
   },
   {
-    "title": "Double Feature: The Gold Diggers of 1933 & Lili",
+    "title": "Double Feature: Gold Diggers of 1933 & Lili",
     "showtime": "Sun, May 10, 1:30 pm",
     "link": "https://paradiseonbloor.com/programs/double-feature-the-gold-diggers-of-1933-lili/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Height of the Coconut Trees: Toronto Premiere!",
+    "showtime": "Wed, May 13, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-height-of-the-coconut-trees-toronto-premiere/",
     "source": "Paradise Theatre"
   },
   {
