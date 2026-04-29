@@ -1,7 +1,7 @@
 [
   {
     "title": "Tito: Toronto Premiere!",
-    "showtime": "Wed, Apr 29, 8:30 pm",
+    "showtime": "Today, Apr 29, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/tito-toronto-premiere/",
     "source": "Paradise Theatre"
   },
@@ -30,7 +30,13 @@
     "source": "Paradise Theatre"
   },
   {
-    "title": "Freaked",
+    "title": "Mile End Kicks",
+    "showtime": "Tue, May 5, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/mile-end-kicks/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Freaked: 4K Restoration!",
     "showtime": "Fri, May 8, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/freaked/",
     "source": "Paradise Theatre"
@@ -39,6 +45,12 @@
     "title": "Double Feature: Gold Diggers of 1933 & Lili",
     "showtime": "Sun, May 10, 1:30 pm",
     "link": "https://paradiseonbloor.com/programs/double-feature-the-gold-diggers-of-1933-lili/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Grey Gardens",
+    "showtime": "Sun, May 10, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/grey-gardens/",
     "source": "Paradise Theatre"
   },
   {
@@ -54,15 +66,123 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Close-Up",
+    "showtime": "Fri, May 15, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/close-up/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Mother Mary",
+    "showtime": "Sun, May 17, 3:15 pm",
+    "link": "https://paradiseonbloor.com/movies/mother-mary/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Le Bonheur",
+    "showtime": "Sun, May 17, 6:15 pm",
+    "link": "https://paradiseonbloor.com/movies/le-bonheur/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "My Fair Lady",
+    "showtime": "Mon, May 18, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/my-fair-lady/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Funeral Parade of Roses",
+    "showtime": "Tue, May 19, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/funeral-parade-of-roses/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Come Back to the 5 & Dime, Jimmy Dean, Jimmy Dean",
     "showtime": "Wed, May 20, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/come-back-to-the-5-dime-jimmy-dean-jimmy-dean/",
     "source": "Paradise Theatre"
   },
   {
+    "title": "Midsommar: Director’s Cut!",
+    "showtime": "Sat, May 23, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/midsommar-directors-cut/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Adaptation.",
+    "showtime": "Sun, May 24, 3:30 pm",
+    "link": "https://paradiseonbloor.com/movies/adaptation/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Marie Antoinette: 20th Anniversary!",
+    "showtime": "Sun, May 24, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/marie-antoinette-20th-anniversary/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Muscle Beach",
+    "showtime": "Sat, May 30, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/muscle-beach/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Sansho the Bailiff",
+    "showtime": "Sun, May 31, 2:30 pm",
+    "link": "https://paradiseonbloor.com/movies/sansho-the-bailiff/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "It Is Not the Homosexual Who Is Perverse, But the Society in Which He Lives",
+    "showtime": "Wed, Jun 3, 7:30 pm",
+    "link": "https://paradiseonbloor.com/movies/it-is-not-the-homosexual-who-is-perverse-but-the-society-in-which-he-lives/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "It",
+    "showtime": "Sun, Jun 7, 2:00 pm",
+    "link": "https://paradiseonbloor.com/movies/it-2/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Blackhat: Director’s Cut",
+    "showtime": "Mon, Jun 8, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/blackhat-directors-cut/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Beau Travail",
+    "showtime": "Tue, Jun 9, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/beau-travail/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Titane",
+    "showtime": "Wed, Jun 10, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/titane/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Double Feature: La Cage Aux Folles & Some Like It Hot",
+    "showtime": "Sun, Jun 14, 1:00 pm",
+    "link": "https://paradiseonbloor.com/programs/double-feature-la-cage-aux-folles-some-like-it-hot/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Gary Topp Presents Gerard Malanga",
-    "showtime": "Wed, Jun 24, 8:00 pm",
+    "showtime": "Wed, Jun 24, 8:00 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/special_events/gary-topp-presents-gerard-malanga/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "He’s a Woman, She’s a Man",
+    "showtime": "Thu, Jun 25, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/hes-a-woman-shes-a-man/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Bound",
+    "showtime": "Sun, Jun 28, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/bound/",
     "source": "Paradise Theatre"
   }
 ]
