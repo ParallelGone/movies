@@ -1,12 +1,6 @@
 [
   {
     "title": "Kontinental '25",
-    "showtime": "Wednesday, April 29, 7:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Kontinental '25",
     "showtime": "Thursday, April 30, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -85,7 +79,7 @@
   },
   {
     "title": "Kontinental '25",
-    "showtime": "Wednesday, April 29, 1:15 pm",
+    "showtime": "Wednesday, May 13, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,8 +162,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The AI Doc",
-    "showtime": "Wednesday, April 29, 5:15 pm",
+    "title": "Kontinental '25",
+    "showtime": "Wednesday, May 13, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -252,8 +246,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Palestine 36",
-    "showtime": "Wednesday, April 29, 3:00 pm",
+    "title": "The AI Doc",
+    "showtime": "Wednesday, May 13, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -337,7 +331,7 @@
   },
   {
     "title": "Palestine 36",
-    "showtime": "Wednesday, April 29, 7:00 pm",
+    "showtime": "Wednesday, May 13, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,8 +414,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pompei Below the Clouds",
-    "showtime": "Wednesday, April 29, 3:00 pm",
+    "title": "Palestine 36",
+    "showtime": "Wednesday, May 13, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -456,6 +450,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "Pompei Below the Clouds",
+    "showtime": "Wednesday, May 13, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "The Blue Trail",
     "showtime": "Thursday, April 30, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
@@ -476,12 +476,6 @@
   {
     "title": "The Blue Trail",
     "showtime": "Friday, May 8, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hamnet",
-    "showtime": "Wednesday, April 29, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -564,8 +558,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Ready or Not 2 Here I Come",
-    "showtime": "Wednesday, April 29, 9:00 pm",
+    "title": "Hamnet",
+    "showtime": "Wednesday, May 13, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -648,8 +642,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Send Help",
-    "showtime": "Wednesday, April 29, 9:00 pm",
+    "title": "Ready or Not 2 Here I Come",
+    "showtime": "Wednesday, May 13, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -668,6 +662,12 @@
   {
     "title": "Send Help",
     "showtime": "Saturday, May 9, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Send Help",
+    "showtime": "Wednesday, May 13, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },

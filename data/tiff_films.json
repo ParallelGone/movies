@@ -1,101 +1,5 @@
 [
   {
-    "title": "American Doctor",
-    "showtime": "Wednesday, April 29, 11:30AM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607730~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=4/29/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Birds of War",
-    "showtime": "Wednesday, April 29, 5:30PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607573~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=4/29/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Concrete Turned to Sand",
-    "showtime": "Wednesday, April 29, 1:45PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607577~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=4/29/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Erupcja - Pete Ohs",
-    "showtime": "Wednesday, April 29, 4:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEyOTQzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Kindergarten",
-    "showtime": "Wednesday, April 29, 2:15PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607593~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=4/29/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Maintenance Artist",
-    "showtime": "Wednesday, April 29, 2:30PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607734~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=4/29/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "My Foreign Land",
-    "showtime": "Wednesday, April 29, 8:15PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607600~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=4/29/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Saigon Story: Two Shootings in the Forest Kingdom",
-    "showtime": "Wednesday, April 29, 8:30PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607609~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=4/29/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Searching for Drug Peace",
-    "showtime": "Wednesday, April 29, 4:45PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607612~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=4/29/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Silent Flood",
-    "showtime": "Wednesday, April 29, 8:00PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607615~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=4/29/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Solar Shadow",
-    "showtime": "Wednesday, April 29, 2:00PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607738~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=4/29/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Stories for Sandro",
-    "showtime": "Wednesday, April 29, 7:45PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607739~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=4/29/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The 49th Year",
-    "showtime": "Wednesday, April 29, 5:15PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607565~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=4/29/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Christophers - Steven Soderbergh",
-    "showtime": "Wednesday, April 29, 6:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEyOTY0VDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Christophers - Steven Soderbergh",
-    "showtime": "Wednesday, April 29, 9:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkEyOTkxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "təm kʷaθ nan Namesake",
-    "showtime": "Wednesday, April 29, 5:00PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607740~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=4/29/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
     "title": "A Fox Under a Pink Moon",
     "showtime": "Thursday, April 30, 7:45PM",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607585~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=4/30/2026&",
@@ -745,6 +649,12 @@
   },
   {
     "title": "Omaha - Cole Webley",
+    "showtime": "Friday, May 8, 4:10PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NlkwODQxVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Omaha - Cole Webley",
     "showtime": "Friday, May 8, 6:20PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NlkwODYyVDM=",
     "source": "TIFF Bell Lightbox"
@@ -1083,6 +993,12 @@
     "title": "Mikey and Nicky - Elaine May",
     "showtime": "Tuesday, May 19, 6:30PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NlkxOTYzVDM=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Blue Heron - Sophy Romvari",
+    "showtime": "Wednesday, May 20, 8:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NlkyMDgwVDI=",
     "source": "TIFF Bell Lightbox"
   },
   {

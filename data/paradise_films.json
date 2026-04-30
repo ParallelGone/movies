@@ -1,17 +1,5 @@
 [
   {
-    "title": "Tito: Toronto Premiere!",
-    "showtime": "Today, Apr 29, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/tito-toronto-premiere/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Mac Barnett and Jon Klassen: Now I See Road Show",
-    "showtime": "Thu, Apr 30, 7:00 pm\nSOLD OUT",
-    "link": "https://paradiseonbloor.com/special_events/now-i-see-road-show/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Kahaani Cafe: Table# 7 – The Stories We Carry",
     "showtime": "Sat, May 2, 7:00 pm",
     "link": "https://paradiseonbloor.com/special_events/kahaani-cafe-table-7-the-stories-we-carry/",
@@ -120,6 +108,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Best Boy: Toronto Theatrical Premiere!",
+    "showtime": "Wed, May 27, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/best-boy-toronto-theatrical-premiere/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Muscle Beach",
     "showtime": "Sat, May 30, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/muscle-beach/",
@@ -165,6 +159,18 @@
     "title": "Double Feature: La Cage Aux Folles & Some Like It Hot",
     "showtime": "Sun, Jun 14, 1:00 pm",
     "link": "https://paradiseonbloor.com/programs/double-feature-la-cage-aux-folles-some-like-it-hot/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "CJ The X Lectures",
+    "showtime": "Sun, Jun 21, 2:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/cj-the-x-youre-not-god-i-am/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "CJ The X Lectures",
+    "showtime": "Sun, Jun 21, 7:30 pm",
+    "link": "https://paradiseonbloor.com/special_events/cj-the-x-youre-not-god-i-am/",
     "source": "Paradise Theatre"
   },
   {
