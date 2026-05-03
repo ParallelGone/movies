@@ -1,241 +1,103 @@
 [
   {
-    "title": "32 Meters",
-    "showtime": "Friday, May 1, 8:45PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607564~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "A Fox Under a Pink Moon",
-    "showtime": "Friday, May 1, 3:00PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607585~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
     "title": "Aanikoobijigan [ancestor/great-grandparent/great-grandchild]",
-    "showtime": "Friday, May 1, 7:45PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607729~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Ceremony",
-    "showtime": "Friday, May 1, 11:30AM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607575~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Elephants & Squirrels",
-    "showtime": "Friday, May 1, 5:00PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607582~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Fatna, a Woman Named Rachid",
-    "showtime": "Friday, May 1, 2:30PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607583~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Ghost in the Machine",
-    "showtime": "Friday, May 1, 1:30PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607586~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "House of Hope",
-    "showtime": "Friday, May 1, 10:30AM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607589~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "INDIVISUM: Legacies Adrift",
-    "showtime": "Friday, May 1, 5:30PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607732~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "My Father and Qaddafi",
-    "showtime": "Friday, May 1, 8:15PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607735~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Replica",
-    "showtime": "Friday, May 1, 4:45PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607607~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Christophers - Steven Soderbergh",
-    "showtime": "Friday, May 1, 12:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NlkwMUwzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Christophers - Steven Soderbergh",
-    "showtime": "Friday, May 1, 3:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NlkwMTMzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Christophers - Steven Soderbergh",
-    "showtime": "Friday, May 1, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NlkwMTYzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Christophers - Steven Soderbergh",
-    "showtime": "Friday, May 1, 9:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NlkwMTkwVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Delivery Line",
-    "showtime": "Friday, May 1, 11:45AM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607579~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Traces",
-    "showtime": "Friday, May 1, 8:30PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607622~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Truck Mama",
-    "showtime": "Friday, May 1, 5:45PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607741~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Vegapolis",
-    "showtime": "Friday, May 1, 1:45PM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607624~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Where the Waves Took Her",
-    "showtime": "Friday, May 1, 11:00AM",
-    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607629~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Aanikoobijigan [ancestor/great-grandparent/great-grandchild]",
-    "showtime": "Saturday, May 2, 10:30AM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607729~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Elephants & Squirrels",
-    "showtime": "Saturday, May 2, 2:00PM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607582~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Fatna, a Woman Named Rachid",
-    "showtime": "Saturday, May 2, 11:00AM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607583~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Gealtra",
-    "showtime": "Saturday, May 2, 2:45PM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607731~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Hex",
-    "showtime": "Saturday, May 2, 7:45PM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607588~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Les Habitants",
-    "showtime": "Saturday, May 2, 8:00PM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607596~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "My Father and Qaddafi",
-    "showtime": "Saturday, May 2, 11:45AM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607735~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Scarlet Girls",
-    "showtime": "Saturday, May 2, 5:30PM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607611~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Shorts Program: Lessons in Liberation",
-    "showtime": "Saturday, May 2, 2:15PM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607637~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "The Christophers - Steven Soderbergh",
-    "showtime": "Saturday, May 2, 12:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NlkwMkwzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Christophers - Steven Soderbergh",
-    "showtime": "Saturday, May 2, 3:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NlkwMjMxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Christophers - Steven Soderbergh",
-    "showtime": "Saturday, May 2, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NlkwMjYzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Christophers - Steven Soderbergh",
-    "showtime": "Saturday, May 2, 9:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NlkwMjkwVDU=",
+    "showtime": "Saturday, May 2",
+    "link": "https://tiff.net/events/the-christophers",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "The Seoul Guardians",
-    "showtime": "Saturday, May 2, 8:45PM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607614~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "To Hold a Mountain",
-    "showtime": "Saturday, May 2, 5:15PM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607620~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Traces",
-    "showtime": "Saturday, May 2, 1:30PM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607622~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Truck Mama",
-    "showtime": "Saturday, May 2, 11:15AM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607741~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Virtual Girlfriends",
-    "showtime": "Saturday, May 2, 8:30PM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607625~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "What Comes from Sitting in Silence?",
-    "showtime": "Saturday, May 2, 6:00PM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607627~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Who Is Still Alive",
-    "showtime": "Saturday, May 2, 4:30PM",
+    "showtime": "Saturday, May 2",
     "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607631~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
     "source": "TIFF Bell Lightbox"
   },
@@ -906,6 +768,24 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Doors Open 2026",
+    "showtime": "Saturday, May 23, 10:00AM",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfKzWKafYFtlj1O8BthiTRnrS1lI84UmNVXB0vsBGof4kkGWw/viewform",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Doors Open 2026",
+    "showtime": "Saturday, May 23, 10:00AM",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfKzWKafYFtlj1O8BthiTRnrS1lI84UmNVXB0vsBGof4kkGWw/viewform",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Doors Open 2026",
+    "showtime": "Saturday, May 23, 10:00AM",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfKzWKafYFtlj1O8BthiTRnrS1lI84UmNVXB0vsBGof4kkGWw/viewform",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "JEONJU Digital Project",
     "showtime": "Saturday, May 23, 3:00PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NlkyMzMwVDQ=",
@@ -924,6 +804,24 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Doors Open 2026",
+    "showtime": "Sunday, May 24, 10:00AM",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfKzWKafYFtlj1O8BthiTRnrS1lI84UmNVXB0vsBGof4kkGWw/viewform",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Doors Open 2026",
+    "showtime": "Sunday, May 24, 10:00AM",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfKzWKafYFtlj1O8BthiTRnrS1lI84UmNVXB0vsBGof4kkGWw/viewform",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Doors Open 2026",
+    "showtime": "Sunday, May 24, 10:00AM",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfKzWKafYFtlj1O8BthiTRnrS1lI84UmNVXB0vsBGof4kkGWw/viewform",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "Outside Noise",
     "showtime": "Sunday, May 24, 6:30PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NlkyNDYzVDQ=",
@@ -939,6 +837,126 @@
     "title": "Strange River - Jaume Claret Muxart",
     "showtime": "Thursday, May 28, 6:30PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NlkyODYzVDQ=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Aanikoobijigan [ancestor/great-grandparent/great-grandchild]",
+    "showtime": "Saturday, May 2, 10:30AM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607729~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Elephants & Squirrels",
+    "showtime": "Saturday, May 2, 2:00PM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607582~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Fatna, a Woman Named Rachid",
+    "showtime": "Saturday, May 2, 11:00AM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607583~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Gealtra",
+    "showtime": "Saturday, May 2, 2:45PM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607731~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Hex",
+    "showtime": "Saturday, May 2, 7:45PM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607588~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Les Habitants",
+    "showtime": "Saturday, May 2, 8:00PM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607596~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "My Father and Qaddafi",
+    "showtime": "Saturday, May 2, 11:45AM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607735~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Scarlet Girls",
+    "showtime": "Saturday, May 2, 5:30PM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607611~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Shorts Program: Lessons in Liberation",
+    "showtime": "Saturday, May 2, 2:15PM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607637~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "The Christophers - Steven Soderbergh",
+    "showtime": "Saturday, May 2, 12:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NlkwMkwzVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "The Christophers - Steven Soderbergh",
+    "showtime": "Saturday, May 2, 3:15PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NlkwMjMxVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "The Christophers - Steven Soderbergh",
+    "showtime": "Saturday, May 2, 6:30PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NlkwMjYzVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "The Christophers - Steven Soderbergh",
+    "showtime": "Saturday, May 2, 9:00PM",
+    "link": "https://am.ticketmaster.com/tiff/ism/NlkwMjkwVDU=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "The Seoul Guardians",
+    "showtime": "Saturday, May 2, 8:45PM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607614~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "To Hold a Mountain",
+    "showtime": "Saturday, May 2, 5:15PM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607620~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Traces",
+    "showtime": "Saturday, May 2, 1:30PM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607622~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Truck Mama",
+    "showtime": "Saturday, May 2, 11:15AM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607741~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/1/2026&",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Virtual Girlfriends",
+    "showtime": "Saturday, May 2, 8:30PM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607625~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "What Comes from Sitting in Silence?",
+    "showtime": "Saturday, May 2, 6:00PM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607627~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Who Is Still Alive",
+    "showtime": "Saturday, May 2, 4:30PM",
+    "link": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=607631~cd63fa6a-1569-492d-89ae-a73ea714567e&epguid=8a899708-1353-4894-a8d0-4aebf20f9cf7&mdy=5/2/2026&",
     "source": "TIFF Bell Lightbox"
   }
 ]
