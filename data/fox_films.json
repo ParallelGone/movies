@@ -1,53 +1,5 @@
 [
   {
-    "title": "Klassic Kidz: Muppet Treasure Island",
-    "showtime": "Sunday, May 3, 1:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=616364~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Klassic Kidz: Muppet Treasure Island",
-    "showtime": "Saturday, May 9, 12:45 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=616365~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Sunday, May 3, 3:45 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=618251~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Tuesday, May 5, 4:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=618252~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Wednesday, May 6, 3:50 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=618253~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Thursday, May 7, 6:30 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=618254~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Friday, May 8, 6:15 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=622955~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Zone: Stalker",
-    "showtime": "Sunday, May 3, 7:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=616360~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Blue Heron",
     "showtime": "Monday, May 4, 5:00 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=618271~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -75,6 +27,30 @@
     "title": "SOLD OUT – May the 4th: Rogue One: A Star Wars Story",
     "showtime": "Monday, May 4, 7:30 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=615053~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Palestine 36",
+    "showtime": "Tuesday, May 5, 4:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=618252~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Palestine 36",
+    "showtime": "Wednesday, May 6, 3:50 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=618253~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Palestine 36",
+    "showtime": "Thursday, May 7, 6:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=618254~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Palestine 36",
+    "showtime": "Friday, May 8, 6:15 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=622955~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
@@ -129,6 +105,12 @@
     "title": "Reel Drag: Bring It On",
     "showtime": "Friday, May 8, 9:30 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=615042~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Klassic Kidz: Muppet Treasure Island",
+    "showtime": "Saturday, May 9, 12:45 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=616365~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
