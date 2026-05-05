@@ -1,13 +1,13 @@
 [
   {
     "title": "Blue Heron",
-    "showtime": "Tue, May 5, 6:00 pm",
+    "showtime": "Today, May 5, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/blue-heron/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Mile End Kicks",
-    "showtime": "Tue, May 5, 8:30 pm",
+    "showtime": "Today, May 5, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/mile-end-kicks/",
     "source": "Paradise Theatre"
   },
@@ -60,6 +60,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "The Wizard of Oz",
+    "showtime": "Mon, May 18, 3:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-wizard-of-oz/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "My Fair Lady",
     "showtime": "Mon, May 18, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/my-fair-lady/",
@@ -75,6 +81,12 @@
     "title": "Come Back to the 5 & Dime, Jimmy Dean, Jimmy Dean",
     "showtime": "Wed, May 20, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/come-back-to-the-5-dime-jimmy-dean-jimmy-dean/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Lucid: Sneak Preview!",
+    "showtime": "Sat, May 23, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/lucid-sneak-preview/",
     "source": "Paradise Theatre"
   },
   {
@@ -102,15 +114,33 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Good Manners",
+    "showtime": "Wed, May 27, 9:15 pm",
+    "link": "https://paradiseonbloor.com/movies/good-manners/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "McClelland & Stewart Author Salon",
     "showtime": "Thu, May 28, 7:00 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/special_events/mcclelland-stewart-authors-salon/",
     "source": "Paradise Theatre"
   },
   {
+    "title": "Alice in Wonderland: 75th Anniversary!",
+    "showtime": "Sat, May 30, 3:45 pm",
+    "link": "https://paradiseonbloor.com/movies/alice-in-wonderland-75th-anniversary/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Muscle Beach",
     "showtime": "Sat, May 30, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/muscle-beach/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Rocky Horror Picture Show",
+    "showtime": "Sat, May 30, 9:30 pm",
+    "link": "https://paradiseonbloor.com/movies/the-rocky-horror-picture-show/",
     "source": "Paradise Theatre"
   },
   {
@@ -153,6 +183,12 @@
     "title": "Titane",
     "showtime": "Wed, Jun 10, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/titane/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Leviticus: Sneak Preview!",
+    "showtime": "Thu, Jun 11, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/leviticus-sneak-preview/",
     "source": "Paradise Theatre"
   },
   {
