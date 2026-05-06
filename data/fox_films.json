@@ -1,12 +1,6 @@
 [
   {
     "title": "Palestine 36",
-    "showtime": "Tuesday, May 5, 4:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=618252~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Palestine 36",
     "showtime": "Wednesday, May 6, 3:50 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=618253~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
@@ -21,30 +15,6 @@
     "title": "Palestine 36",
     "showtime": "Friday, May 8, 6:15 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=622955~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Blue Heron",
-    "showtime": "Tuesday, May 5, 7:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=618275~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Blue Heron",
-    "showtime": "Thursday, May 7, 4:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=618276~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Blue Heron",
-    "showtime": "Sunday, May 10, 6:45 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=622957~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Restoration: Nowhere",
-    "showtime": "Tuesday, May 5, 9:30 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=616410~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
@@ -63,6 +33,18 @@
     "title": "Mile End Kicks",
     "showtime": "Saturday, May 9, 6:40 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=622956~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Blue Heron",
+    "showtime": "Thursday, May 7, 4:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=618276~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Blue Heron",
+    "showtime": "Sunday, May 10, 6:45 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=622957~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
@@ -120,7 +102,7 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Cystic Fibrosis Canada Fundraiser: Ponyo (English Dubbed)",
+    "title": "Ponyo (English Dubbed)",
     "showtime": "Saturday, May 16, 1:20 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=622343~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
@@ -288,6 +270,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Meet Cute: Desert Hearts",
+    "showtime": "Thursday, June 4, 7:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624444~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Restoration: Trainspotting (30th Anniversary)",
     "showtime": "Friday, June 5, 9:30 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=619319~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -309,6 +297,30 @@
     "title": "grlish: She’s the Man",
     "showtime": "Saturday, June 6, 3:00 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=621409~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Limited Edition: Tank Girl",
+    "showtime": "Friday, June 12, 9:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624447~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Restoration: Amores Perros",
+    "showtime": "Sunday, June 14, 8:45 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624449~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Restoration: Amores Perros",
+    "showtime": "Wednesday, June 17, 6:15 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624450~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Meet Cute: Brokeback Mountain",
+    "showtime": "Wednesday, June 24, 6:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624442~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   }
 ]

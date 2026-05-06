@@ -1,17 +1,5 @@
 [
   {
-    "title": "Blue Heron",
-    "showtime": "Today, May 5, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/blue-heron/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Mile End Kicks",
-    "showtime": "Today, May 5, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/mile-end-kicks/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Freaked: 4K Restoration!",
     "showtime": "Fri, May 8, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/freaked/",
@@ -30,6 +18,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Blue Heron",
+    "showtime": "Sun, May 10, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/blue-heron/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "The Height of the Coconut Trees: Toronto Premiere!",
     "showtime": "Wed, May 13, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-height-of-the-coconut-trees-toronto-premiere/",
@@ -39,6 +33,12 @@
     "title": "Lockjaw",
     "showtime": "Wed, May 13, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/lockjaw/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Mile End Kicks",
+    "showtime": "Fri, May 15, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/mile-end-kicks/",
     "source": "Paradise Theatre"
   },
   {
@@ -108,6 +108,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Member Mondays: La Dolce Vita",
+    "showtime": "Mon, May 25, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/member-mondays-la-dolce-vita/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Best Boy: Toronto Theatrical Premiere!",
     "showtime": "Wed, May 27, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/best-boy-toronto-theatrical-premiere/",
@@ -153,6 +159,12 @@
     "title": "Young Female Playwright: Advanced Screening!",
     "showtime": "Mon, Jun 1, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/young-female-playwright-advanced-screening/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "You Can Play presents Let Us Play",
+    "showtime": "Tue, Jun 2, 7:30 pm",
+    "link": "https://paradiseonbloor.com/special_events/you-can-play-presents-let-us-play/",
     "source": "Paradise Theatre"
   },
   {
@@ -225,6 +237,12 @@
     "title": "Bound",
     "showtime": "Sun, Jun 28, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/bound/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Deadly Prey",
+    "showtime": "Mon, Jun 29, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/deadly-prey/",
     "source": "Paradise Theatre"
   }
 ]
