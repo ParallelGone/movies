@@ -1,17 +1,5 @@
 [
   {
-    "title": "Zootopia 2",
-    "showtime": "Saturday, May 9, 1:30pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Zootopia 2",
-    "showtime": "Saturday, May 16, 1:30pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
     "title": "Goat",
     "showtime": "Sunday, May 10, 1:30pm",
     "link": "http://kingswaymovies.ca/",
@@ -20,12 +8,6 @@
   {
     "title": "Goat",
     "showtime": "Sunday, May 17, 1:30pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
-    "showtime": "Saturday, May 9, 2:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -108,8 +90,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "You Me and Tuscany",
-    "showtime": "Saturday, May 9, 3:45 pm",
+    "title": "Hoppers",
+    "showtime": "Saturday, May 23, 2:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -193,7 +175,7 @@
   },
   {
     "title": "You Me and Tuscany",
-    "showtime": "Saturday, May 9, 7:00 pm",
+    "showtime": "Saturday, May 23, 3:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -276,38 +258,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Kontinental 25",
-    "showtime": "Saturday, May 9, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Kontinental 25",
-    "showtime": "Monday, May 11, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Kontinental 25",
-    "showtime": "Wednesday, May 13, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Kontinental 25",
-    "showtime": "Saturday, May 16, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Kontinental 25",
-    "showtime": "Monday, May 18, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Kontinental 25",
-    "showtime": "Wednesday, May 20, 5:15 pm",
+    "title": "You Me and Tuscany",
+    "showtime": "Saturday, May 23, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -360,32 +312,38 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The AI Doc Sart",
-    "showtime": "Monday, May 11, 5:30 pm",
+    "title": "Kontinental 25",
+    "showtime": "Monday, May 11, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The AI Doc Sart",
-    "showtime": "Wednesday, May 13, 5:30 pm",
+    "title": "Kontinental 25",
+    "showtime": "Wednesday, May 13, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The AI Doc Sart",
-    "showtime": "Monday, May 18, 5:30 pm",
+    "title": "Kontinental 25",
+    "showtime": "Saturday, May 16, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The AI Doc Sart",
-    "showtime": "Wednesday, May 20, 5:30 pm",
+    "title": "Kontinental 25",
+    "showtime": "Monday, May 18, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Art of Adventure",
-    "showtime": "Saturday, May 9, 3:45 pm",
+    "title": "Kontinental 25",
+    "showtime": "Wednesday, May 20, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Kontinental 25",
+    "showtime": "Saturday, May 23, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -469,7 +427,7 @@
   },
   {
     "title": "The Art of Adventure",
-    "showtime": "Saturday, May 9, 7:15 pm",
+    "showtime": "Saturday, May 23, 3:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -552,8 +510,32 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Lorne",
-    "showtime": "Saturday, May 9, 7:00 pm",
+    "title": "The Art of Adventure",
+    "showtime": "Saturday, May 23, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The AI Doc Sart",
+    "showtime": "Monday, May 11, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The AI Doc Sart",
+    "showtime": "Wednesday, May 13, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The AI Doc Sart",
+    "showtime": "Monday, May 18, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The AI Doc Sart",
+    "showtime": "Wednesday, May 20, 5:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -637,7 +619,7 @@
   },
   {
     "title": "Lorne",
-    "showtime": "Saturday, May 9, 3:15 pm",
+    "showtime": "Saturday, May 23, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -720,8 +702,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Starship Troopers 35mm Dolby Digital Sound",
-    "showtime": "Saturday, May 9, 8:45 pm",
+    "title": "Lorne",
+    "showtime": "Saturday, May 23, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -792,38 +774,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Ready or Not 2 Here I come",
-    "showtime": "Saturday, May 9, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Ready or Not 2 Here I come",
-    "showtime": "Monday, May 11, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Ready or Not 2 Here I come",
-    "showtime": "Wednesday, May 13, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Ready or Not 2 Here I come",
-    "showtime": "Saturday, May 16, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Ready or Not 2 Here I come",
-    "showtime": "Monday, May 18, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Ready or Not 2 Here I come",
-    "showtime": "Wednesday, May 20, 9:00 pm",
+    "title": "Starship Troopers 35mm Dolby Digital Sound",
+    "showtime": "Saturday, May 23, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -872,6 +824,42 @@
   {
     "title": "Send Help",
     "showtime": "Friday, May 22, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Ready or Not 2 Here I come",
+    "showtime": "Monday, May 11, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Ready or Not 2 Here I come",
+    "showtime": "Wednesday, May 13, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Ready or Not 2 Here I come",
+    "showtime": "Saturday, May 16, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Ready or Not 2 Here I come",
+    "showtime": "Monday, May 18, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Ready or Not 2 Here I come",
+    "showtime": "Wednesday, May 20, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Ready or Not 2 Here I come",
+    "showtime": "Saturday, May 23, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
