@@ -1,25 +1,7 @@
 [
   {
-    "title": "Double Feature: Gold Diggers of 1933 & Lili",
-    "showtime": "Today, May 10, 1:30 pm",
-    "link": "https://paradiseonbloor.com/programs/double-feature-the-gold-diggers-of-1933-lili/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Grey Gardens",
-    "showtime": "Today, May 10, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/grey-gardens/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Blue Heron",
-    "showtime": "Today, May 10, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/blue-heron/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "The Dais Presents: Your Attention Please",
-    "showtime": "Mon, May 11, 6:00 pm",
+    "showtime": "Today, May 11, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-dais-presents-your-attention-please/",
     "source": "Paradise Theatre"
   },
@@ -216,9 +198,21 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Maddie’s Secret",
+    "showtime": "Fri, Jun 12, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/maddies-secret/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Double Feature: La Cage Aux Folles & Some Like It Hot",
     "showtime": "Sun, Jun 14, 1:00 pm",
     "link": "https://paradiseonbloor.com/programs/double-feature-la-cage-aux-folles-some-like-it-hot/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Aloïse: 4K Restoration!",
+    "showtime": "Thu, Jun 18, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/aloise-4k-restoration/",
     "source": "Paradise Theatre"
   },
   {
