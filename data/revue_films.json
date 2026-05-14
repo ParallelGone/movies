@@ -114,12 +114,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "BLUE HERON",
-    "showtime": "Tue May 12, 9:30 PM",
-    "link": "https://revuecinema.ca/films/blue-heron/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Revue Event: BLUE VELVET - 40th Anniversary Screening!",
     "showtime": "Wed May 27, 9:30 PM",
     "link": "https://revuecinema.ca/films/heat-wave-blue-velvet-4k-restoration/",
@@ -378,12 +372,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Free Members-Only Screening: SECRET SCREENING!",
-    "showtime": "Tue May 12, 6:30 PM",
-    "link": "https://revuecinema.ca/films/free-members-only-screening-secret-screening/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Free Public Screening: TRAILER TRASH: FANG-TASTIC",
     "showtime": "Thu Jun 11, 9:30 PM",
     "link": "https://revuecinema.ca/films/free-public-screening-trailer-trash-fang-tastic/",
@@ -555,6 +543,12 @@
     "title": "Heat Wave: LONE STAR - 30th Anniversary Screening - Introduced by Emily Gagne",
     "showtime": "Wed Sep 2, 7:00 PM",
     "link": "https://revuecinema.ca/films/heat-wave-lone-star-30th-anniversary-screening-introduced-by-emily-gagne/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Revue Event: LUCID - With Directors In Attendance!",
+    "showtime": "Wed Jul 8, 9:30 PM",
+    "link": "https://revuecinema.ca/films/revue-event-lucid-with-directors-in-attendance/",
     "source": "Revue Cinema"
   },
   {
