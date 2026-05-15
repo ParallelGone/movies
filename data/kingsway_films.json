@@ -1,7 +1,169 @@
 [
   {
-    "title": "Hoppers",
-    "showtime": "Thursday, May 14, 2:00 pm",
+    "title": "Holy Days",
+    "showtime": "Friday, May 15, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Sunday, May 17, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Monday, May 18, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Tuesday, May 19, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Wednesday, May 20, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Thursday, May 21, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Friday, May 22, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Sunday, May 24, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Monday, May 25, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Tuesday, May 26, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Wednesday, May 27, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Thursday, May 28, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Friday, May 15, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Sunday, May 17, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Monday, May 18, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Tuesday, May 19, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Wednesday, May 20, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Thursday, May 21, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Friday, May 22, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Sunday, May 24, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Monday, May 25, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Tuesday, May 26, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Wednesday, May 27, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Thursday, May 28, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Zootopia 2",
+    "showtime": "Saturday, May 16, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Zootopia 2",
+    "showtime": "Saturday, May 23, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Goat",
+    "showtime": "Sunday, May 17, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Goat",
+    "showtime": "Sunday, May 24, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -84,632 +246,512 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "You Me and Tuscany",
-    "showtime": "Thursday, May 14, 3:45 pm",
+    "title": "Hoppers",
+    "showtime": "Thursday, May 28, 2:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "You Me and Tuscany",
-    "showtime": "Friday, May 15, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Saturday, May 16, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Sunday, May 17, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Monday, May 18, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Tuesday, May 19, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Wednesday, May 20, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Thursday, May 21, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Friday, May 22, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Saturday, May 23, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Sunday, May 24, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Monday, May 25, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Tuesday, May 26, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Wednesday, May 27, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Thursday, May 14, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Friday, May 15, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Saturday, May 16, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Sunday, May 17, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Monday, May 18, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Tuesday, May 19, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Wednesday, May 20, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Thursday, May 21, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Friday, May 22, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Saturday, May 23, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Sunday, May 24, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Monday, May 25, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Tuesday, May 26, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "You Me and Tuscany",
-    "showtime": "Wednesday, May 27, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Blue Trail",
-    "showtime": "Thursday, May 14, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Blue Trail",
-    "showtime": "Friday, May 15, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Blue Trail",
-    "showtime": "Sunday, May 17, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Blue Trail",
-    "showtime": "Tuesday, May 19, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Blue Trail",
-    "showtime": "Thursday, May 21, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Blue Trail",
-    "showtime": "Friday, May 22, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Blue Trail",
-    "showtime": "Sunday, May 24, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Blue Trail",
-    "showtime": "Tuesday, May 26, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Thursday, May 14, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Friday, May 15, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Saturday, May 16, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Sunday, May 17, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Monday, May 18, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Tuesday, May 19, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Wednesday, May 20, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Thursday, May 21, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Friday, May 22, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Saturday, May 23, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Sunday, May 24, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Monday, May 25, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Tuesday, May 26, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Wednesday, May 27, 3:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Thursday, May 14, 7:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Friday, May 15, 7:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Saturday, May 16, 7:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Sunday, May 17, 7:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Monday, May 18, 7:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Tuesday, May 19, 7:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Wednesday, May 20, 7:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Thursday, May 21, 7:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Friday, May 22, 7:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Saturday, May 23, 7:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Sunday, May 24, 7:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Monday, May 25, 7:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Tuesday, May 26, 7:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Art of Adventure",
-    "showtime": "Wednesday, May 27, 7:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
-    "showtime": "Thursday, May 14, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
-    "showtime": "Friday, May 15, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
-    "showtime": "Saturday, May 16, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
-    "showtime": "Sunday, May 17, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
-    "showtime": "Monday, May 18, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
-    "showtime": "Tuesday, May 19, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
-    "showtime": "Wednesday, May 20, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
-    "showtime": "Thursday, May 21, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
-    "showtime": "Friday, May 22, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
-    "showtime": "Saturday, May 23, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
-    "showtime": "Sunday, May 24, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
-    "showtime": "Monday, May 25, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
-    "showtime": "Tuesday, May 26, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
-    "showtime": "Wednesday, May 27, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
-    "showtime": "Thursday, May 14, 3:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Lorne",
+    "title": "Palestine 36",
     "showtime": "Friday, May 15, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Lorne",
+    "title": "Palestine 36",
     "showtime": "Saturday, May 16, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Lorne",
+    "title": "Palestine 36",
     "showtime": "Sunday, May 17, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Lorne",
+    "title": "Palestine 36",
     "showtime": "Monday, May 18, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Lorne",
+    "title": "Palestine 36",
     "showtime": "Tuesday, May 19, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Lorne",
+    "title": "Palestine 36",
     "showtime": "Wednesday, May 20, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Lorne",
+    "title": "Palestine 36",
     "showtime": "Thursday, May 21, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Lorne",
+    "title": "Palestine 36",
     "showtime": "Friday, May 22, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Lorne",
+    "title": "Palestine 36",
     "showtime": "Saturday, May 23, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Lorne",
+    "title": "Palestine 36",
     "showtime": "Sunday, May 24, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Lorne",
+    "title": "Palestine 36",
     "showtime": "Monday, May 25, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Lorne",
+    "title": "Palestine 36",
     "showtime": "Tuesday, May 26, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Lorne",
+    "title": "Palestine 36",
     "showtime": "Wednesday, May 27, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Starship Troopers 35mm Dolby Digital Sound",
-    "showtime": "Thursday, May 14, 8:45 pm",
+    "title": "Palestine 36",
+    "showtime": "Thursday, May 28, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Starship Troopers 35mm Dolby Digital Sound",
-    "showtime": "Saturday, May 16, 8:45 pm",
+    "title": "Palestine 36",
+    "showtime": "Friday, May 15, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Starship Troopers 35mm Dolby Digital Sound",
-    "showtime": "Sunday, May 17, 8:45 pm",
+    "title": "Palestine 36",
+    "showtime": "Saturday, May 16, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Starship Troopers 35mm Dolby Digital Sound",
-    "showtime": "Monday, May 18, 8:45 pm",
+    "title": "Palestine 36",
+    "showtime": "Sunday, May 17, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Starship Troopers 35mm Dolby Digital Sound",
-    "showtime": "Tuesday, May 19, 8:45 pm",
+    "title": "Palestine 36",
+    "showtime": "Monday, May 18, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Starship Troopers 35mm Dolby Digital Sound",
-    "showtime": "Wednesday, May 20, 8:45 pm",
+    "title": "Palestine 36",
+    "showtime": "Tuesday, May 19, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Starship Troopers 35mm Dolby Digital Sound",
-    "showtime": "Thursday, May 21, 8:45 pm",
+    "title": "Palestine 36",
+    "showtime": "Wednesday, May 20, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Starship Troopers 35mm Dolby Digital Sound",
-    "showtime": "Saturday, May 23, 8:45 pm",
+    "title": "Palestine 36",
+    "showtime": "Thursday, May 21, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Starship Troopers 35mm Dolby Digital Sound",
-    "showtime": "Sunday, May 24, 8:45 pm",
+    "title": "Palestine 36",
+    "showtime": "Friday, May 22, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Starship Troopers 35mm Dolby Digital Sound",
-    "showtime": "Monday, May 25, 8:45 pm",
+    "title": "Palestine 36",
+    "showtime": "Saturday, May 23, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Starship Troopers 35mm Dolby Digital Sound",
-    "showtime": "Tuesday, May 26, 8:45 pm",
+    "title": "Palestine 36",
+    "showtime": "Sunday, May 24, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Starship Troopers 35mm Dolby Digital Sound",
-    "showtime": "Wednesday, May 27, 8:45 pm",
+    "title": "Palestine 36",
+    "showtime": "Monday, May 25, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Send Help",
-    "showtime": "Thursday, May 14, 9:00 pm",
+    "title": "Palestine 36",
+    "showtime": "Tuesday, May 26, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Palestine 36",
+    "showtime": "Wednesday, May 27, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Palestine 36",
+    "showtime": "Thursday, May 28, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Friday, May 15, 3:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Saturday, May 16, 3:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Sunday, May 17, 3:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Monday, May 18, 3:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Tuesday, May 19, 3:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Wednesday, May 20, 3:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Thursday, May 21, 3:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Friday, May 22, 3:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Saturday, May 23, 3:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Sunday, May 24, 3:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Monday, May 25, 3:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Tuesday, May 26, 3:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Wednesday, May 27, 3:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Thursday, May 28, 3:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Friday, May 15, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Saturday, May 16, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Sunday, May 17, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Monday, May 18, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Tuesday, May 19, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Wednesday, May 20, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Thursday, May 21, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Friday, May 22, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Saturday, May 23, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Sunday, May 24, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Monday, May 25, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Tuesday, May 26, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Wednesday, May 27, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Thursday, May 28, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Lorne",
+    "showtime": "Friday, May 15, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Lorne",
+    "showtime": "Sunday, May 17, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Lorne",
+    "showtime": "Tuesday, May 19, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Lorne",
+    "showtime": "Thursday, May 21, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Lorne",
+    "showtime": "Friday, May 22, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Lorne",
+    "showtime": "Sunday, May 24, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Lorne",
+    "showtime": "Tuesday, May 26, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Lorne",
+    "showtime": "Thursday, May 28, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Blue Trail",
+    "showtime": "Saturday, May 16, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Blue Trail",
+    "showtime": "Saturday, May 23, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Kontinental 25",
+    "showtime": "Monday, May 18, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Kontinental 25",
+    "showtime": "Wednesday, May 20, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Kontinental 25",
+    "showtime": "Monday, May 25, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Kontinental 25",
+    "showtime": "Wednesday, May 27, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Art of Adventure",
+    "showtime": "Friday, May 15, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Art of Adventure",
+    "showtime": "Sunday, May 17, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Art of Adventure",
+    "showtime": "Tuesday, May 19, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Art of Adventure",
+    "showtime": "Thursday, May 21, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Art of Adventure",
+    "showtime": "Friday, May 22, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Art of Adventure",
+    "showtime": "Sunday, May 24, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Art of Adventure",
+    "showtime": "Tuesday, May 26, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Art of Adventure",
+    "showtime": "Thursday, May 28, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The AI Doc",
+    "showtime": "Saturday, May 16, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The AI Doc",
+    "showtime": "Monday, May 18, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The AI Doc",
+    "showtime": "Wednesday, May 20, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The AI Doc",
+    "showtime": "Saturday, May 23, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The AI Doc",
+    "showtime": "Monday, May 25, 5:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The AI Doc",
+    "showtime": "Wednesday, May 27, 5:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -721,19 +763,7 @@
   },
   {
     "title": "Send Help",
-    "showtime": "Sunday, May 17, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Send Help",
     "showtime": "Tuesday, May 19, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Send Help",
-    "showtime": "Thursday, May 21, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -745,13 +775,139 @@
   },
   {
     "title": "Send Help",
+    "showtime": "Tuesday, May 26, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Chronicles of Riddick 35mm FILM Dolby Digital Sound",
+    "showtime": "Saturday, May 16, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Chronicles of Riddick 35mm FILM Dolby Digital Sound",
+    "showtime": "Sunday, May 17, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Chronicles of Riddick 35mm FILM Dolby Digital Sound",
+    "showtime": "Monday, May 18, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Chronicles of Riddick 35mm FILM Dolby Digital Sound",
+    "showtime": "Tuesday, May 19, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Chronicles of Riddick 35mm FILM Dolby Digital Sound",
+    "showtime": "Wednesday, May 20, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Chronicles of Riddick 35mm FILM Dolby Digital Sound",
+    "showtime": "Thursday, May 21, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Chronicles of Riddick 35mm FILM Dolby Digital Sound",
+    "showtime": "Saturday, May 23, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Chronicles of Riddick 35mm FILM Dolby Digital Sound",
     "showtime": "Sunday, May 24, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Send Help",
+    "title": "The Chronicles of Riddick 35mm FILM Dolby Digital Sound",
+    "showtime": "Monday, May 25, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Chronicles of Riddick 35mm FILM Dolby Digital Sound",
     "showtime": "Tuesday, May 26, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Chronicles of Riddick 35mm FILM Dolby Digital Sound",
+    "showtime": "Wednesday, May 27, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Chronicles of Riddick 35mm FILM Dolby Digital Sound",
+    "showtime": "Thursday, May 28, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Little Lorraine",
+    "showtime": "Saturday, May 16, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Little Lorraine",
+    "showtime": "Monday, May 18, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Little Lorraine",
+    "showtime": "Wednesday, May 20, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Little Lorraine",
+    "showtime": "Saturday, May 23, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Little Lorraine",
+    "showtime": "Monday, May 25, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Little Lorraine",
+    "showtime": "Wednesday, May 27, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Ready or Not 2 Here I Come",
+    "showtime": "Sunday, May 17, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Ready or Not 2 Here I Come",
+    "showtime": "Thursday, May 21, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Ready or Not 2 Here I Come",
+    "showtime": "Sunday, May 24, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Ready or Not 2 Here I Come",
+    "showtime": "Thursday, May 28, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }

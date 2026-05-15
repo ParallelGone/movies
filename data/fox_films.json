@@ -1,29 +1,5 @@
 [
   {
-    "title": "Temporarily Closed For Screen Installation",
-    "showtime": "Monday, May 11, 12:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/temporarily-closed-for-screen-installment/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Temporarily Closed For Screen Installation",
-    "showtime": "Tuesday, May 12, 12:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/temporarily-closed-for-screen-installment/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Temporarily Closed For Screen Installation",
-    "showtime": "Wednesday, May 13, 12:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/temporarily-closed-for-screen-installment/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Temporarily Closed For Screen Installation",
-    "showtime": "Thursday, May 14, 12:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/temporarily-closed-for-screen-installment/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Holy Days",
     "showtime": "Friday, May 15, 4:00 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624583~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -33,12 +9,6 @@
     "title": "Holy Days",
     "showtime": "Monday, May 18, 1:30 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624584~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Holy Days",
-    "showtime": "Tuesday, May 19, 3:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624585~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
@@ -252,6 +222,72 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "I Love Boosters",
+    "showtime": "Friday, May 29, 3:15 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626306~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "I Love Boosters",
+    "showtime": "Friday, May 29, 9:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626307~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "I Love Boosters",
+    "showtime": "Saturday, May 30, 1:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626308~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "I Love Boosters",
+    "showtime": "Saturday, May 30, 9:45 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626309~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "I Love Boosters",
+    "showtime": "Sunday, May 31, 6:45 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626310~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "I Love Boosters",
+    "showtime": "Sunday, May 31, 9:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626311~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "I Love Boosters",
+    "showtime": "Monday, June 1, 6:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626312~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "I Love Boosters",
+    "showtime": "Tuesday, June 2, 9:15 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626313~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "I Love Boosters",
+    "showtime": "Wednesday, June 3, 9:15 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626314~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "I Love Boosters",
+    "showtime": "Thursday, June 4, 4:15 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626316~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "I Love Boosters",
+    "showtime": "Thursday, June 4, 9:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626317~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Restoration: Mysterious Skin",
     "showtime": "Friday, May 22, 9:30 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=619315~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -282,6 +318,66 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Project Hail Mary",
+    "showtime": "Tuesday, May 26, 3:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626300~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Project Hail Mary",
+    "showtime": "Wednesday, May 27, 3:15 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626301~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Project Hail Mary",
+    "showtime": "Friday, May 29, 6:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626302~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Project Hail Mary",
+    "showtime": "Monday, June 1, 8:45 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626303~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Project Hail Mary",
+    "showtime": "Tuesday, June 2, 2:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626304~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Project Hail Mary",
+    "showtime": "Wednesday, June 3, 2:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626305~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Silent Friend",
+    "showtime": "Saturday, May 30, 6:40 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626322~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Silent Friend",
+    "showtime": "Monday, June 1, 2:45 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626324~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Silent Friend",
+    "showtime": "Tuesday, June 2, 6:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626328~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Silent Friend",
+    "showtime": "Wednesday, June 3, 6:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626329~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Meet Cute: Desert Hearts",
     "showtime": "Thursday, June 4, 7:00 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624444~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -309,6 +405,12 @@
     "title": "grlish: She’s the Man",
     "showtime": "Saturday, June 6, 3:00 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=621409~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "But I’m a Cheerleader w/ Live Performance from BoylesqueTO",
+    "showtime": "Saturday, June 6, 9:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626429~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {

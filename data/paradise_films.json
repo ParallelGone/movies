@@ -1,13 +1,13 @@
 [
   {
     "title": "Mile End Kicks",
-    "showtime": "Fri, May 15, 6:00 pm",
+    "showtime": "Today, May 15, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/mile-end-kicks/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Close-Up",
-    "showtime": "Fri, May 15, 8:30 pm",
+    "showtime": "Today, May 15, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/close-up/",
     "source": "Paradise Theatre"
   },
@@ -132,6 +132,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Blue Film: Canadian Premiere!",
+    "showtime": "Sat, Jun 6, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/blue-film-canadian-premiere/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Score",
     "showtime": "Sat, Jun 6, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/score/",
@@ -174,7 +180,7 @@
     "source": "Paradise Theatre"
   },
   {
-    "title": "Aloïse: 4K Restoration!",
+    "title": "Aloïse & Qui donc a rêvé: 4K Restoration!",
     "showtime": "Thu, Jun 18, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/aloise-4k-restoration/",
     "source": "Paradise Theatre"
@@ -201,6 +207,12 @@
     "title": "He’s a Woman, She’s a Man",
     "showtime": "Thu, Jun 25, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/hes-a-woman-shes-a-man/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Double Feature: La Cage Aux Folles & Some Like It Hot",
+    "showtime": "Sun, Jun 28, 1:00 pm",
+    "link": "https://paradiseonbloor.com/programs/double-feature-la-cage-aux-folles-some-like-it-hot/",
     "source": "Paradise Theatre"
   },
   {
