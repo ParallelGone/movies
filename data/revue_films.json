@@ -158,7 +158,7 @@
   {
     "title": "BOB FOSSE u2013 MORE SMOKE PLEASE: CABARET (1972) - Presented on 35mm!",
     "showtime": "Sun Aug 9, 4:00 PM",
-    "link": "https://revuecinema.ca/films/dumpster-raccoon-cabaret-1972/",
+    "link": "https://revuecinema.ca/films/cabaret-1972/",
     "source": "Revue Cinema"
   },
   {
@@ -177,12 +177,6 @@
     "title": "Anime At The Revue: CASTLE IN THE SKY - 40th Anniversary Screening!",
     "showtime": "Sun Jul 5, 1:00 PM",
     "link": "https://revuecinema.ca/films/anime-at-the-revue-castle-in-the-sky-40th-anniversary-screening/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Paid In Sweat: CHALLENGERS - With Live Burlesque Performance!",
-    "showtime": "Thu May 14, 6:15 PM",
-    "link": "https://revuecinema.ca/films/paid-in-sweat-challengers-with-live-burlesque-performance/",
     "source": "Revue Cinema"
   },
   {
@@ -540,6 +534,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Don't Be So Political: KINGDOM OF HEAVEN - Director's Cut",
+    "showtime": "Sun Jul 19, 7:00 PM",
+    "link": "https://revuecinema.ca/films/dont-be-so-political-kingdom-of-heaven-directors-cut/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Bleak Week: LAST NIGHT (1998) - Q&A with director Don McKellar!",
     "showtime": "Mon Jun 1, 6:45 PM",
     "link": "https://revuecinema.ca/films/bleak-week-last-night-1998-qa-with-director-don-mckellar/",
@@ -768,12 +768,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Nightmare Alley: SERPENT'S PATH (1998) + CHIME -  A Kiyoshi Kurosawa Double Feature!",
-    "showtime": "Thu May 14, 9:30 PM",
-    "link": "https://revuecinema.ca/films/nightmare-alley-serpents-path-1998-chime-a-kiyoshi-kurosawa-double-feature/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Fang-Tastic Weekend: SHADOW OF THE VAMPIRE (2000) - on 35mm - Presented by Silent Revue!",
     "showtime": "Sun Jun 14, 4:00 PM",
     "link": "https://revuecinema.ca/films/fang-tastic-weekend-shadow-of-the-vampire-2000-on-35mm-presented-by-silent-revue/",
@@ -834,9 +828,39 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "STOP! THAT! TRAIN!",
+    "showtime": "Fri Jul 3, 9:00 PM",
+    "link": "https://revuecinema.ca/films/stop-that-train/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "STOP! THAT! TRAIN!",
+    "showtime": "Sat Jul 4, 3:30 PM",
+    "link": "https://revuecinema.ca/films/stop-that-train/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "STOP! THAT! TRAIN!",
+    "showtime": "Sun Jul 5, 7:00 PM",
+    "link": "https://revuecinema.ca/films/stop-that-train/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "STOP! THAT! TRAIN!",
+    "showtime": "Mon Jul 6, 9:30 PM",
+    "link": "https://revuecinema.ca/films/stop-that-train/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Bleak Week: SUDDEN FURY (1975) - Q&A with director Brian Damude",
     "showtime": "Tue Jun 2, 9:30 PM",
     "link": "https://revuecinema.ca/films/bleak-week-sudden-fury-1975-qa-with-director-brian-damude/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Nightmare Alley: SUNSHINE (2007)",
+    "showtime": "Thu Aug 6, 9:30 PM",
+    "link": "https://revuecinema.ca/films/nightmare-alley-sunshine-2007/",
     "source": "Revue Cinema"
   },
   {
@@ -855,6 +879,18 @@
     "title": "Anime At The Revue: TEKKONKINKREET (2006) - New 4K Restoration!",
     "showtime": "Tue Aug 18, 9:30 PM",
     "link": "https://revuecinema.ca/films/anime-at-the-revue-tekkonkinkreet-2006-new-4k-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "35 on 35: TERMINATOR 2: JUDGMENT DAY (1991) - Presented on 35mm!",
+    "showtime": "Fri Aug 28, 9:30 PM",
+    "link": "https://revuecinema.ca/films/the-perfect-date-terminator-2-judgment-day-1991-presented-on-35mm/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "35 on 35: TERMINATOR 2: JUDGMENT DAY (1991) - Presented on 35mm!",
+    "showtime": "Sat Aug 29, 6:15 PM",
+    "link": "https://revuecinema.ca/films/the-perfect-date-terminator-2-judgment-day-1991-presented-on-35mm/",
     "source": "Revue Cinema"
   },
   {
@@ -931,31 +967,43 @@
   },
   {
     "title": "THE INVITE",
-    "showtime": "Fri Jul 10, 6:45 PM",
+    "showtime": "Fri Jul 17, 4:00 PM",
     "link": "https://revuecinema.ca/films/the-invite/",
     "source": "Revue Cinema"
   },
   {
     "title": "THE INVITE",
-    "showtime": "Sun Jul 12, 3:00 PM",
+    "showtime": "Sat Jul 18, 1:00 PM",
     "link": "https://revuecinema.ca/films/the-invite/",
     "source": "Revue Cinema"
   },
   {
     "title": "THE INVITE",
-    "showtime": "Mon Jul 13, 6:45 PM",
+    "showtime": "Sun Jul 19, 4:00 PM",
     "link": "https://revuecinema.ca/films/the-invite/",
     "source": "Revue Cinema"
   },
   {
     "title": "THE INVITE",
-    "showtime": "Tue Jul 14, 9:30 PM",
+    "showtime": "Mon Jul 20, 6:45 PM",
     "link": "https://revuecinema.ca/films/the-invite/",
     "source": "Revue Cinema"
   },
   {
     "title": "THE INVITE",
-    "showtime": "Thu Jul 16, 9:30 PM",
+    "showtime": "Tue Jul 21, 6:45 PM",
+    "link": "https://revuecinema.ca/films/the-invite/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "THE INVITE",
+    "showtime": "Wed Jul 22, 4:00 PM",
+    "link": "https://revuecinema.ca/films/the-invite/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "THE INVITE",
+    "showtime": "Thu Jul 23, 9:30 PM",
     "link": "https://revuecinema.ca/films/the-invite/",
     "source": "Revue Cinema"
   },

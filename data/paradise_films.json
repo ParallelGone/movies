@@ -1,17 +1,5 @@
 [
   {
-    "title": "Mile End Kicks",
-    "showtime": "Today, May 15, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/mile-end-kicks/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Close-Up",
-    "showtime": "Today, May 15, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/close-up/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Mother Mary",
     "showtime": "Sun, May 17, 3:15 pm",
     "link": "https://paradiseonbloor.com/movies/mother-mary/",
@@ -216,6 +204,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "West End Phoenix: Kids in the Hall: Brain Candy",
+    "showtime": "Sun, Jun 28, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/west-end-phoenix-kids-in-the-hall-brain-candy/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Bound",
     "showtime": "Sun, Jun 28, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/bound/",
@@ -225,6 +219,18 @@
     "title": "Deadly Prey",
     "showtime": "Mon, Jun 29, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/deadly-prey/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Double Feature: Lola & The Umbrellas of Cherbourg",
+    "showtime": "Sun, Jul 12, 1:30 pm",
+    "link": "https://paradiseonbloor.com/programs/double-feature-lola-the-umbrellas-of-cherbourg/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Double Feature: The War of the Worlds & The Day the Earth Caught Fire",
+    "showtime": "Sun, Aug 16, 1:30 pm",
+    "link": "https://paradiseonbloor.com/programs/double-feature-the-war-of-the-worlds-the-day-the-earth-caught-fire/",
     "source": "Paradise Theatre"
   }
 ]

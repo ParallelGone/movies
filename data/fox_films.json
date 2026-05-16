@@ -1,59 +1,5 @@
 [
   {
-    "title": "Holy Days",
-    "showtime": "Friday, May 15, 4:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624583~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Holy Days",
-    "showtime": "Monday, May 18, 1:30 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624584~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Mile End Kicks",
-    "showtime": "Friday, May 15, 6:40 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624574~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Mile End Kicks",
-    "showtime": "Sunday, May 17, 6:40 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624575~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Mile End Kicks",
-    "showtime": "Monday, May 18, 6:40 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624576~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Mile End Kicks",
-    "showtime": "Thursday, May 21, 3:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624577~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Mile End Kicks",
-    "showtime": "Monday, May 25, 9:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=625073~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Hokum",
-    "showtime": "Friday, May 15, 9:20 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624588~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Hokum",
-    "showtime": "Sunday, May 17, 9:20 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624589~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Ponyo (English Dubbed)",
     "showtime": "Saturday, May 16, 1:20 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=622343~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -129,6 +75,42 @@
     "title": "The Art of Adventure",
     "showtime": "Wednesday, May 20, 4:20 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624580~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Mile End Kicks",
+    "showtime": "Sunday, May 17, 6:40 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624575~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Mile End Kicks",
+    "showtime": "Monday, May 18, 6:40 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624576~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Mile End Kicks",
+    "showtime": "Thursday, May 21, 3:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624577~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Mile End Kicks",
+    "showtime": "Monday, May 25, 9:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=625073~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Hokum",
+    "showtime": "Sunday, May 17, 9:20 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624589~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Holy Days",
+    "showtime": "Monday, May 18, 1:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624584~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
