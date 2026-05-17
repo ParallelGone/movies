@@ -1,17 +1,5 @@
 [
   {
-    "title": "Zootopia 2",
-    "showtime": "Saturday, May 16, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Zootopia 2",
-    "showtime": "Saturday, May 23, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
     "title": "Goat",
     "showtime": "Sunday, May 17, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
@@ -20,12 +8,6 @@
   {
     "title": "Goat",
     "showtime": "Sunday, May 24, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
-    "showtime": "Saturday, May 16, 2:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -108,8 +90,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Palestine 36",
-    "showtime": "Saturday, May 16, 3:15 pm",
+    "title": "Hoppers",
+    "showtime": "Saturday, May 30, 2:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -193,7 +175,7 @@
   },
   {
     "title": "Palestine 36",
-    "showtime": "Saturday, May 16, 7:00 pm",
+    "showtime": "Saturday, May 30, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -276,8 +258,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "You Me and Tuscany",
-    "showtime": "Saturday, May 16, 3:45 pm",
+    "title": "Palestine 36",
+    "showtime": "Saturday, May 30, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -361,7 +343,7 @@
   },
   {
     "title": "You Me and Tuscany",
-    "showtime": "Saturday, May 16, 7:15 pm",
+    "showtime": "Saturday, May 30, 3:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -444,14 +426,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Blue Trail",
-    "showtime": "Saturday, May 16, 5:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Blue Trail",
-    "showtime": "Saturday, May 23, 5:15 pm",
+    "title": "You Me and Tuscany",
+    "showtime": "Saturday, May 30, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -572,42 +548,6 @@
   {
     "title": "The Art of Adventure",
     "showtime": "Friday, May 29, 5:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The AI Doc",
-    "showtime": "Saturday, May 16, 5:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The AI Doc",
-    "showtime": "Monday, May 18, 5:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The AI Doc",
-    "showtime": "Wednesday, May 20, 5:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The AI Doc",
-    "showtime": "Saturday, May 23, 5:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The AI Doc",
-    "showtime": "Monday, May 25, 5:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The AI Doc",
-    "showtime": "Wednesday, May 27, 5:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -757,12 +697,6 @@
   },
   {
     "title": "The Chronicles of Riddick 35mm FILM Dolby Digital Sound",
-    "showtime": "Saturday, May 16, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Chronicles of Riddick 35mm FILM Dolby Digital Sound",
     "showtime": "Sunday, May 17, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -828,8 +762,32 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Little Lorraine",
-    "showtime": "Saturday, May 16, 9:00 pm",
+    "title": "The Chronicles of Riddick 35mm FILM Dolby Digital Sound",
+    "showtime": "Saturday, May 30, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Ready or Not 2 Here I Come",
+    "showtime": "Sunday, May 17, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Ready or Not 2 Here I Come",
+    "showtime": "Thursday, May 21, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Ready or Not 2 Here I Come",
+    "showtime": "Sunday, May 24, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Ready or Not 2 Here I Come",
+    "showtime": "Thursday, May 28, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -864,26 +822,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Ready or Not 2 Here I Come",
-    "showtime": "Sunday, May 17, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Ready or Not 2 Here I Come",
-    "showtime": "Thursday, May 21, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Ready or Not 2 Here I Come",
-    "showtime": "Sunday, May 24, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Ready or Not 2 Here I Come",
-    "showtime": "Thursday, May 28, 9:00 pm",
+    "title": "Little Lorraine",
+    "showtime": "Saturday, May 30, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },

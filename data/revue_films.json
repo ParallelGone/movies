@@ -36,12 +36,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Drunken Cinema: ADVENTURES IN BABYSITTING (1987) - Presented in 35mm!",
-    "showtime": "Fri May 15, 9:30 PM",
-    "link": "https://revuecinema.ca/films/drunken-cinema-adventures-in-babysitting-1987-presented-in-35mm/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "BOB FOSSE u2013 MORE SMOKE PLEASE: ALL THAT JAZZ (1979) - 4K Restoration!",
     "showtime": "Sun Aug 30, 4:00 PM",
     "link": "https://revuecinema.ca/films/bob-fosse-more-smoke-please-all-that-jazz-1979-4k-restoration/",
@@ -105,6 +99,12 @@
     "title": "Designing The Movies: BIG NIGHT - 30th Anniversary Screening!",
     "showtime": "Thu May 21, 6:30 PM",
     "link": "https://revuecinema.ca/films/designing-the-movies-big-night-30th-anniversary-screening/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Canada Day Screening: BLACKBERRY (2023)",
+    "showtime": "Wed Jul 1, 1:00 PM",
+    "link": "https://revuecinema.ca/films/canada-day-screening-blackberry-2023/",
     "source": "Revue Cinema"
   },
   {
@@ -462,6 +462,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Bob Huber Memorial Screening: RED DESERT (1964) - Free Screening!",
+    "showtime": "Mon Jun 15, 6:15 PM",
+    "link": "https://revuecinema.ca/films/bob-huber-memorial-screening-red-desert-1964-free-screening/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Heat Wave: IN THE CUT (2003) - Presented on 35mm - Introduced by Steven Landry",
     "showtime": "Tue Jun 30, 6:45 PM",
     "link": "https://revuecinema.ca/films/heat-wave-in-the-cut-2003-presented-on-35mm-introduced-by-steven-landry/",
@@ -615,12 +621,6 @@
     "title": "Neon Dreams: MIAMI VICE - 20th Anniversary Screening!",
     "showtime": "Fri Jul 24, 9:30 PM",
     "link": "https://revuecinema.ca/films/neon-dreams-miami-vice-20th-anniversary-screening/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "MILE END KICKS",
-    "showtime": "Fri May 15, 6:45 PM",
-    "link": "https://revuecinema.ca/films/mile-end-kicks/",
     "source": "Revue Cinema"
   },
   {
@@ -1161,6 +1161,12 @@
     "title": "Bleak Week: WATERSHIP DOWN (1978) - with pre-recorded intro by Guillermo del Toro!",
     "showtime": "Wed Jun 3, 7:00 PM",
     "link": "https://revuecinema.ca/films/bleak-week-watership-down-1978-with-pre-recorded-intro-by-guillermo-del-toro/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Paid In Sweat: WHIP IT (2009) - Presented on 35mm!",
+    "showtime": "Thu Jul 23, 6:30 PM",
+    "link": "https://revuecinema.ca/films/paid-in-sweat-whip-it-2009-presented-on-35mm/",
     "source": "Revue Cinema"
   },
   {
