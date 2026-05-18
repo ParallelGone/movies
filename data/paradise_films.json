@@ -1,26 +1,20 @@
 [
   {
-    "title": "Mother Mary",
-    "showtime": "Today, May 17, 3:15 pm",
-    "link": "https://paradiseonbloor.com/movies/mother-mary/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Le Bonheur",
-    "showtime": "Today, May 17, 6:15 pm",
-    "link": "https://paradiseonbloor.com/movies/le-bonheur/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "The Wizard of Oz",
-    "showtime": "Mon, May 18, 3:00 pm",
+    "showtime": "Today, May 18, 3:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-wizard-of-oz/",
     "source": "Paradise Theatre"
   },
   {
     "title": "My Fair Lady",
-    "showtime": "Mon, May 18, 6:00 pm",
+    "showtime": "Today, May 18, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/my-fair-lady/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Mother Mary",
+    "showtime": "Tue, May 19, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/mother-mary/",
     "source": "Paradise Theatre"
   },
   {
