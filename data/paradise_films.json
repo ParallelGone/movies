@@ -1,25 +1,13 @@
 [
   {
-    "title": "The Wizard of Oz",
-    "showtime": "Today, May 18, 3:00 pm",
-    "link": "https://paradiseonbloor.com/movies/the-wizard-of-oz/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "My Fair Lady",
-    "showtime": "Today, May 18, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/my-fair-lady/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Mother Mary",
-    "showtime": "Tue, May 19, 6:00 pm",
+    "showtime": "Today, May 19, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/mother-mary/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Funeral Parade of Roses",
-    "showtime": "Tue, May 19, 9:00 pm",
+    "showtime": "Today, May 19, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/funeral-parade-of-roses/",
     "source": "Paradise Theatre"
   },
@@ -27,6 +15,12 @@
     "title": "Come Back to the 5 & Dime, Jimmy Dean, Jimmy Dean",
     "showtime": "Wed, May 20, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/come-back-to-the-5-dime-jimmy-dean-jimmy-dean/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Chai & Jam: Season 5",
+    "showtime": "Thu, May 21, 8:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/chai-jam-season-5/",
     "source": "Paradise Theatre"
   },
   {
@@ -189,6 +183,18 @@
     "title": "He’s a Woman, She’s a Man",
     "showtime": "Thu, Jun 25, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/hes-a-woman-shes-a-man/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Candlelight: A Tribute to Frank Sinatra & Nat King Cole",
+    "showtime": "Fri, Jun 26, 6:30 pm",
+    "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-frank-sinatra-nat-king-cole/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Candlelight: A Tribute to Frank Sinatra & Nat King Cole",
+    "showtime": "Fri, Jun 26, 8:45 pm",
+    "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-frank-sinatra-nat-king-cole/",
     "source": "Paradise Theatre"
   },
   {
