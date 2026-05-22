@@ -1,23 +1,5 @@
 [
   {
-    "title": "Mile End Kicks",
-    "showtime": "Thursday, May 21, 3:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624577~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Mile End Kicks",
-    "showtime": "Monday, May 25, 9:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=625073~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Interactive: 10 Things I Hate About You",
-    "showtime": "Thursday, May 21, 7:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=619309~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "I Love Boosters",
     "showtime": "Friday, May 22, 4:00 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=619447~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -132,6 +114,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Mile End Kicks",
+    "showtime": "Monday, May 25, 9:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=625073~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Project Hail Mary",
     "showtime": "Tuesday, May 26, 3:00 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=626300~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -234,6 +222,18 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Restoration: T2: Judgement Day (35th Anniversary)",
+    "showtime": "Saturday, June 13, 6:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=627896~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Restoration: T2: Judgement Day (35th Anniversary)",
+    "showtime": "Monday, June 15, 9:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=627897~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Restoration: Amores Perros",
     "showtime": "Sunday, June 14, 8:45 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624449~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -243,6 +243,24 @@
     "title": "Restoration: Amores Perros",
     "showtime": "Wednesday, June 17, 6:15 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=624450~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Sing-Along! Grease",
+    "showtime": "Thursday, June 18, 6:45 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=627892~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Restoration: Boogie Nights",
+    "showtime": "Friday, June 19, 6:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=627899~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Restoration: Boogie Nights",
+    "showtime": "Monday, June 22, 7:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=627900~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {

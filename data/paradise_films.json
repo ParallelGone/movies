@@ -1,5 +1,17 @@
 [
   {
+    "title": "Blue Heron",
+    "showtime": "Today, May 22, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/blue-heron/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Mile End Kicks",
+    "showtime": "Today, May 22, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/mile-end-kicks/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Lucid: Sneak Preview!",
     "showtime": "Sat, May 23, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/lucid-sneak-preview/",
@@ -150,6 +162,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Fire",
+    "showtime": "Mon, Jun 22, 7:30 pm",
+    "link": "https://paradiseonbloor.com/movies/fire/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Gary Topp Presents Gerard Malanga",
     "showtime": "Wed, Jun 24, 8:00 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/special_events/gary-topp-presents-gerard-malanga/",
@@ -195,6 +213,12 @@
     "title": "Deadly Prey",
     "showtime": "Mon, Jun 29, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/deadly-prey/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Tracy and Martina: Goin’ Out West",
+    "showtime": "Fri, Jul 10, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/tracy-and-martina-goin-out-west/",
     "source": "Paradise Theatre"
   },
   {
