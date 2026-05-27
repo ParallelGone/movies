@@ -1,12 +1,6 @@
 [
   {
     "title": "Little Lorraine",
-    "showtime": "Tuesday, May 26, 1:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Little Lorraine",
     "showtime": "Wednesday, May 27, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -73,7 +67,7 @@
   },
   {
     "title": "Little Lorraine",
-    "showtime": "Tuesday, May 26, 8:45 pm",
+    "showtime": "Tuesday, June 9, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -144,8 +138,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Marama",
-    "showtime": "Tuesday, May 26, 1:00 pm",
+    "title": "Little Lorraine",
+    "showtime": "Tuesday, June 9, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -229,7 +223,7 @@
   },
   {
     "title": "Marama",
-    "showtime": "Tuesday, May 26, 9:25 pm",
+    "showtime": "Tuesday, June 9, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -312,8 +306,44 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Art of Adventure",
-    "showtime": "Tuesday, May 26, 3:00 pm",
+    "title": "Marama",
+    "showtime": "Tuesday, June 9, 9:25 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Palestine 36",
+    "showtime": "Wednesday, May 27, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Palestine 36",
+    "showtime": "Saturday, May 30, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Palestine 36",
+    "showtime": "Monday, June 1, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Palestine 36",
+    "showtime": "Wednesday, June 3, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Palestine 36",
+    "showtime": "Saturday, June 6, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Palestine 36",
+    "showtime": "Monday, June 8, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -360,44 +390,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Palestine 36",
-    "showtime": "Wednesday, May 27, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Saturday, May 30, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Monday, June 1, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Wednesday, June 3, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Saturday, June 6, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Monday, June 8, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Billie Eilish Hot Me Hard and Soft",
-    "showtime": "Tuesday, May 26, 5:00 pm",
+    "title": "The Art of Adventure",
+    "showtime": "Tuesday, June 9, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -480,8 +474,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Holy Days",
-    "showtime": "Tuesday, May 26, 5:15 pm",
+    "title": "Billie Eilish Hot Me Hard and Soft",
+    "showtime": "Tuesday, June 9, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -564,8 +558,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "You Me and Tuscany",
-    "showtime": "Tuesday, May 26, 7:00 pm",
+    "title": "Holy Days",
+    "showtime": "Tuesday, June 9, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -648,8 +642,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Wizard of the Kremlin",
-    "showtime": "Tuesday, May 26, 8:45 pm",
+    "title": "You Me and Tuscany",
+    "showtime": "Tuesday, June 9, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -692,6 +686,12 @@
   {
     "title": "The Wizard of the Kremlin",
     "showtime": "Sunday, June 7, 8:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Wizard of the Kremlin",
+    "showtime": "Tuesday, June 9, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }

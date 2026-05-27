@@ -84,12 +84,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Destination Love: BETTER THAN CHOCOLATE (1999)",
-    "showtime": "Mon May 25, 9:30 PM",
-    "link": "https://revuecinema.ca/films/destination-love-better-than-chocolate-1999/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Canada Day Screening: BLACKBERRY (2023)",
     "showtime": "Wed Jul 1, 1:00 PM",
     "link": "https://revuecinema.ca/films/canada-day-screening-blackberry-2023/",
@@ -411,6 +405,12 @@
     "title": "I LOVE BOOSTERS",
     "showtime": "Thu Jun 25, 3:30 PM",
     "link": "https://revuecinema.ca/films/i-love-boosters/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Revue Event: I SAW THE TV GLOW (2024)",
+    "showtime": "Fri Jul 17, 9:30 PM",
+    "link": "https://revuecinema.ca/films/revue-event-i-saw-the-tv-glow-2024/",
     "source": "Revue Cinema"
   },
   {
@@ -805,12 +805,6 @@
   },
   {
     "title": "48 Hour Film Horror Sci Fi Project - Toronto",
-    "showtime": "Mon May 25, 6:30 PM",
-    "link": "https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "48 Hour Film Horror Sci Fi Project - Toronto",
     "showtime": "Tue May 26, 6:30 PM",
     "link": "https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/",
     "source": "Revue Cinema"
@@ -1053,6 +1047,12 @@
     "title": "Bleak Week: WATERSHIP DOWN (1978) - with pre-recorded intro by Guillermo del Toro!",
     "showtime": "Wed Jun 3, 7:00 PM",
     "link": "https://revuecinema.ca/films/bleak-week-watership-down-1978-with-pre-recorded-intro-by-guillermo-del-toro/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Revue Event: WE'RE ALL GOING TO THE WORLD'S FAIR (2022)",
+    "showtime": "Fri Jul 17, 7:00 PM",
+    "link": "https://revuecinema.ca/films/revue-event-were-all-going-to-the-worlds-fair-2022/",
     "source": "Revue Cinema"
   },
   {
