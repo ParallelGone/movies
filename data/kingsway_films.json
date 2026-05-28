@@ -1,12 +1,6 @@
 [
   {
     "title": "Little Lorraine",
-    "showtime": "Wednesday, May 27, 1:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Little Lorraine",
     "showtime": "Thursday, May 28, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -73,7 +67,7 @@
   },
   {
     "title": "Little Lorraine",
-    "showtime": "Wednesday, May 27, 8:45 pm",
+    "showtime": "Wednesday, June 10, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -144,8 +138,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Marama",
-    "showtime": "Wednesday, May 27, 1:00 pm",
+    "title": "Little Lorraine",
+    "showtime": "Wednesday, June 10, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -229,7 +223,7 @@
   },
   {
     "title": "Marama",
-    "showtime": "Wednesday, May 27, 9:25 pm",
+    "showtime": "Wednesday, June 10, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -312,38 +306,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Palestine 36",
-    "showtime": "Wednesday, May 27, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Saturday, May 30, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Monday, June 1, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Wednesday, June 3, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Saturday, June 6, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Palestine 36",
-    "showtime": "Monday, June 8, 3:00 pm",
+    "title": "Marama",
+    "showtime": "Wednesday, June 10, 9:25 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -392,12 +356,6 @@
   {
     "title": "The Art of Adventure",
     "showtime": "Tuesday, June 9, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Billie Eilish Hot Me Hard and Soft",
-    "showtime": "Wednesday, May 27, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -480,8 +438,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Holy Days",
-    "showtime": "Wednesday, May 27, 5:15 pm",
+    "title": "Billie Eilish Hot Me Hard and Soft",
+    "showtime": "Wednesday, June 10, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -564,8 +522,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "You Me and Tuscany",
-    "showtime": "Wednesday, May 27, 7:00 pm",
+    "title": "Holy Days",
+    "showtime": "Wednesday, June 10, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -644,6 +602,12 @@
   {
     "title": "You Me and Tuscany",
     "showtime": "Tuesday, June 9, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "You Me and Tuscany",
+    "showtime": "Wednesday, June 10, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
