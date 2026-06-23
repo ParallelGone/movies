@@ -1,12 +1,6 @@
 [
   {
     "title": "The Sheep Detectives",
-    "showtime": "Monday, June 22, 4:15 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=632424~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Sheep Detectives",
     "showtime": "Tuesday, June 23, 3:45 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=632425~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
@@ -30,12 +24,6 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Restoration: Boogie Nights",
-    "showtime": "Monday, June 22, 7:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=627900~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Aki",
     "showtime": "Tuesday, June 23, 6:30 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=630674~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -51,12 +39,6 @@
     "title": "Another World",
     "showtime": "Wednesday, June 24, 9:30 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=629114~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Pressure",
-    "showtime": "Sunday, June 21, 6:15 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=632429~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
@@ -240,6 +222,24 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Peter Asher: Everywhere Man",
+    "showtime": "Sunday, July 5, 2:50 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=635610~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Peter Asher: Everywhere Man",
+    "showtime": "Wednesday, July 8, 6:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=635611~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Peter Asher: Everywhere Man",
+    "showtime": "Thursday, July 9, 3:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=635612~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "A Scanner Darkly",
     "showtime": "Sunday, July 5, 9:00 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=633294~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -342,7 +342,7 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Son of Sara: Volume with Director Q&A",
+    "title": "Son of Sara with Director Q&A",
     "showtime": "Saturday, July 11, 9:15 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=634913~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
@@ -351,6 +351,30 @@
     "title": "Unsubculture presents: Baraka",
     "showtime": "Monday, July 13, 6:30 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=631227~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Sleepaway Camp",
+    "showtime": "Tuesday, July 14, 9:15 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=635597~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Rose of Nevada",
+    "showtime": "Friday, July 17, 9:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=635614~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Rose of Nevada",
+    "showtime": "Sunday, July 19, 9:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=635615~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Rose of Nevada",
+    "showtime": "Monday, July 20, 9:15 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=635616~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
@@ -372,6 +396,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "The Iron Giant",
+    "showtime": "Saturday, July 25, 1:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=635617~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Zardoz",
     "showtime": "Sunday, July 26, 9:00 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=634986~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -381,6 +411,12 @@
     "title": "Zardoz",
     "showtime": "Wednesday, July 29, 9:15 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=634987~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Sing-Along! Grease",
+    "showtime": "Wednesday, July 29, 6:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=635595~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
