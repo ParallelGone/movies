@@ -1,98 +1,20 @@
 [
   {
+    "title": "Forbidden Planet",
+    "showtime": "Today, Jul 3, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/forbidden-planet/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Maddie’s Secret",
-    "showtime": "Today, Jun 23, 6:00 pm",
+    "showtime": "Today, Jul 3, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/maddies-secret/",
     "source": "Paradise Theatre"
   },
   {
-    "title": "Onda Nova (New Wave): 4K Restoration!",
-    "showtime": "Today, Jun 23, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/onda-nova-new-wave-4k-restoration/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Gary Topp Presents Gerard Malanga",
-    "showtime": "Wed, Jun 24, 8:00 pm\nSOLD OUT",
-    "link": "https://paradiseonbloor.com/special_events/gary-topp-presents-gerard-malanga/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "He’s a Woman, She’s a Man",
-    "showtime": "Thu, Jun 25, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/hes-a-woman-shes-a-man/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "The Rocky Horror Picture Show",
-    "showtime": "Thu, Jun 25, 9:30 pm",
-    "link": "https://paradiseonbloor.com/movies/the-rocky-horror-picture-show/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Candlelight: A Tribute to Frank Sinatra & Nat King Cole",
-    "showtime": "Fri, Jun 26, 6:30 pm",
-    "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-frank-sinatra-nat-king-cole/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Candlelight: A Tribute to Frank Sinatra & Nat King Cole",
-    "showtime": "Fri, Jun 26, 8:45 pm",
-    "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-frank-sinatra-nat-king-cole/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Offside: 20th Anniversary!",
-    "showtime": "Sat, Jun 27, 3:00 pm",
-    "link": "https://paradiseonbloor.com/movies/offside-20th-anniversary/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Scotland Made the World",
-    "showtime": "Sat, Jun 27, 8:00 pm",
-    "link": "https://paradiseonbloor.com/special_events/scotland-made-the-world/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Double Feature: La Cage Aux Folles & Some Like It Hot",
-    "showtime": "Sun, Jun 28, 1:00 pm",
-    "link": "https://paradiseonbloor.com/programs/double-feature-la-cage-aux-folles-some-like-it-hot/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "West End Phoenix: Kids in the Hall: Brain Candy",
-    "showtime": "Sun, Jun 28, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/west-end-phoenix-kids-in-the-hall-brain-candy/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Bound",
-    "showtime": "Sun, Jun 28, 9:00 pm",
-    "link": "https://paradiseonbloor.com/movies/bound/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Escape to Victory",
-    "showtime": "Mon, Jun 29, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/escape-to-victory/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Deadly Prey",
-    "showtime": "Mon, Jun 29, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/deadly-prey/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "The Fly: 40th Anniversary!",
-    "showtime": "Wed, Jul 1, 7:00 pm",
-    "link": "https://paradiseonbloor.com/movies/the-fly-40th-anniversary/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Forbidden Planet",
-    "showtime": "Fri, Jul 3, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/forbidden-planet/",
+    "title": "Camp",
+    "showtime": "Sat, Jul 4, 4:30 pm",
+    "link": "https://paradiseonbloor.com/movies/camp/",
     "source": "Paradise Theatre"
   },
   {
@@ -102,15 +24,51 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Two Seasons, Two Strangers",
+    "showtime": "Sun, Jul 5, 3:00 pm",
+    "link": "https://paradiseonbloor.com/movies/two-seasons-two-strangers/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "A.I. Artificial Intelligence: 25th Anniversary!",
+    "showtime": "Sun, Jul 5, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/a-i-artificial-intelligence-25th-anniversary/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "AntiDiva: The Carole Pope Confessions",
+    "showtime": "Mon, Jul 6, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/antidiva-the-carole-pope-confessions/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Mikey and Nicky: 50th Anniversary!",
+    "showtime": "Wed, Jul 8, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/mikey-and-nicky-50th-anniversary/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Silent Running",
     "showtime": "Thu, Jul 9, 6:15 pm",
     "link": "https://paradiseonbloor.com/movies/silent-running/",
     "source": "Paradise Theatre"
   },
   {
+    "title": "Portal to Hell",
+    "showtime": "Thu, Jul 9, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/portal-to-hell/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Tracy and Martina: Goin’ Out West",
     "showtime": "Fri, Jul 10, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/tracy-and-martina-goin-out-west/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Romería",
+    "showtime": "Sat, Jul 11, 3:00 pm",
+    "link": "https://paradiseonbloor.com/movies/romeria/",
     "source": "Paradise Theatre"
   },
   {
@@ -132,6 +90,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Toronto Apartment",
+    "showtime": "Wed, Jul 15, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/toronto-apartment/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Thelma & Louise",
     "showtime": "Fri, Jul 17, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/thelma-louise/",
@@ -144,6 +108,18 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "WALL·E",
+    "showtime": "Sat, Jul 18, 2:30 pm",
+    "link": "https://paradiseonbloor.com/movies/wall%c2%b7e/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Rose of Nevada",
+    "showtime": "Sat, Jul 18, 5:30 pm",
+    "link": "https://paradiseonbloor.com/movies/rose-of-nevada/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "True Romance",
     "showtime": "Sat, Jul 18, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/true-romance/",
@@ -153,6 +129,12 @@
     "title": "The Right Stuff",
     "showtime": "Sun, Jul 19, 2:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-right-stuff/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "A Litany for Survival: The Life and Work of Audre Lorde",
+    "showtime": "Sun, Jul 19, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/a-litany-for-survival-the-life-and-work-of-audre-lorde/",
     "source": "Paradise Theatre"
   },
   {
@@ -174,9 +156,33 @@
     "source": "Paradise Theatre"
   },
   {
-    "title": "For All Mankind + A Trip to the Man",
+    "title": "Take Care of My Cat: 25th Anniversary!",
+    "showtime": "Mon, Jul 27, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/take-care-of-my-cat-25th-anniversary/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Invite",
+    "showtime": "Mon, Jul 27, 8:45 pm",
+    "link": "https://paradiseonbloor.com/movies/the-invite/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "For All Mankind + A Trip to the Moon",
     "showtime": "Tue, Jul 28, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/for-all-mankind/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Stolen Kingdom",
+    "showtime": "Wed, Jul 29, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/stolen-kingdom/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Malina: 4K Restoration!",
+    "showtime": "Tue, Aug 11, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/malina-4k-restoration/",
     "source": "Paradise Theatre"
   },
   {
