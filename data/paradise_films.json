@@ -1,25 +1,13 @@
 [
   {
-    "title": "Forbidden Planet",
-    "showtime": "Today, Jul 3, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/forbidden-planet/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Maddie’s Secret",
-    "showtime": "Today, Jul 3, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/maddies-secret/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Camp",
-    "showtime": "Sat, Jul 4, 4:30 pm",
+    "showtime": "Today, Jul 4, 4:30 pm",
     "link": "https://paradiseonbloor.com/movies/camp/",
     "source": "Paradise Theatre"
   },
   {
     "title": "2001: A Space Odyssey",
-    "showtime": "Sat, Jul 4, 7:15 pm",
+    "showtime": "Today, Jul 4, 7:15 pm",
     "link": "https://paradiseonbloor.com/movies/2001-a-space-odyssey/",
     "source": "Paradise Theatre"
   },
@@ -93,6 +81,12 @@
     "title": "Toronto Apartment",
     "showtime": "Wed, Jul 15, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/toronto-apartment/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Rez Ball",
+    "showtime": "Thu, Jul 16, 7:00 pm\nOC",
+    "link": "https://paradiseonbloor.com/movies/rez-ball/",
     "source": "Paradise Theatre"
   },
   {
@@ -177,6 +171,12 @@
     "title": "Stolen Kingdom",
     "showtime": "Wed, Jul 29, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/stolen-kingdom/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Pecker",
+    "showtime": "Mon, Aug 10, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/pecker/",
     "source": "Paradise Theatre"
   },
   {
