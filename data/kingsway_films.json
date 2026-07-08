@@ -1,12 +1,6 @@
 [
   {
     "title": "The Devil Wears Prada 2",
-    "showtime": "Tuesday, July 7, 1:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Devil Wears Prada 2",
     "showtime": "Wednesday, July 8, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -85,7 +79,7 @@
   },
   {
     "title": "The Devil Wears Prada 2",
-    "showtime": "Tuesday, July 7, 7:00 pm",
+    "showtime": "Tuesday, July 21, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,8 +162,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Super Mario Galazy Movie",
-    "showtime": "Tuesday, July 7, 1:30 pm",
+    "title": "The Devil Wears Prada 2",
+    "showtime": "Tuesday, July 21, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -216,6 +210,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "The Super Mario Galazy Movie",
+    "showtime": "Tuesday, July 21, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "Hopprs",
     "showtime": "Wednesday, July 8, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
@@ -248,12 +248,6 @@
   {
     "title": "Hopprs",
     "showtime": "Monday, July 20, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Tuesday, July 7, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -337,7 +331,7 @@
   },
   {
     "title": "Michael",
-    "showtime": "Tuesday, July 7, 7:00 pm",
+    "showtime": "Tuesday, July 21, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,8 +414,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Bread Winner",
-    "showtime": "Tuesday, July 7, 3:10 pm",
+    "title": "Michael",
+    "showtime": "Tuesday, July 21, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -456,6 +450,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "The Bread Winner",
+    "showtime": "Tuesday, July 21, 3:10 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "Little Lorraine",
     "showtime": "Wednesday, July 8, 3:10 pm",
     "link": "http://kingswaymovies.ca/",
@@ -476,12 +476,6 @@
   {
     "title": "Little Lorraine",
     "showtime": "Sunday, July 19, 3:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Pressure",
-    "showtime": "Tuesday, July 7, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -564,8 +558,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Misan Harriman Shoot the People",
-    "showtime": "Tuesday, July 7, 5:25 pm",
+    "title": "Pressure",
+    "showtime": "Tuesday, July 21, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -648,8 +642,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Girls Like Girls",
-    "showtime": "Tuesday, July 7, 9:05 pm",
+    "title": "Misan Harriman Shoot the People",
+    "showtime": "Tuesday, July 21, 5:25 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -732,8 +726,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Scary Movie 2026",
-    "showtime": "Tuesday, July 7, 9:05 pm",
+    "title": "Girls Like Girls",
+    "showtime": "Tuesday, July 21, 9:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -816,8 +810,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Furious",
-    "showtime": "Tuesday, July 7, 10:35 pm",
+    "title": "Scary Movie 2026",
+    "showtime": "Tuesday, July 21, 9:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -896,6 +890,12 @@
   {
     "title": "The Furious",
     "showtime": "Monday, July 20, 10:35 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Furious",
+    "showtime": "Tuesday, July 21, 10:35 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
