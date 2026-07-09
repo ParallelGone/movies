@@ -1,19 +1,13 @@
 [
   {
-    "title": "Two Seasons, Two Strangers",
-    "showtime": "Today, Jul 8, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/two-seasons-two-strangers/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Silent Running",
-    "showtime": "Thu, Jul 9, 6:15 pm",
+    "showtime": "Today, Jul 9, 6:15 pm",
     "link": "https://paradiseonbloor.com/movies/silent-running/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Portal to Hell: Toronto Premiere!",
-    "showtime": "Thu, Jul 9, 9:00 pm",
+    "showtime": "Today, Jul 9, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/portal-to-hell/",
     "source": "Paradise Theatre"
   },
@@ -156,6 +150,18 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Candlelight: A Tribute to Pink Floyd",
+    "showtime": "Sat, Aug 8, 6:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-pink-floyd/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Candlelight: Sounds of Soul",
+    "showtime": "Sat, Aug 8, 8:45 pm",
+    "link": "https://paradiseonbloor.com/special_events/candlelight-sounds-of-soul/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Pecker",
     "showtime": "Mon, Aug 10, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/pecker/",
@@ -180,9 +186,27 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Candlelight: A Tribute to Frank Sinatra & Nat King Cole",
+    "showtime": "Sat, Aug 15, 6:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-frank-sinatra-nat-king-cole/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Candlelight: A Tribute to Frank Sinatra & Nat King Cole",
+    "showtime": "Sat, Aug 15, 8:45 pm",
+    "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-frank-sinatra-nat-king-cole/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Double Feature: The War of the Worlds & The Day the Earth Caught Fire",
     "showtime": "Sun, Aug 16, 1:30 pm",
     "link": "https://paradiseonbloor.com/programs/double-feature-the-war-of-the-worlds-the-day-the-earth-caught-fire/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Chris Higgins LIVE!",
+    "showtime": "Fri, Aug 21, 7:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/chris-higgins-live/",
     "source": "Paradise Theatre"
   },
   {
@@ -195,6 +219,12 @@
     "title": "Set It Off",
     "showtime": "Wed, Aug 26, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/set-it-off/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Rheostatics Perform Great Lake Suites",
+    "showtime": "Sat, Sep 12, 8:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/rheostatics-perform-great-lake-suites/",
     "source": "Paradise Theatre"
   }
 ]
