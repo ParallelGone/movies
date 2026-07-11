@@ -1,19 +1,13 @@
 [
   {
-    "title": "Tracy and Martina: Goin’ Out West",
-    "showtime": "Today, Jul 10, 7:00 pm",
-    "link": "https://paradiseonbloor.com/movies/tracy-and-martina-goin-out-west/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Romería",
-    "showtime": "Sat, Jul 11, 3:00 pm",
+    "showtime": "Today, Jul 11, 3:00 pm",
     "link": "https://paradiseonbloor.com/movies/romeria/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Solaris",
-    "showtime": "Sat, Jul 11, 6:00 pm",
+    "showtime": "Today, Jul 11, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/solaris/",
     "source": "Paradise Theatre"
   },
@@ -27,6 +21,12 @@
     "title": "I Shot Andy Warhol: 4K Restoration!",
     "showtime": "Sun, Jul 12, 6:15 pm",
     "link": "https://paradiseonbloor.com/movies/i-shot-andy-warhol-4k-restoration/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Tracy and Martina: Goin’ Out West",
+    "showtime": "Mon, Jul 13, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/tracy-and-martina-goin-out-west/",
     "source": "Paradise Theatre"
   },
   {

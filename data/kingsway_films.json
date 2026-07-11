@@ -1,12 +1,6 @@
 [
   {
     "title": "Star Wars Mandalorian and Grogu",
-    "showtime": "Friday, July 10, 1:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Star Wars Mandalorian and Grogu",
     "showtime": "Saturday, July 11, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -85,7 +79,7 @@
   },
   {
     "title": "Star Wars Mandalorian and Grogu",
-    "showtime": "Friday, July 10, 10:35 pm",
+    "showtime": "Friday, July 24, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,8 +162,44 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Hoppers",
-    "showtime": "Friday, July 10, 1:30 pm",
+    "title": "Star Wars Mandalorian and Grogu",
+    "showtime": "Friday, July 24, 10:35 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Super Mario Galazy Movie",
+    "showtime": "Saturday, July 11, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Super Mario Galazy Movie",
+    "showtime": "Monday, July 13, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Super Mario Galazy Movie",
+    "showtime": "Wednesday, July 15, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Super Mario Galazy Movie",
+    "showtime": "Saturday, July 18, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Super Mario Galazy Movie",
+    "showtime": "Monday, July 20, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Super Mario Galazy Movie",
+    "showtime": "Wednesday, July 22, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -216,44 +246,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Super Mario Galazy Movie",
-    "showtime": "Saturday, July 11, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Super Mario Galazy Movie",
-    "showtime": "Monday, July 13, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Super Mario Galazy Movie",
-    "showtime": "Wednesday, July 15, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Super Mario Galazy Movie",
-    "showtime": "Saturday, July 18, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Super Mario Galazy Movie",
-    "showtime": "Monday, July 20, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Super Mario Galazy Movie",
-    "showtime": "Wednesday, July 22, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Friday, July 10, 3:10 pm",
+    "title": "Hoppers",
+    "showtime": "Friday, July 24, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -337,7 +331,7 @@
   },
   {
     "title": "Michael",
-    "showtime": "Friday, July 10, 7:15 pm",
+    "showtime": "Friday, July 24, 3:10 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,26 +414,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Bread Winner",
-    "showtime": "Friday, July 10, 3:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Bread Winner",
-    "showtime": "Wednesday, July 15, 3:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Bread Winner",
-    "showtime": "Friday, July 17, 3:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Bread Winner",
-    "showtime": "Wednesday, July 22, 3:10 pm",
+    "title": "Michael",
+    "showtime": "Friday, July 24, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -464,6 +440,30 @@
   {
     "title": "Power Ballad",
     "showtime": "Monday, July 20, 3:10 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Bread Winner",
+    "showtime": "Wednesday, July 15, 3:10 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Bread Winner",
+    "showtime": "Friday, July 17, 3:10 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Bread Winner",
+    "showtime": "Wednesday, July 22, 3:10 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Bread Winner",
+    "showtime": "Friday, July 24, 3:10 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -504,8 +504,38 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Devil Wears Prada 2",
-    "showtime": "Friday, July 10, 5:15 pm",
+    "title": "Pressure",
+    "showtime": "Saturday, July 11, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Pressure",
+    "showtime": "Monday, July 13, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Pressure",
+    "showtime": "Wednesday, July 15, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Pressure",
+    "showtime": "Saturday, July 18, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Pressure",
+    "showtime": "Monday, July 20, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Pressure",
+    "showtime": "Wednesday, July 22, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -552,44 +582,44 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pressure",
-    "showtime": "Saturday, July 11, 5:00 pm",
+    "title": "The Devil Wears Prada 2",
+    "showtime": "Friday, July 24, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pressure",
-    "showtime": "Monday, July 13, 5:00 pm",
+    "title": "Girls Like Girls",
+    "showtime": "Saturday, July 11, 5:25 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pressure",
-    "showtime": "Wednesday, July 15, 5:00 pm",
+    "title": "Girls Like Girls",
+    "showtime": "Monday, July 13, 5:25 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pressure",
-    "showtime": "Saturday, July 18, 5:00 pm",
+    "title": "Girls Like Girls",
+    "showtime": "Wednesday, July 15, 5:25 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pressure",
-    "showtime": "Monday, July 20, 5:00 pm",
+    "title": "Girls Like Girls",
+    "showtime": "Saturday, July 18, 5:25 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Pressure",
-    "showtime": "Wednesday, July 22, 5:00 pm",
+    "title": "Girls Like Girls",
+    "showtime": "Monday, July 20, 5:25 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Misan Harriman Shoot the People",
-    "showtime": "Friday, July 10, 5:25 pm",
+    "title": "Girls Like Girls",
+    "showtime": "Wednesday, July 22, 5:25 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -636,44 +666,44 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Girls Like Girls",
-    "showtime": "Saturday, July 11, 5:25 pm",
+    "title": "Misan Harriman Shoot the People",
+    "showtime": "Friday, July 24, 5:25 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Girls Like Girls",
-    "showtime": "Monday, July 13, 5:25 pm",
+    "title": "Romeria",
+    "showtime": "Saturday, July 11, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Girls Like Girls",
-    "showtime": "Wednesday, July 15, 5:25 pm",
+    "title": "Romeria",
+    "showtime": "Monday, July 13, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Girls Like Girls",
-    "showtime": "Saturday, July 18, 5:25 pm",
+    "title": "Romeria",
+    "showtime": "Wednesday, July 15, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Girls Like Girls",
-    "showtime": "Monday, July 20, 5:25 pm",
+    "title": "Romeria",
+    "showtime": "Saturday, July 18, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Girls Like Girls",
-    "showtime": "Wednesday, July 22, 5:25 pm",
+    "title": "Romeria",
+    "showtime": "Monday, July 20, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Maddie's Secret",
-    "showtime": "Friday, July 10, 7:00 pm",
+    "title": "Romeria",
+    "showtime": "Wednesday, July 22, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -720,44 +750,44 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Romeria",
-    "showtime": "Saturday, July 11, 7:00 pm",
+    "title": "Maddie's Secret",
+    "showtime": "Friday, July 24, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Romeria",
-    "showtime": "Monday, July 13, 7:00 pm",
+    "title": "Jackass Best and Last",
+    "showtime": "Saturday, July 11, 9:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Romeria",
-    "showtime": "Wednesday, July 15, 7:00 pm",
+    "title": "Jackass Best and Last",
+    "showtime": "Monday, July 13, 9:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Romeria",
-    "showtime": "Saturday, July 18, 7:00 pm",
+    "title": "Jackass Best and Last",
+    "showtime": "Wednesday, July 15, 9:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Romeria",
-    "showtime": "Monday, July 20, 7:00 pm",
+    "title": "Jackass Best and Last",
+    "showtime": "Saturday, July 18, 9:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Romeria",
-    "showtime": "Wednesday, July 22, 7:00 pm",
+    "title": "Jackass Best and Last",
+    "showtime": "Monday, July 20, 9:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Scary Movie 2026",
-    "showtime": "Friday, July 10, 9:05 pm",
+    "title": "Jackass Best and Last",
+    "showtime": "Wednesday, July 22, 9:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -804,44 +834,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Jackass Best and Last",
-    "showtime": "Saturday, July 11, 9:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Jackass Best and Last",
-    "showtime": "Monday, July 13, 9:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Jackass Best and Last",
-    "showtime": "Wednesday, July 15, 9:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Jackass Best and Last",
-    "showtime": "Saturday, July 18, 9:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Jackass Best and Last",
-    "showtime": "Monday, July 20, 9:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Jackass Best and Last",
-    "showtime": "Wednesday, July 22, 9:05 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Indiana Jones and the Temple of Doom 35mm FILM Dolby stereo Soune",
-    "showtime": "Friday, July 10, 9:05 pm",
+    "title": "Scary Movie 2026",
+    "showtime": "Friday, July 24, 9:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -924,8 +918,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Furious",
-    "showtime": "Friday, July 10, 10:35 pm",
+    "title": "Indiana Jones and the Temple of Doom 35mm FILM Dolby stereo Soune",
+    "showtime": "Friday, July 24, 9:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -968,6 +962,12 @@
   {
     "title": "The Furious",
     "showtime": "Thursday, July 23, 10:35 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Furious",
+    "showtime": "Friday, July 24, 10:35 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }

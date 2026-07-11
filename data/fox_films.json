@@ -121,6 +121,12 @@
   },
   {
     "title": "The Invite",
+    "showtime": "Tuesday, July 21, 9:20 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=640588~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Invite",
     "showtime": "Wednesday, July 22, 3:50 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=636923~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
@@ -138,15 +144,9 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Gummo",
-    "showtime": "Friday, July 10, 9:30 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=634910~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Gummo",
-    "showtime": "Thursday, July 16, 9:20 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=634911~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "title": "The Invite",
+    "showtime": "Thursday, July 23, 9:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=640589~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
@@ -189,6 +189,18 @@
     "title": "Sleepaway Camp",
     "showtime": "Tuesday, July 14, 9:15 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=635597~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Gummo",
+    "showtime": "Friday, July 10, 9:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=634910~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Gummo",
+    "showtime": "Thursday, July 16, 9:20 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=634911~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
@@ -450,6 +462,30 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Persepolis",
+    "showtime": "Saturday, August 1, 4:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=640590~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Persepolis",
+    "showtime": "Tuesday, August 4, 6:45 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=640591~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Matrix",
+    "showtime": "Sunday, August 2, 9:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=640592~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Matrix",
+    "showtime": "Wednesday, August 5, 9:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=640593~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "2026 Cat Video Fest",
     "showtime": "Friday, August 7, 7:00 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=634989~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -471,6 +507,36 @@
     "title": "2026 Cat Video Fest",
     "showtime": "Thursday, August 13, 7:00 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=634995~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Restoration: Tekkonkinkreet",
+    "showtime": "Tuesday, August 11, 9:15 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=640622~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Restoration: Tekkonkinkreet",
+    "showtime": "Thursday, August 13, 9:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=640623~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Network – Restored",
+    "showtime": "Wednesday, August 12, 6:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=640594~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Reel Drag: Legally Blonde",
+    "showtime": "Friday, August 14, 9:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=640627~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Malcolm X",
+    "showtime": "Monday, August 17, 7:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=640595~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
