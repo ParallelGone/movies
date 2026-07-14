@@ -1,19 +1,13 @@
 [
   {
-    "title": "Romería",
-    "showtime": "Today, Jul 13, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/romeria/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Tracy and Martina: Goin’ Out West",
-    "showtime": "Today, Jul 13, 8:30 pm",
+    "showtime": "Wed, Jul 15, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/tracy-and-martina-goin-out-west/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Toronto Apartment",
-    "showtime": "Wed, Jul 15, 8:30 pm",
+    "showtime": "Wed, Jul 15, 8:30 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/movies/toronto-apartment/",
     "source": "Paradise Theatre"
   },
@@ -153,6 +147,12 @@
     "title": "Crimson Tide",
     "showtime": "Wed, Aug 12, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/crimson-tide/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Magic Mike XXL",
+    "showtime": "Fri, Aug 14, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/magic-mike-xxl/",
     "source": "Paradise Theatre"
   },
   {
