@@ -1,35 +1,5 @@
 [
   {
-    "title": "Le Chant des forêts (Whispers in the Woods)",
-    "showtime": "Tuesday, July 14, 4:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=636651~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Le Chant des forêts (Whispers in the Woods)",
-    "showtime": "Wednesday, July 15, 6:30 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=636652~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Le Chant des forêts (Whispers in the Woods)",
-    "showtime": "Thursday, July 16, 4:15 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=636653~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Invite",
-    "showtime": "Monday, July 13, 3:15 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=631392~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Invite",
-    "showtime": "Monday, July 13, 9:15 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=631393~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "The Invite",
     "showtime": "Tuesday, July 14, 6:30 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=631394~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -150,9 +120,15 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Sleepaway Camp",
-    "showtime": "Tuesday, July 14, 9:15 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=635597~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "title": "Le Chant des forêts (Whispers in the Woods)",
+    "showtime": "Wednesday, July 15, 6:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=636652~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Le Chant des forêts (Whispers in the Woods)",
+    "showtime": "Thursday, July 16, 4:15 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=636653~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
