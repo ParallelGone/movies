@@ -1,77 +1,5 @@
 [
   {
-    "title": "Couture - Alice Winocour",
-    "showtime": "Thursday, July 16, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkwxNjQwVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Couture - Alice Winocour",
-    "showtime": "Thursday, July 16, 8:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkwxNjgzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Drunken Noodles - Lucio Castro",
-    "showtime": "Thursday, July 16, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkwxNjYzVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Gail Daughtry and the Celebrity Sex Pass - David Wain",
-    "showtime": "Thursday, July 16, 4:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkwxNjQzVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Gail Daughtry and the Celebrity Sex Pass - David Wain",
-    "showtime": "Thursday, July 16, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkwxNjcwVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Gail Daughtry and the Celebrity Sex Pass - David Wain",
-    "showtime": "Thursday, July 16, 9:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkwxNjkzVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Lenin - Murali Kishor Abburu",
-    "showtime": "Thursday, July 16, 8:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkwxNjg0VDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Leviticus - Adrian Chiarella",
-    "showtime": "Thursday, July 16, 4:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkwxNjQxVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Leviticus - Adrian Chiarella",
-    "showtime": "Thursday, July 16, 6:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkwxNjYxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Leviticus - Adrian Chiarella",
-    "showtime": "Thursday, July 16, 9:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkwxNjk0VDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Romería - Carla Simón",
-    "showtime": "Thursday, July 16, 6:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkwxNjY0VDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Prestige with Scott Hammell",
-    "showtime": "Thursday, July 16, 6:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
     "title": "Barrio Triste - STILLZ",
     "showtime": "Friday, July 17, 8:00PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkwxNzgwVDI=",
@@ -80,7 +8,7 @@
   {
     "title": "Following",
     "showtime": "Friday, July 17, 6:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwxNzYwVDI=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -182,7 +110,7 @@
   {
     "title": "La Ciénaga - Lucrecia Martel",
     "showtime": "Saturday, July 18, 1:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwxODEwVDI=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -206,7 +134,7 @@
   {
     "title": "Oppenheimer (70mm)",
     "showtime": "Saturday, July 18, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwxODQwVDE=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -308,7 +236,7 @@
   {
     "title": "Memento - Christopher Nolan",
     "showtime": "Sunday, July 19, 3:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwxOTMwVDE=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -344,7 +272,7 @@
   {
     "title": "Tenet (70mm)",
     "showtime": "Sunday, July 19, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwxOTcwVDE=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -368,7 +296,7 @@
   {
     "title": "Macho Dancer - Lino Brocka",
     "showtime": "Tuesday, July 21, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwyMTYzVDQ=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -434,7 +362,7 @@
   {
     "title": "Oppenheimer (70mm)",
     "showtime": "Wednesday, July 22, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwyMjcwVDE=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -506,7 +434,7 @@
   {
     "title": "Material Practice: Luke Fowler and Corin Sworn",
     "showtime": "Thursday, July 23, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwyMzcwVDQ=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -548,7 +476,7 @@
   {
     "title": "Genderation - Monika Treut",
     "showtime": "Friday, July 24, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwyNDYzVDQ=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -572,13 +500,13 @@
   {
     "title": "Inception with Dan Jolin",
     "showtime": "Saturday, July 25, 3:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwyNTMwVDE=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Summer Interlude - Ingmar Bergman",
     "showtime": "Saturday, July 25, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwyNTYzVDM=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -590,7 +518,7 @@
   {
     "title": "Assault on Precinct 13 - John Carpenter",
     "showtime": "Sunday, July 26, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwyNjYzVDI=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -608,7 +536,7 @@
   {
     "title": "The Prestige",
     "showtime": "Sunday, July 26, 3:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwyNjMwVDI=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -626,7 +554,7 @@
   {
     "title": "Insomnia",
     "showtime": "Tuesday, July 28, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwyODYzVDE=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -650,7 +578,7 @@
   {
     "title": "Premium Rush with recorded intro by David Koepp",
     "showtime": "Wednesday, July 29, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwyOTcwVDQ=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -674,13 +602,19 @@
   {
     "title": "MDFF Selects: Student Film Showcase 2026",
     "showtime": "Thursday, July 30, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkwzMDYzVDM=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "The Summer of Schoenbrun: I Saw the TV Glow - Jane Schoenbrun",
     "showtime": "Thursday, July 30, 7:00PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkwzMDcwVDI=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Batman Begins - Christopher Nolan",
+    "showtime": "Friday, July 31, 6:00PM",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -738,9 +672,15 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "The Dark Knight with recorded intro by Richard King",
+    "showtime": "Saturday, August 1, 6:00PM",
+    "link": "https://am.ticketmaster.com/tiff/",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "Le Rayon vert - Éric Rohmer",
     "showtime": "Sunday, August 2, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcwMjQwVDM=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -768,6 +708,12 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "The Dark Knight Rises with recorded intro by Dan Jolin",
+    "showtime": "Sunday, August 2, 6:00PM",
+    "link": "https://am.ticketmaster.com/tiff/",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "Advance Screening: The Samurai and the Prisoner with Kiyoshi Kurosawa",
     "showtime": "Tuesday, August 4, 6:00PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkcwNDYwVDI=",
@@ -776,7 +722,7 @@
   {
     "title": "Journey to the Shore with Kiyoshi Kurosawa",
     "showtime": "Tuesday, August 4, 9:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcwNDkzVDM=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -788,7 +734,7 @@
   {
     "title": "Dragon Ball Super: Broly - Tatsuya Nagamine",
     "showtime": "Wednesday, August 5, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcwNTYzVDM=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -810,6 +756,12 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Inception",
+    "showtime": "Thursday, August 6, 6:30PM",
+    "link": "https://am.ticketmaster.com/tiff/",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "Sheep in the Box - Kore-eda Hirokazu",
     "showtime": "Thursday, August 6, 3:45PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkcwNjM0VDI=",
@@ -828,6 +780,12 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Interstellar - Christopher Nolan",
+    "showtime": "Friday, August 7, 6:30PM",
+    "link": "https://am.ticketmaster.com/tiff/",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "The Samurai and the Prisoner - Kiyoshi Kurosawa",
     "showtime": "Friday, August 7, 6:45PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkcwNzY0VDI=",
@@ -840,9 +798,15 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Batman Begins - Christopher Nolan",
+    "showtime": "Saturday, August 8, 3:00PM",
+    "link": "https://am.ticketmaster.com/tiff/",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "The Hole - Tsai Ming-liang",
     "showtime": "Saturday, August 8, 7:15PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcwODcxVDI=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -858,6 +822,12 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Interstellar - Christopher Nolan",
+    "showtime": "Sunday, August 9, 4:00PM",
+    "link": "https://am.ticketmaster.com/tiff/",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "Relaxed Screening: King Arthur's Night",
     "showtime": "Sunday, August 9, 3:00PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkcwOTMwVDM=",
@@ -866,7 +836,7 @@
   {
     "title": "The Hole - Tsai Ming-liang",
     "showtime": "Sunday, August 9, 7:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcwOTczVDQ=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -884,13 +854,19 @@
   {
     "title": "The Hole - Tsai Ming-liang",
     "showtime": "Tuesday, August 11, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcxMTYzVDQ=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "The Samurai and the Prisoner - Kiyoshi Kurosawa",
     "showtime": "Tuesday, August 11, 7:30PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkcxMTczVDM=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Dunkirk (70mm) with recorded intro by Dan Jolin",
+    "showtime": "Wednesday, August 12, 6:00PM",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -914,7 +890,7 @@
   {
     "title": "Le Rayon vert - Éric Rohmer",
     "showtime": "Thursday, August 13, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcxMzcwVDQ=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -930,105 +906,141 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Insomnia",
+    "showtime": "Friday, August 14, 6:00PM",
+    "link": "https://am.ticketmaster.com/tiff/",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "Silver Screenings: Silver Screamers",
     "showtime": "Friday, August 14, 12:00PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkcxNEwwVDE=",
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "The Dark Knight Rises with recorded intro by Dan Jolin",
+    "showtime": "Saturday, August 15, 8:00PM",
+    "link": "https://am.ticketmaster.com/tiff/",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "The Dark Knight with recorded intro by Richard King",
+    "showtime": "Saturday, August 15, 3:30PM",
+    "link": "https://am.ticketmaster.com/tiff/",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Dunkirk (70mm) with recorded intro by Dan Jolin",
+    "showtime": "Sunday, August 16, 4:00PM",
+    "link": "https://am.ticketmaster.com/tiff/",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "The Sound of the Shaking Earth - Rita Azevedo Gomes",
     "showtime": "Sunday, August 16, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcxNjYzVDQ=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Interstellar - Christopher Nolan",
+    "showtime": "Tuesday, August 18, 7:30PM",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "The Crying Game, with Cameron Bailey",
     "showtime": "Tuesday, August 18, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcxODYzVDM=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Theater Camp - Molly Gordon, Nick Lieberman",
     "showtime": "Wednesday, August 19, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcxOTYzVDQ=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Dunkirk (70mm) preceded by Nolan Trivia",
+    "showtime": "Thursday, August 20, 5:30PM",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Beetlejuice - Tim Burton",
     "showtime": "Friday, August 21, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcyMTYzVDI=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Fudoh: The New Generation - Takashi Miike",
     "showtime": "Saturday, August 22, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcyMjcwVDM=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Home Alone - Chris Columbus",
     "showtime": "Saturday, August 22, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcyMjQwVDM=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "After Hours - Martin Scorsese",
     "showtime": "Sunday, August 23, 6:45PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcyMzY0VDM=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Waiting for Guffman - Christopher Guest",
     "showtime": "Sunday, August 23, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcyMzQwVDM=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Best in Show - Christopher Guest",
     "showtime": "Tuesday, August 25, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcyNTYzVDI=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "A Mighty Wind - Christopher Guest",
     "showtime": "Wednesday, August 26, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcyNjcwVDM=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Chronovisor - Jack Auen, Kevin Walker",
     "showtime": "Thursday, August 27, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcyNzYzVDQ=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Careful with Guy Maddin",
     "showtime": "Friday, August 28, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcyODYzVDM=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Mysterious Skin - Gregg Araki",
     "showtime": "Saturday, August 29, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcyOTYzVDQ=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "White Nights - Luchino Visconti",
     "showtime": "Saturday, August 29, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkcyOTQwVDQ=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Mysterious Skin - Gregg Araki",
     "showtime": "Sunday, August 30, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkczMDYzVDQ=",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "White Nights - Luchino Visconti",
     "showtime": "Sunday, August 30, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/Cinematheque",
+    "link": "https://am.ticketmaster.com/tiff/ism/NkczMDQwVDQ=",
     "source": "TIFF Bell Lightbox"
   }
 ]

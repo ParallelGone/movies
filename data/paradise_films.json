@@ -1,19 +1,13 @@
 [
   {
-    "title": "Rez Ball",
-    "showtime": "Today, Jul 16, 7:00 pm\nOC",
-    "link": "https://paradiseonbloor.com/movies/rez-ball/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Thelma & Louise",
-    "showtime": "Fri, Jul 17, 6:00 pm",
+    "showtime": "Today, Jul 17, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/thelma-louise/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Dark Star",
-    "showtime": "Fri, Jul 17, 9:00 pm",
+    "showtime": "Today, Jul 17, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/dark-star/",
     "source": "Paradise Theatre"
   },
@@ -69,6 +63,12 @@
     "title": "Take Care of My Cat: 25th Anniversary!",
     "showtime": "Mon, Jul 27, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/take-care-of-my-cat-25th-anniversary/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Gail Daughtry and the Celebrity Sex Pass",
+    "showtime": "Mon, Jul 27, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/gail-daughtry-and-the-celebrity-sex-pass/",
     "source": "Paradise Theatre"
   },
   {
@@ -183,6 +183,12 @@
     "title": "Set It Off",
     "showtime": "Wed, Aug 26, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/set-it-off/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Lunar Sway: Advanced Screening!",
+    "showtime": "Thu, Aug 27, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/lunar-sway-advanced-screening/",
     "source": "Paradise Theatre"
   },
   {
