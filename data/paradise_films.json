@@ -1,31 +1,13 @@
 [
   {
-    "title": "WALL·E",
-    "showtime": "Today, Jul 18, 2:30 pm",
-    "link": "https://paradiseonbloor.com/movies/wall%c2%b7e/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Rose of Nevada",
-    "showtime": "Today, Jul 18, 5:30 pm",
-    "link": "https://paradiseonbloor.com/movies/rose-of-nevada/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "True Romance",
-    "showtime": "Today, Jul 18, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/true-romance/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "The Right Stuff",
-    "showtime": "Sun, Jul 19, 2:00 pm",
+    "showtime": "Today, Jul 19, 2:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-right-stuff/",
     "source": "Paradise Theatre"
   },
   {
     "title": "A Litany for Survival: The Life and Work of Audre Lorde",
-    "showtime": "Sun, Jul 19, 6:00 pm",
+    "showtime": "Today, Jul 19, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/a-litany-for-survival-the-life-and-work-of-audre-lorde/",
     "source": "Paradise Theatre"
   },
@@ -33,6 +15,12 @@
     "title": "I Want Your Sex: Canadian Premiere!",
     "showtime": "Mon, Jul 20, 7:00 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/movies/i-want-your-sex-canadian-premiere/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Rose of Nevada",
+    "showtime": "Tue, Jul 21, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/rose-of-nevada/",
     "source": "Paradise Theatre"
   },
   {
