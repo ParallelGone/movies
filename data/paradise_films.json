@@ -1,43 +1,13 @@
 [
   {
-    "title": "Rose of Nevada",
-    "showtime": "Today, Jul 21, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/rose-of-nevada/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Hustler White: 30th Anniversary!",
-    "showtime": "Today, Jul 21, 8:30 pm\nSOLD OUT",
-    "link": "https://paradiseonbloor.com/movies/hustler-white-30th-anniversary/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Chocolate Babies",
-    "showtime": "Wed, Jul 22, 7:30 pm",
-    "link": "https://paradiseonbloor.com/movies/chocolate-babies/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Take Care of My Cat: 25th Anniversary!",
-    "showtime": "Mon, Jul 27, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/take-care-of-my-cat-25th-anniversary/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Gail Daughtry and the Celebrity Sex Pass",
-    "showtime": "Mon, Jul 27, 9:00 pm",
+    "showtime": "Today, Jul 29, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/gail-daughtry-and-the-celebrity-sex-pass/",
     "source": "Paradise Theatre"
   },
   {
-    "title": "For All Mankind + A Trip to the Moon",
-    "showtime": "Tue, Jul 28, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/for-all-mankind/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Stolen Kingdom",
-    "showtime": "Wed, Jul 29, 8:30 pm",
+    "showtime": "Today, Jul 29, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/stolen-kingdom/",
     "source": "Paradise Theatre"
   },
@@ -45,6 +15,30 @@
     "title": "The Taste of Tea",
     "showtime": "Thu, Jul 30, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-taste-of-tea/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Boyhood: Anniversary Re-release",
+    "showtime": "Sat, Aug 1, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/boyhood-anniversary-re-release/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Her Private Hell",
+    "showtime": "Mon, Aug 3, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/her-private-hell/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Seven Samurai",
+    "showtime": "Wed, Aug 5, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/seven-samurai/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Warriors",
+    "showtime": "Thu, Aug 6, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/the-warriors/",
     "source": "Paradise Theatre"
   },
   {
@@ -66,9 +60,21 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "The Samurai and the Prisoner",
+    "showtime": "Sun, Aug 9, 3:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-samurai-and-the-prisoner/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "All About Lily Chou-Chou: 25th Anniversary! feat. the neverminds",
     "showtime": "Sun, Aug 9, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/all-about-lily-chou-chou-25th-anniversary-feat-the-neverminds/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "I Want Your Sex",
+    "showtime": "Mon, Aug 10, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/i-want-your-sex-canadian-premiere/",
     "source": "Paradise Theatre"
   },
   {
@@ -96,27 +102,27 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Audition",
+    "showtime": "Wed, Aug 12, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/audition/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Magic Mike XXL",
     "showtime": "Fri, Aug 14, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/magic-mike-xxl/",
     "source": "Paradise Theatre"
   },
   {
-    "title": "Candlelight: A Tribute to Frank Sinatra & Nat King Cole",
-    "showtime": "Sat, Aug 15, 6:00 pm",
-    "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-frank-sinatra-nat-king-cole/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Candlelight: A Tribute to Frank Sinatra & Nat King Cole",
-    "showtime": "Sat, Aug 15, 8:45 pm",
-    "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-frank-sinatra-nat-king-cole/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Double Feature: The War of the Worlds & The Day the Earth Caught Fire",
     "showtime": "Sun, Aug 16, 1:30 pm",
     "link": "https://paradiseonbloor.com/programs/double-feature-the-war-of-the-worlds-the-day-the-earth-caught-fire/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Wild Bunch",
+    "showtime": "Tue, Aug 18, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-wild-bunch/",
     "source": "Paradise Theatre"
   },
   {
@@ -138,9 +144,21 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "The Great Escape",
+    "showtime": "Sun, Aug 23, 2:30 pm",
+    "link": "https://paradiseonbloor.com/movies/the-great-escape/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Tally Brown, New York",
     "showtime": "Sun, Aug 23, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/tally-brown-new-york/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Dirty Dozen",
+    "showtime": "Mon, Aug 24, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/the-dirty-dozen/",
     "source": "Paradise Theatre"
   },
   {
@@ -153,6 +171,18 @@
     "title": "Lunar Sway: Advanced Screening!",
     "showtime": "Thu, Aug 27, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/lunar-sway-advanced-screening/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Wages of Fear",
+    "showtime": "Sat, Aug 29, 2:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-wages-of-fear/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Jim Queen: Toronto Premiere!",
+    "showtime": "Mon, Aug 31, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/jim-queen-canadian-premiere/",
     "source": "Paradise Theatre"
   },
   {

@@ -18,12 +18,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Horror-Rama: AMERICAN NIGHTMARE (1983) - Presented on 16mm! - Director in Attendance!",
-    "showtime": "Wed Jul 15, 9:30 PM",
-    "link": "https://revuecinema.ca/films/horror-rama-american-nightmare-1983-presented-on-16mm-director-in-attendance/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "When Animals Attack: AN AMERICAN WEREWOLF IN LONDON (1981) - Presented on 35mm!",
     "showtime": "Sun Oct 25, 7:00 PM",
     "link": "https://revuecinema.ca/films/when-animals-attack-an-american-werewolf-in-london-1981-presented-on-35mm/",
@@ -39,6 +33,12 @@
     "title": "Revue Event: ARMAGEDDON ROAD - Toronto Theatrical Premiere with director, cast and crew in attendance!",
     "showtime": "Fri Sep 4, 6:45 PM",
     "link": "https://revuecinema.ca/films/revue-event-armageddon-road-toronto-theatrical-premiere-with-director-cast-and-crew-in-attendance/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "The Original EVIL DEAD Trilogy: ARMY OF DARKNESS - Presented on 35mm!",
+    "showtime": "Sat Oct 17, 6:45 PM",
+    "link": "https://revuecinema.ca/films/army-of-darkness/",
     "source": "Revue Cinema"
   },
   {
@@ -75,6 +75,12 @@
     "title": "Heat Wave: BREAKDOWN (1997) - Introduced by Vanya Garraway!",
     "showtime": "Tue Aug 11, 7:00 PM",
     "link": "https://revuecinema.ca/films/heat-wave-breakdown-1997-introduced-by-vanya-garraway/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "(Not-So) Terrible Twos: BRIDE OF RE-ANIMATOR (1990)",
+    "showtime": "Sat Oct 24, 4:00 PM",
+    "link": "https://revuecinema.ca/films/not-so-terrible-twos-bride-of-re-animator-1990/",
     "source": "Revue Cinema"
   },
   {
@@ -126,6 +132,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Do You Like Pain? Retrospective: CANDYMAN (1992) - New Restoration!",
+    "showtime": "Sat Oct 24, 6:30 PM",
+    "link": "https://revuecinema.ca/films/do-you-like-pain-retrospective-candyman-1992-new-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "The Midnight Revue: CANNIBAL HOLOCAUST (Uncut) - Toronto Theatrical Premiere of New Restoration",
     "showtime": "Sat Sep 5, 11:59 PM",
     "link": "https://revuecinema.ca/films/the-midnight-revue-cannibal-holocaust-uncut-toronto-theatrical-premiere-of-new-restoration/",
@@ -147,6 +159,12 @@
     "title": "Revue Event: COME WHAT MAY - Toronto Theatrical Premiere with w/ In-Person Q&A (Lahna Turner)",
     "showtime": "Sat Aug 22, 5:45 PM",
     "link": "https://revuecinema.ca/films/revue-event-come-what-may-toronto-theatrical-premiere-with-w-in-person-qa-lahna-turner/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Destination Love: COMING TO AMERICA (1988) - New Restoration",
+    "showtime": "Mon Sep 28, 6:45 PM",
+    "link": "https://revuecinema.ca/films/destination-love-coming-to-america-1988-new-restoration/",
     "source": "Revue Cinema"
   },
   {
@@ -234,6 +252,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Nightmare Alley: DEAD & BURIED - 45th Anniversary Screening!",
+    "showtime": "Thu Sep 24, 9:30 PM",
+    "link": "https://revuecinema.ca/films/nightmare-alley-dead-buried-45th-anniversary-screening/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Heat Wave : DELIVERANCE (1972) - Introduced by Nathan Boone",
     "showtime": "Wed Aug 26, 6:30 PM",
     "link": "https://revuecinema.ca/films/heat-wave-deliverance-1972-introduced-by-nathan-boone/",
@@ -252,9 +276,9 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "The Black Nerds + We Really Like Her: EVE'S BAYOU (1997)",
-    "showtime": "Thu Jul 16, 6:30 PM",
-    "link": "https://revuecinema.ca/films/the-black-nerds-we-really-like-her-eves-bayou-1997/",
+    "title": "The Original Evil Dead Trilogy: EVIL DEAD II (1987) - Presented on 35mm!",
+    "showtime": "Sat Oct 17, 3:30 PM",
+    "link": "https://revuecinema.ca/films/the-original-evil-dead-trilogy-evil-dead-ii-1987-presented-on-35mm/",
     "source": "Revue Cinema"
   },
   {
@@ -318,6 +342,18 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Do You Like Pain? Retrospective Double Feature: HELLRAISER (1987) - Presented on 35mm! & HELLBOUND: HELLRAISER II (1988) - Presented on DCP!",
+    "showtime": "Tue Oct 20, 9:30 PM",
+    "link": "https://revuecinema.ca/films/do-you-like-pain-retrospective-double-feature-hellraiser-1987-presented-on-35mm-hellbound-hellraiser-ii-1988-presented-on-dcp/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Do You Like Pain? Retrospective Double Feature : HELLRAISER (1987) - Presented on 35mm + HELLBOUND: HELLRAISER II - Presented on DCP!",
+    "showtime": "Tue Oct 20, 7:30 PM",
+    "link": "https://revuecinema.ca/films/dumpster-raccoon-x-nightmare-alley-hellraiser-1987/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Throwback Cinema: HOCUS POCUS (1993)",
     "showtime": "Sat Oct 31, 4:00 PM",
     "link": "https://revuecinema.ca/films/hocus-pocus/",
@@ -327,12 +363,6 @@
     "title": "Hold Up: HOUSE OF WAX (2005)",
     "showtime": "Thu Oct 29, 6:30 PM",
     "link": "https://revuecinema.ca/films/hold-up-house-of-wax-2005/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Revue Event: I SAW THE TV GLOW (2024)",
-    "showtime": "Fri Jul 17, 9:30 PM",
-    "link": "https://revuecinema.ca/films/revue-event-i-saw-the-tv-glow-2024/",
     "source": "Revue Cinema"
   },
   {
@@ -420,18 +450,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Heat Wave: IN THE HEAT OF THE NIGHT (1967) - Introduced by Terry O'flaherty",
-    "showtime": "Tue Jul 28, 6:30 PM",
-    "link": "https://revuecinema.ca/films/heat-wave-in-the-heat-of-the-night-1967-introduced-by-terry-oflaherty/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Heat Wave: JAMON JAMON  (1992) - Introduced by Alicia Fletcher",
-    "showtime": "Wed Jul 22, 7:00 PM",
-    "link": "https://revuecinema.ca/films/heat-wave-jamon-jamon-1992-introduced-by-alicia-fletcher/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Terrible Threes: JAWS 3-D (1983) - Presented in 3D & 35mm!",
     "showtime": "Fri Jul 31, 6:45 PM",
     "link": "https://revuecinema.ca/films/terrible-threes-jaws-3-d-1983-presented-in-3d-35mm/",
@@ -450,33 +468,33 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Don't Be So Political: KINGDOM OF HEAVEN - Director's Cut",
-    "showtime": "Sun Jul 19, 7:00 PM",
-    "link": "https://revuecinema.ca/films/dont-be-so-political-kingdom-of-heaven-directors-cut/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Revue Event: THE PIANO TEACHER - 25th Anniversary Screening!",
-    "showtime": "Sat Jul 25, 6:15 PM",
-    "link": "https://revuecinema.ca/films/revue-event-the-piano-teacher-25th-anniversary-screening/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "BOB FOSSE u2013 MORE SMOKE PLEASE: LENNY (1974) - Toronto Theatrical Premiere Of New Restoration!",
     "showtime": "Sun Aug 23, 4:00 PM",
     "link": "https://revuecinema.ca/films/bob-fosse-more-smoke-please-lenny-1974-toronto-theatrical-premiere-of-new-restoration/",
     "source": "Revue Cinema"
   },
   {
-    "title": "Psych-Out Cinema: RUN LOLA RUN (1998) - New Restoration!",
-    "showtime": "Wed Jul 22, 9:30 PM",
-    "link": "https://revuecinema.ca/films/psych-out-cinema-run-lola-run-1998-new-restoration/",
+    "title": "Revue Event: LEONORA IN THE MORNING LIGHT - Canadian Theatrical Premiere",
+    "showtime": "Mon Sep 14, 6:30 PM",
+    "link": "https://revuecinema.ca/films/revue-event-leonora-in-the-morning-light-canadian-theatrical-premiere/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Neon Dreams: LIGHT SLEEPER (1992) - Presented on 35mm!",
+    "showtime": "Fri Sep 25, 9:30 PM",
+    "link": "https://revuecinema.ca/films/neon-dreams-light-sleeper-1992-presented-on-35mm/",
     "source": "Revue Cinema"
   },
   {
     "title": "Heat Wave: LONE STAR - 30th Anniversary Screening - Introduced by Emily Gagne",
     "showtime": "Wed Sep 2, 7:00 PM",
     "link": "https://revuecinema.ca/films/heat-wave-lone-star-30th-anniversary-screening-introduced-by-emily-gagne/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Do You Like Pain? Retrospective: LORD OF ILLUSIONS (1995)",
+    "showtime": "Thu Oct 22, 9:30 PM",
+    "link": "https://revuecinema.ca/films/do-you-like-pain-retrospective-lord-of-illusions-1995/",
     "source": "Revue Cinema"
   },
   {
@@ -504,27 +522,9 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Black Belt Cinema: MIAMI CONNECTION - Featuring A Live Performance by DRAGON SOUNDS!",
-    "showtime": "Sat Jul 18, 9:30 PM",
-    "link": "https://revuecinema.ca/films/black-belt-cinema-miami-connection-featuring-a-live-performance-by-dragon-sounds/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Neon Dreams: MIAMI VICE - 20th Anniversary Screening!",
-    "showtime": "Fri Jul 24, 9:30 PM",
-    "link": "https://revuecinema.ca/films/neon-dreams-miami-vice-20th-anniversary-screening/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Drunken Cinema: MICHAEL (2026)",
     "showtime": "Sat Aug 29, 9:30 PM",
     "link": "https://revuecinema.ca/films/drunken-cinema-michael-2026/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Revue Event: MODERN WHORE - With Nicole Bazuin and Andrea Werhun In Attendance!",
-    "showtime": "Sun Jul 26, 3:30 PM",
-    "link": "https://revuecinema.ca/films/revue-event-modern-whore-with-nicole-bazuin-and-andrea-werhun-in-attendance/",
     "source": "Revue Cinema"
   },
   {
@@ -534,14 +534,32 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Do You Like Pain? Retrospective: NIGHTBREED: The Director's Cut",
+    "showtime": "Sun Oct 18, 9:30 PM",
+    "link": "https://revuecinema.ca/films/do-you-like-pain-retrospective-nightbreed-the-directors-cut/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Don't Be So Political: NINOTCHKA (1939)",
     "showtime": "Sun Sep 13, 6:45 PM",
     "link": "https://revuecinema.ca/films/dont-be-so-political-ninotchka-1939/",
     "source": "Revue Cinema"
   },
   {
-    "title": "The Perfect Date & The Midnight Revue: Nirvanna the Band the Show the Movie",
+    "title": "The Midnight Revue & The Perfect Date & Halloween Screening: Nirvanna the Band the Show the Movie",
     "showtime": "Sat Aug 8, 11:59 PM",
+    "link": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "The Midnight Revue & The Perfect Date & Halloween Screening: Nirvanna the Band the Show the Movie",
+    "showtime": "Sat Sep 26, 1:00 PM",
+    "link": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "The Midnight Revue & The Perfect Date & Halloween Screening: Nirvanna the Band the Show the Movie",
+    "showtime": "Tue Oct 27, 6:45 PM",
     "link": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/",
     "source": "Revue Cinema"
   },
@@ -549,30 +567,6 @@
     "title": "Neon Dreams: NO COUNTRY FOR OLD MEN (2007) - New 4K Restoration!",
     "showtime": "Fri Aug 21, 9:30 PM",
     "link": "https://revuecinema.ca/films/neon-dreams-no-country-for-old-men-2007-new-4k-restoration/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "OBSESSION",
-    "showtime": "Sat Jul 18, 6:45 PM",
-    "link": "https://revuecinema.ca/films/obsession/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "OBSESSION",
-    "showtime": "Sun Jul 19, 1:00 PM",
-    "link": "https://revuecinema.ca/films/obsession/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "OBSESSION",
-    "showtime": "Mon Jul 20, 9:30 PM",
-    "link": "https://revuecinema.ca/films/obsession/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "OBSESSION",
-    "showtime": "Tue Jul 21, 9:30 PM",
-    "link": "https://revuecinema.ca/films/obsession/",
     "source": "Revue Cinema"
   },
   {
@@ -606,33 +600,15 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Halloween Screening:  PRACTICAL MAGIC (1998) - New 4K Restoration!",
+    "showtime": "Sat Oct 31, 1:00 PM",
+    "link": "https://revuecinema.ca/films/the-midnight-revue-practical-magic-1998/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Thanksgiving Weekend: PRISONERS (2013)",
     "showtime": "Sat Oct 10, 6:00 PM",
     "link": "https://revuecinema.ca/films/thanksgiving-weekend-prisoners-2013/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "To 70 And Beyond: PROJECT HAIL MARY - Presented on 70mm!",
-    "showtime": "Fri Jul 24, 6:00 PM",
-    "link": "https://revuecinema.ca/films/to-70-and-beyond-project-hail-mary-presented-on-70mm/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "To 70 And Beyond: PROJECT HAIL MARY - Presented on 70mm!",
-    "showtime": "Sat Jul 25, 2:30 PM",
-    "link": "https://revuecinema.ca/films/to-70-and-beyond-project-hail-mary-presented-on-70mm/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "To 70 And Beyond: PROJECT HAIL MARY - Presented on 70mm!",
-    "showtime": "Sun Jul 26, 11:30 AM",
-    "link": "https://revuecinema.ca/films/to-70-and-beyond-project-hail-mary-presented-on-70mm/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "To 70 And Beyond: PROJECT HAIL MARY - Presented on 70mm!",
-    "showtime": "Mon Jul 27, 9:30 PM",
-    "link": "https://revuecinema.ca/films/to-70-and-beyond-project-hail-mary-presented-on-70mm/",
     "source": "Revue Cinema"
   },
   {
@@ -642,21 +618,27 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Dumpster Raccoon: PSYCHO BEACH PARTY (2000)",
-    "showtime": "Sat Jul 25, 9:30 PM",
-    "link": "https://revuecinema.ca/films/dumpster-raccoon-psycho-beach-party-2000/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Revue Event: PUTNEY SWOPE (1969) +  Book Launch -  Presented by Kier-La Janisse & Clint Enns",
     "showtime": "Sat Aug 1, 3:00 PM",
     "link": "https://revuecinema.ca/films/revue-event-putney-swope-1969-book-launch-presented-by-kier-la-janisse-clint-enns/",
     "source": "Revue Cinema"
   },
   {
+    "title": "Do You Like Pain? Retrospective: RAWHEAD REX (1986) - New 4K  Restoration!",
+    "showtime": "Fri Oct 16, 7:00 PM",
+    "link": "https://revuecinema.ca/films/do-you-like-pain-retrospective-rawhead-rex-1986-new-4k-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Rental Event: Laura Taler 2 Films 30 Years: the village trilogy + Matryoshka Crush",
     "showtime": "Mon Aug 10, 6:45 PM",
     "link": "https://revuecinema.ca/films/rental-event-laura-taler-2-films-30-years-the-village-trilogy-matryoshka-crush/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Revue Cinema: MYSTERIOUS SKIN (2005)  - New 4K Restoration!",
+    "showtime": "Tue Sep 1, 9:30 PM",
+    "link": "https://revuecinema.ca/films/revue-cinema-mysterious-skin-2005-new-4k-restoration/",
     "source": "Revue Cinema"
   },
   {
@@ -696,12 +678,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Revue Event: SICK PUPPY - Toronto Theatrical Premiere with cast & crew in attendance!",
-    "showtime": "Wed Jul 15, 6:30 PM",
-    "link": "https://revuecinema.ca/films/revue-event-sick-puppy-toronto-theatrical-premiere-with-cast-crew-in-attendance/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Revue Event: SITUATIONS - Toronto Theatrical Premiere with director in attendance!",
     "showtime": "Sat Sep 19, 6:00 PM",
     "link": "https://revuecinema.ca/films/revue-event-situations-toronto-theatrical-premiere-with-director-in-attendance/",
@@ -720,15 +696,27 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Revue Event: SORCERESS (1982) - With A Live Performance by THUNDER GLOVE!",
+    "showtime": "Wed Oct 28, 9:30 PM",
+    "link": "https://revuecinema.ca/films/revue-event-sorceress-1982-with-a-live-performance-by-thunder-glove/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "The Perfect Date: Star Trek: The Motion Picture",
     "showtime": "Tue Sep 8, 9:30 PM",
     "link": "https://revuecinema.ca/films/the-perfect-date-star-trek-the-motion-picture/",
     "source": "Revue Cinema"
   },
   {
-    "title": "Stompbox: BUTTHOLE SURFERS: THE HOLE TRUTH AND NOTHING BUTT - Toronto Theatrical Premiere!",
-    "showtime": "Thu Jul 16, 9:30 PM",
-    "link": "https://revuecinema.ca/films/stompbox-butthole-surfers-the-hole-truth-and-nothing-butt-toronto-theatrical-premiere/",
+    "title": "Stompbox: THE SATURDAY MORNING ALL-YOU-CAN-EAT CEREAL CARTOON PARTY (Halloween Edition!)",
+    "showtime": "Sat Oct 24, 10:00 AM",
+    "link": "https://revuecinema.ca/films/stompbox-the-saturday-morning-all-you-can-eat-cereal-cartoon-party-halloween-edition/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Stompbox: THE SATURDAY MORNING ALL-YOU-CAN-EAT CEREAL CARTOON PARTY (Halloween Edition!)",
+    "showtime": "Sun Oct 25, 10:00 AM",
+    "link": "https://revuecinema.ca/films/stompbox-the-saturday-morning-all-you-can-eat-cereal-cartoon-party-halloween-edition/",
     "source": "Revue Cinema"
   },
   {
@@ -846,69 +834,21 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Revue Event: THE DEPARTED - 20th Anniversary Screening!",
-    "showtime": "Tue Jul 14, 9:30 PM",
-    "link": "https://revuecinema.ca/films/revue-event-the-departed-20th-anniversary-screening/",
+    "title": "Don't Be So Political: THE DEAD ZONE (1983)",
+    "showtime": "Sun Oct 4, 7:00 PM",
+    "link": "https://revuecinema.ca/films/dont-be-so-political-the-dead-zone-1983/",
     "source": "Revue Cinema"
   },
   {
-    "title": "Destination Love: THE FOUNTAIN - 20th Anniversary Screening",
-    "showtime": "Sun Jul 26, 6:45 PM",
-    "link": "https://revuecinema.ca/films/destination-love-the-fountain-20th-anniversary-screening/",
+    "title": "The Original Evil Dead Trilogy: THE EVIL DEAD (1981) - Presented on 35mm!",
+    "showtime": "Sat Oct 17, 1:00 PM",
+    "link": "https://revuecinema.ca/films/the-original-evil-dead-trilogy-the-evil-dead-1981-presented-on-35mm/",
     "source": "Revue Cinema"
   },
   {
     "title": "Paid In Sweat: THE HUNGER GAMES (2012)",
     "showtime": "Thu Aug 20, 6:15 PM",
     "link": "https://revuecinema.ca/films/paid-in-sweat-the-hunger-games-2012/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "THE INVITE",
-    "showtime": "Fri Jul 17, 4:00 PM",
-    "link": "https://revuecinema.ca/films/the-invite/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "THE INVITE",
-    "showtime": "Sat Jul 18, 1:00 PM",
-    "link": "https://revuecinema.ca/films/the-invite/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "THE INVITE",
-    "showtime": "Sun Jul 19, 4:00 PM",
-    "link": "https://revuecinema.ca/films/the-invite/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "THE INVITE",
-    "showtime": "Mon Jul 20, 6:45 PM",
-    "link": "https://revuecinema.ca/films/the-invite/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "THE INVITE",
-    "showtime": "Tue Jul 21, 6:45 PM",
-    "link": "https://revuecinema.ca/films/the-invite/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "THE INVITE",
-    "showtime": "Wed Jul 22, 4:00 PM",
-    "link": "https://revuecinema.ca/films/the-invite/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "THE INVITE",
-    "showtime": "Thu Jul 23, 9:30 PM",
-    "link": "https://revuecinema.ca/films/the-invite/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Destination Love: THE LAKE HOUSE - 20th Anniversary Screening!",
-    "showtime": "Mon Jul 27, 6:45 PM",
-    "link": "https://revuecinema.ca/films/destination-love-the-lake-house-20th-anniversary-screening/",
     "source": "Revue Cinema"
   },
   {
@@ -966,9 +906,9 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Destination Love: THE TIME TRAVELER'S WIFE (2009)",
-    "showtime": "Tue Jul 28, 9:30 PM",
-    "link": "https://revuecinema.ca/films/destination-love-the-time-travelers-wife-2009/",
+    "title": "Revue Event: THE VELOCIPASTOR 2 - Canadian Premiere!",
+    "showtime": "Wed Sep 9, 9:30 PM",
+    "link": "https://revuecinema.ca/films/revue-event-the-velocipastor-2-canadian-premiere/",
     "source": "Revue Cinema"
   },
   {
@@ -1011,24 +951,6 @@
     "title": "We Really Like Her: WALKING AND TALKING (1996) - Presented on 35mm!",
     "showtime": "Thu Aug 13, 7:00 PM",
     "link": "https://revuecinema.ca/films/we-really-like-her-walking-and-talking-1996-presented-on-35mm/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Throwback Cinema: WALLACE & GROMIT: THE CURSE OF THE WERE-RABBIT (2005)",
-    "showtime": "Sat Jul 18, 4:00 PM",
-    "link": "https://revuecinema.ca/films/throwback-cinema-wallace-gromit-the-curse-of-the-were-rabbit-2005/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Revue Event: WE'RE ALL GOING TO THE WORLD'S FAIR (2022)",
-    "showtime": "Fri Jul 17, 7:00 PM",
-    "link": "https://revuecinema.ca/films/revue-event-were-all-going-to-the-worlds-fair-2022/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Paid In Sweat: WHIP IT (2009) - Presented on 35mm!",
-    "showtime": "Thu Jul 23, 6:30 PM",
-    "link": "https://revuecinema.ca/films/paid-in-sweat-whip-it-2009-presented-on-35mm/",
     "source": "Revue Cinema"
   },
   {
