@@ -1,11 +1,5 @@
 [
   {
-    "title": "The Taste of Tea",
-    "showtime": "Today, Jul 30, 7:00 pm",
-    "link": "https://paradiseonbloor.com/movies/the-taste-of-tea/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Stolen Kingdom",
     "showtime": "Sat, Aug 1, 3:30 pm",
     "link": "https://paradiseonbloor.com/movies/stolen-kingdom/",
@@ -135,6 +129,12 @@
     "title": "Steamboat Stumble!",
     "showtime": "Sat, Aug 22, 5:00 pm",
     "link": "https://paradiseonbloor.com/movies/steamboat-stumble/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Boogie Nights: 4K Restoration!",
+    "showtime": "Sat, Aug 22, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/boogie-nights-4k-restoration/",
     "source": "Paradise Theatre"
   },
   {
