@@ -1,13 +1,13 @@
 [
   {
     "title": "Her Private Hell",
-    "showtime": "Wed, Aug 5, 6:00 pm",
+    "showtime": "Today, Aug 5, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/her-private-hell/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Seven Samurai",
-    "showtime": "Wed, Aug 5, 8:30 pm",
+    "showtime": "Today, Aug 5, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/seven-samurai/",
     "source": "Paradise Theatre"
   },
@@ -90,6 +90,24 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "The Incredibles",
+    "showtime": "Sat, Aug 15, 2:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-incredibles/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Lost Chapters: Toronto Premiere!",
+    "showtime": "Sat, Aug 15, 5:00 pm",
+    "link": "https://paradiseonbloor.com/movies/lost-chapters/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Rosebush Pruning",
+    "showtime": "Sat, Aug 15, 7:30 pm",
+    "link": "https://paradiseonbloor.com/movies/rosebush-pruning/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Double Feature: The War of the Worlds & The Day the Earth Caught Fire",
     "showtime": "Sun, Aug 16, 1:30 pm",
     "link": "https://paradiseonbloor.com/programs/double-feature-the-war-of-the-worlds-the-day-the-earth-caught-fire/",
@@ -99,6 +117,18 @@
     "title": "The Wild Bunch",
     "showtime": "Tue, Aug 18, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-wild-bunch/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Michelle Good In Conversation with Tanya Talaga",
+    "showtime": "Wed, Aug 19, 7:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/613354/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Modern Classic: 10th Anniversary!",
+    "showtime": "Thu, Aug 20, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/modern-classic-10th-anniversary/",
     "source": "Paradise Theatre"
   },
   {
@@ -138,9 +168,27 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Sheep in the Box",
+    "showtime": "Mon, Aug 24, 5:45 pm",
+    "link": "https://paradiseonbloor.com/movies/sheep-in-the-box/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "The Dirty Dozen",
     "showtime": "Mon, Aug 24, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/the-dirty-dozen/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "All Night Wrong",
+    "showtime": "Tue, Aug 25, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/all-night-wrong/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Dreams in Nightmares",
+    "showtime": "Tue, Aug 25, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/dreams-in-nightmares-canadian-premiere/",
     "source": "Paradise Theatre"
   },
   {
@@ -162,15 +210,33 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Self-Revolutionary Cinematic Struggle: North American Premiere!",
+    "showtime": "Sun, Aug 30, 2:00 pm",
+    "link": "https://paradiseonbloor.com/movies/self-revolutionary-cinematic-struggle-north-american-premiere/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Jim Queen: Toronto Premiere!",
     "showtime": "Mon, Aug 31, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/jim-queen-canadian-premiere/",
     "source": "Paradise Theatre"
   },
   {
+    "title": "Jake Cornell LIVE!",
+    "showtime": "Thu, Sep 10, 8:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/jake-cornell-live/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Rheostatics Perform Great Lake Suites",
     "showtime": "Sat, Sep 12, 8:00 pm",
     "link": "https://paradiseonbloor.com/special_events/rheostatics-perform-great-lake-suites/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Dan Docimo LIVE!",
+    "showtime": "Sat, Dec 12, 7:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/dan-docimo-live/",
     "source": "Paradise Theatre"
   }
 ]
