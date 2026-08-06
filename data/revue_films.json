@@ -156,12 +156,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Revue Film Society: CLASH OF THE TITANS - 45th Anniversary Screening!",
-    "showtime": "Tue Aug 4, 6:30 PM",
-    "link": "https://revuecinema.ca/films/revue-film-society-clash-of-the-titans-45th-anniversary-screening/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Revue Event: COME WHAT MAY - Toronto Theatrical Premiere with w/ In-Person Q&A (Lahna Turner)",
     "showtime": "Sat Aug 22, 5:45 PM",
     "link": "https://revuecinema.ca/films/revue-event-come-what-may-toronto-theatrical-premiere-with-w-in-person-qa-lahna-turner/",
@@ -336,6 +330,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Dumpster Raccoon: GREASE SINGALONG AND SHADOWCAST!",
+    "showtime": "Sat Sep 26, 9:30 PM",
+    "link": "https://revuecinema.ca/films/dumpster-raccoon-grease-singalong-and-shadowcast/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "The Perfect Date: HALLOWEEN (1978)",
     "showtime": "Sat Oct 31, 6:45 PM",
     "link": "https://revuecinema.ca/films/the-perfect-date-halloween-1978/",
@@ -375,12 +375,6 @@
     "title": "Hold Up: HOUSE OF WAX (2005)",
     "showtime": "Thu Oct 29, 6:30 PM",
     "link": "https://revuecinema.ca/films/hold-up-house-of-wax-2005/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "I Want Your Sex",
-    "showtime": "Tue Aug 4, 9:30 PM",
-    "link": "https://revuecinema.ca/films/i-want-your-sex/",
     "source": "Revue Cinema"
   },
   {
