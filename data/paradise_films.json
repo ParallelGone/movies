@@ -1,25 +1,13 @@
 [
   {
-    "title": "The Samurai and the Prisoner",
-    "showtime": "Today, Aug 9, 2:30 pm",
-    "link": "https://paradiseonbloor.com/movies/the-samurai-and-the-prisoner/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "All About Lily Chou-Chou: 25th Anniversary! feat. the neverminds",
-    "showtime": "Today, Aug 9, 7:00 pm\nSOLD OUT",
-    "link": "https://paradiseonbloor.com/movies/all-about-lily-chou-chou-25th-anniversary-feat-the-neverminds/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "I Want Your Sex",
-    "showtime": "Mon, Aug 10, 6:00 pm",
+    "showtime": "Today, Aug 10, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/i-want-your-sex/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Pecker",
-    "showtime": "Mon, Aug 10, 8:30 pm",
+    "showtime": "Today, Aug 10, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/pecker/",
     "source": "Paradise Theatre"
   },
@@ -45,6 +33,12 @@
     "title": "Audition",
     "showtime": "Wed, Aug 12, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/audition/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Samurai and the Prisoner",
+    "showtime": "Thu, Aug 13, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-samurai-and-the-prisoner/",
     "source": "Paradise Theatre"
   },
   {
@@ -181,7 +175,7 @@
   },
   {
     "title": "Jim Queen: Toronto Premiere!",
-    "showtime": "Mon, Aug 31, 8:30 pm",
+    "showtime": "Mon, Aug 31, 8:30 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/movies/jim-queen-canadian-premiere/",
     "source": "Paradise Theatre"
   },
