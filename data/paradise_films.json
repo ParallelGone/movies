@@ -1,25 +1,13 @@
 [
   {
-    "title": "I Want Your Sex",
-    "showtime": "Today, Aug 10, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/i-want-your-sex/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Pecker",
-    "showtime": "Today, Aug 10, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/pecker/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Malina: 4K Restoration!",
-    "showtime": "Tue, Aug 11, 6:00 pm",
+    "showtime": "Today, Aug 11, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/malina-4k-restoration/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Alien",
-    "showtime": "Tue, Aug 11, 9:00 pm",
+    "showtime": "Today, Aug 11, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/alien/",
     "source": "Paradise Theatre"
   },
@@ -39,6 +27,12 @@
     "title": "The Samurai and the Prisoner",
     "showtime": "Thu, Aug 13, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-samurai-and-the-prisoner/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "I Want Your Sex",
+    "showtime": "Thu, Aug 13, 9:15 pm",
+    "link": "https://paradiseonbloor.com/movies/i-want-your-sex/",
     "source": "Paradise Theatre"
   },
   {
@@ -69,6 +63,12 @@
     "title": "Double Feature: The War of the Worlds & The Day the Earth Caught Fire",
     "showtime": "Sun, Aug 16, 1:30 pm",
     "link": "https://paradiseonbloor.com/programs/double-feature-the-war-of-the-worlds-the-day-the-earth-caught-fire/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Jingleman",
+    "showtime": "Sun, Aug 16, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/jingleman/",
     "source": "Paradise Theatre"
   },
   {
