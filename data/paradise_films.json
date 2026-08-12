@@ -1,25 +1,13 @@
 [
   {
-    "title": "Malina: 4K Restoration!",
-    "showtime": "Today, Aug 11, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/malina-4k-restoration/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Alien",
-    "showtime": "Today, Aug 11, 9:00 pm",
-    "link": "https://paradiseonbloor.com/movies/alien/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Crimson Tide",
-    "showtime": "Wed, Aug 12, 6:00 pm",
+    "showtime": "Today, Aug 12, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/crimson-tide/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Audition",
-    "showtime": "Wed, Aug 12, 9:00 pm",
+    "showtime": "Today, Aug 12, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/audition/",
     "source": "Paradise Theatre"
   },
@@ -195,6 +183,24 @@
     "title": "Rheostatics Perform Great Lake Suites",
     "showtime": "Sat, Sep 12, 8:00 pm",
     "link": "https://paradiseonbloor.com/special_events/rheostatics-perform-great-lake-suites/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Super Wonder Short Films",
+    "showtime": "Mon, Sep 14, 12:30 pm",
+    "link": "https://paradiseonbloor.com/movies/super-wonder-short-films/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Toronto 48 Hour Film Retrospective",
+    "showtime": "Mon, Sep 14, 2:00 pm",
+    "link": "https://paradiseonbloor.com/movies/toronto-48-hour-film-retrospective/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Magicland: A Mythological Musical",
+    "showtime": "Mon, Sep 14, 4:00 pm",
+    "link": "https://paradiseonbloor.com/movies/magicland-a-mythological-musical/",
     "source": "Paradise Theatre"
   },
   {
