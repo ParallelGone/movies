@@ -1,12 +1,6 @@
 [
   {
     "title": "Hoppers",
-    "showtime": "Tuesday, August 18, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
     "showtime": "Wednesday, August 19, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -84,8 +78,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Super Mario 2026",
-    "showtime": "Tuesday, August 18, 1:15 pm",
+    "title": "Hoppers",
+    "showtime": "Tuesday, September 1, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,8 +162,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Disclosure",
-    "showtime": "Tuesday, August 18, 2:45 pm",
+    "title": "Super Mario 2026",
+    "showtime": "Tuesday, September 1, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -253,7 +247,7 @@
   },
   {
     "title": "Disclosure",
-    "showtime": "Tuesday, August 18, 7:10 pm",
+    "showtime": "Tuesday, September 1, 2:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -336,8 +330,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Stars Wars Madalorian and Grogu",
-    "showtime": "Tuesday, August 18, 3:00 pm",
+    "title": "Disclosure",
+    "showtime": "Tuesday, September 1, 7:10 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,8 +414,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Michael",
-    "showtime": "Tuesday, August 18, 5:10 pm",
+    "title": "Stars Wars Madalorian and Grogu",
+    "showtime": "Tuesday, September 1, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -504,26 +498,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Girls Like Girls",
-    "showtime": "Tuesday, August 18, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Girls Like Girls",
-    "showtime": "Sunday, August 23, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Girls Like Girls",
-    "showtime": "Tuesday, August 25, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Girls Like Girls",
-    "showtime": "Sunday, August 30, 5:10 pm",
+    "title": "Michael",
+    "showtime": "Tuesday, September 1, 5:10 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -584,12 +560,6 @@
   {
     "title": "Romeria",
     "showtime": "Friday, August 28, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Tuesday, August 18, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -672,26 +642,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Manhunter 40th Anniversary 35mm FILM Theatrical Release Dolby Stereo Sound",
-    "showtime": "Tuesday, August 18, 9:35 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Manhunter 40th Anniversary 35mm FILM Theatrical Release Dolby Stereo Sound",
-    "showtime": "Friday, August 21, 9:35 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Manhunter 40th Anniversary 35mm FILM Theatrical Release Dolby Stereo Sound",
-    "showtime": "Tuesday, August 25, 9:35 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Manhunter 40th Anniversary 35mm FILM Theatrical Release Dolby Stereo Sound",
-    "showtime": "Friday, August 28, 9:35 pm",
+    "title": "Obsession",
+    "showtime": "Tuesday, September 1, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -752,12 +704,6 @@
   {
     "title": "Invasion of the Body Snatchers 1956 35mm FILM",
     "showtime": "Sunday, August 30, 9:35 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Jackass Best and Last",
-    "showtime": "Tuesday, August 18, 10:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -836,6 +782,12 @@
   {
     "title": "Jackass Best and Last",
     "showtime": "Monday, August 31, 10:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Jackass Best and Last",
+    "showtime": "Tuesday, September 1, 10:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
