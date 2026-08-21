@@ -1,29 +1,5 @@
 [
   {
-    "title": "The Rivals of Amziah King",
-    "showtime": "Wednesday, August 19, 2:30 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=643392~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Rivals of Amziah King",
-    "showtime": "Wednesday, August 19, 9:30 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=643393~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The Rivals of Amziah King",
-    "showtime": "Thursday, August 20, 3:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=643394~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "grlish: Bridesmaids",
-    "showtime": "Wednesday, August 19, 6:30 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=641714~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Tony",
     "showtime": "Friday, August 21, 3:50 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=644994~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -480,6 +456,18 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Reading Lolita in Tehran",
+    "showtime": "Saturday, September 12, 6:20 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649619~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Reading Lolita in Tehran",
+    "showtime": "Sunday, September 13, 12:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649620~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Staff Picks: Memories of Murder",
     "showtime": "Sunday, September 13, 8:00 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=648356~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -552,6 +540,18 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Exhibition On Screen: James McNeill Whistler",
+    "showtime": "Sunday, September 27, 12:45 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649625~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Exhibition On Screen: James McNeill Whistler",
+    "showtime": "Tuesday, September 29, 3:45 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649626~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Drawn In: The Girl Who Leapt Through Time",
     "showtime": "Sunday, September 27, 9:15 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=644524~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -570,9 +570,87 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Restoration: Bay of Blood",
+    "showtime": "Friday, October 2, 9:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649628~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Spectacle: Tokyo Drifter",
+    "showtime": "Saturday, October 3, 4:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649630~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Spectacle: Tokyo Drifter",
+    "showtime": "Monday, October 5, 7:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649631~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Restoration: Begotten",
+    "showtime": "Sunday, October 4, 8:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649639~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Restoration: Begotten",
+    "showtime": "Wednesday, October 7, 9:15 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649640~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Book And Film Club: Women Talking",
     "showtime": "Thursday, October 8, 7:00 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=631828~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution…",
+    "showtime": "Friday, October 9, 6:45 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649646~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution…",
+    "showtime": "Saturday, October 10, 3:40 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649647~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution…",
+    "showtime": "Sunday, October 11, 12:15 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649650~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution…",
+    "showtime": "Monday, October 12, 3:45 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649651~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution…",
+    "showtime": "Thursday, October 15, 6:45 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649655~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Klassic Kidz: ParaNorman",
+    "showtime": "Saturday, October 10, 1:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649643~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Klassic Kidz: ParaNorman",
+    "showtime": "Monday, October 12, 1:20 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649644~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Meet Cute: Love & Basketball",
+    "showtime": "Tuesday, October 13, 6:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649666~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
@@ -585,6 +663,12 @@
     "title": "Nosferatu w/ Live Music by Invincible Czars",
     "showtime": "Wednesday, October 21, 9:14 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=646535~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Rocky Horror Picture Show w/Shadowcast!",
+    "showtime": "Friday, October 23, 9:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649622~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {

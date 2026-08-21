@@ -1,95 +1,5 @@
 [
   {
-    "title": "Hoppers",
-    "showtime": "Thursday, August 20, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
-    "showtime": "Friday, August 21, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
-    "showtime": "Saturday, August 22, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
-    "showtime": "Sunday, August 23, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
-    "showtime": "Monday, August 24, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
-    "showtime": "Tuesday, August 25, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
-    "showtime": "Wednesday, August 26, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
-    "showtime": "Thursday, August 27, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
-    "showtime": "Friday, August 28, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
-    "showtime": "Saturday, August 29, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
-    "showtime": "Sunday, August 30, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
-    "showtime": "Monday, August 31, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
-    "showtime": "Tuesday, September 1, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Hoppers",
-    "showtime": "Wednesday, September 2, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Super Mario 2026",
-    "showtime": "Thursday, August 20, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
     "title": "Super Mario 2026",
     "showtime": "Friday, August 21, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
@@ -168,476 +78,512 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Disclosure",
-    "showtime": "Thursday, August 20, 2:45 pm",
+    "title": "Super Mario 2026",
+    "showtime": "Thursday, September 3, 1:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Friday, August 21, 5:25 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Saturday, August 22, 5:25 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Sunday, August 23, 5:25 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Monday, August 24, 5:25 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Tuesday, August 25, 5:25 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Wednesday, August 26, 5:25 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Thursday, August 27, 5:25 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Friday, August 28, 5:25 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Saturday, August 29, 5:25 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Sunday, August 30, 5:25 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Monday, August 31, 5:25 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Tuesday, September 1, 5:25 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Wednesday, September 2, 5:25 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Thursday, September 3, 5:25 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
     "title": "Disclosure",
-    "showtime": "Friday, August 21, 2:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Saturday, August 22, 2:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Sunday, August 23, 2:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Monday, August 24, 2:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Tuesday, August 25, 2:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Wednesday, August 26, 2:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Thursday, August 27, 2:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Friday, August 28, 2:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Saturday, August 29, 2:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Sunday, August 30, 2:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Monday, August 31, 2:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Tuesday, September 1, 2:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Wednesday, September 2, 2:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Thursday, August 20, 7:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Friday, August 21, 7:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Saturday, August 22, 7:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Sunday, August 23, 7:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Monday, August 24, 7:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Tuesday, August 25, 7:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Wednesday, August 26, 7:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Thursday, August 27, 7:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Friday, August 28, 7:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Saturday, August 29, 7:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Sunday, August 30, 7:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Monday, August 31, 7:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Tuesday, September 1, 7:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Disclosure",
-    "showtime": "Wednesday, September 2, 7:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Stars Wars Madalorian and Grogu",
-    "showtime": "Thursday, August 20, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Stars Wars Madalorian and Grogu",
-    "showtime": "Friday, August 21, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Stars Wars Madalorian and Grogu",
-    "showtime": "Saturday, August 22, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Stars Wars Madalorian and Grogu",
-    "showtime": "Sunday, August 23, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Stars Wars Madalorian and Grogu",
-    "showtime": "Monday, August 24, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Stars Wars Madalorian and Grogu",
-    "showtime": "Tuesday, August 25, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Stars Wars Madalorian and Grogu",
-    "showtime": "Wednesday, August 26, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Stars Wars Madalorian and Grogu",
-    "showtime": "Thursday, August 27, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Stars Wars Madalorian and Grogu",
-    "showtime": "Friday, August 28, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Stars Wars Madalorian and Grogu",
-    "showtime": "Saturday, August 29, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Stars Wars Madalorian and Grogu",
-    "showtime": "Sunday, August 30, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Stars Wars Madalorian and Grogu",
-    "showtime": "Monday, August 31, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Stars Wars Madalorian and Grogu",
-    "showtime": "Tuesday, September 1, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Stars Wars Madalorian and Grogu",
-    "showtime": "Wednesday, September 2, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Thursday, August 20, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Friday, August 21, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Saturday, August 22, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Sunday, August 23, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Monday, August 24, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Tuesday, August 25, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Wednesday, August 26, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Thursday, August 27, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Friday, August 28, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Saturday, August 29, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Sunday, August 30, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Monday, August 31, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Tuesday, September 1, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Michael",
-    "showtime": "Wednesday, September 2, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Romeria",
-    "showtime": "Thursday, August 20, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Romeria",
-    "showtime": "Friday, August 21, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Romeria",
-    "showtime": "Thursday, August 27, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Romeria",
-    "showtime": "Friday, August 28, 5:10 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Thursday, August 20, 8:50 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
     "showtime": "Friday, August 21, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
+    "title": "Disclosure",
     "showtime": "Saturday, August 22, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
+    "title": "Disclosure",
     "showtime": "Sunday, August 23, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
+    "title": "Disclosure",
     "showtime": "Monday, August 24, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
+    "title": "Disclosure",
     "showtime": "Tuesday, August 25, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
+    "title": "Disclosure",
     "showtime": "Wednesday, August 26, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
+    "title": "Disclosure",
     "showtime": "Thursday, August 27, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
+    "title": "Disclosure",
     "showtime": "Friday, August 28, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
+    "title": "Disclosure",
     "showtime": "Saturday, August 29, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
+    "title": "Disclosure",
     "showtime": "Sunday, August 30, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
+    "title": "Disclosure",
     "showtime": "Monday, August 31, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
+    "title": "Disclosure",
     "showtime": "Tuesday, September 1, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
+    "title": "Disclosure",
     "showtime": "Wednesday, September 2, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Invasion of the Body Snatchers 1956 35mm FILM",
-    "showtime": "Thursday, August 20, 9:35 pm",
+    "title": "Disclosure",
+    "showtime": "Thursday, September 3, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Invasion of the Body Snatchers 1956 35mm FILM",
-    "showtime": "Sunday, August 23, 9:35 pm",
+    "title": "Obsession",
+    "showtime": "Friday, August 21, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Invasion of the Body Snatchers 1956 35mm FILM",
-    "showtime": "Thursday, August 27, 9:35 pm",
+    "title": "Obsession",
+    "showtime": "Saturday, August 22, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Invasion of the Body Snatchers 1956 35mm FILM",
-    "showtime": "Sunday, August 30, 9:35 pm",
+    "title": "Obsession",
+    "showtime": "Sunday, August 23, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Jackass Best and Last",
-    "showtime": "Thursday, August 20, 10:45 pm",
+    "title": "Obsession",
+    "showtime": "Monday, August 24, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Tuesday, August 25, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Wednesday, August 26, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Thursday, August 27, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Friday, August 28, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Saturday, August 29, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Sunday, August 30, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Monday, August 31, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Tuesday, September 1, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Wednesday, September 2, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Thursday, September 3, 7:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Michael",
+    "showtime": "Friday, August 21, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Michael",
+    "showtime": "Saturday, August 22, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Michael",
+    "showtime": "Sunday, August 23, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Michael",
+    "showtime": "Monday, August 24, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Michael",
+    "showtime": "Tuesday, August 25, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Michael",
+    "showtime": "Wednesday, August 26, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Michael",
+    "showtime": "Thursday, August 27, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Michael",
+    "showtime": "Friday, August 28, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Michael",
+    "showtime": "Saturday, August 29, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Michael",
+    "showtime": "Sunday, August 30, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Michael",
+    "showtime": "Monday, August 31, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Michael",
+    "showtime": "Tuesday, September 1, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Michael",
+    "showtime": "Wednesday, September 2, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Michael",
+    "showtime": "Thursday, September 3, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Friday, August 21, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Saturday, August 22, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Sunday, August 23, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Monday, August 24, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Tuesday, August 25, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Wednesday, August 26, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Thursday, August 27, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Friday, August 28, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Saturday, August 29, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Sunday, August 30, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Monday, August 31, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Tuesday, September 1, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Wednesday, September 2, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Thursday, September 3, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Serpent and the Rainbow 35mm FILM Dolby Stereo Sound",
+    "showtime": "Friday, August 21, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Serpent and the Rainbow 35mm FILM Dolby Stereo Sound",
+    "showtime": "Friday, August 28, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
+    "showtime": "Saturday, August 22, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
+    "showtime": "Sunday, August 23, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
+    "showtime": "Monday, August 24, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
+    "showtime": "Tuesday, August 25, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
+    "showtime": "Wednesday, August 26, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
+    "showtime": "Thursday, August 27, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
+    "showtime": "Saturday, August 29, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
+    "showtime": "Sunday, August 30, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
+    "showtime": "Monday, August 31, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
+    "showtime": "Tuesday, September 1, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
+    "showtime": "Wednesday, September 2, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
+    "showtime": "Thursday, September 3, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -716,6 +662,12 @@
   {
     "title": "Jackass Best and Last",
     "showtime": "Wednesday, September 2, 10:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Jackass Best and Last",
+    "showtime": "Thursday, September 3, 10:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
