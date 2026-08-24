@@ -1,12 +1,6 @@
 [
   {
     "title": "Super Mario 2026",
-    "showtime": "Sunday, August 23, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Super Mario 2026",
     "showtime": "Monday, August 24, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -84,8 +78,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Once Upon a Time in a Cinema",
-    "showtime": "Sunday, August 23, 5:25 pm",
+    "title": "Super Mario 2026",
+    "showtime": "Sunday, September 6, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,8 +162,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Disclosure",
-    "showtime": "Sunday, August 23, 8:50 pm",
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Sunday, September 6, 5:25 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -252,8 +246,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
-    "showtime": "Sunday, August 23, 7:15 pm",
+    "title": "Disclosure",
+    "showtime": "Sunday, September 6, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -336,8 +330,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Michael",
-    "showtime": "Sunday, August 23, 5:00 pm",
+    "title": "Obsession",
+    "showtime": "Sunday, September 6, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,8 +414,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "A Sad and Beautiful World",
-    "showtime": "Sunday, August 23, 7:00 pm",
+    "title": "Michael",
+    "showtime": "Sunday, September 6, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -504,8 +498,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
-    "showtime": "Sunday, August 23, 9:00 pm",
+    "title": "A Sad and Beautiful World",
+    "showtime": "Sunday, September 6, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -572,6 +566,12 @@
   {
     "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
     "showtime": "Saturday, September 5, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
+    "showtime": "Sunday, September 6, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
