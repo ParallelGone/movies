@@ -1,25 +1,13 @@
 [
   {
-    "title": "Sheep in the Box",
-    "showtime": "Today, Aug 24, 5:45 pm",
-    "link": "https://paradiseonbloor.com/movies/sheep-in-the-box/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "The Dirty Dozen",
-    "showtime": "Today, Aug 24, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/the-dirty-dozen/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "All Night Wrong",
-    "showtime": "Tue, Aug 25, 6:00 pm",
+    "showtime": "Today, Aug 25, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/all-night-wrong/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Dreams in Nightmares",
-    "showtime": "Tue, Aug 25, 8:30 pm",
+    "showtime": "Today, Aug 25, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/dreams-in-nightmares-canadian-premiere/",
     "source": "Paradise Theatre"
   },
@@ -45,6 +33,12 @@
     "title": "Self-Revolutionary Cinematic Struggle: North American Premiere!",
     "showtime": "Sun, Aug 30, 2:00 pm",
     "link": "https://paradiseonbloor.com/movies/self-revolutionary-cinematic-struggle-north-american-premiere/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Sheep in the Box",
+    "showtime": "Mon, Aug 31, 5:30 pm",
+    "link": "https://paradiseonbloor.com/movies/sheep-in-the-box/",
     "source": "Paradise Theatre"
   },
   {
