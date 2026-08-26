@@ -1,26 +1,26 @@
 [
   {
-    "title": "All Night Wrong",
-    "showtime": "Today, Aug 25, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/all-night-wrong/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Dreams in Nightmares",
-    "showtime": "Today, Aug 25, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/dreams-in-nightmares-canadian-premiere/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Set It Off",
-    "showtime": "Wed, Aug 26, 7:30 pm",
+    "showtime": "Today, Aug 26, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/set-it-off/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "All Night Wrong",
+    "showtime": "Thu, Aug 27, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/all-night-wrong/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Lunar Sway: Advanced Screening!",
     "showtime": "Thu, Aug 27, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/lunar-sway-advanced-screening/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Dreams in Nightmares",
+    "showtime": "Fri, Aug 28, 5:30 pm",
+    "link": "https://paradiseonbloor.com/movies/dreams-in-nightmares-canadian-premiere/",
     "source": "Paradise Theatre"
   },
   {
@@ -60,6 +60,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "showtime": "Wed, Sep 2, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/teenage-sex-and-death-at-camp-miasma/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "A Night at the Opera",
     "showtime": "Thu, Sep 3, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/a-night-at-the-opera/",
@@ -69,6 +75,12 @@
     "title": "The Rocky Horror Picture Show",
     "showtime": "Fri, Sep 4, 9:30 pm",
     "link": "https://paradiseonbloor.com/movies/the-rocky-horror-picture-show/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "American Doctor",
+    "showtime": "Sat, Sep 5, 1:30 pm",
+    "link": "https://paradiseonbloor.com/movies/american-doctor/",
     "source": "Paradise Theatre"
   },
   {
@@ -141,6 +153,12 @@
     "title": "The Tales of Hoffmann",
     "showtime": "Sun, Sep 20, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/the-tales-of-hoffmann/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Drinking and Driving",
+    "showtime": "Wed, Sep 30, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/drinking-and-driving/",
     "source": "Paradise Theatre"
   },
   {
