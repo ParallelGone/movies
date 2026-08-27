@@ -1,89 +1,5 @@
 [
   {
-    "title": "A Mighty Wind - Christopher Guest",
-    "showtime": "Wednesday, August 26, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyNjcwVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "American Doctor - Poh Si Teng",
-    "showtime": "Wednesday, August 26, 4:30PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkcyNjQzVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "American Doctor - Poh Si Teng",
-    "showtime": "Wednesday, August 26, 7:15PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkcyNjcxVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Julian - Cato Kusters",
-    "showtime": "Wednesday, August 26, 3:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyNjM0VDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Late Fame - Kent Jones",
-    "showtime": "Wednesday, August 26, 4:05PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyNjQwVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Late Fame - Kent Jones",
-    "showtime": "Wednesday, August 26, 9:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyNjkxVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Teenage Sex and Death at Camp Miasma - Jane Schoenbrun",
-    "showtime": "Wednesday, August 26, 3:50PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyNjM1VDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Teenage Sex and Death at Camp Miasma - Jane Schoenbrun",
-    "showtime": "Wednesday, August 26, 6:50PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkcyNjY1VDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Teenage Sex and Death at Camp Miasma - Jane Schoenbrun",
-    "showtime": "Wednesday, August 26, 9:45PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkcyNjk0VDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Rivals of Amziah King - Andrew Patterson",
-    "showtime": "Wednesday, August 26, 9:35PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkcyNjkzVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Samurai and the Prisoner - Kiyoshi Kurosawa",
-    "showtime": "Wednesday, August 26, 4:15PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkcyNjQxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Samurai and the Prisoner - Kiyoshi Kurosawa",
-    "showtime": "Wednesday, August 26, 7:30PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkcyNjczVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Train to Busan - Yeon Sang-ho",
-    "showtime": "Wednesday, August 26, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyNjYzVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "American Doctor - Poh Si Teng",
-    "showtime": "Thursday, August 27, 4:15PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkcyNzQxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
     "title": "American Doctor - Poh Si Teng",
     "showtime": "Thursday, August 27, 6:40PM",
     "link": "https://am.ticketmaster.com/tiff/buy/ism/NkcyNzY0VDU=",
@@ -98,25 +14,19 @@
   {
     "title": "Chronovisor - Jack Auen, Kevin Walker",
     "showtime": "Thursday, August 27, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyNzYzVDQ=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Late Fame - Kent Jones",
     "showtime": "Thursday, August 27, 7:20PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyNzcyVDE=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Late Fame - Kent Jones",
     "showtime": "Thursday, August 27, 9:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyNzk0VDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Teenage Sex and Death at Camp Miasma - Jane Schoenbrun",
-    "showtime": "Thursday, August 27, 3:45PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkcyNzM0VDM=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -133,8 +43,8 @@
   },
   {
     "title": "The Rivals of Amziah King - Andrew Patterson",
-    "showtime": "Thursday, August 27, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkcyNzQwVDE=",
+    "showtime": "Thursday, August 27",
+    "link": "https://tiff.net/events/the-rivals-of-amziah-king",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -164,25 +74,25 @@
   {
     "title": "Careful with Guy Maddin",
     "showtime": "Friday, August 28, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyODYzVDM=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Colony - Yeon Sang-ho",
     "showtime": "Friday, August 28, 1:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyODEzVDE=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Colony - Yeon Sang-ho",
     "showtime": "Friday, August 28, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyODcwVDE=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Colony - Yeon Sang-ho",
     "showtime": "Friday, August 28, 9:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyODk0VDE=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -200,7 +110,7 @@
   {
     "title": "Filipiñana - Rafael Manuel",
     "showtime": "Friday, August 28, 9:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyODkwVDQ=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -218,13 +128,13 @@
   {
     "title": "Late Fame - Kent Jones",
     "showtime": "Friday, August 28, 1:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyODEwVDU=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Late Fame - Kent Jones",
     "showtime": "Friday, August 28, 3:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyODMzVDU=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -242,7 +152,7 @@
   {
     "title": "Teenage Sex and Death at Camp Miasma - Jane Schoenbrun",
     "showtime": "Friday, August 28, 6:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyODY0VDI=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -278,31 +188,31 @@
   {
     "title": "Colony - Yeon Sang-ho",
     "showtime": "Saturday, August 29, 2:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyOTIwVDE=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Colony - Yeon Sang-ho",
     "showtime": "Saturday, August 29, 4:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyOTQ0VDE=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Colony - Yeon Sang-ho",
     "showtime": "Saturday, August 29, 7:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyOTczVDE=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Colony - Yeon Sang-ho",
     "showtime": "Saturday, August 29, 9:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyOTkzVDI=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Filipiñana - Rafael Manuel",
     "showtime": "Saturday, August 29, 1:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyOTExVDI=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -320,19 +230,19 @@
   {
     "title": "Late Fame - Kent Jones",
     "showtime": "Saturday, August 29, 1:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyOTEwVDQ=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Late Fame - Kent Jones",
     "showtime": "Saturday, August 29, 8:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyOTgzVDU=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Mysterious Skin - Gregg Araki",
     "showtime": "Saturday, August 29, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyOTYzVDQ=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -368,7 +278,7 @@
   {
     "title": "White Nights - Luchino Visconti",
     "showtime": "Saturday, August 29, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkcyOTQwVDQ=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -392,25 +302,25 @@
   {
     "title": "Colony - Yeon Sang-ho",
     "showtime": "Sunday, August 30, 1:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkczMDEwVDE=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Colony - Yeon Sang-ho",
     "showtime": "Sunday, August 30, 3:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkczMDM0VDE=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Colony - Yeon Sang-ho",
     "showtime": "Sunday, August 30, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkczMDYzVDE=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Colony - Yeon Sang-ho",
     "showtime": "Sunday, August 30, 9:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkczMDkxVDE=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -434,25 +344,25 @@
   {
     "title": "Late Fame - Kent Jones",
     "showtime": "Sunday, August 30, 12:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkczMEwzVDM=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Late Fame - Kent Jones",
     "showtime": "Sunday, August 30, 3:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkczMDMxVDM=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Late Fame - Kent Jones",
     "showtime": "Sunday, August 30, 6:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkczMDY0VDU=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Mysterious Skin - Gregg Araki",
     "showtime": "Sunday, August 30, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkczMDYzVDQ=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -488,7 +398,7 @@
   {
     "title": "White Nights - Luchino Visconti",
     "showtime": "Sunday, August 30, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/NkczMDQwVDQ=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -576,15 +486,63 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Males",
+    "showtime": "Friday, October 9, 11:00AM",
+    "link": "https://am.ticketmaster.com/tiff/buy/BFF2026",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "The Noise Of The Night",
+    "showtime": "Friday, October 9, 4:45PM",
+    "link": "https://am.ticketmaster.com/tiff/buy/BFF2026",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Zico - The Samurai From Quintino",
+    "showtime": "Friday, October 9, 2:00PM",
+    "link": "https://am.ticketmaster.com/tiff/buy/BFF2026",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Five Kinds Of Fear",
+    "showtime": "Saturday, October 10, 8:00PM",
+    "link": "https://am.ticketmaster.com/tiff/buy/BFF2026",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "If I Were You 3",
+    "showtime": "Saturday, October 10, 11:15AM",
+    "link": "https://am.ticketmaster.com/tiff/buy/BFF2026",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Night Stage",
+    "showtime": "Saturday, October 10, 5:00PM",
+    "link": "https://am.ticketmaster.com/tiff/buy/BFF2026",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "The Fox Sisters",
+    "showtime": "Saturday, October 10, 1:50PM",
+    "link": "https://am.ticketmaster.com/tiff/buy/BFF2026",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "The Crime Genius",
+    "showtime": "Sunday, October 11, 11:00AM",
+    "link": "https://am.ticketmaster.com/tiff/buy/BFF2026",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "In Conversation With... Iain Reid and Ellie Foumbi",
     "showtime": "Tuesday, October 13, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk8xMzYzVDI=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   },
   {
     "title": "Eyimofe (This is My Desire) with local.global",
     "showtime": "Wednesday, October 14, 6:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk8xNDYwVDM=",
+    "link": "https://am.ticketmaster.com/tiff/",
     "source": "TIFF Bell Lightbox"
   }
 ]
