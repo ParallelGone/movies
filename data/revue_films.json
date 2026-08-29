@@ -391,6 +391,12 @@
   },
   {
     "title": "COYOTE VS ACME",
+    "showtime": "Sat Sep 5, 12:00 PM",
+    "link": "https://revuecinema.ca/films/coyote-vs-acme/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "COYOTE VS ACME",
     "showtime": "Sun Sep 6, 7:00 PM",
     "link": "https://revuecinema.ca/films/coyote-vs-acme/",
     "source": "Revue Cinema"
@@ -402,21 +408,9 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Hold Up: D.E.B.S. (2004)",
-    "showtime": "Thu Aug 27, 6:45 PM",
-    "link": "https://revuecinema.ca/films/hold-up-d-e-b-s-2004/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Nightmare Alley: DEAD & BURIED - 45th Anniversary Screening!",
     "showtime": "Thu Sep 24, 9:30 PM",
     "link": "https://revuecinema.ca/films/nightmare-alley-dead-buried-45th-anniversary-screening/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Heat Wave : DELIVERANCE (1972) - Introduced by Nathan Boone",
-    "showtime": "Wed Aug 26, 6:30 PM",
-    "link": "https://revuecinema.ca/films/heat-wave-deliverance-1972-introduced-by-nathan-boone/",
     "source": "Revue Cinema"
   },
   {
@@ -870,12 +864,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Stompbox: YACHT ROCK: THE COMPLETE WEB SERIES u2013 w/ live set of smooth hits from DRAGON SOUNDS!",
-    "showtime": "Thu Aug 27, 9:30 PM",
-    "link": "https://revuecinema.ca/films/stompbox-yacht-rock-the-complete-web-series-w-live-set-of-smooth-hits-from-dragon-sounds/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Revue Film Society: STRANGERS ON A TRAIN - 75th Anniversary Screening!",
     "showtime": "Tue Dec 8, 6:45 PM",
     "link": "https://revuecinema.ca/films/revue-film-society-strangers-on-a-train-75th-anniversary-screening/",
@@ -891,18 +879,6 @@
     "title": "Hollywood Suite's Movie Madness: SUSPIRIA (1977) - New Restoration",
     "showtime": "Mon Oct 5, 6:45 PM",
     "link": "https://revuecinema.ca/films/paid-in-sweat-suspiria-1977-new-restoration/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "TEENAGE SEX AND DEATH AT CAMP MIASMA (First Run screenings, Special Dumpster Raccoon event and 35mm screenings))",
-    "showtime": "Wed Aug 26, 3:30 PM",
-    "link": "https://revuecinema.ca/films/teenage-sex-and-death-at-camp-miasma-first-run-screenings-special-dumpster-raccoon-event/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "TEENAGE SEX AND DEATH AT CAMP MIASMA (First Run screenings, Special Dumpster Raccoon event and 35mm screenings))",
-    "showtime": "Thu Aug 27, 3:00 PM",
-    "link": "https://revuecinema.ca/films/teenage-sex-and-death-at-camp-miasma-first-run-screenings-special-dumpster-raccoon-event/",
     "source": "Revue Cinema"
   },
   {
@@ -1101,12 +1077,6 @@
     "title": "The Perfect Date: WHEN HARRY MET SALLY (1989) - New 4K Restoration!",
     "showtime": "Thu Dec 31, 4:00 PM",
     "link": "https://revuecinema.ca/films/the-perfect-date-when-harry-met-sally/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Highway To Hell: WOLF CREEK (2005)",
-    "showtime": "Wed Aug 26, 9:30 PM",
-    "link": "https://revuecinema.ca/films/highway-to-hell-wolf-creek-2005/",
     "source": "Revue Cinema"
   },
   {

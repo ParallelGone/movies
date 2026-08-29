@@ -1,12 +1,6 @@
 [
   {
     "title": "Super Mario 2026",
-    "showtime": "Friday, August 28, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Super Mario 2026",
     "showtime": "Saturday, August 29, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -84,8 +78,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Once Upon a Time in a Cinema",
-    "showtime": "Friday, August 28, 5:25 pm",
+    "title": "Super Mario 2026",
+    "showtime": "Friday, September 11, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,8 +162,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "One Night Only",
-    "showtime": "Friday, August 28, 2:45pm",
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Friday, September 11, 5:25 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -253,7 +247,7 @@
   },
   {
     "title": "One Night Only",
-    "showtime": "Friday, August 28, 7:05 pm",
+    "showtime": "Friday, September 11, 2:45pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -336,8 +330,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
-    "showtime": "Friday, August 28, 7:15 pm",
+    "title": "One Night Only",
+    "showtime": "Friday, September 11, 7:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,8 +414,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Michael",
-    "showtime": "Friday, August 28, 5:00 pm",
+    "title": "Obsession",
+    "showtime": "Friday, September 11, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -504,8 +498,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Disclosure",
-    "showtime": "Friday, August 28, 8:50 pm",
+    "title": "Michael",
+    "showtime": "Friday, September 11, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -588,20 +582,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
-    "showtime": "Friday, August 28, 9:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Oblivion 35mm FILM DTS Sound with Tom Cruise",
-    "showtime": "Friday, September 4, 9:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Jackass Best and Last",
-    "showtime": "Friday, August 28, 11:15 pm",
+    "title": "Disclosure",
+    "showtime": "Friday, September 11, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -620,6 +602,12 @@
   {
     "title": "Jackass Best and Last",
     "showtime": "Saturday, September 5, 11:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Jackass Best and Last",
+    "showtime": "Friday, September 11, 11:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
