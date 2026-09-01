@@ -1,18 +1,6 @@
 [
   {
     "title": "Tony",
-    "showtime": "Monday, August 31, 3:20 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=646165~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Tony",
-    "showtime": "Monday, August 31, 6:00 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=646166~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Tony",
     "showtime": "Tuesday, September 1, 3:45 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=646167~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
@@ -91,12 +79,6 @@
   },
   {
     "title": "Teenage Sex and Death at Camp Miasma",
-    "showtime": "Monday, August 31, 8:45 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=646152~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Teenage Sex and Death at Camp Miasma",
     "showtime": "Tuesday, September 1, 9:15 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=646153~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
@@ -111,6 +93,12 @@
     "title": "Teenage Sex and Death at Camp Miasma",
     "showtime": "Thursday, September 3, 9:15 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=646155~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "showtime": "Friday, September 11, 9:30 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=651787~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {

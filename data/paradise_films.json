@@ -1,25 +1,13 @@
 [
   {
-    "title": "Sheep in the Box",
-    "showtime": "Today, Aug 31, 5:30 pm",
-    "link": "https://paradiseonbloor.com/movies/sheep-in-the-box/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Jim Queen: Toronto Premiere!",
-    "showtime": "Today, Aug 31, 8:30 pm\nSOLD OUT",
-    "link": "https://paradiseonbloor.com/movies/jim-queen-canadian-premiere/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "It Ends",
-    "showtime": "Tue, Sep 1, 6:00 pm",
+    "showtime": "Today, Sep 1, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/it-ends/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Chunks: Toronto Premiere!",
-    "showtime": "Tue, Sep 1, 8:30 pm",
+    "showtime": "Today, Sep 1, 8:30 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/movies/chunks-toronto-premiere/",
     "source": "Paradise Theatre"
   },
@@ -261,6 +249,12 @@
     "title": "Batman & Robin",
     "showtime": "Wed, Oct 28, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/batman-robin/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Cannes Dogs: The Woman Who Could Read the Minds of Dogs",
+    "showtime": "Sun, Nov 1, 1:30 pm",
+    "link": "https://paradiseonbloor.com/movies/cannes-dogs-the-woman-who-could-read-the-minds-of-dogs/",
     "source": "Paradise Theatre"
   },
   {
