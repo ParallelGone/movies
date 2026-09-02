@@ -1,19 +1,13 @@
 [
   {
     "title": "It Ends",
-    "showtime": "Today, Sep 1, 6:00 pm",
+    "showtime": "Today, Sep 2, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/it-ends/",
     "source": "Paradise Theatre"
   },
   {
-    "title": "Chunks: Toronto Premiere!",
-    "showtime": "Today, Sep 1, 8:30 pm\nSOLD OUT",
-    "link": "https://paradiseonbloor.com/movies/chunks-toronto-premiere/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Teenage Sex and Death at Camp Miasma",
-    "showtime": "Wed, Sep 2, 8:30 pm",
+    "showtime": "Today, Sep 2, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/teenage-sex-and-death-at-camp-miasma/",
     "source": "Paradise Theatre"
   },
@@ -48,6 +42,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "The Wrong Girls",
+    "showtime": "Tue, Sep 8, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-wrong-girls/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "The Magic Flute",
     "showtime": "Wed, Sep 9, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-magic-flute/",
@@ -66,7 +66,7 @@
     "source": "Paradise Theatre"
   },
   {
-    "title": "Rheostatics Perform Great Lake Suites",
+    "title": "Rheostatics Perform Great Lake Suite",
     "showtime": "Sat, Sep 12, 8:00 pm",
     "link": "https://paradiseonbloor.com/special_events/rheostatics-perform-great-lake-suites/",
     "source": "Paradise Theatre"
@@ -183,6 +183,12 @@
     "title": "T.O. Indie 2026: Ding, Dong, Die!",
     "showtime": "Sat, Sep 19, 10:00 pm",
     "link": "https://paradiseonbloor.com/movies/t-o-indie-2026-ding-dong-die/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Wallace & Gromit: The Classic Shorts",
+    "showtime": "Sun, Sep 20, 1:00 pm",
+    "link": "https://paradiseonbloor.com/programs/wallace-gromit-the-classic-shorts/",
     "source": "Paradise Theatre"
   },
   {

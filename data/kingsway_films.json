@@ -1,12 +1,6 @@
 [
   {
     "title": "Super Mario 2026",
-    "showtime": "Tuesday, September 1, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Super Mario 2026",
     "showtime": "Wednesday, September 2, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -84,8 +78,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Once Upon a Time in a Cinema",
-    "showtime": "Tuesday, September 1, 5:25 pm",
+    "title": "Super Mario 2026",
+    "showtime": "Tuesday, September 15, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,8 +162,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "One Night Only",
-    "showtime": "Tuesday, September 1, 2:45pm",
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Tuesday, September 15, 5:25 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -253,7 +247,7 @@
   },
   {
     "title": "One Night Only",
-    "showtime": "Tuesday, September 1, 7:05 pm",
+    "showtime": "Tuesday, September 15, 2:45pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -336,8 +330,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
-    "showtime": "Tuesday, September 1, 7:15 pm",
+    "title": "One Night Only",
+    "showtime": "Tuesday, September 15, 7:05 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,8 +414,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Michael",
-    "showtime": "Tuesday, September 1, 5:00 pm",
+    "title": "Obsession",
+    "showtime": "Tuesday, September 15, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -504,8 +498,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Disclosure",
-    "showtime": "Tuesday, September 1, 8:50 pm",
+    "title": "Michael",
+    "showtime": "Tuesday, September 15, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -584,6 +578,12 @@
   {
     "title": "Disclosure",
     "showtime": "Monday, September 14, 8:50 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Disclosure",
+    "showtime": "Tuesday, September 15, 8:50 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }

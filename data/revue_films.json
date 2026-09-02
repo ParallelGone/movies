@@ -343,12 +343,6 @@
   },
   {
     "title": "COYOTE VS ACME",
-    "showtime": "Mon Aug 31, 6:45 PM",
-    "link": "https://revuecinema.ca/films/coyote-vs-acme/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "COYOTE VS ACME",
     "showtime": "Tue Sep 1, 6:45 PM",
     "link": "https://revuecinema.ca/films/coyote-vs-acme/",
     "source": "Revue Cinema"
@@ -411,12 +405,6 @@
     "title": "Black Belt Cinema: DON'T PLAY WITH FIRE (1980) - New Restoration!",
     "showtime": "Sat Sep 19, 9:30 PM",
     "link": "https://revuecinema.ca/films/black-belt-cinema-dont-play-with-fire-1980-new-restoration/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Revue Event: DREAMS IN NIGHTMARES",
-    "showtime": "Mon Aug 31, 9:30 PM",
-    "link": "https://revuecinema.ca/films/revue-event-dreams-in-nightmares/",
     "source": "Revue Cinema"
   },
   {
@@ -543,6 +531,12 @@
     "title": "The Perfect Date: IT'S A WONDERFUL LIFE - 80th Anniversary Screening!",
     "showtime": "Thu Dec 24, 4:00 PM",
     "link": "https://revuecinema.ca/films/the-perfect-date-its-a-wonderful-life-4k-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Revue Event: JIGOKU (1960) - Toronto Theatrical Premiere of New 4K Restoration!",
+    "showtime": "Wed Oct 21, 9:30 PM",
+    "link": "https://revuecinema.ca/films/revue-event-jigoku-1960-toronto-theatrical-premiere-of-new-4k-restoration/",
     "source": "Revue Cinema"
   },
   {
@@ -937,7 +931,7 @@
   },
   {
     "title": "Revue Event: THE SAMURAI AND THE PRISONER",
-    "showtime": "Sat Sep 5, 4:00 PM",
+    "showtime": "Sat Sep 5, 3:00 PM",
     "link": "https://revuecinema.ca/films/revue-event-the-samurai-and-the-prisoner/",
     "source": "Revue Cinema"
   },
