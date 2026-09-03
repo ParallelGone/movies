@@ -343,12 +343,6 @@
   },
   {
     "title": "COYOTE VS ACME",
-    "showtime": "Tue Sep 1, 6:45 PM",
-    "link": "https://revuecinema.ca/films/coyote-vs-acme/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "COYOTE VS ACME",
     "showtime": "Wed Sep 2, 4:00 PM",
     "link": "https://revuecinema.ca/films/coyote-vs-acme/",
     "source": "Revue Cinema"
@@ -738,12 +732,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Revue Cinema: MYSTERIOUS SKIN (2005)  - New 4K Restoration!",
-    "showtime": "Tue Sep 1, 9:30 PM",
-    "link": "https://revuecinema.ca/films/revue-cinema-mysterious-skin-2005-new-4k-restoration/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Revue Event: REEL FEAR:  THE EVOLUTION OF FOUND FOOTAGE HORROR  - Lecture by Alex West",
     "showtime": "Tue Oct 13, 7:00 PM",
     "link": "https://revuecinema.ca/films/revue-event-reel-fear-the-evolution-of-found-footage-horror-lecture-by-alex-west/",
@@ -924,6 +912,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Dumpster Raccoon: THE LAIR OF THE WHITE WORM",
+    "showtime": "Sat Oct 24, 9:30 PM",
+    "link": "https://revuecinema.ca/films/dumpster-raccoon-the-lair-of-the-white-worm/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Do You Like Pain? Retrospective: THE MIDNIGHT MEAT TRAIN (2008)",
     "showtime": "Mon Oct 19, 9:30 PM",
     "link": "https://revuecinema.ca/films/do-you-like-pain-retrospective-the-midnight-meat-train-2008/",
@@ -975,6 +969,18 @@
     "title": "X-Mas Horror Classics: TO ALL A GOODNIGHT (1980)",
     "showtime": "Thu Dec 10, 9:30 PM",
     "link": "https://revuecinema.ca/films/x-mas-horror-classics-to-all-a-goodnight-1980/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Anime At The Revue: TOKYO GODFATHERS (2003)",
+    "showtime": "Mon Dec 7, 7:00 PM",
+    "link": "https://revuecinema.ca/films/anime-at-the-revue-tokyo-godfathers-2003/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Anime At The Revue: TOKYO GODFATHERS (2003)",
+    "showtime": "Tue Dec 8, 9:30 PM",
+    "link": "https://revuecinema.ca/films/anime-at-the-revue-tokyo-godfathers-2003/",
     "source": "Revue Cinema"
   },
   {

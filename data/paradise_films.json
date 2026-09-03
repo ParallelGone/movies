@@ -1,25 +1,19 @@
 [
   {
-    "title": "It Ends",
-    "showtime": "Today, Sep 2, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/it-ends/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Teenage Sex and Death at Camp Miasma",
-    "showtime": "Today, Sep 2, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/teenage-sex-and-death-at-camp-miasma/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "A Night at the Opera",
-    "showtime": "Thu, Sep 3, 6:00 pm",
+    "showtime": "Today, Sep 3, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/a-night-at-the-opera/",
     "source": "Paradise Theatre"
   },
   {
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "showtime": "Today, Sep 3, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/teenage-sex-and-death-at-camp-miasma/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "The Rocky Horror Picture Show",
-    "showtime": "Fri, Sep 4, 9:30 pm",
+    "showtime": "Fri, Sep 4, 9:30 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/movies/the-rocky-horror-picture-show/",
     "source": "Paradise Theatre"
   },
@@ -45,6 +39,12 @@
     "title": "The Wrong Girls",
     "showtime": "Tue, Sep 8, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-wrong-girls/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "It Ends",
+    "showtime": "Tue, Sep 8, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/it-ends/",
     "source": "Paradise Theatre"
   },
   {
@@ -234,6 +234,18 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Tales from the Crypt: Demon Knight",
+    "showtime": "Mon, Oct 5, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/tales-from-the-crypt-demon-knight/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Cat People",
+    "showtime": "Wed, Oct 7, 6:15 pm",
+    "link": "https://paradiseonbloor.com/movies/cat-people/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "George Civeris LIVE!",
     "showtime": "Sat, Oct 10, 8:30 pm",
     "link": "https://paradiseonbloor.com/special_events/george-civeris-live/",
@@ -249,6 +261,12 @@
     "title": "Grace Helbig: Let Me Get This Off My Chest",
     "showtime": "Sun, Oct 11, 8:30 pm",
     "link": "https://paradiseonbloor.com/special_events/grace-helbig-let-me-get-this-off-my-chest/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Innocents",
+    "showtime": "Tue, Oct 13, 8:45 pm",
+    "link": "https://paradiseonbloor.com/movies/the-innocents/",
     "source": "Paradise Theatre"
   },
   {
