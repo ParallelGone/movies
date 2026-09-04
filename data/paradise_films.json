@@ -1,20 +1,8 @@
 [
   {
-    "title": "A Night at the Opera",
-    "showtime": "Today, Sep 3, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/a-night-at-the-opera/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Teenage Sex and Death at Camp Miasma",
-    "showtime": "Today, Sep 3, 8:30 pm",
+    "showtime": "Today, Sep 4, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/teenage-sex-and-death-at-camp-miasma/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "The Rocky Horror Picture Show",
-    "showtime": "Fri, Sep 4, 9:30 pm\nSOLD OUT",
-    "link": "https://paradiseonbloor.com/movies/the-rocky-horror-picture-show/",
     "source": "Paradise Theatre"
   },
   {
@@ -63,6 +51,12 @@
     "title": "Topsy-Turvy",
     "showtime": "Fri, Sep 11, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/topsy-turvy/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Big Trouble in Little China: 40th Anniversary!",
+    "showtime": "Fri, Sep 11, 9:30 pm",
+    "link": "https://paradiseonbloor.com/movies/big-trouble-in-little-china-40th-anniversary/",
     "source": "Paradise Theatre"
   },
   {
