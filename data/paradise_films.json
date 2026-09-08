@@ -1,37 +1,13 @@
 [
   {
-    "title": "American Doctor",
-    "showtime": "Today, Sep 5, 1:30 pm",
-    "link": "https://paradiseonbloor.com/movies/american-doctor/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Teenage Sex and Death at Camp Miasma",
-    "showtime": "Today, Sep 5, 4:00 pm",
-    "link": "https://paradiseonbloor.com/movies/teenage-sex-and-death-at-camp-miasma/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Amadeus",
-    "showtime": "Today, Sep 5, 7:00 pm",
-    "link": "https://paradiseonbloor.com/movies/amadeus/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Carmen Jones",
-    "showtime": "Mon, Sep 7, 3:00 pm",
-    "link": "https://paradiseonbloor.com/movies/carmen-jones/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "The Wrong Girls",
-    "showtime": "Tue, Sep 8, 6:00 pm",
+    "showtime": "Today, Sep 8, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-wrong-girls/",
     "source": "Paradise Theatre"
   },
   {
     "title": "It Ends",
-    "showtime": "Tue, Sep 8, 8:30 pm",
+    "showtime": "Today, Sep 8, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/it-ends/",
     "source": "Paradise Theatre"
   },
@@ -189,6 +165,12 @@
     "title": "The Tales of Hoffmann",
     "showtime": "Sun, Sep 20, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/the-tales-of-hoffmann/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Member Mondays: The Thin Blue Line",
+    "showtime": "Mon, Sep 21, 6:15 pm",
+    "link": "https://paradiseonbloor.com/movies/member-mondays-the-thin-blue-line/",
     "source": "Paradise Theatre"
   },
   {
