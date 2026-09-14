@@ -630,12 +630,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "(Not-So) Terrible Twos: OCEAN'S TWELVE (2004)",
-    "showtime": "Sat Sep 12, 6:30 PM",
-    "link": "https://revuecinema.ca/films/not-so-terrible-twos-oceans-twelve-2004/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Revue Event: PARANORMAL ACTIVITY (2007) - Presented on 35mm!",
     "showtime": "Tue Oct 13, 9:30 PM",
     "link": "https://revuecinema.ca/films/revue-event-paranormal-activity-2007-presented-on-35mm/",
@@ -777,12 +771,6 @@
     "title": "The Midnight Revue:  SE7EN - (1995) - New 4K Restoration!",
     "showtime": "Sat Nov 7, 11:30 PM",
     "link": "https://revuecinema.ca/films/revue-event-se7en-1995-new-4k-restoration/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Revue Event:  SEVEN SAMURAI (1954) -  Presented on 35mm!",
-    "showtime": "Sat Sep 12, 1:00 PM",
-    "link": "https://revuecinema.ca/films/seven-samurai/",
     "source": "Revue Cinema"
   },
   {
@@ -1009,12 +997,6 @@
   },
   {
     "title": "TONY",
-    "showtime": "Sat Sep 12, 9:30 PM",
-    "link": "https://revuecinema.ca/films/tony/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "TONY",
     "showtime": "Sun Sep 13, 11:00 AM",
     "link": "https://revuecinema.ca/films/tony/",
     "source": "Revue Cinema"
@@ -1041,6 +1023,12 @@
     "title": "TONY",
     "showtime": "Thu Sep 17, 3:30 PM",
     "link": "https://revuecinema.ca/films/tony/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Psych-Out Cinema:  TRAINSPOTTING (1996) - New 4K Restoration!",
+    "showtime": "Wed Nov 11, 9:30 PM",
+    "link": "https://revuecinema.ca/films/psych-out-cinema-trainspotting-1996-new-4k-restoration/",
     "source": "Revue Cinema"
   },
   {
