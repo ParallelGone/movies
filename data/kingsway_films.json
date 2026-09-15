@@ -1,12 +1,6 @@
 [
   {
     "title": "Minions 2026",
-    "showtime": "Monday, September 14, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Minions 2026",
     "showtime": "Tuesday, September 15, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -85,7 +79,7 @@
   },
   {
     "title": "Minions 2026",
-    "showtime": "Monday, September 14, 5:00 pm",
+    "showtime": "Monday, September 28, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,8 +162,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Filipinana",
-    "showtime": "Monday, September 14, 3:00 pm",
+    "title": "Minions 2026",
+    "showtime": "Monday, September 28, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -253,7 +247,7 @@
   },
   {
     "title": "Filipinana",
-    "showtime": "Monday, September 14, 7:00 pm",
+    "showtime": "Monday, September 28, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -337,7 +331,7 @@
   },
   {
     "title": "Filipinana",
-    "showtime": "Monday, September 14, 5:00 pm",
+    "showtime": "Monday, September 28, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,8 +414,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Finding Emily",
-    "showtime": "Monday, September 14, 3:00 pm",
+    "title": "Filipinana",
+    "showtime": "Monday, September 28, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -505,7 +499,7 @@
   },
   {
     "title": "Finding Emily",
-    "showtime": "Monday, September 14, 7:00 pm",
+    "showtime": "Monday, September 28, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -588,38 +582,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "A Sad and Beautiful World",
-    "showtime": "Monday, September 14, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "A Sad and Beautiful World",
-    "showtime": "Wednesday, September 16, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "A Sad and Beautiful World",
-    "showtime": "Saturday, September 19, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "A Sad and Beautiful World",
-    "showtime": "Monday, September 21, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "A Sad and Beautiful World",
-    "showtime": "Wednesday, September 23, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "A Sad and Beautiful World",
-    "showtime": "Saturday, September 26, 3:00 pm",
+    "title": "Finding Emily",
+    "showtime": "Monday, September 28, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -672,8 +636,38 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Teenage Sex and Death at Camp Miasma",
-    "showtime": "Monday, September 14, 9:00 pm",
+    "title": "A Sad and Beautiful World",
+    "showtime": "Wednesday, September 16, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Saturday, September 19, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Monday, September 21, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Wednesday, September 23, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Saturday, September 26, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Monday, September 28, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -756,38 +750,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
-    "showtime": "Monday, September 14, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Wednesday, September 16, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Saturday, September 19, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Monday, September 21, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Wednesday, September 23, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Saturday, September 26, 9:00 pm",
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "showtime": "Monday, September 28, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -836,6 +800,42 @@
   {
     "title": "One Night Only",
     "showtime": "Sunday, September 27, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Wednesday, September 16, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Saturday, September 19, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Monday, September 21, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Wednesday, September 23, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Saturday, September 26, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Obsession",
+    "showtime": "Monday, September 28, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
