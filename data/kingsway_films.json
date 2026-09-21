@@ -1,12 +1,6 @@
 [
   {
     "title": "Minions 2026",
-    "showtime": "Sunday, September 20, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Minions 2026",
     "showtime": "Monday, September 21, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -85,7 +79,7 @@
   },
   {
     "title": "Minions 2026",
-    "showtime": "Sunday, September 20, 5:00 pm",
+    "showtime": "Sunday, October 4, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,8 +162,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Filipinana",
-    "showtime": "Sunday, September 20, 3:00 pm",
+    "title": "Minions 2026",
+    "showtime": "Sunday, October 4, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -253,7 +247,7 @@
   },
   {
     "title": "Filipinana",
-    "showtime": "Sunday, September 20, 7:00 pm",
+    "showtime": "Sunday, October 4, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -337,7 +331,7 @@
   },
   {
     "title": "Filipinana",
-    "showtime": "Sunday, September 20, 5:00 pm",
+    "showtime": "Sunday, October 4, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,8 +414,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Finding Emily",
-    "showtime": "Sunday, September 20, 3:00 pm",
+    "title": "Filipinana",
+    "showtime": "Sunday, October 4, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -505,7 +499,7 @@
   },
   {
     "title": "Finding Emily",
-    "showtime": "Sunday, September 20, 7:00 pm",
+    "showtime": "Sunday, October 4, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -588,8 +582,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Once Upon a Time in a Cinema",
-    "showtime": "Sunday, September 20, 3:00 pm",
+    "title": "Finding Emily",
+    "showtime": "Sunday, October 4, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -636,8 +630,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Teenage Sex and Death at Camp Miasma",
-    "showtime": "Sunday, September 20, 9:00 pm",
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Sunday, October 4, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -720,6 +714,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "showtime": "Sunday, October 4, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "Obsession",
     "showtime": "Monday, September 21, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
@@ -752,12 +752,6 @@
   {
     "title": "Obsession",
     "showtime": "Saturday, October 3, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "One Night Only",
-    "showtime": "Sunday, September 20, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -800,6 +794,12 @@
   {
     "title": "One Night Only",
     "showtime": "Friday, October 2, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "One Night Only",
+    "showtime": "Sunday, October 4, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
