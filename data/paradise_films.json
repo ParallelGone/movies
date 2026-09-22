@@ -1,13 +1,7 @@
 [
   {
-    "title": "Member Mondays: The Thin Blue Line",
-    "showtime": "Today, Sep 21, 6:15 pm",
-    "link": "https://paradiseonbloor.com/movies/member-mondays-the-thin-blue-line/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Judged Before the Judge",
-    "showtime": "Tue, Sep 22, 6:30 pm",
+    "showtime": "Today, Sep 22, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/judged-before-the-judge/",
     "source": "Paradise Theatre"
   },
@@ -54,9 +48,21 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Once Upon a Time in Harlem: Advanced Screening!",
+    "showtime": "Sun, Oct 4, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/once-upon-a-time-in-harlem-advanced-screening/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Tales from the Crypt: Demon Knight",
     "showtime": "Mon, Oct 5, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/tales-from-the-crypt-demon-knight/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Reflecting Skin",
+    "showtime": "Tue, Oct 6, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/the-reflecting-skin/",
     "source": "Paradise Theatre"
   },
   {
@@ -93,6 +99,12 @@
     "title": "The Innocents",
     "showtime": "Tue, Oct 13, 8:45 pm",
     "link": "https://paradiseonbloor.com/movies/the-innocents/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Salome Learns to Dance",
+    "showtime": "Sun, Oct 18, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/salome-learns-to-dance/",
     "source": "Paradise Theatre"
   },
   {
