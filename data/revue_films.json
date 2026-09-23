@@ -289,12 +289,6 @@
   },
   {
     "title": "CLOSED FOR TECHNICAL UPGRADES",
-    "showtime": "Mon Sep 21, 12:00 PM",
-    "link": "https://revuecinema.ca/films/closed-for-technical-upgrades/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "CLOSED FOR TECHNICAL UPGRADES",
     "showtime": "Tue Sep 22, 12:00 PM",
     "link": "https://revuecinema.ca/films/closed-for-technical-upgrades/",
     "source": "Revue Cinema"
@@ -1173,6 +1167,12 @@
     "title": "Revue Event: TWILIGHT (2008)",
     "showtime": "Sun Oct 4, 1:00 PM",
     "link": "https://revuecinema.ca/films/revue-event-twilight-2008/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Don't Be So Political: UMBERTO D. (1952)",
+    "showtime": "Sun Nov 8, 7:00 PM",
+    "link": "https://revuecinema.ca/films/dont-be-so-political-umberto-d-1952/",
     "source": "Revue Cinema"
   },
   {
