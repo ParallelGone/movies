@@ -288,6 +288,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "MagicLand",
+    "showtime": "Monday, November 9, 7:00 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=658798~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Klassic Kidz: ParaNorman",
     "showtime": "Saturday, October 10, 1:00 pm",
     "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=649643~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
@@ -397,26 +403,14 @@
   },
   {
     "title": "Battle of the Sexes: Birth",
-    "showtime": "Thursday, October 1, 6:30 pm",
-    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=629274~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
+    "showtime": "Thursday, December 3, 6:40 pm",
+    "link": "https://tickets.foxtheatre.ca/websales/pages/ticketsearchcriteria.aspx?evtinfo=658758~3cc021f8-1c84-4d3e-b58d-8be52cd73055&",
     "source": "Fox Theatre"
   },
   {
     "title": "Something’s Wrong : A Special Halloween Screening",
     "showtime": "Tuesday, October 20, 9:00 pm",
     "link": "https://www.foxtheatre.ca/movies/somethings-wrong/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Temporarily Closed For Concessions Renovations",
-    "showtime": "Monday, September 21, 12:00 am",
-    "link": "https://www.foxtheatre.ca/movies/temporarily-closed/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Temporarily Closed For Concessions Renovations",
-    "showtime": "Tuesday, September 22, 12:00 am",
-    "link": "https://www.foxtheatre.ca/movies/temporarily-closed/",
     "source": "Fox Theatre"
   },
   {
@@ -428,6 +422,48 @@
   {
     "title": "Temporarily Closed For Concessions Renovations",
     "showtime": "Thursday, September 24, 12:00 am",
+    "link": "https://www.foxtheatre.ca/movies/temporarily-closed/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Temporarily Closed For Concessions Renovations",
+    "showtime": "Friday, September 25, 12:00 am",
+    "link": "https://www.foxtheatre.ca/movies/temporarily-closed/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Temporarily Closed For Concessions Renovations",
+    "showtime": "Saturday, September 26, 12:00 am",
+    "link": "https://www.foxtheatre.ca/movies/temporarily-closed/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Temporarily Closed For Concessions Renovations",
+    "showtime": "Sunday, September 27, 12:00 am",
+    "link": "https://www.foxtheatre.ca/movies/temporarily-closed/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Temporarily Closed For Concessions Renovations",
+    "showtime": "Monday, September 28, 12:00 am",
+    "link": "https://www.foxtheatre.ca/movies/temporarily-closed/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Temporarily Closed For Concessions Renovations",
+    "showtime": "Tuesday, September 29, 12:00 am",
+    "link": "https://www.foxtheatre.ca/movies/temporarily-closed/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Temporarily Closed For Concessions Renovations",
+    "showtime": "Wednesday, September 30, 12:00 am",
+    "link": "https://www.foxtheatre.ca/movies/temporarily-closed/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Temporarily Closed For Concessions Renovations",
+    "showtime": "Thursday, October 1, 12:00 am",
     "link": "https://www.foxtheatre.ca/movies/temporarily-closed/",
     "source": "Fox Theatre"
   }
