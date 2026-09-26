@@ -90,6 +90,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "The History of Concrete",
+    "showtime": "Sat, Oct 10, 5:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-history-of-concrete/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "George Civeris LIVE!",
     "showtime": "Sat, Oct 10, 8:30 pm",
     "link": "https://paradiseonbloor.com/special_events/george-civeris-live/",
@@ -120,7 +126,7 @@
     "source": "Paradise Theatre"
   },
   {
-    "title": "Salome Learns to Dance",
+    "title": "Salome Learns to Dance: World Premiere!",
     "showtime": "Sun, Oct 18, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/salome-learns-to-dance/",
     "source": "Paradise Theatre"
@@ -138,9 +144,21 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "The Texas Chainsaw Massacre Part 2: 40th Anniversary!",
+    "showtime": "Thu, Oct 29, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-texas-chainsaw-massacre-part-2-40th-anniversary/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Black Sunday",
-    "showtime": "Fri, Oct 30, 6:00 pm",
+    "showtime": "Fri, Oct 30, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/black-sunday/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Omen: 50th Anniversary!",
+    "showtime": "Fri, Oct 30, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-omen-50th-anniversary/",
     "source": "Paradise Theatre"
   },
   {
@@ -174,9 +192,51 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Phantom of the Paradise",
+    "showtime": "Fri, Nov 13, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/phantom-of-the-paradise-50th-anniversary/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "M. Butterfly",
     "showtime": "Mon, Nov 23, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/m-butterfly/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Bleeding Edge Fest: Castration Movie Chapter iii.ii Junior Ghosts—Premorphic Drift; a fragmentary passage",
+    "showtime": "Thu, Nov 26, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/bleeding-edge-fest-castration-movie-chapter-iii-ii-junior-ghosts-premorphic-drift-a-fragmentary-passage/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Bleeding Edge Fest: Crocodile Dose",
+    "showtime": "Thu, Nov 26, 9:30 pm",
+    "link": "https://paradiseonbloor.com/movies/bleeding-edge-fest-crocodile-dose/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Bleeding Edge Fest: The Water Is Always Warm",
+    "showtime": "Fri, Nov 27, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/bleeding-edge-fest-the-water-is-always-warm/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Bleeding Edge Fest: Fellas + The Making of the Pee Pee Poo Poo Man",
+    "showtime": "Fri, Nov 27, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/bleeding-edge-fest-fellas-the-making-of-the-pee-pee-poo-poo-man/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Bleeding Edge Fest: Fast",
+    "showtime": "Sat, Nov 28, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/bleeding-edge-fest-fast/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Bleeding Edge Fest: Pocket Mirror",
+    "showtime": "Sat, Nov 28, 9:30 pm",
+    "link": "https://paradiseonbloor.com/movies/pocket-mirror/",
     "source": "Paradise Theatre"
   },
   {
