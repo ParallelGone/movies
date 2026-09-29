@@ -1,12 +1,6 @@
 [
   {
     "title": "Finding Emily",
-    "showtime": "Monday, September 28, 8:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Finding Emily",
     "showtime": "Tuesday, September 29, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -73,7 +67,7 @@
   },
   {
     "title": "Finding Emily",
-    "showtime": "Monday, September 28, 1:00 pm",
+    "showtime": "Monday, October 12, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -144,8 +138,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Filipinana",
-    "showtime": "Monday, September 28, 1:00 pm",
+    "title": "Finding Emily",
+    "showtime": "Monday, October 12, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -229,7 +223,7 @@
   },
   {
     "title": "Filipinana",
-    "showtime": "Monday, September 28, 7:00 pm",
+    "showtime": "Monday, October 12, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -312,8 +306,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Uprising",
-    "showtime": "Monday, September 28, 2:45 pm",
+    "title": "Filipinana",
+    "showtime": "Monday, October 12, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -397,7 +391,7 @@
   },
   {
     "title": "The Uprising",
-    "showtime": "Monday, September 28, 7:10 pm",
+    "showtime": "Monday, October 12, 2:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -481,7 +475,7 @@
   },
   {
     "title": "The Uprising",
-    "showtime": "Monday, September 28, 5:00 pm",
+    "showtime": "Monday, October 12, 7:10 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -564,8 +558,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "A Sad and Beautiful World",
-    "showtime": "Monday, September 28, 3:00 pm",
+    "title": "The Uprising",
+    "showtime": "Monday, October 12, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -596,6 +590,12 @@
   {
     "title": "A Sad and Beautiful World",
     "showtime": "Saturday, October 10, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Monday, October 12, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -697,12 +697,6 @@
   },
   {
     "title": "Teenage Sex and Death at Camp Miasma",
-    "showtime": "Monday, September 28, 9:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Teenage Sex and Death at Camp Miasma",
     "showtime": "Tuesday, September 29, 9:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -776,6 +770,12 @@
   {
     "title": "Teenage Sex and Death at Camp Miasma",
     "showtime": "Sunday, October 11, 9:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "showtime": "Monday, October 12, 9:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
