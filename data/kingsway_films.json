@@ -1,12 +1,6 @@
 [
   {
     "title": "Finding Emily",
-    "showtime": "Tuesday, September 29, 8:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Finding Emily",
     "showtime": "Wednesday, September 30, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -73,7 +67,7 @@
   },
   {
     "title": "Finding Emily",
-    "showtime": "Tuesday, September 29, 1:00 pm",
+    "showtime": "Tuesday, October 13, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -144,8 +138,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Filipinana",
-    "showtime": "Tuesday, September 29, 1:00 pm",
+    "title": "Finding Emily",
+    "showtime": "Tuesday, October 13, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -229,7 +223,7 @@
   },
   {
     "title": "Filipinana",
-    "showtime": "Tuesday, September 29, 7:00 pm",
+    "showtime": "Tuesday, October 13, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -312,8 +306,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Uprising",
-    "showtime": "Tuesday, September 29, 2:45 pm",
+    "title": "Filipinana",
+    "showtime": "Tuesday, October 13, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -397,7 +391,7 @@
   },
   {
     "title": "The Uprising",
-    "showtime": "Tuesday, September 29, 7:10 pm",
+    "showtime": "Tuesday, October 13, 2:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -481,7 +475,7 @@
   },
   {
     "title": "The Uprising",
-    "showtime": "Tuesday, September 29, 5:00 pm",
+    "showtime": "Tuesday, October 13, 7:10 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -564,6 +558,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "The Uprising",
+    "showtime": "Tuesday, October 13, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "A Sad and Beautiful World",
     "showtime": "Wednesday, September 30, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
@@ -596,12 +596,6 @@
   {
     "title": "A Sad and Beautiful World",
     "showtime": "Monday, October 12, 3:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Once Upon a Time in a Cinema",
-    "showtime": "Tuesday, September 29, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -648,26 +642,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
-    "showtime": "Tuesday, September 29, 8:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Friday, October 2, 8:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Tuesday, October 6, 8:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Friday, October 9, 8:45 pm",
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Tuesday, October 13, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -692,12 +668,6 @@
   {
     "title": "One Night Only",
     "showtime": "Sunday, October 11, 8:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Teenage Sex and Death at Camp Miasma",
-    "showtime": "Tuesday, September 29, 9:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -776,6 +746,12 @@
   {
     "title": "Teenage Sex and Death at Camp Miasma",
     "showtime": "Monday, October 12, 9:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "showtime": "Tuesday, October 13, 9:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }

@@ -1,29 +1,5 @@
 [
   {
-    "title": "Taipei Story",
-    "showtime": "Today, Sep 29, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/taipei-story/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Drinking and Driving",
-    "showtime": "Today, Sep 29, 9:00 pm",
-    "link": "https://paradiseonbloor.com/movies/drinking-and-driving/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Just For Laughs: Ron Taylor",
-    "showtime": "Wed, Sep 30, 7:00 pm",
-    "link": "https://paradiseonbloor.com/special_events/just-for-laughs-ron-taylor/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Just For Laughs: Ron Taylor",
-    "showtime": "Wed, Sep 30, 9:30 pm",
-    "link": "https://paradiseonbloor.com/special_events/just-for-laughs-ron-taylor/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Ha-Chan, Shake Your Booty!",
     "showtime": "Thu, Oct 1, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/ha-chan-shake-your-booty/",
@@ -126,15 +102,15 @@
     "source": "Paradise Theatre"
   },
   {
-    "title": "Batman & Robin",
-    "showtime": "Wed, Oct 28, 7:30 pm",
-    "link": "https://paradiseonbloor.com/movies/batman-robin/",
+    "title": "The Texas Chainsaw Massacre Part 2: 40th Anniversary!",
+    "showtime": "Tue, Oct 27, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-texas-chainsaw-massacre-part-2-40th-anniversary/",
     "source": "Paradise Theatre"
   },
   {
-    "title": "The Texas Chainsaw Massacre Part 2: 40th Anniversary!",
-    "showtime": "Thu, Oct 29, 9:00 pm",
-    "link": "https://paradiseonbloor.com/movies/the-texas-chainsaw-massacre-part-2-40th-anniversary/",
+    "title": "Batman & Robin",
+    "showtime": "Wed, Oct 28, 7:30 pm",
+    "link": "https://paradiseonbloor.com/movies/batman-robin/",
     "source": "Paradise Theatre"
   },
   {
@@ -171,6 +147,12 @@
     "title": "Cannes Dogs: The Woman Who Could Read the Minds of Dogs",
     "showtime": "Sun, Nov 1, 1:30 pm",
     "link": "https://paradiseonbloor.com/movies/cannes-dogs-the-woman-who-could-read-the-minds-of-dogs/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Dr. Cliff Worldwide Vet + Far and Wild Book Launch!",
+    "showtime": "Wed, Nov 4, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/dr-cliff-worldwide-vet-far-and-wild-book-launch/",
     "source": "Paradise Theatre"
   },
   {
