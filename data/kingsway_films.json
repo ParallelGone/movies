@@ -1,12 +1,6 @@
 [
   {
     "title": "Finding Emily",
-    "showtime": "Thursday, October 1, 8:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Finding Emily",
     "showtime": "Friday, October 2, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -73,7 +67,7 @@
   },
   {
     "title": "Finding Emily",
-    "showtime": "Thursday, October 1, 1:00 pm",
+    "showtime": "Thursday, October 15, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -144,8 +138,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Filipinana",
-    "showtime": "Thursday, October 1, 1:00 pm",
+    "title": "Finding Emily",
+    "showtime": "Thursday, October 15, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -229,7 +223,7 @@
   },
   {
     "title": "Filipinana",
-    "showtime": "Thursday, October 1, 7:00 pm",
+    "showtime": "Thursday, October 15, 1:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -312,8 +306,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Uprising",
-    "showtime": "Thursday, October 1, 2:45 pm",
+    "title": "Filipinana",
+    "showtime": "Thursday, October 15, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -397,7 +391,7 @@
   },
   {
     "title": "The Uprising",
-    "showtime": "Thursday, October 1, 7:10 pm",
+    "showtime": "Thursday, October 15, 2:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -481,7 +475,7 @@
   },
   {
     "title": "The Uprising",
-    "showtime": "Thursday, October 1, 5:00 pm",
+    "showtime": "Thursday, October 15, 7:10 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -564,8 +558,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Once Upon a Time in a Cinema",
-    "showtime": "Thursday, October 1, 3:00 pm",
+    "title": "The Uprising",
+    "showtime": "Thursday, October 15, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -612,8 +606,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "One Night Only",
-    "showtime": "Thursday, October 1, 8:45 pm",
+    "title": "Once Upon a Time in a Cinema",
+    "showtime": "Thursday, October 15, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -636,8 +630,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Teenage Sex and Death at Camp Miasma",
-    "showtime": "Thursday, October 1, 9:15 pm",
+    "title": "One Night Only",
+    "showtime": "Thursday, October 15, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -716,6 +710,12 @@
   {
     "title": "Teenage Sex and Death at Camp Miasma",
     "showtime": "Wednesday, October 14, 9:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "showtime": "Thursday, October 15, 9:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
