@@ -78,7 +78,7 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Dumpster Raccoon: BATMAN u201966 and MEXICAN BATWOMAN DOUBLE BILL!",
+    "title": "Dumpster Raccoon: BATMAN (1966) and MEXICAN BATWOMAN DOUBLE BILL!",
     "showtime": "Sat Nov 28, 7:00 PM",
     "link": "https://revuecinema.ca/films/dumpster-raccoon-batman-66-and-mexican-batwoman-double-bill/",
     "source": "Revue Cinema"
@@ -624,7 +624,7 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Dumpster Raccoon: BATMAN u201966 and MEXICAN BATWOMAN DOUBLE BILL!",
+    "title": "Dumpster Raccoon: BATMAN (1966) and MEXICAN BATWOMAN DOUBLE BILL!",
     "showtime": "Sat Nov 28, 9:40 PM",
     "link": "https://revuecinema.ca/films/dumpster-raccoon-batman-66-and-mexican-batwoman-double-bill-2/",
     "source": "Revue Cinema"
@@ -732,6 +732,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Destination Love: NOTTING HILL (1999)",
+    "showtime": "Wed Jan 27, 6:30 PM",
+    "link": "https://revuecinema.ca/films/destination-love-notting-hill-1999/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Revue Event: PARANORMAL ACTIVITY (2007) - Presented on 35mm!",
     "showtime": "Tue Oct 13, 9:30 PM",
     "link": "https://revuecinema.ca/films/revue-event-paranormal-activity-2007-presented-on-35mm/",
@@ -753,12 +759,6 @@
     "title": "Thanksgiving Weekend: PLANES, TRAINS AND AUTOMOBILES",
     "showtime": "Sun Oct 11, 3:00 PM",
     "link": "https://revuecinema.ca/films/thanksgiving-weekend-planes-trains-and-automobiles/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Revue Event: PORTAL TO HELL - Select Cast & Crew In Attendance!",
-    "showtime": "Thu Oct 1, 9:30 PM",
-    "link": "https://revuecinema.ca/films/revue-event-portal-to-hell-select-cast-crew-in-attendance/",
     "source": "Revue Cinema"
   },
   {
@@ -798,9 +798,9 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Rental Event: The Great Canadian Horror Film Festival",
-    "showtime": "Thu Oct 1, 6:45 PM",
-    "link": "https://revuecinema.ca/films/rental-event-the-great-canadian-horror-film-festival/",
+    "title": "Rental Event: Alianaqtut - Inuit Horror Night",
+    "showtime": "Thu Oct 8, 6:45 PM",
+    "link": "https://revuecinema.ca/films/rental-event-alianaqtut-inuit-horror-night/",
     "source": "Revue Cinema"
   },
   {
@@ -978,9 +978,21 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "When Animals Attack: THE BIRDS (1963)",
+    "showtime": "Sat Jan 23, 3:30 PM",
+    "link": "https://revuecinema.ca/films/when-animals-attack-the-birds-1963/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Nightmare Alley: THE BLAIR WITCH PROJECT (1999)",
     "showtime": "Thu Oct 29, 9:30 PM",
     "link": "https://revuecinema.ca/films/nightmare-alley-the-blair-witch-project-1999/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "The Staff Pick Of The Month: THE BOX (2009)",
+    "showtime": "Sun Dec 27, 7:00 PM",
+    "link": "https://revuecinema.ca/films/the-staff-pick-of-the-month-the-box-2009/",
     "source": "Revue Cinema"
   },
   {

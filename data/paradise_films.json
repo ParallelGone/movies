@@ -42,6 +42,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Inside Out Run It Back Double Feature: Signature Move & Opponent",
+    "showtime": "Thu, Oct 8, 7:00 pm",
+    "link": "https://paradiseonbloor.com/programs/inside-out-run-it-back-double-feature-signature-move-opponent/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Cramps! A Period Piece",
     "showtime": "Fri, Oct 9, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/cramps-a-period-piece/",
@@ -78,9 +84,21 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Big Girls Don’t Cry",
+    "showtime": "Tue, Oct 13, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/big-girls-dont-cry/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "The Innocents",
     "showtime": "Tue, Oct 13, 8:45 pm",
     "link": "https://paradiseonbloor.com/movies/the-innocents/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Donavon Frankenreiter Acoustic",
+    "showtime": "Wed, Oct 14, 8:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/donavon-frankenreiter-acoustic/",
     "source": "Paradise Theatre"
   },
   {
@@ -96,6 +114,18 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Jim Queen",
+    "showtime": "Mon, Oct 26, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/jim-queen-canadian-premiere/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Wailing: 10th Anniversary!",
+    "showtime": "Mon, Oct 26, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/the-wailing/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "The Texas Chainsaw Massacre Part 2: 40th Anniversary!",
     "showtime": "Tue, Oct 27, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-texas-chainsaw-massacre-part-2-40th-anniversary/",
@@ -105,6 +135,12 @@
     "title": "Batman & Robin",
     "showtime": "Wed, Oct 28, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/batman-robin/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Lennon Stella presents Sleeping Lion: Up Close & Personal",
+    "showtime": "Thu, Oct 29, 8:00 pm\nSOLD OUT",
+    "link": "https://paradiseonbloor.com/special_events/lennon-stella-presents-sleeping-lion-up-close-personal/",
     "source": "Paradise Theatre"
   },
   {
@@ -150,6 +186,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Kate Nash: Live in Concert",
+    "showtime": "Mon, Nov 9, 8:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/kate-nash-live-in-concert/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Black Swan",
     "showtime": "Wed, Nov 11, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/black-swan/",
@@ -168,19 +210,19 @@
     "source": "Paradise Theatre"
   },
   {
-    "title": "Bleeding Edge Fest: Castration Movie Chapter iii.ii Junior Ghosts—Premorphic Drift; a fragmentary passage",
+    "title": "Bleeding Edge Fest: Castration Movie Chapter iii.ii Junior Ghosts—Premorphic Drift; a fragmentary passage + ee",
     "showtime": "Thu, Nov 26, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/bleeding-edge-fest-castration-movie-chapter-iii-ii-junior-ghosts-premorphic-drift-a-fragmentary-passage/",
     "source": "Paradise Theatre"
   },
   {
-    "title": "Bleeding Edge Fest: Crocodile Dose",
+    "title": "Bleeding Edge Fest: Crocodile Dose + Ends Meat",
     "showtime": "Thu, Nov 26, 9:30 pm",
     "link": "https://paradiseonbloor.com/movies/bleeding-edge-fest-crocodile-dose/",
     "source": "Paradise Theatre"
   },
   {
-    "title": "Bleeding Edge Fest: The Water Is Always Warm",
+    "title": "Bleeding Edge Fest: The Water Is Always Warm + Birdie",
     "showtime": "Fri, Nov 27, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/bleeding-edge-fest-the-water-is-always-warm/",
     "source": "Paradise Theatre"
@@ -192,7 +234,7 @@
     "source": "Paradise Theatre"
   },
   {
-    "title": "Bleeding Edge Fest: Fast",
+    "title": "Bleeding Edge Fest: Fast + The Two Year Rule",
     "showtime": "Sat, Nov 28, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/bleeding-edge-fest-fast/",
     "source": "Paradise Theatre"
@@ -207,6 +249,18 @@
     "title": "Dan Docimo LIVE!",
     "showtime": "Sat, Dec 12, 7:00 pm",
     "link": "https://paradiseonbloor.com/special_events/dan-docimo-live/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Dan Docimo LIVE!",
+    "showtime": "Sat, Dec 12, 9:30 pm",
+    "link": "https://paradiseonbloor.com/special_events/dan-docimo-live/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Jenny Tian: Ripe",
+    "showtime": "Sat, Jan 16, 7:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/jenny-tian-ripe/",
     "source": "Paradise Theatre"
   }
 ]
