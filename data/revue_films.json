@@ -97,12 +97,6 @@
   },
   {
     "title": "BEWARE BOIUNA",
-    "showtime": "Fri Oct 2, 9:30 PM",
-    "link": "https://revuecinema.ca/films/beware-boiuna/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "BEWARE BOIUNA",
     "showtime": "Sat Oct 3, 12:00 PM",
     "link": "https://revuecinema.ca/films/beware-boiuna/",
     "source": "Revue Cinema"
@@ -315,6 +309,12 @@
     "title": "Revue Event: DEAD LOVER - With Cast & Crew In Attendance & STINK-O-VISION!!",
     "showtime": "Mon Oct 5, 9:30 PM",
     "link": "https://revuecinema.ca/films/revue-event-dead-lover-with-cast-crew-in-attendance/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Silent Revue: THE STUDENT OF PRAGUE - 100th Anniversary Screening!",
+    "showtime": "Sun Dec 13, 4:00 PM",
+    "link": "https://revuecinema.ca/films/silent-revue-the-student-of-prague-100th-anniversary-screening/",
     "source": "Revue Cinema"
   },
   {
@@ -612,6 +612,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "Destination Love: INDISCREET (1958)",
+    "showtime": "Sat Jan 23, 6:30 PM",
+    "link": "https://revuecinema.ca/films/destination-love-indiscreet-1958/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "The Perfect Date: IT'S A WONDERFUL LIFE - 80th Anniversary Screening!",
     "showtime": "Thu Dec 24, 4:00 PM",
     "link": "https://revuecinema.ca/films/the-perfect-date-its-a-wonderful-life-4k-restoration/",
@@ -663,6 +669,12 @@
     "title": "Revue Event: Michael Mann's MANHUNTER: THE FINAL CUT - New 4K Restoration!",
     "showtime": "Thu Oct 15, 9:30 PM",
     "link": "https://revuecinema.ca/films/revue-event-michael-manns-manhunter-the-final-cut-new-4k-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Destination Love: MY BEAUTIFUL LAUNDRETTE (1985)",
+    "showtime": "Sun Jan 24, 4:00 PM",
+    "link": "https://revuecinema.ca/films/destination-love-my-beautiful-laundrette-1985/",
     "source": "Revue Cinema"
   },
   {
@@ -805,12 +817,6 @@
   },
   {
     "title": "Rental Event: The Great Canadian Horror Film Festival",
-    "showtime": "Fri Oct 2, 6:45 PM",
-    "link": "https://revuecinema.ca/films/rental-event-the-great-canadian-horror-film-festival/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Rental Event: The Great Canadian Horror Film Festival",
     "showtime": "Sat Oct 3, 6:45 PM",
     "link": "https://revuecinema.ca/films/rental-event-the-great-canadian-horror-film-festival/",
     "source": "Revue Cinema"
@@ -879,6 +885,12 @@
     "title": "The Midnight Revue:  SE7EN - (1995) - New 4K Restoration!",
     "showtime": "Sat Nov 7, 11:30 PM",
     "link": "https://revuecinema.ca/films/revue-event-se7en-1995-new-4k-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Destination Love: SLIDING DOORS (1998)",
+    "showtime": "Mon Jan 25, 6:45 PM",
+    "link": "https://revuecinema.ca/films/destination-love-sliding-doors-1998/",
     "source": "Revue Cinema"
   },
   {
