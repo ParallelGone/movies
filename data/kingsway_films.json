@@ -1,12 +1,6 @@
 [
   {
     "title": "Minions 2026",
-    "showtime": "Sunday, October 4, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Minions 2026",
     "showtime": "Saturday, October 10, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -24,8 +18,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Filipinana",
-    "showtime": "Sunday, October 4, 1:30 pm",
+    "title": "Minions 2026",
+    "showtime": "Sunday, October 18, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -109,7 +103,7 @@
   },
   {
     "title": "Filipinana",
-    "showtime": "Sunday, October 4, 7:00 pm",
+    "showtime": "Sunday, October 18, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -192,8 +186,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Traces of Home dailhy",
-    "showtime": "Sunday, October 4, 3:15 pm",
+    "title": "Filipinana",
+    "showtime": "Sunday, October 18, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -277,7 +271,7 @@
   },
   {
     "title": "Traces of Home dailhy",
-    "showtime": "Sunday, October 4, 7:10 pm",
+    "showtime": "Sunday, October 18, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -360,8 +354,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "A Sad and Beautiful World dailhy",
-    "showtime": "Sunday, October 4, 3:15 pm",
+    "title": "Traces of Home dailhy",
+    "showtime": "Sunday, October 18, 7:10 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -444,8 +438,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Uprising",
-    "showtime": "Sunday, October 4, 5:00 pm",
+    "title": "A Sad and Beautiful World dailhy",
+    "showtime": "Sunday, October 18, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -464,6 +458,12 @@
   {
     "title": "The Uprising",
     "showtime": "Saturday, October 17, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "The Uprising",
+    "showtime": "Sunday, October 18, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -493,12 +493,6 @@
   },
   {
     "title": "Obsession",
-    "showtime": "Sunday, October 4, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
     "showtime": "Saturday, October 10, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -516,8 +510,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Godzilla Minus One",
-    "showtime": "Sunday, October 4, 8:45 pm",
+    "title": "Obsession",
+    "showtime": "Sunday, October 18, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -540,8 +534,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "One Night Only",
-    "showtime": "Sunday, October 4, 8:45 pm",
+    "title": "Godzilla Minus One",
+    "showtime": "Sunday, October 18, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -560,6 +554,12 @@
   {
     "title": "One Night Only",
     "showtime": "Thursday, October 15, 8:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "One Night Only",
+    "showtime": "Sunday, October 18, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
