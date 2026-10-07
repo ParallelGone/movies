@@ -1,25 +1,13 @@
 [
   {
-    "title": "The Reflecting Skin",
-    "showtime": "Today, Oct 6, 6:30 pm",
-    "link": "https://paradiseonbloor.com/movies/the-reflecting-skin/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Witchhammer",
-    "showtime": "Today, Oct 6, 9:00 pm",
-    "link": "https://paradiseonbloor.com/movies/witchhammer/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Cat People",
-    "showtime": "Wed, Oct 7, 6:15 pm",
+    "showtime": "Today, Oct 7, 6:15 pm",
     "link": "https://paradiseonbloor.com/movies/cat-people/",
     "source": "Paradise Theatre"
   },
   {
     "title": "The Blair Witch Project",
-    "showtime": "Wed, Oct 7, 8:45 pm",
+    "showtime": "Today, Oct 7, 8:45 pm",
     "link": "https://paradiseonbloor.com/movies/the-blair-witch-project/",
     "source": "Paradise Theatre"
   },
@@ -105,6 +93,12 @@
     "title": "The Wailing: 10th Anniversary!",
     "showtime": "Mon, Oct 26, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/the-wailing/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Screamplay: 4K Resoration!",
+    "showtime": "Tue, Oct 27, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/screamplay/",
     "source": "Paradise Theatre"
   },
   {
