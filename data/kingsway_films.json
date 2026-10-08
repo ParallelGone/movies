@@ -1,12 +1,6 @@
 [
   {
     "title": "Filipinana",
-    "showtime": "Wednesday, October 7, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Filipinana",
     "showtime": "Thursday, October 8, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -85,7 +79,7 @@
   },
   {
     "title": "Filipinana",
-    "showtime": "Wednesday, October 7, 7:00 pm",
+    "showtime": "Wednesday, October 21, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,8 +162,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Traces of Home dailhy",
-    "showtime": "Wednesday, October 7, 3:15 pm",
+    "title": "Filipinana",
+    "showtime": "Wednesday, October 21, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -253,7 +247,7 @@
   },
   {
     "title": "Traces of Home dailhy",
-    "showtime": "Wednesday, October 7, 7:10 pm",
+    "showtime": "Wednesday, October 21, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -336,8 +330,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "A Sad and Beautiful World dailhy",
-    "showtime": "Wednesday, October 7, 3:15 pm",
+    "title": "Traces of Home dailhy",
+    "showtime": "Wednesday, October 21, 7:10 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,80 +414,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Obsession",
-    "showtime": "Friday, October 9, 8:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Tuesday, October 13, 8:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Friday, October 16, 8:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Tuesday, October 20, 8:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Saturday, October 10, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Sunday, October 11, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Saturday, October 17, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Obsession",
-    "showtime": "Sunday, October 18, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Mars Express",
-    "showtime": "Friday, October 9, 8:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Mars Express",
-    "showtime": "Tuesday, October 13, 8:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Mars Express",
-    "showtime": "Friday, October 16, 8:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Mars Express",
-    "showtime": "Tuesday, October 20, 8:45 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Finding Emily",
-    "showtime": "Wednesday, October 7, 8:45 pm",
+    "title": "A Sad and Beautiful World dailhy",
+    "showtime": "Wednesday, October 21, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -565,7 +487,7 @@
   },
   {
     "title": "Finding Emily",
-    "showtime": "Wednesday, October 7, 1:30 pm",
+    "showtime": "Wednesday, October 21, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -636,8 +558,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Teenage Sex and Death at Camp Miasma",
-    "showtime": "Wednesday, October 7, 8:45 pm",
+    "title": "Finding Emily",
+    "showtime": "Wednesday, October 21, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -668,6 +590,12 @@
   {
     "title": "Teenage Sex and Death at Camp Miasma",
     "showtime": "Monday, October 19, 8:45 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "showtime": "Wednesday, October 21, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
