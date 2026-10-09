@@ -1,13 +1,7 @@
 [
   {
-    "title": "Inside Out Run It Back Double Feature: Signature Move & Opponent",
-    "showtime": "Today, Oct 8, 7:00 pm",
-    "link": "https://paradiseonbloor.com/programs/inside-out-run-it-back-double-feature-signature-move-opponent/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Cramps! A Period Piece",
-    "showtime": "Fri, Oct 9, 7:00 pm",
+    "showtime": "Today, Oct 9, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/cramps-a-period-piece/",
     "source": "Paradise Theatre"
   },
@@ -21,18 +15,6 @@
     "title": "George Civeris LIVE!",
     "showtime": "Sat, Oct 10, 8:30 pm",
     "link": "https://paradiseonbloor.com/special_events/george-civeris-live/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Grace Helbig: Let Me Get This Off My Chest",
-    "showtime": "Sun, Oct 11, 6:00 pm",
-    "link": "https://paradiseonbloor.com/special_events/grace-helbig-let-me-get-this-off-my-chest/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Grace Helbig: Let Me Get This Off My Chest",
-    "showtime": "Sun, Oct 11, 8:30 pm",
-    "link": "https://paradiseonbloor.com/special_events/grace-helbig-let-me-get-this-off-my-chest/",
     "source": "Paradise Theatre"
   },
   {
@@ -57,6 +39,18 @@
     "title": "Donavon Frankenreiter Acoustic",
     "showtime": "Wed, Oct 14, 8:00 pm",
     "link": "https://paradiseonbloor.com/special_events/donavon-frankenreiter-acoustic/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "NAZA",
+    "showtime": "Sat, Oct 17, 4:00 pm",
+    "link": "https://paradiseonbloor.com/movies/naza/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Les Films Du 3 Mars Presents: Simply Johanne",
+    "showtime": "Sun, Oct 18, 1:30 pm",
+    "link": "https://paradiseonbloor.com/movies/les-films-du-3-mars-presents-simply-johanne/",
     "source": "Paradise Theatre"
   },
   {
@@ -168,6 +162,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Joe Versus the Volcano",
+    "showtime": "Mon, Nov 16, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/joe-versus-the-volcano/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "M. Butterfly",
     "showtime": "Mon, Nov 23, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/m-butterfly/",
@@ -225,6 +225,12 @@
     "title": "Jenny Tian: Ripe",
     "showtime": "Sat, Jan 16, 7:00 pm",
     "link": "https://paradiseonbloor.com/special_events/jenny-tian-ripe/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Sleepaway Camp: The Midnight Mass Experience",
+    "showtime": "Sun, Jan 17, 7:30 pm",
+    "link": "https://paradiseonbloor.com/special_events/sleepaway-camp-the-midnight-mass-experience/",
     "source": "Paradise Theatre"
   }
 ]
