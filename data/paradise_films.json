@@ -1,19 +1,13 @@
 [
   {
-    "title": "Cramps! A Period Piece",
-    "showtime": "Today, Oct 9, 7:00 pm",
-    "link": "https://paradiseonbloor.com/movies/cramps-a-period-piece/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "The History of Concrete",
-    "showtime": "Sat, Oct 10, 5:00 pm",
+    "showtime": "Today, Oct 10, 5:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-history-of-concrete/",
     "source": "Paradise Theatre"
   },
   {
     "title": "George Civeris LIVE!",
-    "showtime": "Sat, Oct 10, 8:30 pm",
+    "showtime": "Today, Oct 10, 8:30 pm",
     "link": "https://paradiseonbloor.com/special_events/george-civeris-live/",
     "source": "Paradise Theatre"
   },
@@ -207,6 +201,12 @@
     "title": "Bleeding Edge Fest: Pocket Mirror",
     "showtime": "Sat, Nov 28, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/pocket-mirror/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Pandora’s Box: 4K Restoration!",
+    "showtime": "Sun, Dec 6, 2:00 pm",
+    "link": "https://paradiseonbloor.com/movies/pandoras-box-4k-restoration/",
     "source": "Paradise Theatre"
   },
   {
