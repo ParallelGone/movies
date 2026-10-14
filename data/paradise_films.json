@@ -1,19 +1,7 @@
 [
   {
-    "title": "Big Girls Don’t Cry",
-    "showtime": "Today, Oct 13, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/big-girls-dont-cry/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "The Innocents",
-    "showtime": "Today, Oct 13, 8:45 pm",
-    "link": "https://paradiseonbloor.com/movies/the-innocents/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Donavon Frankenreiter Acoustic",
-    "showtime": "Wed, Oct 14, 8:00 pm",
+    "showtime": "Today, Oct 14, 8:00 pm",
     "link": "https://paradiseonbloor.com/special_events/donavon-frankenreiter-acoustic/",
     "source": "Paradise Theatre"
   },
@@ -21,6 +9,12 @@
     "title": "NAZA",
     "showtime": "Sat, Oct 17, 4:00 pm",
     "link": "https://paradiseonbloor.com/movies/naza/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The History of Concrete",
+    "showtime": "Sat, Oct 17, 6:30 pm",
+    "link": "https://paradiseonbloor.com/movies/the-history-of-concrete/",
     "source": "Paradise Theatre"
   },
   {
@@ -39,6 +33,12 @@
     "title": "HauntedWeen",
     "showtime": "Sun, Oct 18, 9:15 pm",
     "link": "https://paradiseonbloor.com/movies/hauntedween/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Chronovisor",
+    "showtime": "Mon, Oct 19, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/chronovisor/",
     "source": "Paradise Theatre"
   },
   {
@@ -144,9 +144,33 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Bushman",
+    "showtime": "Sun, Nov 15, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/bushman/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Joe Versus the Volcano",
     "showtime": "Mon, Nov 16, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/joe-versus-the-volcano/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Good for Nothing",
+    "showtime": "Thu, Nov 19, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/good-for-nothing/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Bay of Angels",
+    "showtime": "Thu, Nov 19, 8:45 pm",
+    "link": "https://paradiseonbloor.com/movies/bay-of-angels/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Big Boss",
+    "showtime": "Sun, Nov 22, 2:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-big-boss/",
     "source": "Paradise Theatre"
   },
   {
@@ -192,9 +216,27 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "The Passions of Carol",
+    "showtime": "Sat, Dec 5, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-passions-of-carol/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Pandora’s Box: 4K Restoration!",
     "showtime": "Sun, Dec 6, 2:00 pm",
     "link": "https://paradiseonbloor.com/movies/pandoras-box-4k-restoration/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Age of Innocence",
+    "showtime": "Tue, Dec 8, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/the-age-of-innocence/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Best Little Whorehouse in Texas",
+    "showtime": "Fri, Dec 11, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-best-little-whorehouse-in-texas/",
     "source": "Paradise Theatre"
   },
   {
@@ -207,6 +249,12 @@
     "title": "Dan Docimo LIVE!",
     "showtime": "Sat, Dec 12, 9:30 pm",
     "link": "https://paradiseonbloor.com/special_events/dan-docimo-live/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Gate II",
+    "showtime": "Mon, Dec 28, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/gate-ii/",
     "source": "Paradise Theatre"
   },
   {
