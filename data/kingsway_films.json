@@ -1,12 +1,6 @@
 [
   {
     "title": "Atonement",
-    "showtime": "Thursday, October 15, 1:15 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Atonement",
     "showtime": "Friday, October 16, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -85,7 +79,7 @@
   },
   {
     "title": "Atonement",
-    "showtime": "Thursday, October 15, 7:00 pm",
+    "showtime": "Thursday, October 29, 1:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -168,8 +162,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "A Sad and Beautiful World",
-    "showtime": "Thursday, October 15, 1:30 pm",
+    "title": "Atonement",
+    "showtime": "Thursday, October 29, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -216,8 +210,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Dear You",
-    "showtime": "Thursday, October 15, 3:15 pm",
+    "title": "A Sad and Beautiful World",
+    "showtime": "Thursday, October 29, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -301,7 +295,7 @@
   },
   {
     "title": "Dear You",
-    "showtime": "Thursday, October 15, 7:00 pm",
+    "showtime": "Thursday, October 29, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -384,8 +378,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "American Doctor",
-    "showtime": "Thursday, October 15, 3:30 pm",
+    "title": "Dear You",
+    "showtime": "Thursday, October 29, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -469,7 +463,7 @@
   },
   {
     "title": "American Doctor",
-    "showtime": "Thursday, October 15, 9:00 pm",
+    "showtime": "Thursday, October 29, 3:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -552,8 +546,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Filipinana",
-    "showtime": "Thursday, October 15, 9:00 pm",
+    "title": "American Doctor",
+    "showtime": "Thursday, October 29, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -613,7 +607,7 @@
   },
   {
     "title": "Filipinana",
-    "showtime": "Thursday, October 15, 5:00 pm",
+    "showtime": "Thursday, October 29, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -668,6 +662,12 @@
   {
     "title": "Filipinana",
     "showtime": "Tuesday, October 27, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Filipinana",
+    "showtime": "Thursday, October 29, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
