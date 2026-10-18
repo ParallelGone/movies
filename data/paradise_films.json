@@ -1,32 +1,26 @@
 [
   {
-    "title": "NAZA",
-    "showtime": "Today, Oct 17, 4:00 pm",
-    "link": "https://paradiseonbloor.com/movies/naza/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "The History of Concrete",
-    "showtime": "Today, Oct 17, 6:30 pm",
-    "link": "https://paradiseonbloor.com/movies/the-history-of-concrete/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Les Films Du 3 Mars Presents: Simply Johanne",
-    "showtime": "Sun, Oct 18, 1:30 pm",
+    "showtime": "Today, Oct 18, 1:30 pm",
     "link": "https://paradiseonbloor.com/movies/les-films-du-3-mars-presents-simply-johanne/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Salome Learns to Dance: World Premiere!",
-    "showtime": "Sun, Oct 18, 6:30 pm",
+    "showtime": "Today, Oct 18, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/salome-learns-to-dance/",
     "source": "Paradise Theatre"
   },
   {
     "title": "HauntedWeen",
-    "showtime": "Sun, Oct 18, 9:15 pm",
+    "showtime": "Today, Oct 18, 9:15 pm",
     "link": "https://paradiseonbloor.com/movies/hauntedween/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "NAZA",
+    "showtime": "Mon, Oct 19, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/naza/",
     "source": "Paradise Theatre"
   },
   {

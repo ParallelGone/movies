@@ -1,12 +1,6 @@
 [
   {
     "title": "Floe",
-    "showtime": "Saturday, October 17, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Floe",
     "showtime": "Sunday, October 18, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -84,6 +78,48 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "Floe",
+    "showtime": "Saturday, October 31, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Traces of Home",
+    "showtime": "Monday, October 19, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Traces of Home",
+    "showtime": "Wednesday, October 21, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Traces of Home",
+    "showtime": "Saturday, October 24, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Traces of Home",
+    "showtime": "Monday, October 26, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Traces of Home",
+    "showtime": "Wednesday, October 28, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Traces of Home",
+    "showtime": "Saturday, October 31, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "A Sad and Beautiful World",
     "showtime": "Sunday, October 18, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
@@ -128,48 +164,6 @@
   {
     "title": "A Sad and Beautiful World",
     "showtime": "Friday, October 30, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Traces of Home",
-    "showtime": "Saturday, October 17, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Traces of Home",
-    "showtime": "Monday, October 19, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Traces of Home",
-    "showtime": "Wednesday, October 21, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Traces of Home",
-    "showtime": "Saturday, October 24, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Traces of Home",
-    "showtime": "Monday, October 26, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Traces of Home",
-    "showtime": "Wednesday, October 28, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Filipinana",
-    "showtime": "Saturday, October 17, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -253,7 +247,7 @@
   },
   {
     "title": "Filipinana",
-    "showtime": "Saturday, October 17, 7:00 pm",
+    "showtime": "Saturday, October 31, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -336,8 +330,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "American Doctor daily",
-    "showtime": "Saturday, October 17, 3:30 pm",
+    "title": "Filipinana",
+    "showtime": "Saturday, October 31, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,8 +414,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Dear You",
-    "showtime": "Saturday, October 17, 7:00 pm",
+    "title": "American Doctor daily",
+    "showtime": "Saturday, October 31, 3:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -504,8 +498,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Atonement",
-    "showtime": "Saturday, October 17, 8:45 pm",
+    "title": "Dear You",
+    "showtime": "Saturday, October 31, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -589,7 +583,7 @@
   },
   {
     "title": "Atonement",
-    "showtime": "Saturday, October 17, 5:00 pm",
+    "showtime": "Saturday, October 31, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -672,8 +666,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Camp Miasma",
-    "showtime": "Saturday, October 17, 9:00 pm",
+    "title": "Atonement",
+    "showtime": "Saturday, October 31, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -733,7 +727,7 @@
   },
   {
     "title": "Camp Miasma",
-    "showtime": "Saturday, October 17, 5:15 pm",
+    "showtime": "Saturday, October 31, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -792,8 +786,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Nightcrawler",
-    "showtime": "Saturday, October 17, 9:00 pm",
+    "title": "Camp Miasma",
+    "showtime": "Saturday, October 31, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -824,6 +818,12 @@
   {
     "title": "Nightcrawler",
     "showtime": "Wednesday, October 28, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Nightcrawler",
+    "showtime": "Saturday, October 31, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
