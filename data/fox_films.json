@@ -1,23 +1,5 @@
 [
   {
-    "title": "The History of Concrete",
-    "showtime": "Sunday, October 18, 1:40 pm",
-    "link": "https://www.foxtheatre.ca/movies/the-history-of-concrete/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Run Terry Run",
-    "showtime": "Sunday, October 18, 4:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/run-terry-run/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Restoration: Kwaidan",
-    "showtime": "Sunday, October 18, 7:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/restoration-kwaidan/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Ever Deadly",
     "showtime": "Monday, October 19, 3:30 pm",
     "link": "https://www.foxtheatre.ca/movies/ever-deadly/",
@@ -249,6 +231,12 @@
     "title": "Once Upon a Time in Harlem",
     "showtime": "Monday, November 2, 6:30 pm",
     "link": "https://www.foxtheatre.ca/movies/once-upon-a-time-in-harlem/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The History of Concrete",
+    "showtime": "Monday, November 2, 9:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-history-of-concrete/",
     "source": "Fox Theatre"
   },
   {

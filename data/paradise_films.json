@@ -1,31 +1,13 @@
 [
   {
-    "title": "Les Films Du 3 Mars Presents: Simply Johanne",
-    "showtime": "Today, Oct 18, 1:30 pm",
-    "link": "https://paradiseonbloor.com/movies/les-films-du-3-mars-presents-simply-johanne/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Salome Learns to Dance: World Premiere!",
-    "showtime": "Today, Oct 18, 6:30 pm",
-    "link": "https://paradiseonbloor.com/movies/salome-learns-to-dance/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "HauntedWeen",
-    "showtime": "Today, Oct 18, 9:15 pm",
-    "link": "https://paradiseonbloor.com/movies/hauntedween/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "NAZA",
-    "showtime": "Mon, Oct 19, 6:00 pm",
+    "showtime": "Today, Oct 19, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/naza/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Chronovisor",
-    "showtime": "Mon, Oct 19, 8:30 pm",
+    "showtime": "Today, Oct 19, 8:30 pm",
     "link": "https://paradiseonbloor.com/movies/chronovisor/",
     "source": "Paradise Theatre"
   },
@@ -210,7 +192,7 @@
     "source": "Paradise Theatre"
   },
   {
-    "title": "Bushman",
+    "title": "Community Curation: Bushman",
     "showtime": "Sun, Nov 15, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/bushman/",
     "source": "Paradise Theatre"
@@ -282,6 +264,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "The Basement Revue",
+    "showtime": "Thu, Dec 3, 9:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/the-basement-revue/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "The Passions of Carol",
     "showtime": "Sat, Dec 5, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-passions-of-carol/",
@@ -326,6 +314,12 @@
   {
     "title": "Jenny Tian: Ripe",
     "showtime": "Sat, Jan 16, 7:00 pm",
+    "link": "https://paradiseonbloor.com/special_events/jenny-tian-ripe/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Jenny Tian: Ripe",
+    "showtime": "Sat, Jan 16, 9:30 pm",
     "link": "https://paradiseonbloor.com/special_events/jenny-tian-ripe/",
     "source": "Paradise Theatre"
   },
