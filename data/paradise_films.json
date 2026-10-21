@@ -1,19 +1,13 @@
 [
   {
-    "title": "Planet in Focus: Nuisance Bear",
-    "showtime": "Today, Oct 20, 6:30 pm",
-    "link": "https://paradiseonbloor.com/movies/planet-in-focus-nuisance-bear/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Planet in Focus: Nirilaurta: Let Us Eat",
-    "showtime": "Wed, Oct 21, 6:30 pm",
+    "showtime": "Today, Oct 21, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/nirilaurta-let-us-eat/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Planet in Focus: Wild Inside",
-    "showtime": "Wed, Oct 21, 9:00 pm",
+    "showtime": "Today, Oct 21, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/planet-in-focus-wild-inside/",
     "source": "Paradise Theatre"
   },
@@ -102,6 +96,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "The Eyes of Ghana",
+    "showtime": "Wed, Oct 28, 2:30 pm",
+    "link": "https://paradiseonbloor.com/movies/the-eyes-of-ghana/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Batman & Robin",
     "showtime": "Wed, Oct 28, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/batman-robin/",
@@ -111,6 +111,12 @@
     "title": "Lennon Stella presents Sleeping Lion: Up Close & Personal",
     "showtime": "Thu, Oct 29, 8:00 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/special_events/lennon-stella-presents-sleeping-lion-up-close-personal/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Gentle Monster",
+    "showtime": "Fri, Oct 30, 3:30 pm",
+    "link": "https://paradiseonbloor.com/movies/gentle-monster/",
     "source": "Paradise Theatre"
   },
   {
@@ -174,9 +180,21 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "La bola negra",
+    "showtime": "Fri, Nov 13, 3:00 pm",
+    "link": "https://paradiseonbloor.com/movies/la-bola-negra/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Phantom of the Paradise",
     "showtime": "Fri, Nov 13, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/phantom-of-the-paradise-50th-anniversary/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Laura",
+    "showtime": "Sat, Nov 14, 1:30 pm",
+    "link": "https://paradiseonbloor.com/movies/laura/",
     "source": "Paradise Theatre"
   },
   {
@@ -192,6 +210,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Bunny Lake Is Missing",
+    "showtime": "Tue, Nov 17, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/bunny-lake-is-missing/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Good for Nothing",
     "showtime": "Thu, Nov 19, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/good-for-nothing/",
@@ -204,15 +228,39 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Picnic at Hanging Rock",
+    "showtime": "Fri, Nov 20, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/picnic-at-hanging-rock/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "The Big Boss",
     "showtime": "Sun, Nov 22, 2:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-big-boss/",
     "source": "Paradise Theatre"
   },
   {
+    "title": "A. Rimbaud",
+    "showtime": "Sun, Nov 22, 5:00 pm",
+    "link": "https://paradiseonbloor.com/movies/a-rimbaud/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Vanishing",
+    "showtime": "Sun, Nov 22, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-vanishing/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "M. Butterfly",
     "showtime": "Mon, Nov 23, 7:30 pm",
     "link": "https://paradiseonbloor.com/movies/m-butterfly/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Gone Girl",
+    "showtime": "Tue, Nov 24, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/gone-girl/",
     "source": "Paradise Theatre"
   },
   {
@@ -249,6 +297,12 @@
     "title": "Bleeding Edge Fest: Pocket Mirror",
     "showtime": "Sat, Nov 28, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/pocket-mirror/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "L’Avventura",
+    "showtime": "Mon, Nov 30, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/lavventura/",
     "source": "Paradise Theatre"
   },
   {
