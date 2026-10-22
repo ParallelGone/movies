@@ -1,12 +1,6 @@
 [
   {
     "title": "Floe",
-    "showtime": "Wednesday, October 21, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Floe",
     "showtime": "Thursday, October 22, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -84,8 +78,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Traces of Home",
-    "showtime": "Wednesday, October 21, 1:30 pm",
+    "title": "Floe",
+    "showtime": "Wednesday, November 4, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -116,6 +110,12 @@
   {
     "title": "Traces of Home",
     "showtime": "Monday, November 2, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Traces of Home",
+    "showtime": "Wednesday, November 4, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -164,12 +164,6 @@
   {
     "title": "A Sad and Beautiful World",
     "showtime": "Tuesday, November 3, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Filipinana",
-    "showtime": "Wednesday, October 21, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -253,7 +247,7 @@
   },
   {
     "title": "Filipinana",
-    "showtime": "Wednesday, October 21, 7:00 pm",
+    "showtime": "Wednesday, November 4, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -336,8 +330,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "American Doctor daily",
-    "showtime": "Wednesday, October 21, 3:30 pm",
+    "title": "Filipinana",
+    "showtime": "Wednesday, November 4, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,8 +414,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Dear You",
-    "showtime": "Wednesday, October 21, 7:00 pm",
+    "title": "American Doctor daily",
+    "showtime": "Wednesday, November 4, 3:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -504,8 +498,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Atonement",
-    "showtime": "Wednesday, October 21, 8:45 pm",
+    "title": "Dear You",
+    "showtime": "Wednesday, November 4, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -589,7 +583,7 @@
   },
   {
     "title": "Atonement",
-    "showtime": "Wednesday, October 21, 5:00 pm",
+    "showtime": "Wednesday, November 4, 8:45 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -672,8 +666,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Nightcrawler",
-    "showtime": "Wednesday, October 21, 9:00 pm",
+    "title": "Atonement",
+    "showtime": "Wednesday, November 4, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -704,6 +698,12 @@
   {
     "title": "Nightcrawler",
     "showtime": "Monday, November 2, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Nightcrawler",
+    "showtime": "Wednesday, November 4, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
