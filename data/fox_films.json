@@ -1,23 +1,5 @@
 [
   {
-    "title": "Run Terry Run",
-    "showtime": "Thursday, October 22, 3:50 pm",
-    "link": "https://www.foxtheatre.ca/movies/run-terry-run/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The History of Concrete",
-    "showtime": "Thursday, October 22, 6:40 pm",
-    "link": "https://www.foxtheatre.ca/movies/the-history-of-concrete/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Scream Queens: Possession",
-    "showtime": "Thursday, October 22, 9:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/scream-queens-possession/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Wicker",
     "showtime": "Friday, October 23, 12:00 pm",
     "link": "https://www.foxtheatre.ca/movies/wicker/",
@@ -327,6 +309,12 @@
     "title": "NAZA",
     "showtime": "Wednesday, November 11, 4:15 pm",
     "link": "https://www.foxtheatre.ca/movies/naza/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Slumber Party: The Devil Wears Prada",
+    "showtime": "Wednesday, November 11, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/slumber-party-the-devil-wears-prada/",
     "source": "Fox Theatre"
   },
   {
