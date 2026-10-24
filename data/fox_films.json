@@ -1,24 +1,6 @@
 [
   {
     "title": "Wicker",
-    "showtime": "Friday, October 23, 12:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/wicker/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Fjord",
-    "showtime": "Friday, October 23, 2:40 pm",
-    "link": "https://www.foxtheatre.ca/movies/fjord/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "SOLD OUT – The Rocky Horror Picture Show w/Shadowcast!",
-    "showtime": "Friday, October 23, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/sold-out-the-rocky-horror-picture-show-w-shadowcast/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Wicker",
     "showtime": "Saturday, October 24, 12:40 pm",
     "link": "https://www.foxtheatre.ca/movies/wicker/",
     "source": "Fox Theatre"
@@ -336,9 +318,93 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "SOLD OUT – The Room w/ Greg Sestero",
+    "title": "The Room w/ Greg Sestero",
     "showtime": "Thursday, November 12, 9:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/sold-out-the-room-w-greg-sestero/",
+    "link": "https://www.foxtheatre.ca/movies/the-room-w-greg-sestero/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "A Talent for Murder",
+    "showtime": "Friday, November 13, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/a-talent-for-murder/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "You Can See Everything",
+    "showtime": "Friday, November 13, 6:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/you-can-see-everything/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Restoration: Wild at Heart",
+    "showtime": "Friday, November 13, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/restoration-wild-at-heart/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Wildwood",
+    "showtime": "Saturday, November 14, 12:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/wildwood/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "You Can See Everything",
+    "showtime": "Saturday, November 14, 6:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/you-can-see-everything/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Primetime",
+    "showtime": "Saturday, November 14, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/primetime/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Wildwood",
+    "showtime": "Sunday, November 15, 12:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/wildwood/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Staff Pick: A Hard Day’s Night",
+    "showtime": "Sunday, November 15, 3:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/staff-pick-a-hard-days-night/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "A Talent for Murder",
+    "showtime": "Sunday, November 15, 6:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/a-talent-for-murder/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Primetime",
+    "showtime": "Sunday, November 15, 8:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/primetime/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "A Talent for Murder",
+    "showtime": "Monday, November 16, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/a-talent-for-murder/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "You Can See Everything",
+    "showtime": "Monday, November 16, 6:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/you-can-see-everything/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Primetime",
+    "showtime": "Monday, November 16, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/primetime/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "De Gaulle: Résistance",
+    "showtime": "Tuesday, November 17, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/de-gaulle-resistance/",
     "source": "Fox Theatre"
   },
   {
@@ -348,9 +414,39 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Restoration: Wild at Heart",
+    "showtime": "Tuesday, November 17, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/restoration-wild-at-heart/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "De Gaulle: Résistance",
+    "showtime": "Wednesday, November 18, 3:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/de-gaulle-resistance/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Two Seasons, Two Strangers Director Q&A",
     "showtime": "Wednesday, November 18, 6:30 pm",
     "link": "https://www.foxtheatre.ca/movies/two-seasons-two-strangers-director-qa/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Primetime",
+    "showtime": "Wednesday, November 18, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/primetime/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "A Talent for Murder",
+    "showtime": "Thursday, November 19, 3:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/a-talent-for-murder/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "De Gaulle: Résistance",
+    "showtime": "Thursday, November 19, 5:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/de-gaulle-resistance/",
     "source": "Fox Theatre"
   },
   {
@@ -360,9 +456,15 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "SOLD OUT – The Room w/ Greg Sestero",
+    "title": "The Room w/ Greg Sestero",
     "showtime": "Saturday, November 21, 9:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/sold-out-the-room-w-greg-sestero/",
+    "link": "https://www.foxtheatre.ca/movies/the-room-w-greg-sestero/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Room w/ Greg Sestero",
+    "showtime": "Sunday, November 22, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-room-w-greg-sestero/",
     "source": "Fox Theatre"
   },
   {
