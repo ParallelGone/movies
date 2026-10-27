@@ -1,12 +1,6 @@
 [
   {
     "title": "Floe",
-    "showtime": "Monday, October 26, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Floe",
     "showtime": "Tuesday, October 27, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -84,6 +78,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "Floe",
+    "showtime": "Monday, November 9, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "A Sad and Beautiful World",
     "showtime": "Tuesday, October 27, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
@@ -133,12 +133,6 @@
   },
   {
     "title": "Traces of Home",
-    "showtime": "Monday, October 26, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Traces of Home",
     "showtime": "Wednesday, October 28, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -168,8 +162,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Filipinana",
-    "showtime": "Monday, October 26, 3:15 pm",
+    "title": "Traces of Home",
+    "showtime": "Monday, November 9, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -253,7 +247,7 @@
   },
   {
     "title": "Filipinana",
-    "showtime": "Monday, October 26, 7:00 pm",
+    "showtime": "Monday, November 9, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -336,8 +330,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "American Doctor",
-    "showtime": "Monday, October 26, 3:30 pm",
+    "title": "Filipinana",
+    "showtime": "Monday, November 9, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,32 +414,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Atonement",
-    "showtime": "Saturday, October 31, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Atonement",
-    "showtime": "Sunday, November 1, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Atonement",
-    "showtime": "Saturday, November 7, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Atonement",
-    "showtime": "Sunday, November 8, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasmadaily",
-    "showtime": "Monday, October 26, 9:00 pm",
+    "title": "American Doctor",
+    "showtime": "Monday, November 9, 3:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -529,7 +499,7 @@
   },
   {
     "title": "Camp Miasmadaily",
-    "showtime": "Monday, October 26, 5:00 pm",
+    "showtime": "Monday, November 9, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -612,6 +582,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "Camp Miasmadaily",
+    "showtime": "Monday, November 9, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "Dear You",
     "showtime": "Tuesday, October 27, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
@@ -661,12 +637,6 @@
   },
   {
     "title": "The Lobster",
-    "showtime": "Monday, October 26, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Lobster",
     "showtime": "Wednesday, October 28, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -696,50 +666,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Nightcrawler",
-    "showtime": "Thursday, October 29, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Nightcrawler",
-    "showtime": "Sunday, November 1, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Nightcrawler",
-    "showtime": "Thursday, November 5, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Nightcrawler",
-    "showtime": "Sunday, November 8, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Pearl",
-    "showtime": "Monday, October 26, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Pearl",
-    "showtime": "Friday, October 30, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Pearl",
-    "showtime": "Monday, November 2, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Pearl",
-    "showtime": "Friday, November 6, 9:00 pm",
+    "title": "The Lobster",
+    "showtime": "Monday, November 9, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -764,12 +692,6 @@
   {
     "title": "Mandy",
     "showtime": "Saturday, November 7, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Under the Skin",
-    "showtime": "Monday, October 26, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -847,6 +769,36 @@
   },
   {
     "title": "Under the Skin",
+    "showtime": "Sunday, November 8, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Under the Skin",
+    "showtime": "Monday, November 9, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Nightcrawler",
+    "showtime": "Thursday, October 29, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Nightcrawler",
+    "showtime": "Sunday, November 1, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Nightcrawler",
+    "showtime": "Thursday, November 5, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Nightcrawler",
     "showtime": "Sunday, November 8, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"

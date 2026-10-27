@@ -1,18 +1,6 @@
 [
   {
     "title": "Fjord",
-    "showtime": "Monday, October 26, 3:10 pm",
-    "link": "https://www.foxtheatre.ca/movies/fjord/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Wicker",
-    "showtime": "Monday, October 26, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/wicker/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Fjord",
     "showtime": "Tuesday, October 27, 3:10 pm",
     "link": "https://www.foxtheatre.ca/movies/fjord/",
     "source": "Fox Theatre"
@@ -438,6 +426,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Drawn In: The Girl Who Leapt Through Time",
+    "showtime": "Thursday, November 26, 9:10 pm",
+    "link": "https://www.foxtheatre.ca/movies/drawn-in-the-girl-who-leapt-through-time/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Golden Age: The Big Sleep",
     "showtime": "Sunday, November 29, 12:45 pm",
     "link": "https://www.foxtheatre.ca/movies/golden-age-the-big-sleep/",
@@ -447,6 +441,18 @@
     "title": "Battle of the Sexes: Birth",
     "showtime": "Thursday, December 3, 6:40 pm",
     "link": "https://www.foxtheatre.ca/movies/battle-of-the-sexes-birth/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Die Hard",
+    "showtime": "Saturday, December 19, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/die-hard/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Die Hard",
+    "showtime": "Wednesday, December 23, 9:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/die-hard/",
     "source": "Fox Theatre"
   }
 ]

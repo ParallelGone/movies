@@ -1,25 +1,13 @@
 [
   {
-    "title": "Jim Queen",
-    "showtime": "Today, Oct 26, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/jim-queen-canadian-premiere/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "The Wailing: 10th Anniversary!",
-    "showtime": "Today, Oct 26, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/the-wailing/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Screamplay: 4K Restoration!",
-    "showtime": "Tue, Oct 27, 6:30 pm",
+    "showtime": "Today, Oct 27, 6:30 pm",
     "link": "https://paradiseonbloor.com/movies/screamplay/",
     "source": "Paradise Theatre"
   },
   {
     "title": "The Texas Chainsaw Massacre Part 2: 40th Anniversary!",
-    "showtime": "Tue, Oct 27, 9:00 pm",
+    "showtime": "Today, Oct 27, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-texas-chainsaw-massacre-part-2-40th-anniversary/",
     "source": "Paradise Theatre"
   },
@@ -27,6 +15,12 @@
     "title": "The Eyes of Ghana",
     "showtime": "Wed, Oct 28, 2:30 pm",
     "link": "https://paradiseonbloor.com/movies/the-eyes-of-ghana/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Jim Queen",
+    "showtime": "Wed, Oct 28, 5:00 pm",
+    "link": "https://paradiseonbloor.com/movies/jim-queen-canadian-premiere/",
     "source": "Paradise Theatre"
   },
   {
@@ -225,6 +219,12 @@
     "title": "Bleeding Edge Fest: Pocket Mirror",
     "showtime": "Sat, Nov 28, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/pocket-mirror/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Double Feature: Notorious + To Catch a Thief",
+    "showtime": "Sun, Nov 29, 1:00 pm",
+    "link": "https://paradiseonbloor.com/programs/double-feature-notorious-to-catch-a-thief/",
     "source": "Paradise Theatre"
   },
   {
