@@ -1,12 +1,6 @@
 [
   {
     "title": "Floe",
-    "showtime": "Tuesday, October 27, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Floe",
     "showtime": "Wednesday, October 28, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -84,8 +78,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "A Sad and Beautiful World",
-    "showtime": "Tuesday, October 27, 1:30 pm",
+    "title": "Floe",
+    "showtime": "Tuesday, November 10, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -132,6 +126,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Tuesday, November 10, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "Traces of Home",
     "showtime": "Wednesday, October 28, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
@@ -164,12 +164,6 @@
   {
     "title": "Traces of Home",
     "showtime": "Monday, November 9, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Filipinana",
-    "showtime": "Tuesday, October 27, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -253,7 +247,7 @@
   },
   {
     "title": "Filipinana",
-    "showtime": "Tuesday, October 27, 7:00 pm",
+    "showtime": "Tuesday, November 10, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -336,8 +330,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "American Doctor",
-    "showtime": "Tuesday, October 27, 3:30 pm",
+    "title": "Filipinana",
+    "showtime": "Tuesday, November 10, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,8 +414,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Camp Miasmadaily",
-    "showtime": "Tuesday, October 27, 9:00 pm",
+    "title": "American Doctor",
+    "showtime": "Tuesday, November 10, 3:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -505,7 +499,7 @@
   },
   {
     "title": "Camp Miasmadaily",
-    "showtime": "Tuesday, October 27, 5:00 pm",
+    "showtime": "Tuesday, November 10, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -588,8 +582,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Dear You",
-    "showtime": "Tuesday, October 27, 7:00 pm",
+    "title": "Camp Miasmadaily",
+    "showtime": "Tuesday, November 10, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -636,6 +630,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "Dear You",
+    "showtime": "Tuesday, November 10, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "The Lobster",
     "showtime": "Wednesday, October 28, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
@@ -673,12 +673,6 @@
   },
   {
     "title": "Mandy",
-    "showtime": "Tuesday, October 27, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Mandy",
     "showtime": "Saturday, October 31, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -696,8 +690,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Under the Skin",
-    "showtime": "Tuesday, October 27, 9:00 pm",
+    "title": "Mandy",
+    "showtime": "Tuesday, November 10, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -776,6 +770,12 @@
   {
     "title": "Under the Skin",
     "showtime": "Monday, November 9, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Under the Skin",
+    "showtime": "Tuesday, November 10, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
