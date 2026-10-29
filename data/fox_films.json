@@ -1,17 +1,5 @@
 [
   {
-    "title": "Wicker",
-    "showtime": "Wednesday, October 28, 3:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/wicker/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Fjord",
-    "showtime": "Wednesday, October 28, 6:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/fjord/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Fjord",
     "showtime": "Thursday, October 29, 3:20 pm",
     "link": "https://www.foxtheatre.ca/movies/fjord/",
@@ -414,9 +402,51 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Club Kid",
+    "showtime": "Friday, November 27, 12:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/club-kid/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Club Kid",
+    "showtime": "Saturday, November 28, 12:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/club-kid/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Golden Age: The Big Sleep",
     "showtime": "Sunday, November 29, 12:45 pm",
     "link": "https://www.foxtheatre.ca/movies/golden-age-the-big-sleep/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Club Kid",
+    "showtime": "Sunday, November 29, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/club-kid/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Club Kid",
+    "showtime": "Monday, November 30, 9:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/club-kid/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Club Kid",
+    "showtime": "Tuesday, December 1, 6:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/club-kid/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Club Kid",
+    "showtime": "Wednesday, December 2, 6:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/club-kid/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Club Kid",
+    "showtime": "Thursday, December 3, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/club-kid/",
     "source": "Fox Theatre"
   },
   {

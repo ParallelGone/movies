@@ -1,25 +1,7 @@
 [
   {
-    "title": "The Eyes of Ghana",
-    "showtime": "Today, Oct 28, 2:30 pm",
-    "link": "https://paradiseonbloor.com/movies/the-eyes-of-ghana/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Jim Queen",
-    "showtime": "Today, Oct 28, 5:00 pm",
-    "link": "https://paradiseonbloor.com/movies/jim-queen-canadian-premiere/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Batman & Robin",
-    "showtime": "Today, Oct 28, 7:30 pm",
-    "link": "https://paradiseonbloor.com/movies/batman-robin/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Lennon Stella presents Sleeping Lion: Up Close & Personal",
-    "showtime": "Thu, Oct 29, 8:00 pm\nSOLD OUT",
+    "showtime": "Today, Oct 29, 8:00 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/special_events/lennon-stella-presents-sleeping-lion-up-close-personal/",
     "source": "Paradise Theatre"
   },
@@ -66,6 +48,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Chronovisor",
+    "showtime": "Tue, Nov 3, 9:00 pm",
+    "link": "https://paradiseonbloor.com/movies/chronovisor/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Dr. Cliff Worldwide Vet + Far and Wild Book Launch!",
     "showtime": "Wed, Nov 4, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/dr-cliff-worldwide-vet-far-and-wild-book-launch/",
@@ -75,6 +63,36 @@
     "title": "MUBI x Serviette present: Making Marie Antoinette",
     "showtime": "Thu, Nov 5, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/mubi-x-serviette-present-making-marie-antoinette/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Percocet Jesus: The Cult Screening",
+    "showtime": "Fri, Nov 6, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/percocet-jesus-the-cult-screening/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Toronto International Music Video Festival",
+    "showtime": "Sat, Nov 7, 11:00 am",
+    "link": "https://paradiseonbloor.com/movies/toronto-international-music-video-festival/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Toronto International Music Video Festival",
+    "showtime": "Sat, Nov 7, 12:00 pm",
+    "link": "https://paradiseonbloor.com/movies/toronto-international-music-video-festival/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Toronto International Music Video Festival",
+    "showtime": "Sat, Nov 7, 5:35 pm",
+    "link": "https://paradiseonbloor.com/movies/toronto-international-music-video-festival/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Toronto International Music Video Festival",
+    "showtime": "Sat, Nov 7, 7:15 pm",
+    "link": "https://paradiseonbloor.com/movies/toronto-international-music-video-festival/",
     "source": "Paradise Theatre"
   },
   {

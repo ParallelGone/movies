@@ -1,12 +1,6 @@
 [
   {
     "title": "Floe",
-    "showtime": "Wednesday, October 28, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Floe",
     "showtime": "Thursday, October 29, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -84,6 +78,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "Floe",
+    "showtime": "Wednesday, November 11, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "A Sad and Beautiful World",
     "showtime": "Thursday, October 29, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
@@ -128,48 +128,6 @@
   {
     "title": "A Sad and Beautiful World",
     "showtime": "Tuesday, November 10, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Traces of Home",
-    "showtime": "Wednesday, October 28, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Traces of Home",
-    "showtime": "Saturday, October 31, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Traces of Home",
-    "showtime": "Monday, November 2, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Traces of Home",
-    "showtime": "Wednesday, November 4, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Traces of Home",
-    "showtime": "Saturday, November 7, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Traces of Home",
-    "showtime": "Monday, November 9, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Filipinana",
-    "showtime": "Wednesday, October 28, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -253,7 +211,7 @@
   },
   {
     "title": "Filipinana",
-    "showtime": "Wednesday, October 28, 7:00 pm",
+    "showtime": "Wednesday, November 11, 3:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -336,8 +294,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "American Doctor",
-    "showtime": "Wednesday, October 28, 3:30 pm",
+    "title": "Filipinana",
+    "showtime": "Wednesday, November 11, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,8 +378,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Camp Miasmadaily",
-    "showtime": "Wednesday, October 28, 9:00 pm",
+    "title": "American Doctor",
+    "showtime": "Wednesday, November 11, 3:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -505,7 +463,7 @@
   },
   {
     "title": "Camp Miasmadaily",
-    "showtime": "Wednesday, October 28, 5:00 pm",
+    "showtime": "Wednesday, November 11, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -588,6 +546,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "Camp Miasmadaily",
+    "showtime": "Wednesday, November 11, 5:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "Dear You",
     "showtime": "Thursday, October 29, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
@@ -632,150 +596,6 @@
   {
     "title": "Dear You",
     "showtime": "Tuesday, November 10, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Lobster",
-    "showtime": "Wednesday, October 28, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Lobster",
-    "showtime": "Saturday, October 31, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Lobster",
-    "showtime": "Monday, November 2, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Lobster",
-    "showtime": "Wednesday, November 4, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Lobster",
-    "showtime": "Saturday, November 7, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "The Lobster",
-    "showtime": "Monday, November 9, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Mandy",
-    "showtime": "Saturday, October 31, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Mandy",
-    "showtime": "Tuesday, November 3, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Mandy",
-    "showtime": "Saturday, November 7, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Mandy",
-    "showtime": "Tuesday, November 10, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Under the Skin",
-    "showtime": "Wednesday, October 28, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Under the Skin",
-    "showtime": "Thursday, October 29, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Under the Skin",
-    "showtime": "Friday, October 30, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Under the Skin",
-    "showtime": "Saturday, October 31, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Under the Skin",
-    "showtime": "Sunday, November 1, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Under the Skin",
-    "showtime": "Monday, November 2, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Under the Skin",
-    "showtime": "Tuesday, November 3, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Under the Skin",
-    "showtime": "Wednesday, November 4, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Under the Skin",
-    "showtime": "Thursday, November 5, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Under the Skin",
-    "showtime": "Friday, November 6, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Under the Skin",
-    "showtime": "Saturday, November 7, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Under the Skin",
-    "showtime": "Sunday, November 8, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Under the Skin",
-    "showtime": "Monday, November 9, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Under the Skin",
-    "showtime": "Tuesday, November 10, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
