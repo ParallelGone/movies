@@ -1,23 +1,5 @@
 [
   {
-    "title": "Fjord",
-    "showtime": "Thursday, October 29, 3:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/fjord/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Wicker",
-    "showtime": "Thursday, October 29, 6:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/wicker/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Scream Queens: Nadja",
-    "showtime": "Thursday, October 29, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/scream-queens-nadja/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Wicker",
     "showtime": "Friday, October 30, 3:20 pm",
     "link": "https://www.foxtheatre.ca/movies/wicker/",
@@ -403,7 +385,7 @@
   },
   {
     "title": "Club Kid",
-    "showtime": "Friday, November 27, 12:45 pm",
+    "showtime": "Friday, November 27, 12:30 pm",
     "link": "https://www.foxtheatre.ca/movies/club-kid/",
     "source": "Fox Theatre"
   },
@@ -439,7 +421,7 @@
   },
   {
     "title": "Club Kid",
-    "showtime": "Wednesday, December 2, 6:15 pm",
+    "showtime": "Wednesday, December 2, 6:00 pm",
     "link": "https://www.foxtheatre.ca/movies/club-kid/",
     "source": "Fox Theatre"
   },
