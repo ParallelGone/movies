@@ -1,18 +1,6 @@
 [
   {
     "title": "Wicker",
-    "showtime": "Friday, October 30, 3:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/wicker/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Carrie: Prom from Hell",
-    "showtime": "Friday, October 30, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/carrie-prom-from-hell/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Wicker",
     "showtime": "Saturday, October 31, 1:00 pm",
     "link": "https://www.foxtheatre.ca/movies/wicker/",
     "source": "Fox Theatre"
@@ -366,15 +354,105 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Wildwood",
+    "showtime": "Friday, November 20, 12:40 pm",
+    "link": "https://www.foxtheatre.ca/movies/wildwood/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Sense and Sensibility (2026)",
+    "showtime": "Friday, November 20, 3:40 pm",
+    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Only Living Pickpocket in New York",
+    "showtime": "Friday, November 20, 6:40 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-only-living-pickpocket-in-new-york/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Zone: Blade Runner 2049",
+    "showtime": "Friday, November 20, 9:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-zone-blade-runner-2049/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Wildwood",
+    "showtime": "Saturday, November 21, 3:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/wildwood/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Sense and Sensibility (2026)",
+    "showtime": "Saturday, November 21, 6:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "The Room w/ Greg Sestero",
     "showtime": "Saturday, November 21, 9:00 pm",
     "link": "https://www.foxtheatre.ca/movies/the-room-w-greg-sestero/",
     "source": "Fox Theatre"
   },
   {
+    "title": "Wildwood",
+    "showtime": "Sunday, November 22, 2:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/wildwood/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Sense and Sensibility (2026)",
+    "showtime": "Sunday, November 22, 5:50 pm",
+    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "The Room w/ Greg Sestero",
     "showtime": "Sunday, November 22, 9:30 pm",
     "link": "https://www.foxtheatre.ca/movies/the-room-w-greg-sestero/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Sense and Sensibility (2026)",
+    "showtime": "Monday, November 23, 6:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Only Living Pickpocket in New York",
+    "showtime": "Monday, November 23, 9:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-only-living-pickpocket-in-new-york/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Only Living Pickpocket in New York",
+    "showtime": "Tuesday, November 24, 3:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-only-living-pickpocket-in-new-york/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Wildwood",
+    "showtime": "Tuesday, November 24, 5:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/wildwood/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "You Can See Everything",
+    "showtime": "Tuesday, November 24, 8:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/you-can-see-everything/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Only Living Pickpocket in New York",
+    "showtime": "Wednesday, November 25, 6:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-only-living-pickpocket-in-new-york/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "You Can See Everything",
+    "showtime": "Wednesday, November 25, 8:40 pm",
+    "link": "https://www.foxtheatre.ca/movies/you-can-see-everything/",
     "source": "Fox Theatre"
   },
   {
@@ -390,9 +468,21 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Sense and Sensibility (2026)",
+    "showtime": "Friday, November 27, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Club Kid",
     "showtime": "Saturday, November 28, 12:00 pm",
     "link": "https://www.foxtheatre.ca/movies/club-kid/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Restoration: The Piano",
+    "showtime": "Saturday, November 28, 3:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/restoration-the-piano/",
     "source": "Fox Theatre"
   },
   {
@@ -408,9 +498,33 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Sense and Sensibility (2026)",
+    "showtime": "Sunday, November 29, 6:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "You Can See Everything",
+    "showtime": "Monday, November 30, 2:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/you-can-see-everything/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Restoration: The Piano",
+    "showtime": "Monday, November 30, 6:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/restoration-the-piano/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Club Kid",
     "showtime": "Monday, November 30, 9:15 pm",
     "link": "https://www.foxtheatre.ca/movies/club-kid/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Sense and Sensibility (2026)",
+    "showtime": "Tuesday, December 1, 3:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
     "source": "Fox Theatre"
   },
   {
@@ -426,6 +540,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "You Can See Everything",
+    "showtime": "Wednesday, December 2, 9:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/you-can-see-everything/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Club Kid",
     "showtime": "Thursday, December 3, 3:30 pm",
     "link": "https://www.foxtheatre.ca/movies/club-kid/",
@@ -435,6 +555,12 @@
     "title": "Battle of the Sexes: Birth",
     "showtime": "Thursday, December 3, 6:40 pm",
     "link": "https://www.foxtheatre.ca/movies/battle-of-the-sexes-birth/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Moulin Rouge! w/ Live Performance from BoylesqueTO",
+    "showtime": "Friday, December 4, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/moulin-rouge-w-live-performance-from-boylesqueto/",
     "source": "Fox Theatre"
   },
   {
