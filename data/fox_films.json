@@ -1,24 +1,6 @@
 [
   {
     "title": "Wicker",
-    "showtime": "Saturday, October 31, 1:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/wicker/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Once Upon a Time in Harlem",
-    "showtime": "Saturday, October 31, 3:40 pm",
-    "link": "https://www.foxtheatre.ca/movies/once-upon-a-time-in-harlem/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Restoration: The Devils",
-    "showtime": "Saturday, October 31, 9:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/restoration-the-devils/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Wicker",
     "showtime": "Sunday, November 1, 11:40 am",
     "link": "https://www.foxtheatre.ca/movies/wicker/",
     "source": "Fox Theatre"
@@ -444,6 +426,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Sense and Sensibility (2026)",
+    "showtime": "Wednesday, November 25, 3:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "The Only Living Pickpocket in New York",
     "showtime": "Wednesday, November 25, 6:20 pm",
     "link": "https://www.foxtheatre.ca/movies/the-only-living-pickpocket-in-new-york/",
@@ -453,6 +441,12 @@
     "title": "You Can See Everything",
     "showtime": "Wednesday, November 25, 8:40 pm",
     "link": "https://www.foxtheatre.ca/movies/you-can-see-everything/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Sense and Sensibility (2026)",
+    "showtime": "Thursday, November 26, 6:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
     "source": "Fox Theatre"
   },
   {
