@@ -1,23 +1,5 @@
 [
   {
-    "title": "Wicker",
-    "showtime": "Monday, November 2, 3:50 pm",
-    "link": "https://www.foxtheatre.ca/movies/wicker/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Once Upon a Time in Harlem",
-    "showtime": "Monday, November 2, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/once-upon-a-time-in-harlem/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "The History of Concrete",
-    "showtime": "Monday, November 2, 9:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/the-history-of-concrete/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Once Upon a Time in Harlem",
     "showtime": "Tuesday, November 3, 3:45 pm",
     "link": "https://www.foxtheatre.ca/movies/once-upon-a-time-in-harlem/",
@@ -438,6 +420,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Drawn In: The Girl Who Leapt Through Time",
+    "showtime": "Thursday, November 26, 9:10 pm",
+    "link": "https://www.foxtheatre.ca/movies/drawn-in-the-girl-who-leapt-through-time/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Club Kid",
     "showtime": "Friday, November 27, 12:30 pm",
     "link": "https://www.foxtheatre.ca/movies/club-kid/",
@@ -450,6 +438,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Restoration: The Devils",
+    "showtime": "Friday, November 27, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/restoration-the-devils/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Club Kid",
     "showtime": "Saturday, November 28, 12:00 pm",
     "link": "https://www.foxtheatre.ca/movies/club-kid/",
@@ -459,6 +453,12 @@
     "title": "Restoration: The Piano",
     "showtime": "Saturday, November 28, 3:00 pm",
     "link": "https://www.foxtheatre.ca/movies/restoration-the-piano/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Pulp Fiction",
+    "showtime": "Saturday, November 28, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/pulp-fiction/",
     "source": "Fox Theatre"
   },
   {
