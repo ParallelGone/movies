@@ -1,19 +1,7 @@
 [
   {
-    "title": "Gentle Monster",
-    "showtime": "Today, Nov 3, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/gentle-monster/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Chronovisor",
-    "showtime": "Today, Nov 3, 9:00 pm",
-    "link": "https://paradiseonbloor.com/movies/chronovisor/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Dr. Cliff Worldwide Vet + Far and Wild Book Launch!",
-    "showtime": "Wed, Nov 4, 7:00 pm",
+    "showtime": "Today, Nov 4, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/dr-cliff-worldwide-vet-far-and-wild-book-launch/",
     "source": "Paradise Theatre"
   },
@@ -21,6 +9,12 @@
     "title": "MUBI x Serviette present: Making Marie Antoinette",
     "showtime": "Thu, Nov 5, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/mubi-x-serviette-present-making-marie-antoinette/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Gentle Monster",
+    "showtime": "Thu, Nov 5, 9:30 pm",
+    "link": "https://paradiseonbloor.com/movies/gentle-monster/",
     "source": "Paradise Theatre"
   },
   {

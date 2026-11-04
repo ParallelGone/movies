@@ -1,23 +1,5 @@
 [
   {
-    "title": "Once Upon a Time in Harlem",
-    "showtime": "Tuesday, November 3, 3:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/once-upon-a-time-in-harlem/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Wicker",
-    "showtime": "Tuesday, November 3, 6:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/wicker/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Restoration: The Devils",
-    "showtime": "Tuesday, November 3, 9:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/restoration-the-devils/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Wicker",
     "showtime": "Wednesday, November 4, 3:00 pm",
     "link": "https://www.foxtheatre.ca/movies/wicker/",
@@ -195,6 +177,12 @@
     "title": "Wildwood",
     "showtime": "Saturday, November 14, 12:00 pm",
     "link": "https://www.foxtheatre.ca/movies/wildwood/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "For the Sake of Water",
+    "showtime": "Saturday, November 14, 3:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/for-the-sake-of-water/",
     "source": "Fox Theatre"
   },
   {
