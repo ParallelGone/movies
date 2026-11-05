@@ -1,24 +1,6 @@
 [
   {
     "title": "Wicker",
-    "showtime": "Wednesday, November 4, 3:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/wicker/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Unsubculture presents: Samsara",
-    "showtime": "Wednesday, November 4, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/unsubculture-presents-samsara/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Restoration: The Devils",
-    "showtime": "Wednesday, November 4, 9:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/restoration-the-devils/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Wicker",
     "showtime": "Thursday, November 5, 3:30 pm",
     "link": "https://www.foxtheatre.ca/movies/wicker/",
     "source": "Fox Theatre"
@@ -426,9 +408,9 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Restoration: The Devils",
+    "title": "The Devils",
     "showtime": "Friday, November 27, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/restoration-the-devils/",
+    "link": "https://www.foxtheatre.ca/movies/the-devils/",
     "source": "Fox Theatre"
   },
   {
@@ -438,9 +420,9 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Restoration: The Piano",
+    "title": "The Piano",
     "showtime": "Saturday, November 28, 3:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/restoration-the-piano/",
+    "link": "https://www.foxtheatre.ca/movies/the-piano/",
     "source": "Fox Theatre"
   },
   {
@@ -474,9 +456,9 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Restoration: The Piano",
+    "title": "The Piano",
     "showtime": "Monday, November 30, 6:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/restoration-the-piano/",
+    "link": "https://www.foxtheatre.ca/movies/the-piano/",
     "source": "Fox Theatre"
   },
   {
@@ -495,6 +477,18 @@
     "title": "Club Kid",
     "showtime": "Tuesday, December 1, 6:30 pm",
     "link": "https://www.foxtheatre.ca/movies/club-kid/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Your Mother Your Mother Your Mother",
+    "showtime": "Tuesday, December 1, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/your-mother-your-mother-your-mother/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Sense and Sensibility (2026)",
+    "showtime": "Wednesday, December 2, 3:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
     "source": "Fox Theatre"
   },
   {
@@ -522,9 +516,21 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Your Mother Your Mother Your Mother",
+    "showtime": "Thursday, December 3, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/your-mother-your-mother-your-mother/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Moulin Rouge! w/ Live Performance from BoylesqueTO",
     "showtime": "Friday, December 4, 9:30 pm",
     "link": "https://www.foxtheatre.ca/movies/moulin-rouge-w-live-performance-from-boylesqueto/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Rex: A Dinosaur’s Story",
+    "showtime": "Thursday, December 17, 9:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/rex-a-dinosaurs-story/",
     "source": "Fox Theatre"
   },
   {
