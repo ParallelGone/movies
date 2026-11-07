@@ -1,78 +1,6 @@
 [
   {
     "title": "Fatherland - Pawel Pawlikowski",
-    "showtime": "Friday, November 6, 12:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4wNkwzVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Fatherland - Pawel Pawlikowski",
-    "showtime": "Friday, November 6, 2:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4wNjI0VDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Fatherland - Pawel Pawlikowski",
-    "showtime": "Friday, November 6, 6:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4wNjYzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Fjord - Cristian Mungiu",
-    "showtime": "Friday, November 6, 12:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4wNkwxVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Fjord - Cristian Mungiu",
-    "showtime": "Friday, November 6, 9:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4wNjkxVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "La Bola Negra - Javier Ambrossi, Javier Calvo",
-    "showtime": "Friday, November 6, 12:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4wNkwwVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "La Bola Negra - Javier Ambrossi, Javier Calvo",
-    "showtime": "Friday, November 6, 3:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4wNjM0VDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "La Bola Negra - Javier Ambrossi, Javier Calvo",
-    "showtime": "Friday, November 6, 7:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4wNjczVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "The Big Sleep - Howard Hawks",
-    "showtime": "Friday, November 6, 6:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4wNjYwVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Your Mother Your Mother Your Mother - Bassam Tariq",
-    "showtime": "Friday, November 6, 12:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4wNkw0VDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Your Mother Your Mother Your Mother - Bassam Tariq",
-    "showtime": "Friday, November 6, 3:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4wNjMzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Your Mother Your Mother Your Mother - Bassam Tariq",
-    "showtime": "Friday, November 6, 8:35PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4wNjgzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Fatherland - Pawel Pawlikowski",
     "showtime": "Saturday, November 7, 11:30AM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk4wN0szVDU=",
     "source": "TIFF Bell Lightbox"
@@ -1074,6 +1002,12 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Ray Gunn - Brad Bird",
+    "showtime": "Friday, December 4, 7:30PM",
+    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkQwNDczVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "Cameron Winter at Carnegie Hall - Paul Thomas Anderson",
     "showtime": "Saturday, December 5, 1:30PM",
     "link": "https://am.ticketmaster.com/tiff/ism/NkQwNTEzVDI=",
@@ -1098,9 +1032,27 @@
     "source": "TIFF Bell Lightbox"
   },
   {
+    "title": "Ray Gunn - Brad Bird",
+    "showtime": "Saturday, December 5, 3:30PM",
+    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkQwNTMzVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Ray Gunn - Brad Bird",
+    "showtime": "Sunday, December 6, 7:30PM",
+    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkQwNjczVDE=",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
     "title": "Frames of Reference Exhibit",
     "showtime": "Tuesday, December 8, 12:00PM (Free)",
     "link": "https://tiff.net/events/frames-of-reference-exhibit",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Ray Gunn - Brad Bird",
+    "showtime": "Tuesday, December 8, 7:00PM",
+    "link": "https://am.ticketmaster.com/tiff/buy/ism/NkQwODcwVDE=",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -1328,6 +1280,12 @@
   {
     "title": "Frames of Reference Exhibit",
     "showtime": "Thursday, February 4, 12:00PM (Free)",
+    "link": "https://tiff.net/events/frames-of-reference-exhibit",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Frames of Reference Exhibit",
+    "showtime": "Friday, February 5, 12:00PM (Free)",
     "link": "https://tiff.net/events/frames-of-reference-exhibit",
     "source": "TIFF Bell Lightbox"
   }

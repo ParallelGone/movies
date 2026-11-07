@@ -1,23 +1,5 @@
 [
   {
-    "title": "& Sons",
-    "showtime": "Friday, November 6, 3:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/sons/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "NAZA",
-    "showtime": "Friday, November 6, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/naza/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "You Can See Everything",
-    "showtime": "Friday, November 6, 8:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/you-can-see-everything/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Exhibition On Screen: James McNeill Whistler",
     "showtime": "Saturday, November 7, 1:30 pm",
     "link": "https://www.foxtheatre.ca/movies/exhibition-on-screen-james-mcneill-whistler/",
@@ -309,6 +291,12 @@
     "title": "The Room w/ Greg Sestero",
     "showtime": "Saturday, November 21, 9:00 pm",
     "link": "https://www.foxtheatre.ca/movies/the-room-w-greg-sestero/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Ten Short Films Festival",
+    "showtime": "Sunday, November 22, 12:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/ten-short-films-festival/",
     "source": "Fox Theatre"
   },
   {

@@ -1,12 +1,6 @@
 [
   {
     "title": "Floe",
-    "showtime": "Friday, November 6, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Floe",
     "showtime": "Saturday, November 7, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -84,8 +78,44 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "A Sad and Beautiful World",
-    "showtime": "Friday, November 6, 1:30 pm",
+    "title": "Floe",
+    "showtime": "Friday, November 20, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Traces of Home",
+    "showtime": "Saturday, November 7, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Traces of Home",
+    "showtime": "Monday, November 9, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Traces of Home",
+    "showtime": "Wednesday, November 11, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Traces of Home",
+    "showtime": "Saturday, November 14, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Traces of Home",
+    "showtime": "Monday, November 16, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Traces of Home",
+    "showtime": "Wednesday, November 18, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -132,8 +162,80 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Dear You",
-    "showtime": "Friday, November 6, 3:00 pm",
+    "title": "A Sad and Beautiful World",
+    "showtime": "Friday, November 20, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Filipinana",
+    "showtime": "Saturday, November 7, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Filipinana",
+    "showtime": "Monday, November 9, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Filipinana",
+    "showtime": "Wednesday, November 11, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Filipinana",
+    "showtime": "Saturday, November 14, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Filipinana",
+    "showtime": "Monday, November 16, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Filipinana",
+    "showtime": "Wednesday, November 18, 3:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Filipinana",
+    "showtime": "Saturday, November 7, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Filipinana",
+    "showtime": "Monday, November 9, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Filipinana",
+    "showtime": "Wednesday, November 11, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Filipinana",
+    "showtime": "Saturday, November 14, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Filipinana",
+    "showtime": "Monday, November 16, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Filipinana",
+    "showtime": "Wednesday, November 18, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -181,7 +283,7 @@
   },
   {
     "title": "Dear You",
-    "showtime": "Friday, November 6, 7:00 pm",
+    "showtime": "Friday, November 20, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -228,8 +330,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "American Doctor",
-    "showtime": "Friday, November 6, 3:30 pm",
+    "title": "Dear You",
+    "showtime": "Friday, November 20, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -312,158 +414,284 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Parasite",
-    "showtime": "Saturday, November 7, 7:00 pm",
+    "title": "American Doctor",
+    "showtime": "Friday, November 20, 3:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Parasite",
-    "showtime": "Thursday, November 12, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Parasite",
-    "showtime": "Saturday, November 14, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Parasite",
-    "showtime": "Thursday, November 19, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasma",
-    "showtime": "Friday, November 6, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasma",
-    "showtime": "Saturday, November 7, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasma",
-    "showtime": "Sunday, November 8, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasma",
-    "showtime": "Tuesday, November 10, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasma",
-    "showtime": "Thursday, November 12, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasma",
-    "showtime": "Friday, November 13, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasma",
-    "showtime": "Saturday, November 14, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasma",
-    "showtime": "Sunday, November 15, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasma",
-    "showtime": "Tuesday, November 17, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasma",
-    "showtime": "Thursday, November 19, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasma",
-    "showtime": "Friday, November 6, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasma",
+    "title": "Palestine 36",
     "showtime": "Saturday, November 7, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Camp Miasma",
+    "title": "Palestine 36",
     "showtime": "Sunday, November 8, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Camp Miasma",
-    "showtime": "Tuesday, November 10, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasma",
-    "showtime": "Thursday, November 12, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasma",
-    "showtime": "Friday, November 13, 5:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Camp Miasma",
+    "title": "Palestine 36",
     "showtime": "Saturday, November 14, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Camp Miasma",
+    "title": "Palestine 36",
     "showtime": "Sunday, November 15, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Camp Miasma",
-    "showtime": "Tuesday, November 17, 5:00 pm",
+    "title": "Born to Kill",
+    "showtime": "Monday, November 9, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Camp Miasma",
-    "showtime": "Thursday, November 19, 5:00 pm",
+    "title": "Born to Kill",
+    "showtime": "Monday, November 16, 7:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Greasy Strangler",
-    "showtime": "Thursday, November 12, 9:10 pm",
+    "title": "Cat People 1942",
+    "showtime": "Sunday, November 8, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Greasy Strangler",
-    "showtime": "Thursday, November 19, 9:10 pm",
+    "title": "Cat People 1942",
+    "showtime": "Sunday, November 15, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Diabolique",
+    "showtime": "Tuesday, November 10, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Diabolique",
+    "showtime": "Friday, November 13, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Diabolique",
+    "showtime": "Tuesday, November 17, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Diabolique",
+    "showtime": "Friday, November 20, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Alphaville",
+    "showtime": "Saturday, November 7, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Alphaville",
+    "showtime": "Tuesday, November 10, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Alphaville",
+    "showtime": "Saturday, November 14, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Alphaville",
+    "showtime": "Tuesday, November 17, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Blow Out",
+    "showtime": "Sunday, November 8, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Blow Out",
+    "showtime": "Thursday, November 12, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Blow Out",
+    "showtime": "Sunday, November 15, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Blow Out",
+    "showtime": "Thursday, November 19, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Atonement",
+    "showtime": "Saturday, November 7, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Atonement",
+    "showtime": "Sunday, November 8, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Atonement",
+    "showtime": "Monday, November 9, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Atonement",
+    "showtime": "Tuesday, November 10, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Atonement",
+    "showtime": "Wednesday, November 11, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Atonement",
+    "showtime": "Thursday, November 12, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Atonement",
+    "showtime": "Friday, November 13, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Atonement",
+    "showtime": "Saturday, November 14, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Atonement",
+    "showtime": "Sunday, November 15, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Atonement",
+    "showtime": "Monday, November 16, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Atonement",
+    "showtime": "Tuesday, November 17, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Atonement",
+    "showtime": "Wednesday, November 18, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Atonement",
+    "showtime": "Thursday, November 19, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Atonement",
+    "showtime": "Friday, November 20, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Lifeforce",
+    "showtime": "Saturday, November 7, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Lifeforce",
+    "showtime": "Wednesday, November 11, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Lifeforce",
+    "showtime": "Saturday, November 14, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Lifeforce",
+    "showtime": "Wednesday, November 18, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Masque of the Red Death",
+    "showtime": "Sunday, November 8, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Masque of the Red Death",
+    "showtime": "Thursday, November 12, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Masque of the Red Death",
+    "showtime": "Sunday, November 15, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Masque of the Red Death",
+    "showtime": "Thursday, November 19, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Nineteen Eighty Four",
+    "showtime": "Monday, November 9, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Nineteen Eighty Four",
+    "showtime": "Thursday, November 12, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Nineteen Eighty Four",
+    "showtime": "Monday, November 16, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Nineteen Eighty Four",
+    "showtime": "Thursday, November 19, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   }
