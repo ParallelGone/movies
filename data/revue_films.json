@@ -270,12 +270,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "Revue Event: ERASER (1996) - Presented on 35mm!",
-    "showtime": "Fri Nov 6, 9:30 PM",
-    "link": "https://revuecinema.ca/films/revue-event-eraser-1996-presented-on-35mm/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Christmas Classics: ERNEST SAVES CHRISTMAS (1988) - Presented on 35mm!",
     "showtime": "Fri Dec 11, 7:00 PM",
     "link": "https://revuecinema.ca/films/christmas-classics-ernest-saves-christmas-1988-presented-on-35mm/",
@@ -339,6 +333,18 @@
     "title": "007 Sunday: FROM RUSSIA WITH LOVE (1963) - New 4K Restoration!",
     "showtime": "Sun Feb 7, 1:00 PM",
     "link": "https://revuecinema.ca/films/007-sunday-from-russia-with-love-1963-new-4k-restoration/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "GEORGE MICHAEL: THE FAITH TOUR",
+    "showtime": "Tue Dec 29, 6:30 PM",
+    "link": "https://revuecinema.ca/films/george-michael-the-faith-tour/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "GEORGE MICHAEL: THE FAITH TOUR",
+    "showtime": "Fri Jan 1, 9:30 PM",
+    "link": "https://revuecinema.ca/films/george-michael-the-faith-tour/",
     "source": "Revue Cinema"
   },
   {
@@ -552,6 +558,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "EKRAN Toronto Polish Film Festival: LALKA",
+    "showtime": "Sun Nov 22, 12:00 PM",
+    "link": "https://revuecinema.ca/films/ekran-toronto-polish-film-festival-lalka/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Dumpster Raccoon: LES MISERABLES SINGALONG AND OPEN STAGE HOLIDAY SPECTACULAR",
     "showtime": "Sat Dec 12, 9:30 PM",
     "link": "https://revuecinema.ca/films/dumpster-raccoon-les-miserables-singalong-and-open-stage-holiday-spectacular/",
@@ -690,12 +702,6 @@
     "source": "Revue Cinema"
   },
   {
-    "title": "EKRAN Toronto Polish Film Festival: PSOTY",
-    "showtime": "Sun Nov 22, 12:00 PM",
-    "link": "https://revuecinema.ca/films/ekran-toronto-polish-film-festival-psoty/",
-    "source": "Revue Cinema"
-  },
-  {
     "title": "Hold Up: REALITY BITES (1994)",
     "showtime": "Tue Nov 24, 6:45 PM",
     "link": "https://revuecinema.ca/films/hold-up-reality-bites-1994/",
@@ -705,12 +711,6 @@
     "title": "Revue Event: HEATED RIVALRY Marathon!",
     "showtime": "Mon Nov 30, 6:15 PM",
     "link": "https://revuecinema.ca/films/revue-event-heated-rivalry-marathon/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "Revue Event: Island of Listeners: BEHIND EVERY DOOR Screening and Artist Talk with Rachel Gray and Kim Kilpatrick",
-    "showtime": "Fri Nov 6, 6:45 PM",
-    "link": "https://revuecinema.ca/films/revue-event-island-of-listeners-behind-every-door-screening-and-artist-talk-with-rachel-gray-and-kim-kilpatrick/",
     "source": "Revue Cinema"
   },
   {
@@ -756,6 +756,12 @@
     "source": "Revue Cinema"
   },
   {
+    "title": "When Animals Attack: STARSHIP TROOPERS (Presented on 35mm!)",
+    "showtime": "Fri Feb 5, 9:30 PM",
+    "link": "https://revuecinema.ca/films/when-animals-attack-starship-troopers-presented-on-35mm/",
+    "source": "Revue Cinema"
+  },
+  {
     "title": "Revue Film Society: STRANGERS ON A TRAIN - 75th Anniversary Screening!",
     "showtime": "Tue Dec 15, 6:45 PM",
     "link": "https://revuecinema.ca/films/revue-film-society-strangers-on-a-train-75th-anniversary-screening/",
@@ -765,12 +771,6 @@
     "title": "EKRAN Toronto Polish Film Festival: PICASSO'S MERMAID (Syrenka Picassa)",
     "showtime": "Sat Nov 21, 4:00 PM",
     "link": "https://revuecinema.ca/films/ekran-toronto-polish-film-festival-picassos-mermaid-syrenka-picassa/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "48 Hour Film Project - Toronto",
-    "showtime": "Thu Nov 5, 6:30 PM",
-    "link": "https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/",
     "source": "Revue Cinema"
   },
   {
@@ -873,6 +873,24 @@
     "title": "Designing The Movies x DesignTO Festival: THE GRAND BUDAPEST HOTEL (2014)",
     "showtime": "Tue Jan 26, 6:30 PM",
     "link": "https://revuecinema.ca/films/designing-the-movies-x-designto-festival-the-grand-budapest-hotel-2014/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "RevueEvent: THE LORD OF THE RINGS: THE FELLOWSHIP OF THE RING (Extended Edition!)",
+    "showtime": "Sun Jan 24, 11:30 AM",
+    "link": "https://revuecinema.ca/films/special-event-the-lord-of-the-rings-the-fellowship-of-the-ring-extended-edition/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Revue Event: THE LORD OF THE RINGS: THE RETURN OF THE KING (Extended Edition!)",
+    "showtime": "Sun Feb 14, 11:00 AM",
+    "link": "https://revuecinema.ca/films/revue-event-the-lord-of-the-rings-the-return-of-the-king-extended-edition/",
+    "source": "Revue Cinema"
+  },
+  {
+    "title": "Revue Event: THE LORD OF THE RINGS: THE TWO TOWERS (Extended Edition!)",
+    "showtime": "Sat Jan 30, 11:00 AM",
+    "link": "https://revuecinema.ca/films/revue-event-the-lord-of-the-rings-the-two-towers-extended-edition/",
     "source": "Revue Cinema"
   },
   {
@@ -1005,12 +1023,6 @@
     "title": "Rental Event: Minnow Magazine: Understanding Myself as an Amphibian - Toronto Theatrical Premiere!",
     "showtime": "Sat Nov 7, 8:00 PM",
     "link": "https://revuecinema.ca/films/rental-event-minnow-magazine-understanding-myself-as-an-amphibian-toronto-theatrical-premiere/",
-    "source": "Revue Cinema"
-  },
-  {
-    "title": "The Perfect Date: V FOR VENDETTA - 20th Anniversary Screening!",
-    "showtime": "Thu Nov 5, 9:30 PM",
-    "link": "https://revuecinema.ca/films/the-perfect-date-v-for-vendetta-20th-anniversary-screening/",
     "source": "Revue Cinema"
   },
   {
