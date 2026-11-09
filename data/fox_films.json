@@ -1,29 +1,5 @@
 [
   {
-    "title": "& Sons",
-    "showtime": "Sunday, November 8, 11:30 am",
-    "link": "https://www.foxtheatre.ca/movies/sons/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "grlish: Your Name",
-    "showtime": "Sunday, November 8, 2:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/grlish-your-name/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "NAZA",
-    "showtime": "Sunday, November 8, 6:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/naza/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "You Can See Everything",
-    "showtime": "Sunday, November 8, 8:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/you-can-see-everything/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "NAZA",
     "showtime": "Monday, November 9, 4:45 pm",
     "link": "https://www.foxtheatre.ca/movies/naza/",

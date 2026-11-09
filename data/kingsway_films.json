@@ -1,12 +1,6 @@
 [
   {
     "title": "Floe",
-    "showtime": "Sunday, November 8, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Floe",
     "showtime": "Monday, November 9, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -84,8 +78,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "A Sad and Beautiful World",
-    "showtime": "Sunday, November 8, 1:30 pm",
+    "title": "Floe",
+    "showtime": "Sunday, November 22, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -132,6 +126,12 @@
     "source": "Kingsway Theatre"
   },
   {
+    "title": "A Sad and Beautiful World",
+    "showtime": "Sunday, November 22, 1:30 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
     "title": "Traces of Home",
     "showtime": "Monday, November 9, 1:30 pm",
     "link": "http://kingswaymovies.ca/",
@@ -164,12 +164,6 @@
   {
     "title": "Traces of Home",
     "showtime": "Saturday, November 21, 1:30 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Dear You",
-    "showtime": "Sunday, November 8, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -217,7 +211,7 @@
   },
   {
     "title": "Dear You",
-    "showtime": "Sunday, November 8, 7:00 pm",
+    "showtime": "Sunday, November 22, 3:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -260,6 +254,12 @@
   {
     "title": "Dear You",
     "showtime": "Friday, November 20, 7:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Dear You",
+    "showtime": "Sunday, November 22, 7:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -332,12 +332,6 @@
   {
     "title": "Filipinana",
     "showtime": "Saturday, November 21, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "American Doctor",
-    "showtime": "Sunday, November 8, 3:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -420,8 +414,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Palestine 36",
-    "showtime": "Sunday, November 8, 5:00 pm",
+    "title": "American Doctor",
+    "showtime": "Sunday, November 22, 3:30 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -444,14 +438,20 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Cat People 1942",
-    "showtime": "Sunday, November 8, 5:15 pm",
+    "title": "Palestine 36",
+    "showtime": "Sunday, November 22, 5:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
   {
     "title": "Cat People 1942",
     "showtime": "Sunday, November 15, 5:15 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Cat People 1942",
+    "showtime": "Sunday, November 22, 5:15 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -481,12 +481,6 @@
   },
   {
     "title": "Blow Out",
-    "showtime": "Sunday, November 8, 9:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Blow Out",
     "showtime": "Thursday, November 12, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
@@ -500,6 +494,12 @@
   {
     "title": "Blow Out",
     "showtime": "Thursday, November 19, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Blow Out",
+    "showtime": "Sunday, November 22, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -536,12 +536,6 @@
   {
     "title": "Alphaville",
     "showtime": "Saturday, November 21, 7:00 pm",
-    "link": "http://kingswaymovies.ca/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Atonement",
-    "showtime": "Sunday, November 8, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -624,8 +618,8 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Masque of the Red Death",
-    "showtime": "Sunday, November 8, 9:00 pm",
+    "title": "Atonement",
+    "showtime": "Sunday, November 22, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
@@ -644,6 +638,12 @@
   {
     "title": "Masque of the Red Death",
     "showtime": "Thursday, November 19, 9:00 pm",
+    "link": "http://kingswaymovies.ca/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Masque of the Red Death",
+    "showtime": "Sunday, November 22, 9:00 pm",
     "link": "http://kingswaymovies.ca/",
     "source": "Kingsway Theatre"
   },
