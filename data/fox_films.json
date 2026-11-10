@@ -1,17 +1,5 @@
 [
   {
-    "title": "NAZA",
-    "showtime": "Monday, November 9, 4:45 pm",
-    "link": "https://www.foxtheatre.ca/movies/naza/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "MagicLand",
-    "showtime": "Monday, November 9, 7:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/magicland/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "& Sons",
     "showtime": "Tuesday, November 10, 3:30 pm",
     "link": "https://www.foxtheatre.ca/movies/sons/",
@@ -462,6 +450,18 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Ratatouille",
+    "showtime": "Wednesday, December 9, 6:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/ratatouille/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Blast of Silence",
+    "showtime": "Thursday, December 10, 7:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/blast-of-silence/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Rex: A Dinosaur’s Story",
     "showtime": "Thursday, December 17, 9:00 pm",
     "link": "https://www.foxtheatre.ca/movies/rex-a-dinosaurs-story/",
@@ -471,6 +471,18 @@
     "title": "Die Hard",
     "showtime": "Saturday, December 19, 9:30 pm",
     "link": "https://www.foxtheatre.ca/movies/die-hard/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Tokyo Godfathers",
+    "showtime": "Sunday, December 20, 8:40 pm",
+    "link": "https://www.foxtheatre.ca/movies/tokyo-godfathers/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Tokyo Godfathers",
+    "showtime": "Monday, December 21, 9:15 pm",
+    "link": "https://www.foxtheatre.ca/movies/tokyo-godfathers/",
     "source": "Fox Theatre"
   },
   {
