@@ -1,23 +1,5 @@
 [
   {
-    "title": "& Sons",
-    "showtime": "Tuesday, November 10, 3:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/sons/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "NAZA",
-    "showtime": "Tuesday, November 10, 6:20 pm",
-    "link": "https://www.foxtheatre.ca/movies/naza/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "You Can See Everything",
-    "showtime": "Tuesday, November 10, 8:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/you-can-see-everything/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "NAZA",
     "showtime": "Wednesday, November 11, 4:15 pm",
     "link": "https://www.foxtheatre.ca/movies/naza/",
@@ -198,12 +180,6 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Sense and Sensibility (2026)",
-    "showtime": "Friday, November 20, 3:40 pm",
-    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "The Only Living Pickpocket in New York",
     "showtime": "Friday, November 20, 6:40 pm",
     "link": "https://www.foxtheatre.ca/movies/the-only-living-pickpocket-in-new-york/",
@@ -222,12 +198,6 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "Sense and Sensibility (2026)",
-    "showtime": "Saturday, November 21, 6:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "The Room w/ Greg Sestero",
     "showtime": "Saturday, November 21, 9:00 pm",
     "link": "https://www.foxtheatre.ca/movies/the-room-w-greg-sestero/",
@@ -243,12 +213,6 @@
     "title": "Wildwood",
     "showtime": "Sunday, November 22, 2:45 pm",
     "link": "https://www.foxtheatre.ca/movies/wildwood/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Sense and Sensibility (2026)",
-    "showtime": "Sunday, November 22, 5:50 pm",
-    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
     "source": "Fox Theatre"
   },
   {
