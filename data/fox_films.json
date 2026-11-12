@@ -1,17 +1,5 @@
 [
   {
-    "title": "NAZA",
-    "showtime": "Wednesday, November 11, 4:15 pm",
-    "link": "https://www.foxtheatre.ca/movies/naza/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Slumber Party: The Devil Wears Prada",
-    "showtime": "Wednesday, November 11, 6:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/slumber-party-the-devil-wears-prada/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "You Can See Everything",
     "showtime": "Wednesday, November 11, 9:15 pm",
     "link": "https://www.foxtheatre.ca/movies/you-can-see-everything/",
@@ -138,12 +126,6 @@
     "source": "Fox Theatre"
   },
   {
-    "title": "De Gaulle: Résistance",
-    "showtime": "Wednesday, November 18, 3:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/de-gaulle-resistance/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "Two Seasons, Two Strangers Director Q&A",
     "showtime": "Wednesday, November 18, 6:30 pm",
     "link": "https://www.foxtheatre.ca/movies/two-seasons-two-strangers-director-qa/",
@@ -180,6 +162,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Sense and Sensibility (2026)",
+    "showtime": "Friday, November 20, 3:40 pm",
+    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "The Only Living Pickpocket in New York",
     "showtime": "Friday, November 20, 6:40 pm",
     "link": "https://www.foxtheatre.ca/movies/the-only-living-pickpocket-in-new-york/",
@@ -198,6 +186,12 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "Sense and Sensibility (2026)",
+    "showtime": "Saturday, November 21, 6:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "The Room w/ Greg Sestero",
     "showtime": "Saturday, November 21, 9:00 pm",
     "link": "https://www.foxtheatre.ca/movies/the-room-w-greg-sestero/",
@@ -213,6 +207,12 @@
     "title": "Wildwood",
     "showtime": "Sunday, November 22, 2:45 pm",
     "link": "https://www.foxtheatre.ca/movies/wildwood/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Sense and Sensibility (2026)",
+    "showtime": "Sunday, November 22, 5:50 pm",
+    "link": "https://www.foxtheatre.ca/movies/sense-and-sensibility-2026/",
     "source": "Fox Theatre"
   },
   {
@@ -408,15 +408,105 @@
     "source": "Fox Theatre"
   },
   {
+    "title": "The Fox",
+    "showtime": "Friday, December 4, 3:40 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-fox/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Club Kid",
+    "showtime": "Friday, December 4, 6:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/club-kid/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Moulin Rouge! w/ Live Performance from BoylesqueTO",
     "showtime": "Friday, December 4, 9:30 pm",
     "link": "https://www.foxtheatre.ca/movies/moulin-rouge-w-live-performance-from-boylesqueto/",
     "source": "Fox Theatre"
   },
   {
+    "title": "Club Kid",
+    "showtime": "Saturday, December 5, 12:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/club-kid/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Northern Frights: Black Christmas w/ Art Hindle",
+    "showtime": "Saturday, December 5, 9:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/northern-frights-black-christmas-w-art-hindle/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Fox",
+    "showtime": "Sunday, December 6, 3:45 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-fox/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Club Kid",
+    "showtime": "Sunday, December 6, 6:10 pm",
+    "link": "https://www.foxtheatre.ca/movies/club-kid/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "You Can See Everything",
+    "showtime": "Sunday, December 6, 9:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/you-can-see-everything/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Club Kid",
+    "showtime": "Monday, December 7, 6:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/club-kid/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Fox",
+    "showtime": "Monday, December 7, 9:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-fox/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Club Kid",
+    "showtime": "Tuesday, December 8, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/club-kid/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Fox",
+    "showtime": "Tuesday, December 8, 6:20 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-fox/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "You Can See Everything",
+    "showtime": "Tuesday, December 8, 8:40 pm",
+    "link": "https://www.foxtheatre.ca/movies/you-can-see-everything/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Club Kid",
+    "showtime": "Wednesday, December 9, 3:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/club-kid/",
+    "source": "Fox Theatre"
+  },
+  {
     "title": "Ratatouille",
     "showtime": "Wednesday, December 9, 6:45 pm",
     "link": "https://www.foxtheatre.ca/movies/ratatouille/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "The Devils",
+    "showtime": "Wednesday, December 9, 9:40 pm",
+    "link": "https://www.foxtheatre.ca/movies/the-devils/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Club Kid",
+    "showtime": "Thursday, December 10, 4:00 pm",
+    "link": "https://www.foxtheatre.ca/movies/club-kid/",
     "source": "Fox Theatre"
   },
   {
