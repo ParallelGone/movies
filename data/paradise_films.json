@@ -1,19 +1,13 @@
 [
   {
-    "title": "West End Phoenix: Programme 4",
-    "showtime": "Today, Nov 12, 7:00 pm",
-    "link": "https://paradiseonbloor.com/special_events/west-end-phoenix-programme-4/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "La bola negra",
-    "showtime": "Fri, Nov 13, 3:00 pm",
+    "showtime": "Today, Nov 13, 3:00 pm",
     "link": "https://paradiseonbloor.com/movies/la-bola-negra/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Phantom of the Paradise",
-    "showtime": "Fri, Nov 13, 7:00 pm",
+    "showtime": "Today, Nov 13, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/phantom-of-the-paradise-50th-anniversary/",
     "source": "Paradise Theatre"
   },
@@ -210,6 +204,12 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Angels in America — Part 1: Millennium Approaches",
+    "showtime": "Wed, Dec 9, 7:00 pm\nSOLD OUT",
+    "link": "https://paradiseonbloor.com/movies/angels-in-america-part-1-millennium-approaches/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "The Best Little Whorehouse in Texas",
     "showtime": "Fri, Dec 11, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/the-best-little-whorehouse-in-texas/",
@@ -225,6 +225,12 @@
     "title": "Dan Docimo LIVE!",
     "showtime": "Sat, Dec 12, 9:30 pm",
     "link": "https://paradiseonbloor.com/special_events/dan-docimo-live/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Angels in America — Part 2: Perestroika",
+    "showtime": "Wed, Dec 16, 7:00 pm",
+    "link": "https://paradiseonbloor.com/movies/angels-in-america-part-2-perestroika/",
     "source": "Paradise Theatre"
   },
   {
