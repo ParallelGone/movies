@@ -1,19 +1,7 @@
 [
   {
-    "title": "La bola negra",
-    "showtime": "Today, Nov 13, 3:00 pm",
-    "link": "https://paradiseonbloor.com/movies/la-bola-negra/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Phantom of the Paradise",
-    "showtime": "Today, Nov 13, 7:00 pm",
-    "link": "https://paradiseonbloor.com/movies/phantom-of-the-paradise-50th-anniversary/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "The Lady Vanishes",
-    "showtime": "Sat, Nov 14, 1:30 pm",
+    "showtime": "Today, Nov 14, 1:30 pm",
     "link": "https://paradiseonbloor.com/movies/the-lady-vanishes/",
     "source": "Paradise Theatre"
   },
@@ -27,6 +15,12 @@
     "title": "Community Curation: Bushman",
     "showtime": "Sun, Nov 15, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/bushman/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "La bola negra",
+    "showtime": "Mon, Nov 16, 2:15 pm",
+    "link": "https://paradiseonbloor.com/movies/la-bola-negra/",
     "source": "Paradise Theatre"
   },
   {
@@ -229,7 +223,7 @@
   },
   {
     "title": "Angels in America — Part 2: Perestroika",
-    "showtime": "Wed, Dec 16, 7:00 pm",
+    "showtime": "Wed, Dec 16, 7:00 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/movies/angels-in-america-part-2-perestroika/",
     "source": "Paradise Theatre"
   },
