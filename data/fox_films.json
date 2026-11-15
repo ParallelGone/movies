@@ -1,26 +1,8 @@
 [
   {
-    "title": "Wildwood",
-    "showtime": "Saturday, November 14, 12:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/wildwood/",
-    "source": "Fox Theatre"
-  },
-  {
     "title": "For the Sake of Water",
     "showtime": "Saturday, November 14, 3:00 pm",
     "link": "https://www.foxtheatre.ca/movies/for-the-sake-of-water/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "You Can See Everything",
-    "showtime": "Saturday, November 14, 6:00 pm",
-    "link": "https://www.foxtheatre.ca/movies/you-can-see-everything/",
-    "source": "Fox Theatre"
-  },
-  {
-    "title": "Primetime",
-    "showtime": "Saturday, November 14, 9:30 pm",
-    "link": "https://www.foxtheatre.ca/movies/primetime/",
     "source": "Fox Theatre"
   },
   {
@@ -87,6 +69,12 @@
     "title": "Two Seasons, Two Strangers Director Q&A",
     "showtime": "Wednesday, November 18, 6:30 pm",
     "link": "https://www.foxtheatre.ca/movies/two-seasons-two-strangers-director-qa/",
+    "source": "Fox Theatre"
+  },
+  {
+    "title": "Primetime",
+    "showtime": "Wednesday, November 18, 9:30 pm",
+    "link": "https://www.foxtheatre.ca/movies/primetime/",
     "source": "Fox Theatre"
   },
   {
