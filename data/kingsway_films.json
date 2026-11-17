@@ -1,12 +1,6 @@
 [
   {
     "title": "Fatherland",
-    "showtime": "Monday, November 16, 3:00 pm",
-    "link": "https://www.imdb.com/title/tt37304295/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Fatherland",
     "showtime": "Tuesday, November 17, 3:00 pm",
     "link": "https://www.imdb.com/title/tt37304295/",
     "source": "Kingsway Theatre"
@@ -85,7 +79,7 @@
   },
   {
     "title": "Fatherland",
-    "showtime": "Monday, November 16, 7:00 pm",
+    "showtime": "Monday, November 30, 3:00 pm",
     "link": "https://www.imdb.com/title/tt37304295/",
     "source": "Kingsway Theatre"
   },
@@ -168,9 +162,9 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "The Bicycle Thieves",
-    "showtime": "Monday, November 16, 7:00 pm",
-    "link": "https://www.imdb.com/title/tt0040522/?ref_=fn_t_1",
+    "title": "Fatherland",
+    "showtime": "Monday, November 30, 7:00 pm",
+    "link": "https://www.imdb.com/title/tt37304295/",
     "source": "Kingsway Theatre"
   },
   {
@@ -253,7 +247,7 @@
   },
   {
     "title": "The Bicycle Thieves",
-    "showtime": "Monday, November 16, 3:00 pm",
+    "showtime": "Monday, November 30, 7:00 pm",
     "link": "https://www.imdb.com/title/tt0040522/?ref_=fn_t_1",
     "source": "Kingsway Theatre"
   },
@@ -336,9 +330,9 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Nights of Cabiria",
-    "showtime": "Monday, November 16, 3:00 pm",
-    "link": "https://www.imdb.com/title/tt0050783/?ref_=fn_t_1",
+    "title": "The Bicycle Thieves",
+    "showtime": "Monday, November 30, 3:00 pm",
+    "link": "https://www.imdb.com/title/tt0040522/?ref_=fn_t_1",
     "source": "Kingsway Theatre"
   },
   {
@@ -421,7 +415,7 @@
   },
   {
     "title": "Nights of Cabiria",
-    "showtime": "Monday, November 16, 7:00 pm",
+    "showtime": "Monday, November 30, 3:00 pm",
     "link": "https://www.imdb.com/title/tt0050783/?ref_=fn_t_1",
     "source": "Kingsway Theatre"
   },
@@ -504,9 +498,9 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Playtime",
-    "showtime": "Monday, November 16, 8:45 pm",
-    "link": "https://www.imdb.com/title/tt0062136/?ref_=fn_t_1",
+    "title": "Nights of Cabiria",
+    "showtime": "Monday, November 30, 7:00 pm",
+    "link": "https://www.imdb.com/title/tt0050783/?ref_=fn_t_1",
     "source": "Kingsway Theatre"
   },
   {
@@ -524,6 +518,12 @@
   {
     "title": "Playtime",
     "showtime": "Thursday, November 26, 8:45 pm",
+    "link": "https://www.imdb.com/title/tt0062136/?ref_=fn_t_1",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Playtime",
+    "showtime": "Monday, November 30, 8:45 pm",
     "link": "https://www.imdb.com/title/tt0062136/?ref_=fn_t_1",
     "source": "Kingsway Theatre"
   },
@@ -637,12 +637,6 @@
   },
   {
     "title": "American Doctor",
-    "showtime": "Monday, November 16, 3:30 pm",
-    "link": "https://www.imdb.com/title/tt39149951/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "American Doctor",
     "showtime": "Tuesday, November 17, 3:30 pm",
     "link": "https://www.imdb.com/title/tt39149951/",
     "source": "Kingsway Theatre"
@@ -716,6 +710,12 @@
   {
     "title": "American Doctor",
     "showtime": "Sunday, November 29, 3:30 pm",
+    "link": "https://www.imdb.com/title/tt39149951/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "American Doctor",
+    "showtime": "Monday, November 30, 3:30 pm",
     "link": "https://www.imdb.com/title/tt39149951/",
     "source": "Kingsway Theatre"
   }

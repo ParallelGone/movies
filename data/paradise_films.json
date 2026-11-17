@@ -1,19 +1,7 @@
 [
   {
-    "title": "La bola negra",
-    "showtime": "Today, Nov 16, 2:15 pm",
-    "link": "https://paradiseonbloor.com/movies/la-bola-negra/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Joe Versus the Volcano",
-    "showtime": "Today, Nov 16, 8:30 pm",
-    "link": "https://paradiseonbloor.com/movies/joe-versus-the-volcano/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "Bunny Lake Is Missing",
-    "showtime": "Tue, Nov 17, 6:00 pm",
+    "showtime": "Today, Nov 17, 6:00 pm",
     "link": "https://paradiseonbloor.com/movies/bunny-lake-is-missing/",
     "source": "Paradise Theatre"
   },
@@ -27,6 +15,12 @@
     "title": "Bay of Angels",
     "showtime": "Thu, Nov 19, 8:45 pm",
     "link": "https://paradiseonbloor.com/movies/bay-of-angels/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "La bola negra",
+    "showtime": "Fri, Nov 20, 3:30 pm",
+    "link": "https://paradiseonbloor.com/movies/la-bola-negra/",
     "source": "Paradise Theatre"
   },
   {
