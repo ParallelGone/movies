@@ -1,32 +1,14 @@
 [
   {
-    "title": "Good for Nothing",
-    "showtime": "Today, Nov 19, 6:00 pm",
-    "link": "https://paradiseonbloor.com/movies/good-for-nothing/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "Bay of Angels",
-    "showtime": "Today, Nov 19, 8:45 pm",
-    "link": "https://paradiseonbloor.com/movies/bay-of-angels/",
-    "source": "Paradise Theatre"
-  },
-  {
     "title": "La bola negra",
-    "showtime": "Fri, Nov 20, 3:30 pm",
+    "showtime": "Today, Nov 20, 3:30 pm",
     "link": "https://paradiseonbloor.com/movies/la-bola-negra/",
     "source": "Paradise Theatre"
   },
   {
     "title": "Picnic at Hanging Rock",
-    "showtime": "Fri, Nov 20, 7:00 pm",
+    "showtime": "Today, Nov 20, 7:00 pm",
     "link": "https://paradiseonbloor.com/movies/picnic-at-hanging-rock/",
-    "source": "Paradise Theatre"
-  },
-  {
-    "title": "The Rocky Horror Picture Show",
-    "showtime": "Fri, Nov 20, 9:45 pm",
-    "link": "https://paradiseonbloor.com/movies/the-rocky-horror-picture-show/",
     "source": "Paradise Theatre"
   },
   {
@@ -87,6 +69,12 @@
     "title": "Bleeding Edge Fest: Crocodile Dose + Ends Meat",
     "showtime": "Thu, Nov 26, 9:30 pm",
     "link": "https://paradiseonbloor.com/movies/bleeding-edge-fest-crocodile-dose/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "In Waves",
+    "showtime": "Fri, Nov 27, 3:00 pm",
+    "link": "https://paradiseonbloor.com/movies/in-waves/",
     "source": "Paradise Theatre"
   },
   {
@@ -192,15 +180,39 @@
     "source": "Paradise Theatre"
   },
   {
+    "title": "Double Feature: The Seven-Per-Cent Solution + Sherlock Holmes Faces Death",
+    "showtime": "Sun, Dec 13, 1:00 pm",
+    "link": "https://paradiseonbloor.com/programs/double-feature-the-seven-per-cent-solution-sherlock-holmes-faces-death/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "Invisible Adversaries",
+    "showtime": "Sun, Dec 13, 6:00 pm",
+    "link": "https://paradiseonbloor.com/movies/invisible-adversaries/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Angels in America — Part 2: Perestroika",
     "showtime": "Wed, Dec 16, 7:00 pm\nSOLD OUT",
     "link": "https://paradiseonbloor.com/movies/angels-in-america-part-2-perestroika/",
     "source": "Paradise Theatre"
   },
   {
+    "title": "Clue",
+    "showtime": "Sun, Dec 27, 8:30 pm",
+    "link": "https://paradiseonbloor.com/movies/clue/",
+    "source": "Paradise Theatre"
+  },
+  {
     "title": "Gate II",
     "showtime": "Mon, Dec 28, 9:00 pm",
     "link": "https://paradiseonbloor.com/movies/gate-ii/",
+    "source": "Paradise Theatre"
+  },
+  {
+    "title": "The Gold Rush",
+    "showtime": "Sun, Jan 10, 2:00 pm",
+    "link": "https://paradiseonbloor.com/movies/the-gold-rush/",
     "source": "Paradise Theatre"
   },
   {
