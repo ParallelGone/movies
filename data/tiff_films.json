@@ -1,119 +1,5 @@
 [
   {
-    "title": "AKIRA - Katsuhiro Ôtomo",
-    "showtime": "Friday, November 20, 6:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMDYwVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Club Kid - Jordan Firstman",
-    "showtime": "Friday, November 20, 1:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMDEwVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Club Kid - Jordan Firstman",
-    "showtime": "Friday, November 20, 4:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMDQwVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Club Kid - Jordan Firstman",
-    "showtime": "Friday, November 20, 6:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMDY0VDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Club Kid - Jordan Firstman",
-    "showtime": "Friday, November 20, 9:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMDkzVDM=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Fatherland - Pawel Pawlikowski",
-    "showtime": "Friday, November 20, 3:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMDMwVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Fatherland - Pawel Pawlikowski",
-    "showtime": "Friday, November 20, 6:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMDYxVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Fatherland - Pawel Pawlikowski",
-    "showtime": "Friday, November 20, 10:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMDAwVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Frames of Reference: Animation Form & Culture",
-    "showtime": "Friday, November 20, 12:00PM (Free)",
-    "link": "https://tiff.net/events/frames-of-reference-exhibit",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "La Bola Negra - Javier Ambrossi, Javier Calvo",
-    "showtime": "Friday, November 20, 11:30AM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMEszVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "La Bola Negra - Javier Ambrossi, Javier Calvo",
-    "showtime": "Friday, November 20, 1:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMDEzVDQ=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "La Bola Negra - Javier Ambrossi, Javier Calvo",
-    "showtime": "Friday, November 20, 8:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMDgzVDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Minotaur - Andrey Zvyagintsev",
-    "showtime": "Friday, November 20, 12:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMEwxVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Minotaur - Andrey Zvyagintsev",
-    "showtime": "Friday, November 20, 3:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMDMzVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Minotaur - Andrey Zvyagintsev",
-    "showtime": "Friday, November 20, 8:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMDg0VDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Paper Tiger - James Gray",
-    "showtime": "Friday, November 20, 12:30PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMEwzVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Paper Tiger - James Gray",
-    "showtime": "Friday, November 20, 3:15PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMDMxVDE=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Paper Tiger - James Gray",
-    "showtime": "Friday, November 20, 7:00PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMDcwVDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Paper Tiger - James Gray",
-    "showtime": "Friday, November 20, 9:45PM",
-    "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMDk0VDI=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
     "title": "Club Kid - Jordan Firstman",
     "showtime": "Saturday, November 21, 1:00PM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMTEwVDM=",
@@ -153,12 +39,6 @@
     "title": "Fatherland - Pawel Pawlikowski",
     "showtime": "Saturday, November 21, 9:50PM",
     "link": "https://am.ticketmaster.com/tiff/ism/Nk4yMTk1VDU=",
-    "source": "TIFF Bell Lightbox"
-  },
-  {
-    "title": "Frames of Reference: Animation Form & Culture",
-    "showtime": "Saturday, November 21, 12:00PM (Free)",
-    "link": "https://tiff.net/events/frames-of-reference-exhibit",
     "source": "TIFF Bell Lightbox"
   },
   {
@@ -1430,6 +1310,12 @@
   {
     "title": "Frames of Reference: Animation Form & Culture",
     "showtime": "Thursday, February 18, 12:00PM (Free)",
+    "link": "https://tiff.net/events/frames-of-reference-exhibit",
+    "source": "TIFF Bell Lightbox"
+  },
+  {
+    "title": "Frames of Reference: Animation Form & Culture",
+    "showtime": "Friday, February 19, 12:00PM (Free)",
     "link": "https://tiff.net/events/frames-of-reference-exhibit",
     "source": "TIFF Bell Lightbox"
   }

@@ -49,12 +49,6 @@
   },
   {
     "title": "Fatherland",
-    "showtime": "Friday, November 20, 3:00 pm",
-    "link": "https://www.imdb.com/title/tt37304295/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Fatherland",
     "showtime": "Saturday, November 21, 3:00 pm",
     "link": "https://www.imdb.com/title/tt37304295/",
     "source": "Kingsway Theatre"
@@ -133,7 +127,7 @@
   },
   {
     "title": "Fatherland",
-    "showtime": "Friday, November 20, 7:00 pm",
+    "showtime": "Friday, December 4, 3:00 pm",
     "link": "https://www.imdb.com/title/tt37304295/",
     "source": "Kingsway Theatre"
   },
@@ -216,9 +210,9 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Breathless",
-    "showtime": "Friday, November 20, 3:00 pm",
-    "link": "https://www.imdb.com/title/tt0053472/?ref_=fn_t_1",
+    "title": "Fatherland",
+    "showtime": "Friday, December 4, 7:00 pm",
+    "link": "https://www.imdb.com/title/tt37304295/",
     "source": "Kingsway Theatre"
   },
   {
@@ -301,7 +295,7 @@
   },
   {
     "title": "Breathless",
-    "showtime": "Friday, November 20, 7:00 pm",
+    "showtime": "Friday, December 4, 3:00 pm",
     "link": "https://www.imdb.com/title/tt0053472/?ref_=fn_t_1",
     "source": "Kingsway Theatre"
   },
@@ -380,6 +374,12 @@
   {
     "title": "Breathless",
     "showtime": "Thursday, December 3, 7:00 pm",
+    "link": "https://www.imdb.com/title/tt0053472/?ref_=fn_t_1",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Breathless",
+    "showtime": "Friday, December 4, 7:00 pm",
     "link": "https://www.imdb.com/title/tt0053472/?ref_=fn_t_1",
     "source": "Kingsway Theatre"
   },
@@ -433,12 +433,6 @@
   },
   {
     "title": "Nights of Cabiria",
-    "showtime": "Friday, November 20, 3:00 pm",
-    "link": "https://www.imdb.com/title/tt0050783/?ref_=fn_t_1",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Nights of Cabiria",
     "showtime": "Saturday, November 21, 3:00 pm",
     "link": "https://www.imdb.com/title/tt0050783/?ref_=fn_t_1",
     "source": "Kingsway Theatre"
@@ -517,7 +511,7 @@
   },
   {
     "title": "Nights of Cabiria",
-    "showtime": "Friday, November 20, 7:00 pm",
+    "showtime": "Friday, December 4, 3:00 pm",
     "link": "https://www.imdb.com/title/tt0050783/?ref_=fn_t_1",
     "source": "Kingsway Theatre"
   },
@@ -600,14 +594,20 @@
     "source": "Kingsway Theatre"
   },
   {
-    "title": "Sleepaway Camp",
-    "showtime": "Friday, November 20, 8:45 pm",
-    "link": "https://www.imdb.com/title/tt0086320/?ref_=fn_t_1",
+    "title": "Nights of Cabiria",
+    "showtime": "Friday, December 4, 7:00 pm",
+    "link": "https://www.imdb.com/title/tt0050783/?ref_=fn_t_1",
     "source": "Kingsway Theatre"
   },
   {
     "title": "Sleepaway Camp",
     "showtime": "Friday, November 27, 8:45 pm",
+    "link": "https://www.imdb.com/title/tt0086320/?ref_=fn_t_1",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Sleepaway Camp",
+    "showtime": "Friday, December 4, 8:45 pm",
     "link": "https://www.imdb.com/title/tt0086320/?ref_=fn_t_1",
     "source": "Kingsway Theatre"
   },
@@ -673,12 +673,6 @@
   },
   {
     "title": "Wake in Fright",
-    "showtime": "Friday, November 20, 8:45 pm",
-    "link": "https://www.imdb.com/title/tt0067541/?ref_=fn_t_1",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "Wake in Fright",
     "showtime": "Sunday, November 22, 8:45 pm",
     "link": "https://www.imdb.com/title/tt0067541/?ref_=fn_t_1",
     "source": "Kingsway Theatre"
@@ -692,6 +686,12 @@
   {
     "title": "Wake in Fright",
     "showtime": "Sunday, November 29, 8:45 pm",
+    "link": "https://www.imdb.com/title/tt0067541/?ref_=fn_t_1",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "Wake in Fright",
+    "showtime": "Friday, December 4, 8:45 pm",
     "link": "https://www.imdb.com/title/tt0067541/?ref_=fn_t_1",
     "source": "Kingsway Theatre"
   },
@@ -745,12 +745,6 @@
   },
   {
     "title": "American Doctor",
-    "showtime": "Friday, November 20, 9:00 pm",
-    "link": "https://www.imdb.com/title/tt39149951/",
-    "source": "Kingsway Theatre"
-  },
-  {
-    "title": "American Doctor",
     "showtime": "Sunday, November 22, 9:00 pm",
     "link": "https://www.imdb.com/title/tt39149951/",
     "source": "Kingsway Theatre"
@@ -788,6 +782,12 @@
   {
     "title": "American Doctor",
     "showtime": "Thursday, December 3, 9:00 pm",
+    "link": "https://www.imdb.com/title/tt39149951/",
+    "source": "Kingsway Theatre"
+  },
+  {
+    "title": "American Doctor",
+    "showtime": "Friday, December 4, 9:00 pm",
     "link": "https://www.imdb.com/title/tt39149951/",
     "source": "Kingsway Theatre"
   }
